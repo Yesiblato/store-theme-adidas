@@ -1,0 +1,105 @@
+{
+    "header": {
+        "title": "Header",
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header.full": {
+        "title": "Header",
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header-layout.desktop": {
+        "title": "Header Desktop",
+        "children": [
+            "header-row#header__top1",
+            "header-row#header__top2",
+            "header-row#header__top3"
+        ]
+    },
+    "header-layout.mobile": {
+        "title": "Header Mobile",
+        "children": [
+            "header-row#header__top1"
+        ]
+    },
+    "header-row#header__top1": {
+        "children": [
+            "rich-text#envíos",
+            "header-spacer",
+            "rich-text#cambios",
+            "header-spacer",
+            "rich-text#sigue",
+            "header-spacer", 
+            "rich-text#nuevo",
+            "header-spacer",
+            "rich-text#conócemos",
+            "header-spacer", 
+            "rich-text#servicio",
+            "header-spacer"
+        ],
+        "props": {
+            "blockClass": "header__top1",
+            "fullWidth": true
+        }
+    },
+    "header-row#header__top2": {
+        "children": [
+            "logo#header__top--logo"
+        ],
+        "props": {
+            "blockClass": "header__top2"
+        }
+    },
+    "header-row#header__top3": {
+        "children": [
+            "rich-text#envíos"
+        ],
+        "props": {
+            "blockClass": "header__top3"
+        }
+    },
+    "rich-text#envíos": {
+        "props": {
+            "text": "Envíos gratis desde $179.900"
+        }
+    },
+    "rich-text#cambios": {
+        "props": {
+            "text": "90 Días de cambios GRATIS"
+        }
+    },
+    "rich-text#sigue": {
+        "props": {
+            "text": "Sigue tu pedido"
+        }
+    },
+    "rich-text#nuevo": {
+        "props": {
+            "text": "¡NUEVO! Centros de experiencia"
+        }
+    },
+    "rich-text#conócemos": {
+        "props": {
+            "text": "Conócenos"
+        }
+    },
+    "rich-text#servicio": {
+        "props": {
+            "text": "Servicio al Cliente"
+        }
+    },
+    "logo#header__top--logo": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/Adidas_isologo.svg",
+            "width": 70
+        }
+    }
+
+
+}

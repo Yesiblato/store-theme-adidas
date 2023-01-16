@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#home__banner--global": {
+        "children": [
+            "image#home__container--image"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "image#home__container--image": {
+        "title": "Imagen Home",
+        "props": {
+            "src": "assets/img/AddidasOferta.png",
+ 
+            "title": "Descuentos",
+            "blockClass": "home__image",
+            "link": {
+                "url": "https://www.google.com/",
+                "newTab": true,
+                "atrributeNoFollow": true
+            }
+        }
+    }
+}

@@ -1,3 +1,51 @@
 .paragraph{
     margin: 0px;
 }
+
+.heading--titlePopularAhora {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.container--materialReciclados {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+
+}
+
+.container--forum {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+}
+
+.container--guayos {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+}
+.container--lego {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+}
+
+.container--superstar {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+}
+
+.container--samba {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+}

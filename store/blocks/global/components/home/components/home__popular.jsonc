@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#home__popular--global": {
+        "children": [
+            "flex-layout.col#container__opciones"
+  
+        ],
+        "props": {
+            "blockClass": "home__popularAhora"
+        }
+    },
+    "flex-layout.col#container__opciones": {
+        "children": [
+            "flex-layout.row#home__popular--title",
+            "flex-layout.row#home__popular--opciones"
+        ]
+    },
+    "flex-layout.row#home__popular--title": {
+        "children": [
+            "rich-text#home__popularAhora"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "rich-text#home__popularAhora": {
+        "title": "Popular Ahora",
+        "props": {
+            "blockClass": "titlePopularAhora",
+            "text": "### POPULAR AHORA",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#home__popular--opciones": {
+        "children": [
+            "flex-layout.col#home__popular1",
+            "flex-layout.col#home__popular2",
+            "flex-layout.col#home__popular3"
+        ],
+        "props": {
+            "blockClass": "home__opciones"
+        }
+    },
+
+    "flex-layout.col#home__popular1": {
+        "children": [
+            "rich-text#home__popularAhora1",
+            "rich-text#home__popularAhora2"
+        ]
+    },
+    "flex-layout.col#home__popular2": {
+        "children": [
+            "rich-text#home__popularAhora3",
+            "rich-text#home__popularAhora4"
+        ]
+    },
+    "flex-layout.col#home__popular3": {
+        "children": [
+            "rich-text#home__popularAhora5",
+            "rich-text#home__popularAhora6"
+    ]        
+    },
+    "rich-text#home__popularAhora1": {
+        "props": {
+            "blockClass": "materialReciclados",
+            "text": "## Materiales Reciclados"
+        }
+    },
+    "rich-text#home__popularAhora2": {
+        "props": {
+            "blockClass": "forum",
+            "text": "## Forum"
+        }
+    },
+    "rich-text#home__popularAhora3": {
+        "props": {
+            "blockClass": "guayos",
+            "text": "## Guayos"
+        }
+    },
+    "rich-text#home__popularAhora4": {
+        "props": {
+            "blockClass": "lego",
+            "text": "## Lego"
+        }
+    },
+    "rich-text#home__popularAhora5": {
+        "props": {
+            "blockClass": "superstar",
+            "text": "## Superstar"
+        }
+    },
+    "rich-text#home__popularAhora6": {
+        "props": {
+            "blockClass": "samba",
+            "text": "## Samba"
+        }
+    }
+
+
+}

@@ -1,4 +1,48 @@
 {
+  "store.home": {
+    "blocks": [
+      "slider-layout#home_slider--children",
+      "image#home__container--image"
+    ]
+  },
+  "slider-layout#home_slider--children": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "mobile": 3
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+
+      }
+    },
+    "children": [
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three"
+    ]
+  },
+  "image#home__slider--one": {
+    "props": {
+      "src": "assets/img/EG4142_01_standard.jpg"
+    }
+  },
+  "image#home__slider--two": {
+    "props": {
+      "src": "assets/img/EG4142_01_standard.jpg"
+    }
+  },
+  "image#home__slider--three": {
+    "props": {
+      "src": "assets/img/EG4142_01_standard.jpg"
+    }
+  },
+
+
   "flex-layout.row#home__section--global": {
     "title": "Global Row with text example",
     "children": [
