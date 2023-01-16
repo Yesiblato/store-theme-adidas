@@ -5,12 +5,11 @@
       "rich-text#section-1"
     ]
   },
-
   "rich-text#section-1": {
     "title": "Text Favorites at desktop",
     "props": {
       "blockClass": "",
-      "text": "Favoritos en DESKTOP",
+      "text": "Favoritos en DESKTOP YESI",
       "font": "t-heading-2",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
