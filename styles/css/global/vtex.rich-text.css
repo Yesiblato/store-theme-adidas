@@ -15,12 +15,20 @@
     color: black;
 
 }
+.container--materialReciclados:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
+}
 
 .container--forum {
     /* background-color: red !important;  */
     border-bottom: 1px black solid;
     width: 450px;
     color: black;
+}
+.container--forum:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
 }
 
 .container--guayos {
@@ -29,11 +37,19 @@
     width: 450px;
     color: black;
 }
+.container--guayos:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
+}
 .container--lego {
     /* background-color: red !important;  */
     border-bottom: 1px black solid;
     width: 450px;
     color: black;
+}
+.container--lego:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
 }
 
 .container--superstar {
@@ -42,10 +58,27 @@
     width: 450px;
     color: black;
 }
+.container--superstar:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
+}
 
 .container--samba {
     /* background-color: red !important;  */
     border-bottom: 1px black solid;
     width: 450px;
     color: black;
+}
+.container--samba:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
+}
+
+.container--encuentraEquipo {
+    margin-bottom: 10px;
+}
+
+.wrapper--item2 {
+    background-color: blue;
+    width: 00px;
 }

@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#home__loMejor--global": {
+        "children": [
+            "flex-layout.col#container__loMejor"
+        ],
+        "props": {
+            "blockClass": "loMejordeAdidas"
+        }
+    },
+    "flex-layout.col#container__loMejor": {
+        "children": [
+            "flex-layout.row#container__loMejor--title",
+            "flex-layout.row#container__loMejor--slider"
+        ]
+    },
+    "flex-layout.row#container__loMejor--title": {
+        "children": [
+            "rich-text#loMejor_title"
+        ],
+        "props": {
+            "blockClass": "loMejorTitle"
+        }
+    },
+    "flex-layout.row#container__loMejor--slider": {
+        "children": [
+            "slider-layout#home_slider--children"
+        ],
+        "props": {
+            "blockClass": "loMejorSlider"
+        }
+    },
+    "rich-text#loMejor_title": {
+        "props": {
+            "text": "## Lo mejor de Adidas"
+        }
+    }
+    
+}

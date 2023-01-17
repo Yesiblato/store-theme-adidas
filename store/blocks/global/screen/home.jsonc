@@ -8,7 +8,11 @@
       "flex-layout.row#videoBanner--global",
       "flex-layout.row#home__popular--global",
       "flex-layout.row#home__container--equipos",
-      "slider-layout#home_slider--children"
+      "flex-layout.row#home__novedades",
+      "flex-layout.row#home__tendencias",
+      "flex-layout.row#home__conoceMas--global",
+      "flex-layout.row#home__loMejor--global"
+
 
 
       // "responsive-layout.desktop#home__section-1",

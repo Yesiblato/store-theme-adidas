@@ -3,3 +3,26 @@
     /* border: 1px solid green; */
 
 }
+
+.flexRow--equiposFutbol {
+    background-color: #ebedee;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.flexRow--novedadesSecciones {
+
+    margin: 40px 0px 100px 0px;
+}
+
+.flexRow--container__novedades--item1 {
+    /* background-color: red; */
+    padding: 0px;
+}
+
+.flexRow--contenedorConoceMas {
+    margin-top: 70px;
+}

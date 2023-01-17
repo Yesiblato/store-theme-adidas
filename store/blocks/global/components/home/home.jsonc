@@ -1,46 +1,91 @@
 {
   "store.home": {
     "blocks": [
-      "slider-layout#home_slider--children",
-      "image#home__container--image"
+      // "slider-layout#home_slider--children",
+      // "image#home__container--image"
     ]
   },
-  "slider-layout#home_slider--children": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 4,
-        "mobile": 3
-      },
-      "infinite": true,
-      "blockClass": "home__slider",
-      "autoplay": {
-        "timeout": 3000,
-        "stopOnHover": true
+  // "slider-layout#home_slider--children": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 5,
+  //       "tablet": 4,
+  //       "mobile": 3
+  //     },
+  //     "infinite": true,
+  //     "blockClass": "home__slider",
+  //     "autoplay": {
+  //       "timeout": 3000,
+  //       "stopOnHover": true
 
-      }
-    },
-    "children": [
-      "image#home__slider--one",
-      "image#home__slider--two",
-      "image#home__slider--three"
-    ]
-  },
-  "image#home__slider--one": {
-    "props": {
-      "src": "assets/img/EG4142_01_standard.jpg"
-    }
-  },
-  "image#home__slider--two": {
-    "props": {
-      "src": "assets/img/EG4142_01_standard.jpg"
-    }
-  },
-  "image#home__slider--three": {
-    "props": {
-      "src": "assets/img/EG4142_01_standard.jpg"
-    }
-  },
+  //     }
+  //   },
+  //   "children": [
+  //     "image#home__slider--one",
+  //     "image#home__slider--two",
+  //     "image#home__slider--three",
+  //     "image#home__slider--four",
+  //     "image#home__slider--five",
+  //     "image#home__slider--six",
+  //     "image#home__slider--seven",
+  //     "image#home__slider--eigth",
+  //     "image#home__slider--nine",
+  //     "image#home__slider--ten"
+  //   ]
+  // },
+  // "image#home__slider--one": {
+  //   "children": [
+
+  //   ],
+  //   "props": {
+  //     "src": "assets/img/EG4142_01_standard.jpg"
+  //   }
+  // },
+  // "image#home__slider--two": {
+  //   "props": {
+  //     "src": "assets/img/F35543_01_standard.jpg"
+  //   }
+  // },
+  // "image#home__slider--three": {
+  //   "props": {
+  //     "src": "assets/img/EG4958_01_standard.jpg"
+  //   }
+  // },
+  // "image#home__slider--four": {
+  //   "props": {
+  //     "src": "assets/img/FZ0394_01_standard.jpg"
+  //   }
+  // },
+  // "image#home__slider--five": {
+  //   "props": {
+  //     "src": "assets/img/FW5717_01_standard.jpg"
+  //   }
+  // },
+  // "image#home__slider--six": {
+  //   "props": {
+  //     "src": "assets/img/FY7821_01_standard.jpg"
+  //   }
+  // },
+  // "image#home__slider--seven": {
+  //   "props": {
+  //     "src": "assets/img/GW6423_01_standard.jpg"
+  //   }
+  // },
+  // "image#home__slider--eigth": {
+  //   "props": {
+  //     "src": "assets/img/GW9284_01_standard.jpg"
+  //   }
+  // },
+  // "image#home__slider--nine": {
+  //   "props": {
+  //     "src": "assets/img/GX4776_01_standard.jpg"
+  //   }
+  // },
+  // "image#home__slider--ten": {
+  //   "props": {
+  //     "src": "assets/img/GY3682_01_standard.jpg"
+  //   }
+  // },
 
 
   "flex-layout.row#home__section--global": {

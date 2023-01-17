@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#home__conoceMas--global": {
+        "children": [
+            "image#home__conoceMas--image"
+        ],
+        "props": {
+            "blockClass": "contenedorConoceMas",
+            "fullWidth": true
+        }
+    },
+    "image#home__conoceMas--image": {
+        "title": "ConoceMas",
+        "props": {
+            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/statement_dt_tcm195-741849.jpg",
+             "title": "ConoceMas"
+        }
+    }
+}
