@@ -1,115 +1,75 @@
 {
-    "flex-layout.row#home__banner--global": {
-        "children": [
-            "flex-layout.col#container__banner--items"
+  "flex-layout.row#home__banner--global": {
+    "children": [
+      "flex-layout.col#container__banner--items"
+    ],
+    "props": {
+      "blockClass": "home__banner--one",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#container__banner--items": {
+    "children": [
+      "image#home__container--image",
+      "flex-layout.col#banner__items"
+    ],
+    "props": {
+      "blockClass": "container__banner--items--one"
+    }
+  },
+  "image#home__container--image": {
+    "title": "Imagen Home",
+    "props": {
+      "src": "assets/img/AddidasOferta.png",
 
-        ],
-        "props": {
-            "blockClass": "home__banner--one",
-            "fullWidth": true
-        }
-    },
-    "flex-layout.col#container__banner--items": {
-        "children": [
-            "image#home__container--image",
-            "flex-layout.col#banner__items"
-        ],
-        "props": {
-            "blockClass": "container__banner--items--one"
-        }
-    },
-    "image#home__container--image": {
-        "title": "Imagen Home",
-        "props": {
-            "src": "assets/img/AddidasOferta.png",
- 
-            "title": "Descuentos",
-            "blockClass": "home__image",
-            "link": {
-                "url": "https://www.google.com/",
-                "newTab": true,
-                "atrributeNoFollow": true
-            }
-        }
-    },
-    "flex-layout.col#banner__items": {
-        "children": [
-            "rich-text#banner__title",
-            "rich-text#banner__frase",
-            "link.product#banner__opciones--hombre",
-            "link.product#banner__opciones--mujer",
-            "link.product#banner__opciones--verTodo"
-        ],
-        "props": {
-            "blockClass": "banner__descuentos"
-        }
+      "title": "Descuentos",
+      "blockClass": "home__image"
+      // "link": {
+      //   "url": "https://www.google.com/",
+      //   "newTab": true,
+      //   "atrributeNoFollow": true
+      // }
+    }
+  },
+  "flex-layout.col#banner__items": {
+    "children": [
+      "rich-text#banner__title",
+      "rich-text#banner__frase",
+      "link.product#banner__opciones--hombre",
+      "link.product#banner__opciones--mujer",
+      "link.product#banner__opciones--verTodo"
+    ],
+    "props": {
+      "blockClass": "banner__descuentos"
+    }
+  },
+  "rich-text#banner__title": {
+    "props": {
+      "text": "# HASTA 50% DE DESCUENTO"
+    }
+  },
+  "rich-text#banner__frase": {
+    "props": {
+      "text": "#### Aprovecha los descuentos de fin de temporada en el catálogo seleccionado."
+    }
+  },
 
-    },
-    "rich-text#banner__title": {
-        "props": {
-            "text": "# HASTA 50% DE DESCUENTO"
-        }
-
-    },
-    "rich-text#banner__frase": {
-        "props": {
-            "text": "#### Aprovecha los descuentos de fin de temporada en el catálogo seleccionado."
-        }
-
-    },
-    
-    "link.product#banner__opciones--hombre": {
-          "props": {
-            "href": "/{slug}/p",
-            "label": "HOMBRE"
-            
-          }
-        },
-        // "product-summary.shelf": {
-        //   "children": [
-        //     "product-summary-image",
-        //     "product-summary-name",
-        //     "product-rating-inline",
-        //     "product-summary-space",
-        //     "product-summary-price",
-        //     "link.product#product-page"
-    //     //   ]
-        
-    //   },
-      "link.product#banner__opciones--mujer": {
-        "props": {
-          "href": "/{slug}/p",
-          "label": "MUJER"
-          
-        }
-      },
-    //   "product-summary.shelf": {
-    //     "children": [
-    //       "product-summary-image",
-    //       "product-summary-name",
-    //       "product-rating-inline",
-    //       "product-summary-space",
-    //       "product-summary-price",
-    //       "link.product#product-page"
-    //     ]
-      
-    // }
-    "link.product#banner__opciones--verTodo": {
-        "props": {
-          "href": "/{slug}/p",
-          "label": "VER TODO"
-          
-        }
-      }
-    //   "product-summary.shelf": {
-    //     "children": [
-    //       "product-summary-image",
-    //       "product-summary-name",
-    //       "product-rating-inline",
-    //       "product-summary-space",
-    //       "product-summary-price",
-    //       "link.product#product-page"
-    //     ]
-      
-    // }
+  "link.product#banner__opciones--hombre": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "HOMBRE"
+    }
+  },
+  "link.product#banner__opciones--mujer": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "MUJER"
+    }
+  },
+  "link.product#banner__opciones--verTodo": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "VER TODO"
+    }
+  }
 }

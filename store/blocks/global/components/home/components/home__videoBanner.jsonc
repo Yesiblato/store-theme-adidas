@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#videoBanner--global": {
+    "flex-layout.row#home__videoBanner--global": {
         "children": [
           "flex-layout.col#container__videoBanner--items"
           
