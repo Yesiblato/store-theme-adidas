@@ -82,3 +82,30 @@
     background-color: blue;
     width: 00px;
 }
+
+.heading--parrafo1 {
+    margin: 0px;
+}
+
+.heading--parrafo3 {
+    margin: 0px;
+}
+
+.container--videoBanner__title--rt {
+
+    color: white;
+}
+
+.container--videoBanner__frase--rt {
+    color: white;
+}
+
+.wrapper--conoceMas--frase {
+    width: 850px;
+    height: 200px;
+    position: absolute;
+    top: 390%;
+    color: white;
+
+}
+

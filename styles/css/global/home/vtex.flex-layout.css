@@ -26,3 +26,38 @@
 .flexRow--contenedorConoceMas {
     margin-top: 70px;
 }
+
+.flexRow--contenedorHistoria {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: #f5f5e5;
+    padding: 100px 0px 100px 0px;
+}
+
+.flexRow--descuentos {
+    padding: 30px;
+    background-color: #EDE734;
+}
+
+.flexCol--banner__descuentos {
+    /* background-color: red; */
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+}
+
+.flexColChild--container__banner--items--one {
+    
+}
+
+.flexCol--videoBanner--items {
+    /* background-color: red; */
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    bottom: -70%;
+    left: 10%;
+    color: white;
+}

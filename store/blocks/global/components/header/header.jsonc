@@ -97,7 +97,8 @@
         "title": "Logo",
         "props": {
             "url": "assets/img/Adidas_isologo.svg",
-            "width": 70
+            "width": 70,
+            "href": "/"
         }
     }
 
