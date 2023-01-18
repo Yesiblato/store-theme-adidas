@@ -78,7 +78,7 @@
     },
     "rich-text#header__top2--login": {
         "props": {
-            "text": "login"
+            "text": "Login"
         }
     },
     "modal-layout#header__top2--login": {
@@ -86,16 +86,14 @@
             "login-content"
         ]
     },
-    "login": {
+    "login-content": {
         "props": {
           "emailAndPasswordTitle": "LOG-IN",
           "accessCodeTitle": "Acess Code LOG-IN",
           "emailPlaceholder": "e-mail",
           "passwordPlaceholder": "password",
           "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true,
-          "hideIconLabel":false,
-          "optionsTitle": "adidas"
+          "showIconProfile": true
         }
       },
     "header-force-center#header--top1": {
@@ -108,7 +106,9 @@
 
     },
     "drawer#header__mobile--menu": {
-        "children": [],
+        "children": [
+            "menu#header__menu"
+        ],
             "blocks": [
                 "drawer-trigger"
             ]
@@ -123,6 +123,88 @@
         "props": {
             "blockClass": "opcion__mujer",
             "text": "MUJER"
+        }
+    },
+    "menu#header__menu": {
+        "children": [
+            "menu-item#department__one",
+            "menu-item#department__two"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__one": {
+        "props": {
+            "id": "department__one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "https://www.google.com/",
+                "noFollow": true,
+                "tagTitle": "Google Title",
+                "text": "Google"
+            }
+
+        },
+        "blocks": ["submenu.accordion#department__one"]
+    },
+    "submenu.accordion#department__one": {
+        "children": [
+            "menu#department__one"
+        ]
+    },
+    "menu#department__one": {
+        "children": [
+            "menu-item#category__one",
+            "menu-item#category__two"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    "menu-item#category__one": {
+        "props": {
+            "id": "category-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Google Meet",
+                "text": "Google Meet"
+            }
+
+        }
+    },
+    "menu-item#category__two": {
+        "props": {
+            "id": "category-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Google Drive",
+                "text": "Google Drive"
+            }
+
+        }
+    },
+
+    "menu-item#department__two": {
+        "props": {
+            "id": "department__one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "https://www.bing.com/?setlang=es",
+                "noFollow": true,
+                "tagTitle": "Bing Title",
+                "text": "Bing"
+            }
+
         }
     }
 

@@ -1,0 +1,11 @@
+{
+    "responsive-layout.mobile#phone__and__tablet": {
+        "title": "Responsive Mobile",
+        "children": [
+            "flex-layout.row#mobile__home--container__banner",
+            "flex-layout.row#mobile__home--container__videoBanner",
+            "flex-layout.row#mobile__home--container__popular",
+            "flex-layout.row#mobile__home__container--equipos"
+        ]
+      }
+}

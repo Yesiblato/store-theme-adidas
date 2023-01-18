@@ -1,6 +1,18 @@
 {
   "responsive-layout.desktop#home__section-1": {
     "title": "Home Section 1 Desktop",
-    "children": ["flex-layout.row#home__section-1"]
+    "children": [
+      
+      "flex-layout.row#home__banner--global",
+      "flex-layout.row#home__videoBanner--global",
+      "flex-layout.row#home__popular--global",
+      "flex-layout.row#home__container--equipos",
+      "flex-layout.row#home__novedades",
+      "flex-layout.row#home__tendencias",
+      "flex-layout.row#home__conoceMas--global",
+      "flex-layout.row#home__loMejor--global",
+      "flex-layout.row#home__historia--global",
+      "flex-layout.row#home__descuentos--global"
+    ]
   }
 }

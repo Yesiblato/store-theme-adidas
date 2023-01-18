@@ -324,7 +324,7 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "Roboto-Bold, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "AdihausDIN,Roboto-Bold, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "3rem",
         "textTransform": "initial",

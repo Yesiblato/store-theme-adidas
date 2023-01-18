@@ -1,0 +1,48 @@
+.flexCol--mobile__container--banner {
+    position: relative;
+}
+
+.flexCol--mobile__banner--descuentos {
+    position: absolute;
+    top: 60%;
+    height: 0em;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+
+.flexColChild--mobile__banner--descuentos {
+    width: 30em;
+    height: 4em !important;
+    margin-top: 1em;
+}
+/* 
+.flexColChild--mobile__banner--descuentos {
+    margin-top: 1em;
+} */
+
+.flexCol--mobileConainer__videoBanner {
+   position:relative;
+}
+
+.flexCol--mobile__videoBanner--items {
+    width: 20em;
+    margin-left: 2em;
+    position: absolute;
+    top: 40%;
+    height: auto;
+}
+
+.flexRowContent--mobile__home__popularAhora {
+    width: 100%;
+}
+
+.flexCol--mobile__seccionesEquipos {
+    margin-top: 2em;
+    background-color: #ebedee;
+}
+
+.flexRowContent--seccionImagenEquipos {
+    margin-left: 1em;
+    width: 75%;
+
+}
