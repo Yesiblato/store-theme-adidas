@@ -1,0 +1,92 @@
+{
+    "flex-layout.row#mobile__home__novedades":{
+        "children": [
+            "flex-layout.col#mobile__home__novedades--secciones"
+
+        ],
+        "props": {
+            "blockClass": "mobile__novedadesSecciones"
+        }
+    },
+    "flex-layout.col#mobile__home__novedades--secciones": {
+        "children": [
+            "flex-layout.row#mobile__home__novedades--items",
+            "flex-layout.row#mobile__home__novedades--image",
+            "flex-layout.row#mobile__home__novedades--link"
+        ]
+    },
+    "flex-layout.row#mobile__home__novedades--items": {
+        "children": [
+            "flex-layout.row#mobile__home__novedades--arrow",
+            "flex-layout.row#mobile__home__novedades--item1",
+            "rich-text#mobile__home__novedades--item2",
+            "rich-text#mobile__home__novedades--item3"
+        ],
+        "props": {
+            "blockClass": "mobile__novedadesItems"
+        }
+    },
+    "flex-layout.row#mobile__home__novedades--arrow": {
+        "children": [
+            "image#mobile__home__novedades--arrow"
+        ],
+        "props": {
+            "blockClass": "mobile__container__novedades--arrow"
+    
+            
+        }
+    },
+    "flex-layout.row#mobile__home__novedades--item1": {
+        "children": [
+            "rich-text#mobile__home__novedades--item1"
+        ],
+        "props": {
+            "blockClass": "mobile__container__novedades--item1"
+            
+        }
+    },
+    "image#mobile__home__novedades--arrow": {
+        "title": "Imagen Arrow",
+        "props": {
+            "src": "assets/img/arrow.svg",
+            "blockClass": "mobile__arrow"
+        }
+    },
+    "rich-text#mobile__home__novedades--item1": {
+        "props": {
+            "blockClass": "mobile__item1",
+            "text": "### NOVEDADES"
+        }
+    },
+    "rich-text#mobile__home__novedades--item2": {
+        "props": {
+            "blockClass": "mobile__item2",
+            "text": "### EXCLUSIVO MIEMBROS ADICLUB"
+        }
+    },
+    "rich-text#mobile__home__novedades--item3": {
+        "props": {
+            "blockClass": "mobile__item3",
+            "text": "### COLECCIONES"
+        }
+    },
+    "flex-layout.row#mobile__home__novedades--image": {
+        "children": [
+            "slider-layout#home_slider--children"
+        ],
+        "props": {
+            "blockClass": "mobile__novedadesImage"
+            // "rowGap": 1,
+            // "width": "14%"
+        }
+    },
+    "flex-layout.row#mobile__home__novedades--link": {
+        "children": [
+            "link.product#mobile__banner__opciones--verTodo"
+        ],
+        "props": {
+            "blockClass": "mobile__novedades--link"
+        }
+    }
+
+}

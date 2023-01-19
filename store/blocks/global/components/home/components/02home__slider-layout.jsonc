@@ -3,11 +3,13 @@
         "props": {
           "itemsPerPage": {
             "desktop": 4,
-            "tablet": 4,
+            "tablet": 3,
             "mobile": 3
           },
           "infinite": true,
-          "blockClass": "home__slider2"
+          "blockClass": "home__slider2",
+          "showPaginationDots":"never"
+          
           
         //   "autoplay": {
         //     "timeout": 3000,
@@ -28,7 +30,7 @@
           
         ],
         "props": {
-          "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/esCO/Images/nmd-tc_tcm195-975275.jpg"
+          "src": "assets/img/core-ss23-copa-pure-global-launch-hp-teaser-carousel-d_tcm195-976108.jpg"
         }
       },
       "image#home__slider--two2": {

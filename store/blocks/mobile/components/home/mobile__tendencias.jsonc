@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#mobile__home--tendencias": {
+        "children": [
+            "flex-layout.col#home__tendencias--container"
+        ],
+        "props": {
+            "blockClass": "home__tendecias--container"
+        }
+    },
+    "flex-layout.col#mobile__home__tendencias--container":{
+        "children": [
+            "flex-layout.col#mobile__home__tendencias--title",
+            "flex-layout.col#mobile__home__tendencias--slider"
+        ]
+    },
+    "flex-layout.col#mobile__home__tendencias--title": {
+        "children": [
+            "rich-text#mobile__home__tendencias--title"
+        ],
+        "props": {
+            "blockClass": "tendencias__title"
+        }
+    },
+    "flex-layout.col#mobile__home__tendencias--slider": {
+        "children": [
+            "slider-layout#home_slider--children2"
+        ],
+        "props": {
+            "blockClass": "tendencias__slider"
+        }
+    },
+    "rich-text#mobile__home__tendencias--title": {
+        "props": {
+            "text": "## TENDENCIAS"
+        }
+    }
+
+}

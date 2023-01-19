@@ -2,6 +2,11 @@
     margin-left: -1em;
 }
 
-/* .imageElement--logosEquipo {
-    width: 10em;
-} */
+.imageElement--mobile__arrow {
+    width: 25%;
+}
+
+
+.stretchChildrenWidth {
+    width: 0em;
+}
