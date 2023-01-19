@@ -120,5 +120,15 @@ margin-bottom: 1.5em;
 
 .headingLevel3--mobile__item3{
     font-size: 1.1em;
-    
 }
+
+.headingLevel3--mobile__conoceMas--frase {
+    margin: 0em;
+    font-size: 1.7em;
+    width: 50%;
+    color: white;
+    position:absolute;
+    top: 10%;
+    left: 30%;
+}
+

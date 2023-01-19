@@ -8,7 +8,10 @@
             "flex-layout.row#mobile__home__container--equipos",
             "flex-layout.row#mobile__home__novedades",
             "flex-layout.row#mobile__home--tendencias",
-            "flex-layout.row#mobile__home__conoceMas--global"
+            "flex-layout.row#mobile__home__conoceMas",
+            "flex-layout.row#mobile__home__loMejor",
+            "flex-layout.row#mobile__home__historia",
+            "flex-layout.row#mobile__home--descuentos"
         ]
       }
       

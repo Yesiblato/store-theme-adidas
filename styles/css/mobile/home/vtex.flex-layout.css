@@ -86,3 +86,7 @@
 .flexRow--mobile__contenedorConoceMas {
     margin-top: 4em;
 }
+
+.flexRowContent--mobile__contenedorConoceMas {
+position: relative;
+}

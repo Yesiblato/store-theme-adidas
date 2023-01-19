@@ -4,7 +4,7 @@
           "itemsPerPage": {
             "desktop": 5,
             "tablet": 4,
-            "mobile": 3
+            "mobile": 2
           },
           "infinite": true,
           "blockClass": "home__slider",
