@@ -91,6 +91,12 @@
     margin: 0px;
 }
 
+/* .heading--home__banner--frase {
+    margin-top: 0em;
+    font-size: 2em;
+    background-color: red;
+} */
+
 .container--videoBanner__title--rt {
 
     color: white;
@@ -109,3 +115,15 @@
 
 }
 
+.headingLevel2--conoceMas--frase {
+    position: absolute;
+}
+
+.container--item2 {
+    width: 20em;
+    padding: 0;
+}
+
+.headingLevel3--item2 {
+    width: 20em;
+}

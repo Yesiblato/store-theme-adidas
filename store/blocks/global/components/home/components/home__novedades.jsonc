@@ -1,79 +1,69 @@
 {
-    "flex-layout.row#home__novedades":{
-        "title": "home__novedades",
-        "children": [
-            "flex-layout.col#home__novedades--secciones"
-
-        ],
-        "props": {
-            "blockClass": "novedadesSecciones"
-        }
-    },
-    "flex-layout.col#home__novedades--secciones": {
-        "title": "home__novedades--secciones",
-        "children": [
-            "flex-layout.row#home__novedades--items",
-            "flex-layout.row#home__novedades--image"
-        ]
-    },
-    "flex-layout.row#home__novedades--items": {
-        "title": "home__novedades--items",
-        "children": [
-
-            "flex-layout.row#home__novedades--item1",
-            "rich-text#home__novedades--item2",
-            "rich-text#home__novedades--item3"
-        ],
-        "props": {
-            "blockClass": "novedadesItems"
-        }
-    },
-    "flex-layout.row#home__novedades--item1": {
-        "title": "home__novedades--item1",
-        "children": [
-            "image#home__novedades--arrow",
-            "rich-text#home__novedades--item1"
-        ],
-        "props": {
-            "blockClass": "container__novedades--item1"
-        }
-    },
-    "image#home__novedades--arrow": {
-        "title": "Imagen Arrow",
-        "props": {
-            "src": "assets/img/arrow.svg"
-        }
-    },
-    "rich-text#home__novedades--item1": {
-        "title": "home__novedades--item1",
-        "props": {
-            "blockClass": "item1",
-            "text": "### NOVEDADES"
-        }
-    },
-    "rich-text#home__novedades--item2": {
-        "title": "home__novedades--item2",
-        "props": {
-            "blockClass": "item2",
-            "text": "### EXCLUSIVO MIEMBROS ADICLUB"
-        }
-    },
-    "rich-text#home__novedades--item3": {
-        "title": "home__novedades--item3",
-        "props": {
-            "blockClass": "item3",
-            "text": "### COLECCIONES"
-        }
-    },
-    "flex-layout.row#home__novedades--image": {
-        "title": "home__novedades--image",
-        "children": [
-            "flex-layout.row#container__slider--uno"
-        ],
-        "props": {
-            "blockClass": "novedadesImage"
-        }
+  "flex-layout.row#home__novedades": {
+    "title": "home__novedades",
+    "children": [
+      "flex-layout.col#home__novedades--seccion1",
+      "flex-layout.col#home__novedades--seccion2",
+      "flex-layout.col#home__novedades--seccion3"
+    ],
+    "props": {
+      "blockClass": "novedadesSecciones",
+      "colSizing": "auto"
     }
+  },
+  "flex-layout.col#home__novedades--seccion1": {
+    "title": "home__novedades--secciones",
+    "children": [
+      "image#home__novedades--arrow",
+      "rich-text#home__novedades--item1"
+    ],
+    "props": {
+        "blockClass": "home__novedades--secciones"
+    }
+  },
+  "flex-layout.col#home__novedades--seccion2": {
+    "children": [
+        "rich-text#home__novedades--item2"
+    ],
+    "props": {
+        "blockClass":"home__novedades--seccion2--rt"
 
-    
+    }
+  },
+  "flex-layout.col#home__novedades--seccion3": {
+    "children": [
+        "rich-text#home__novedades--item3"
+    ],
+    "props": {
+        "blockClass":"home__novedades--seccion3--rt"
+    }
+  },
+  
+  "image#home__novedades--arrow": {
+    "title": "Imagen Arrow",
+    "props": {
+      "src": "assets/img/arrow.svg"
+    }
+  },
+  "rich-text#home__novedades--item1": {
+    "title": "home__novedades--item1",
+    "props": {
+      "blockClass": "item1",
+      "text": "### NOVEDADES"
+    }
+  },
+  "rich-text#home__novedades--item2": {
+    "title": "home__novedades--item2",
+    "props": {
+      "blockClass": "item2",
+      "text": "### EXCLUSIVO MIEMBROS ADICLUB"
+    }
+  },
+  "rich-text#home__novedades--item3": {
+    "title": "home__novedades--item3",
+    "props": {
+      "blockClass": "item3",
+      "text": "### COLECCIONES"
+    }
+  }
 }

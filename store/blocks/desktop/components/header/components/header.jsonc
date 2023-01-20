@@ -6,13 +6,13 @@
             "header-layout.mobile"
         ]
     },
-    "header.full": {
-        "title": "Header",
-        "blocks": [
-            "header-layout.desktop",
-            "header-layout.mobile"
-        ]
-    },
+    // "header.full": {
+    //     "title": "Header",
+    //     "blocks": [
+    //         "header-layout.desktop",
+    //         "header-layout.mobile"
+    //     ]
+    // },
     "header-layout.desktop": {
         "title": "Header Desktop",
         "children": [
@@ -46,7 +46,7 @@
             // "drawer#header__mobile--menu",
             "header-spacer",
             "search-bar",
-            
+            // "login-content",
             "modal-trigger#header__top2--login",
             "minicart.v2"
 
@@ -60,7 +60,7 @@
     "rich-text#envíos": {
         "props": {
             "blockClass": "header__enviosGratis--rt",
-            "text": "Envíos gratis desde $179.900"
+            "text": "Hasta 50% de Descuentos"
         }
     },
     "logo#header__top--logo": {
@@ -94,7 +94,8 @@
           "emailPlaceholder": "e-mail",
           "passwordPlaceholder": "password",
           "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true
+          "showIconProfile": true,
+          "hideIconLabel": true
         }
       },
       
@@ -102,7 +103,7 @@
           "blocks": ["autocomplete-result-list.v2"],
           "props": {
             "openAutocompleteOnFocus": true,
-            "maxWidth": "20%"
+            "maxWidth": "10%"
           }
         }
       ,
@@ -114,16 +115,16 @@
             "blockClass": "rich-text-center"
         }
 
-    },
-    "drawer#header__mobile--menu": {
-        "children": [
-            // "menu#header__menu"
-        ],
-            "blocks": [
-                // "drawer-trigger"
-            ]
-        
     }
+    // "drawer#header__mobile--menu": {
+    //     "children": [
+    //         // "menu#header__menu"
+    //     ],
+    //         "blocks": [
+    //             // "drawer-trigger"
+    //         ]
+        
+    // }
     // "drawer-trigger": {
     //     "children": [
     //         "rich-text#mujer"

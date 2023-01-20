@@ -41,7 +41,7 @@
 
 .flexCol--banner__descuentos {
     /* background-color: red; */
-    width: 40em;
+    width: 30em;
     height: 20em;
     position: absolute;
     bottom: 25%;
@@ -60,4 +60,29 @@
     bottom: -70%;
     left: 10%;
     color: white;
+}
+
+.flexCol--home__novedades--secciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexRowContent--novedadesSecciones {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flexCol--home__novedades--secciones {
+    width: 17em !important;
+}
+
+.flexCol--home__novedades--seccion2--rt {
+    width: 30em !important;
+}
+
+.flexRowContent--home__opciones {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }

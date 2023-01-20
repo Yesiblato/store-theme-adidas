@@ -2,17 +2,17 @@
   "menu#header_menu": {
     "title": "Header-desktop",
     "children": [
-      "menu-item#mujer"
-      //   "menu-item#hombre"
-      //   "menu-item#niños",
-      //   "menu-item#deportes",
-      //   "menu-item#mundoAdidas",
-      //   "menu-item#ofertas"
+        "menu-item#mujer",
+        "menu-item#hombre",
+        "menu-item#niños",
+        "menu-item#deportes",
+        "menu-item#mundoAdidas",
+        "menu-item#ofertas"
     ],
     "props": {
       "blockClass": "header--desktop",
-      "onMountBehavior": "open"
-      // "onMountBehavior":
+      "orientation": "horizontal"
+
     }
   },
   "menu-item#mujer": {
@@ -30,8 +30,8 @@
       "blockClass": "Menu-item-mujer"
     },
     "blocks": [
-      "submenu#mujer",
-      "submenu#hombre"
+      "submenu#mujer"
+    //   "submenu#hombre"
     ]
   },
   "menu-item#hombre": {
@@ -59,7 +59,7 @@
     ],
     "props": {
       "blockClass": "submenu-mujer",
-      "orientation": "vertical"
+      "onMountBehahior": "open"
     }
   },
   "flex-layout.row#contenedorPrincipal": {
@@ -70,32 +70,50 @@
       "flex-layout.col#contenedor4",
       "flex-layout.col#contenedor5"
 
-    ]
+    ],
+    "props": {
+        "blockClass": "Contenedorprincipalcolumnas"
+    }
   },
   "flex-layout.col#contenedor1": {
     "children": [
       "menu#productosDestacados"
-    ]
+    ],
+    "props": {
+        "blockClass": "columna--one"
+    }
   },
   "flex-layout.col#contenedor2": {
     "children": [
       "menu#ropa"
-    ]
+    ],
+    "props": {
+        "blockClass": "columna--two"
+    }
   },
   "flex-layout.col#contenedor3": {
     "children": [
-      "menu#productosDestacados"
-    ]
+        "menu#calzado"
+    ],
+    "props": {
+        "blockClass": "columna--three"
+    }
   },
   "flex-layout.col#contenedor4": {
     "children": [
       "menu#accesorios"
-    ]
+    ],
+    "props": {
+        "blockClass": "columna--four"
+    }
   },
   "flex-layout.col#contenedor5": {
     "children": [
       "menu#deportes"
-    ]
+    ],
+    "props": {
+        "blockClass": "columna--five"
+    }
   },
   "submenu#hombre": {
     "children": [
@@ -107,7 +125,7 @@
     ],
     "props": {
       "blockClass": "submenu-hombre",
-      "orientation": "vertical"
+      "orientation": "horizontal"
     }
   },
   "menu#productosDestacados": {
@@ -194,6 +212,7 @@
   "menu-item#category__productosDestacados": {
     "title": "subcategoria--productos destacados",
     "props": {
+        "blockClass": "productosDestacados",
       "id": "",
       "type": "custom",
       "itemProps": {
@@ -484,5 +503,86 @@
         "text": "DEPORTES"
       }
     }
+  },
+
+
+
+
+
+
+
+
+
+//   "menu-item#hombre": {
+//     "props": {
+//       "id": "menu-item-hombre",
+//       "type": "custom",
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "#",
+//         "noFollow": false,
+//         "tagTitle": "Shop",
+//         "text": "HOMBRE"
+//       }
+//     }
+//   },
+  "menu-item#niños": {
+    "props": {
+      "id": "menu-item-niños",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "NIÑOS"
+      }
+    }
+  },
+  "menu-item#deportes": {
+    "props": {
+      "id": "menu-item-deportes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "DEPORTES"
+      }
+    }
+  },
+
+  "menu-item#mundoAdidas": {
+    "props": {
+      "id": "menu-item-mundoAdidas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "MUNDO ADIDAS"
+      }
+    }
+  },
+  "menu-item#ofertas": {
+    "props": {
+      "id": "menu-item-ofertas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "OFERTAS"
+      }
+    }
   }
+
 }

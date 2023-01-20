@@ -56,8 +56,10 @@
   "rich-text#banner__frase": {
     "title": "banner__frase",
     "props": {
-      "text": "#### Aprovecha los descuentos de fin de temporada en el catálogo seleccionado."
+      "text": "#### Aprovecha los descuentos de fin de temporada en el catálogo seleccionado.",
+      "blockClass": "home__banner--frase"
     }
+
   },
 
   "link.product#banner__opciones--hombre": {

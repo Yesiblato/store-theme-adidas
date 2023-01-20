@@ -38,9 +38,7 @@
   },
   "header-row#header__top--two": {
     "children": [
-        // "drawer#header__mobile--menu",
 
-        // "flex-layout.row#1-mobile",
         "drawer",
         "header-spacer",
         "logo#headerMobile__top--logo",
@@ -64,19 +62,6 @@
     }
   },
 
-
-
-
-    
-    // "flex-layout.row#1-mobile": {
-    //   "children": [
-    //     "flex-layout.col#trigger-mega-menu"
-    //     // ...
-    //   ],
-    //   "props": {
-    //     // ...
-    //   }
-    // },
   
     "drawer": {
       "children": ["mega-menu#mobile"],
