@@ -1,0 +1,225 @@
+{
+    "header": {
+        "title": "Header",
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header.full": {
+        "title": "Header",
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header-layout.desktop": {
+        "title": "Header Desktop",
+        "children": [
+            "header-row#header__top1",
+            "header-row#header__top2"
+       ]
+    },
+    "header-layout.mobile": {
+        "title": "Header Mobile",
+        "children": [
+            "header-row#header__top1",
+            "header-row#header__top2"
+        ]
+    },
+    "header-row#header__top1": {
+        "children": [
+            "header-force-center#header--top1"
+        ],
+        "props": {
+            "blockClass": "header__top1",
+            "fullWidth": true
+
+        }
+    },
+
+    "header-row#header__top2": {
+        "children": [
+            "logo#header__top--logo",
+            "header-spacer",
+            "menu#header_menu",
+            // "drawer#header__mobile--menu",
+            "header-spacer",
+            "search-bar",
+            
+            "modal-trigger#header__top2--login",
+            "minicart.v2"
+
+        ],
+        "props": {
+            "title": "header__full",
+            "blockClass": "header__top2",
+            "fullWidth": true
+        }
+    },
+    "rich-text#envíos": {
+        "props": {
+            "blockClass": "header__enviosGratis--rt",
+            "text": "Envíos gratis desde $179.900"
+        }
+    },
+    "logo#header__top--logo": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/Adidas_isologo.svg",
+            "width": 70,
+            "href": "/"
+        }
+    },
+    "modal-trigger#header__top2--login": {
+        "children": [
+            "rich-text#header__top2--login",
+            "modal-layout#header__top2--login"
+        ]
+    },
+    "rich-text#header__top2--login": {
+        "props": {
+            "text": "Login"
+        }
+    },
+    "modal-layout#header__top2--login": {
+        "children": [
+            "login-content"
+        ]
+    },
+    "login-content": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true
+        }
+      },
+      
+        "search-bar": {
+          "blocks": ["autocomplete-result-list.v2"],
+          "props": {
+            "openAutocompleteOnFocus": true,
+            "maxWidth": "20%"
+          }
+        }
+      ,
+    "header-force-center#header--top1": {
+        "children": [
+            "rich-text#envíos"
+        ],
+        "props": {
+            "blockClass": "rich-text-center"
+        }
+
+    },
+    "drawer#header__mobile--menu": {
+        "children": [
+            // "menu#header__menu"
+        ],
+            "blocks": [
+                // "drawer-trigger"
+            ]
+        
+    }
+    // "drawer-trigger": {
+    //     "children": [
+    //         "rich-text#mujer"
+    //     ]
+    // },
+    // "rich-text#mujer": {
+    //     "props": {
+    //         "blockClass": "opcion__mujer",
+    //         "text": "MUJER"
+    //     }
+    // },
+    // "menu#header__menu": {
+    //     "children": [
+    //         "menu-item#department__one",
+    //         "menu-item#department__two"
+    //     ],
+    //     "props": {
+    //         "orientation": "vertical"
+    //     }
+    // },
+    // "menu-item#department__one": {
+    //     "props": {
+    //         "id": "department__one",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href": "https://www.google.com/",
+    //             "noFollow": true,
+    //             "tagTitle": "Google Title",
+    //             "text": "Google"
+    //         }
+
+    //     },
+    //     "blocks": ["submenu.accordion#department__one"]
+    // },
+    // "submenu.accordion#department__one": {
+    //     "children": [
+    //         "menu#department__one"
+    //     ]
+    // },
+    // "menu#department__one": {
+    //     "children": [
+    //         "menu-item#category__one",
+    //         "menu-item#category__two"
+    //     ],
+    //     "props": {
+    //         "orientation": "vertical"
+    //     }
+    // },
+
+    // "menu-item#category__one": {
+    //     "props": {
+    //         "id": "category-one",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href": "/",
+    //             "noFollow": true,
+    //             "tagTitle": "Google Meet",
+    //             "text": "Google Meet"
+    //         }
+
+    //     }
+    // },
+    // "menu-item#category__two": {
+    //     "props": {
+    //         "id": "category-two",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href": "/",
+    //             "noFollow": true,
+    //             "tagTitle": "Google Drive",
+    //             "text": "Google Drive"
+    //         }
+
+    //     }
+    // },
+
+    // "menu-item#department__two": {
+    //     "props": {
+    //         "id": "department__one",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href": "https://www.bing.com/?setlang=es",
+    //             "noFollow": true,
+    //             "tagTitle": "Bing Title",
+    //             "text": "Bing"
+    //         }
+
+    //     }
+    // }
+
+
+
+
+
+}

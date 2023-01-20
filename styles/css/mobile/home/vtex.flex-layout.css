@@ -90,3 +90,32 @@
 .flexRowContent--mobile__contenedorConoceMas {
 position: relative;
 }
+
+.flexRow--mobile__Container--opinion--fl {
+    background-color: #ebedee;
+}
+
+.flexRow--mobile__descuentos {
+    background-color: #ede734;
+    margin-top: 2em;
+}
+
+.flexCol--mobile__contenedorHistoria {
+    margin-top: 3em;
+    background-color: #f5f5e5;
+}
+
+.flexRowContent--mobile__Container--opinion--fl {
+    margin-top: 3em;
+}
+
+.flexColChild--seccion1--title {
+    font-weight: 600;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.flexColChild--seccion2--volverArriba {
+background-color: white;
+margin-top: 1em;
+}

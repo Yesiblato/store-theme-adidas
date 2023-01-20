@@ -1,13 +1,15 @@
 {
     "flex-layout.row#mobile__home--descuentos": {
+        "title": "mobile__home--descuentos",
         "children": [
             "rich-text#home__descuentos--frase"
         ],
         "props": {
-            "blockClass": "descuentos"
+            "blockClass": "mobile__descuentos"
         }
     },
     "rich-text#home__descuentos--frase": {
+        "title": "home__descuentos--frase",
         "props": {
             "text": "## UNITE AL CLUB Y CONSEGUÍ UN 15% DE DESCUENTO"
         }

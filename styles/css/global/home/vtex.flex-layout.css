@@ -41,16 +41,16 @@
 
 .flexCol--banner__descuentos {
     /* background-color: red; */
-    width: 600px;
-    height: 400px;
+    width: 40em;
+    height: 20em;
     position: absolute;
     bottom: 25%;
-    left: 10%;
+    left: 8%;
 }
-
+/* 
 .flexColChild--container__banner--items--one {
     
-}
+} */
 
 .flexCol--videoBanner--items {
     /* background-color: red; */

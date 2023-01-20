@@ -1,5 +1,6 @@
 {
     "flex-layout.row#mobile__home--container__videoBanner":{
+      "title": "mobile__home--container__videoBanner",
         "children": [
             "flex-layout.col#mobileContainer__videoBanner--items"
         ],
@@ -8,6 +9,7 @@
         }
     },
     "flex-layout.col#mobileContainer__videoBanner--items": {
+      "title": "mobileContainer__videoBanner--items",
         "children": [
           "video#mobile__home__container--video",
           "flex-layout.col#mobile__videoBanner__items"
@@ -19,6 +21,7 @@
 
       },
       "video#mobile__home__container--video": {
+        "title": "mobile__home__container--video",
         "props": {
           "blockClass": "mobilevideoBanner",
           "width": "100%",
@@ -31,6 +34,7 @@
         }
       },
       "flex-layout.col#mobile__videoBanner__items":{
+        "title": "mobile__videoBanner__items",
         "children": [
           "rich-text#mobile__videoBanner__title",
           "rich-text#mobile__videoBanner__frase",
@@ -41,12 +45,14 @@
         }
       },
       "rich-text#mobile__videoBanner__title": {
+        "title": "mobile__videoBanner__title",
         "props": {
           "blockClass": "mobile__videoBanner__title--rt",
           "text": "## PRENDE TU CHISPA"
         }
       },
       "rich-text#mobile__videoBanner__frase": {
+        "title": "mobile__videoBanner__frase",
         "props": {
           "blockClass": "mobile__videoBanner__frase--rt",
           "text": "### Entrena y alégrate el día. Tenemos la equipación que buscas para empezar a entrenar.",
@@ -54,6 +60,7 @@
         }
       },
       "link#mobile__videoBanner__button": {
+        "title": "mobile__videoBanner__button",
         "children": [
           "image#mobile__videoBanner__flecha"
         ],
@@ -65,6 +72,7 @@
         }
       },
       "image#mobile__videoBanner__flecha": {
+        "title": "mobile__videoBanner__flecha",
         "props": {
           "blockClass": "mobile__videoBanner__flecha--image",
           "src": "assets/img/arrow.svg"

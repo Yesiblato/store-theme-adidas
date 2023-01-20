@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__banner--global": {
+    "title": "home__banner--global",
     "children": [
       "flex-layout.col#container__banner--items"
     ],
@@ -9,6 +10,7 @@
     }
   },
   "flex-layout.col#container__banner--items": {
+    "title": "container__banner--items",
     "children": [
       "image#home__container--image",
       "flex-layout.col#banner__items"
@@ -32,6 +34,7 @@
     }
   },
   "flex-layout.col#banner__items": {
+    "title": "banner__items",
     "children": [
       "rich-text#banner__title",
       "rich-text#banner__frase",
@@ -44,29 +47,35 @@
     }
   },
   "rich-text#banner__title": {
+    "title": "banner__title",
     "props": {
-      "text": "# HASTA 50% DE DESCUENTO"
+      "blockClass": "banner--title",
+      "text": "## HASTA 50% DE DESCUENTO"
     }
   },
   "rich-text#banner__frase": {
+    "title": "banner__frase",
     "props": {
       "text": "#### Aprovecha los descuentos de fin de temporada en el catálogo seleccionado."
     }
   },
 
   "link.product#banner__opciones--hombre": {
+    "title": "banner__opciones--hombre",
     "props": {
       "href": "/{slug}/p",
       "label": "HOMBRE"
     }
   },
   "link.product#banner__opciones--mujer": {
+    "title": "banner__opciones--mujer",
     "props": {
       "href": "/{slug}/p",
       "label": "MUJER"
     }
   },
   "link.product#banner__opciones--verTodo": {
+    "title": "banner__opciones--verTodo",
     "props": {
       "href": "/{slug}/p",
       "label": "VER TODO"

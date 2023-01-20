@@ -1,0 +1,488 @@
+{
+  "menu#header_menu": {
+    "title": "Header-desktop",
+    "children": [
+      "menu-item#mujer"
+      //   "menu-item#hombre"
+      //   "menu-item#niños",
+      //   "menu-item#deportes",
+      //   "menu-item#mundoAdidas",
+      //   "menu-item#ofertas"
+    ],
+    "props": {
+      "blockClass": "header--desktop",
+      "onMountBehavior": "open"
+      // "onMountBehavior":
+    }
+  },
+  "menu-item#mujer": {
+    "props": {
+      "id": "menu-item-mujer",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mujer",
+        "text": "MUJER"
+      },
+      "blockClass": "Menu-item-mujer"
+    },
+    "blocks": [
+      "submenu#mujer",
+      "submenu#hombre"
+    ]
+  },
+  "menu-item#hombre": {
+    "props": {
+      "id": "menu-item-hombre",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "hombre",
+        "text": "HOMBRE"
+      },
+      "blockClass": "Menu-item-hombre"
+    },
+    "blocks": [
+      "submenu#hombre"
+    ]
+  },
+
+  "submenu#mujer": {
+    "children": [
+      "flex-layout.row#contenedorPrincipal"
+    ],
+    "props": {
+      "blockClass": "submenu-mujer",
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#contenedorPrincipal": {
+    "children": [
+      "flex-layout.col#contenedor1",
+      "flex-layout.col#contenedor2",
+      "flex-layout.col#contenedor3",
+      "flex-layout.col#contenedor4",
+      "flex-layout.col#contenedor5"
+
+    ]
+  },
+  "flex-layout.col#contenedor1": {
+    "children": [
+      "menu#productosDestacados"
+    ]
+  },
+  "flex-layout.col#contenedor2": {
+    "children": [
+      "menu#ropa"
+    ]
+  },
+  "flex-layout.col#contenedor3": {
+    "children": [
+      "menu#productosDestacados"
+    ]
+  },
+  "flex-layout.col#contenedor4": {
+    "children": [
+      "menu#accesorios"
+    ]
+  },
+  "flex-layout.col#contenedor5": {
+    "children": [
+      "menu#deportes"
+    ]
+  },
+  "submenu#hombre": {
+    "children": [
+      "menu#productosDestacados",
+      "menu#calzado",
+      "menu#ropa",
+      "menu#accesorios",
+      "menu#deportes"
+    ],
+    "props": {
+      "blockClass": "submenu-hombre",
+      "orientation": "vertical"
+    }
+  },
+  "menu#productosDestacados": {
+    "children": [
+      "menu-item#category__productosDestacados",
+      "menu-item#category__novedades",
+      "menu-item#category__losMasVendidos",
+      "menu-item#category__soloEnAdidas",
+      "menu-item#category__exclusivoMiembros",
+      "menu-item#category__proximosLanzamientos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#calzado": {
+    "children": [
+      "menu-item#category__Calzado",
+      "menu-item#category__HastaCalzado",
+      "menu-item#category__Novedades",
+      "menu-item#category__verTodosLosTennis",
+      "menu-item#category__Running",
+      "menu-item#category__Training",
+      "menu-item#category__outdoor",
+      "menu-item#category__guayos",
+      "menu-item#category__Chanclas",
+      "menu-item#category__Originals"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#ropa": {
+    "children": [
+      "menu-item#category__ropa",
+      "menu-item#category__HastaCalzado",
+      "menu-item#category__Novedades",
+      "menu-item#category__verTodosLosTennis",
+      "menu-item#category__Running",
+      "menu-item#category__Training",
+      "menu-item#category__outdoor",
+      "menu-item#category__guayos",
+      "menu-item#category__Chanclas",
+      "menu-item#category__Originals"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#accesorios": {
+    "children": [
+      "menu-item#category__accesorios",
+      "menu-item#category__HastaCalzado",
+      "menu-item#category__Novedades",
+      "menu-item#category__verTodosLosTennis",
+      "menu-item#category__Running",
+      "menu-item#category__Training",
+      "menu-item#category__outdoor",
+      "menu-item#category__guayos",
+      "menu-item#category__Chanclas",
+      "menu-item#category__Originals"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#deportes": {
+    "children": [
+      "menu-item#category__deportes",
+      "menu-item#category__HastaCalzado",
+      "menu-item#category__Novedades",
+      "menu-item#category__verTodosLosTennis",
+      "menu-item#category__Running",
+      "menu-item#category__Training",
+      "menu-item#category__outdoor",
+      "menu-item#category__guayos",
+      "menu-item#category__Chanclas",
+      "menu-item#category__Originals"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__productosDestacados": {
+    "title": "subcategoria--productos destacados",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Productos Destacado",
+        "text": "PRODUCTOS DESTACADOS"
+      }
+    }
+  },
+  "menu-item#category__novedades": {
+    "title": "subcategoria--novedades",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Novedades",
+        "text": "Novedades"
+      }
+    }
+  },
+  "menu-item#category__losMasVendidos": {
+    "title": "subcategoria--losMasVendidos",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Los Más Vendidos",
+        "text": "Los Más Vendidos"
+      }
+    }
+  },
+  "menu-item#category__soloEnAdidas": {
+    "title": "subcategoria--soloEnAdidas",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Solo En Adidas",
+        "text": "Solo En Adidas"
+      }
+    }
+  },
+  "menu-item#category__exclusivoMiembros": {
+    "title": "subcategoria--exclusivoMiembros",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Exclusivo Miembros",
+        "text": "Exclusivo Miembros"
+      }
+    }
+  },
+  "menu-item#category__proximosLanzamientos": {
+    "title": "subcategoria--proximosLanzamientos",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Proximos Lanzamientos",
+        "text": "Proximos Lanzamientos"
+      }
+    }
+  },
+  "menu-item#category__Calzado": {
+    "title": "subcategoria--Calzado",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "calzados",
+        "text": "CALZADO"
+      }
+    }
+  },
+  "menu-item#category__HastaCalzado": {
+    "title": "subcategoria--hastaCalzado",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descuentos en calzados",
+        "text": "Hasta 50% OFF Calzado"
+      }
+    }
+  },
+  "menu-item#category__Novedades": {
+    "title": "subcategoria--novedades",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Novedades",
+        "text": "Novedades"
+      }
+    }
+  },
+  "menu-item#category__verTodosLosTennis": {
+    "title": "subcategoria--verTodosLosTennis",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ver Todos Los Tennis",
+        "text": "Ver Todos Los Tennis"
+      }
+    }
+  },
+  "menu-item#category__Running": {
+    "title": "subcategoria--Running",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Running",
+        "text": "Runnings"
+      }
+    }
+  },
+  "menu-item#category__Training": {
+    "title": "subcategoria-Training",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Training",
+        "text": "Training"
+      }
+    }
+  },
+  "menu-item#category__outdoor": {
+    "title": "subcategoria-outdoor",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Outdoor",
+        "text": "Outdoor"
+      }
+    }
+  },
+  "menu-item#category__guayos": {
+    "title": "subcategoria-guayos",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "guayos",
+        "text": "Guayos"
+      }
+    }
+  },
+  "menu-item#category__Chanclas": {
+    "title": "subcategoria-Chanclas",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Chanclas",
+        "text": "Chanclas"
+      }
+    }
+  },
+  "menu-item#category__Originals": {
+    "title": "subcategoria-Originals",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Originals",
+        "text": "Originals"
+      }
+    }
+  },
+  "menu-item#category__ropa": {
+    "title": "subcategoria-ropa",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ropa",
+        "text": "ROPA"
+      }
+    }
+  },
+  "menu-item#category__accesorios": {
+    "title": "subcategoria-accesorio",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "accesorio",
+        "text": "ACCESORIOS"
+      }
+    }
+  },
+  "menu-item#category__deportes": {
+    "title": "subcategoria-deportes",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "deportes",
+        "text": "DEPORTES"
+      }
+    }
+  },
+  "menu-item#category__accesorios": {
+    "title": "subcategoria-accesorios",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "accesorios",
+        "text": "ACCESORIOS"
+      }
+    }
+  },
+  "menu-item#category__deportes": {
+    "title": "subcategoria-deportes",
+    "props": {
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "deportes",
+        "text": "DEPORTES"
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#mobile__home__conoceMas": {
+        "title": "container__mobile__home__conoceMas",
         "children": [
             "flex-layout.col#mobile__home__conoceMas"
         ],
@@ -10,6 +11,7 @@
         }
     },
     "flex-layout.col#mobile__home__conoceMas": {
+        "title": "mobile__home__conoceMas",
         "children": [
             "image#mobile__home__conoceMas--image",
             "rich-text#mobile__home__conoceMas--frase",
@@ -29,6 +31,7 @@
         }
     },
     "rich-text#mobile__home__conoceMas--frase": {
+        "title": "ConoceMas--image",
         "props": {
             "blockClass": "mobile__conoceMas--frase",
             "text": "### PROTEGER LOS OCÉANOS ES NUESTRA PRINCIPAL PRIORIDAD. NUESTRA MISIÓN VA MÁS ALLÁ DEL DEPORTE. ES NUESTRO FUTURO.",
@@ -38,6 +41,7 @@
         }
     },
     "link#mobile__conoceMas__button": {
+        "title": "ConoceMas__button",
         "children": [
           "image#mobile__videoBanner__flecha"
         ],

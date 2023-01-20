@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__videoBanner--global": {
+        "title": "home__videoBanner--global",
         "children": [
           "flex-layout.col#container__videoBanner--items"
           
@@ -10,6 +11,7 @@
     },
 
     "flex-layout.col#container__videoBanner--items": {
+      "title": "container__videoBanner--items",
       "children": [
         "video#home__container--video",
         "flex-layout.col#videoBanner__items"
@@ -18,6 +20,7 @@
     },
 
     "video#home__container--video": {
+      "title": "home__container--video",
         "props": {
           "width": "100%",
           "height": "100%",
@@ -30,6 +33,7 @@
         }
       },
       "flex-layout.col#videoBanner__items":{
+        "title": "videoBanner__items",
         "children": [
           "rich-text#videoBanner__title",
           "rich-text#videoBanner__frase",
@@ -40,18 +44,21 @@
         }
       },
       "rich-text#videoBanner__title": {
+        "title": "videoBanner__title",
         "props": {
           "blockClass": "videoBanner__title--rt",
           "text": "# PRENDE TU CHISPA"
         }
       },
       "rich-text#videoBanner__frase": {
+        "title": "videoBanner__frase",
         "props": {
           "blockClass": "videoBanner__frase--rt",
           "text": "#### Entrena y alégrate el día. Tenemos la equipación que buscas para empezar a entrenar."
         }
       },
       "link#videoBanner__button": {
+        "title": "videoBanner__button",
         "children": [
           "image#videoBanner__flecha"
         ],
@@ -63,6 +70,7 @@
         }
       },
       "image#videoBanner__flecha": {
+        "title": "videoBanner__flecha",
         "props": {
           "blockClass": "videoBanner__flecha--image",
           "src": "assets/img/arrow.svg"

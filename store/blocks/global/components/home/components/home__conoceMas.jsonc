@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__conoceMas--global": {
+        "title": "home__conoceMas--global",
         "children": [
             "flex-layout.col#home__conoceMas"
         ],
@@ -10,6 +11,7 @@
         }
     },
     "flex-layout.col#home__conoceMas": {
+        "title": "home__conoceMas",
         "children": [
             "image#home__conoceMas--image",
             "rich-text#home__conoceMas--frase",
@@ -24,10 +26,11 @@
         "props": {
             "blockClass": "conoceMas--image--in",
             "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/statement_dt_tcm195-741849.jpg",
-             "title": "ConoceMas"
+            "title": "ConoceMas"
         }
     },
     "rich-text#home__conoceMas--frase": {
+        "title": "home__conoceMas--frase",
         "props": {
             "blockClass": "conoceMas--frase",
             "text": "## PROTEGER LOS OCÉANOS ES NUESTRA PRINCIPAL PRIORIDAD. NUESTRA MISIÓN VA MÁS ALLÁ DEL DEPORTE. ES NUESTRO FUTURO.",
@@ -37,6 +40,7 @@
         }
     },
     "link#conoceMas__button": {
+        "title": "conoceMas__button",
         "children": [
           "image#videoBanner__flecha"
         ],

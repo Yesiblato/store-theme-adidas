@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__loMejor--global": {
+        "title": "home__loMejor--global",
         "children": [
             "flex-layout.col#container__loMejor"
         ],
@@ -8,12 +9,14 @@
         }
     },
     "flex-layout.col#container__loMejor": {
+        "title": "container__loMejor",
         "children": [
             "flex-layout.row#container__loMejor--title",
             "flex-layout.row#container__loMejor--slider"
         ]
     },
     "flex-layout.row#container__loMejor--title": {
+        "title": "container__loMejor--title",
         "children": [
             "rich-text#loMejor_title"
         ],
@@ -22,6 +25,7 @@
         }
     },
     "flex-layout.row#container__loMejor--slider": {
+        "title": "container__loMejor-slider",
         "children": [
             "slider-layout#home_slider--children"
         ],
@@ -30,6 +34,7 @@
         }
     },
     "rich-text#loMejor_title": {
+        "title": "loMejor__title",
         "props": {
             "text": "## Lo mejor de Adidas"
         }

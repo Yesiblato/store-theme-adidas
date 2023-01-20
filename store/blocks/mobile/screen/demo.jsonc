@@ -2,6 +2,7 @@
     "responsive-layout.mobile#phone__and__tablet": {
         "title": "Responsive Mobile",
         "children": [
+ 
             "flex-layout.row#mobile__home--container__banner",
             "flex-layout.row#mobile__home--container__videoBanner",
             "flex-layout.row#mobile__home--container__popular",
@@ -11,6 +12,8 @@
             "flex-layout.row#mobile__home__conoceMas",
             "flex-layout.row#mobile__home__loMejor",
             "flex-layout.row#mobile__home__historia",
+            "flex-layout.row#mobile__home__opinion",
+            "flex-layout.row#mobile__Container--volverArriba",
             "flex-layout.row#mobile__home--descuentos"
         ]
       }

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__container--equipos": {
+        "title": "home__container--equipos",
         "children": [
             "flex-layout.col#home__seccionEquipos"          
         ],
@@ -8,6 +9,7 @@
         }
     },
     "flex-layout.col#home__seccionEquipos": {
+        "title": "home__seccionEquipos",
         "children": [
             "flex-layout.row#home__seccionEquipos--title",
             "flex-layout.row#home__seccionEquipos--equipos"
@@ -17,6 +19,7 @@
         }
     },
     "flex-layout.row#home__seccionEquipos--title": {
+        "title": "home__seccionEquipos--title",
         "children": [
             "rich-text#home__titleEquipos"
         ],
@@ -25,6 +28,7 @@
         }
     },
     "flex-layout.row#home__seccionEquipos--equipos": {
+        "title": "home__seccionEquipos--equipos",
         "children": [
             "image#home__container--equipo1",
             "image#home__container--equipo2",
@@ -42,6 +46,7 @@
         }
     },
     "rich-text#home__titleEquipos": {
+        "title": "home__titleEquipos",
         "props": {
             "blockClass": "encuentraEquipo",
             "text": "Encuentra a tu equipo",
