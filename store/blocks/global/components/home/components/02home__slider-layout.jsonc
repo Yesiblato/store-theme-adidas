@@ -1,0 +1,64 @@
+{
+  "flex-layout.row#container__slider--dos": {
+    "children": [
+      "slider-layout#home_slider--children2"
+    ]
+  },
+  "slider-layout#home_slider--children2": {
+    "title": "home_slider--children2",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "mobile": 2
+      },
+      "infinite": true,
+      "blockClass": "home__slider2",
+      "showPaginationDots": "never"
+
+      //   "autoplay": {
+      //     "timeout": 3000,
+      //     "stopOnHover": true
+
+      //   }
+    },
+    "children": [
+      "image#home__slider--one2",
+      "image#home__slider--two2",
+      "image#home__slider--three2",
+      "image#home__slider--four2",
+      "image#home__slider--five2"
+    ]
+  },
+  "image#home__slider--one2": {
+    "title": "home__slider--one2",
+    "children": [],
+    "props": {
+      "src": "assets/img/core-ss23-copa-pure-global-launch-hp-teaser-carousel-d_tcm195-976108.jpg"
+    }
+  },
+  "image#home__slider--two2": {
+    "title": "home__slider--two2",
+    "props": {
+      "src": "assets/img/fw22-pharrell-animal-grey-tease-hp-tc-d_tcm195-961065.jpg"
+    }
+  },
+  "image#home__slider--three2": {
+    "title": "home__slider--three2",
+    "props": {
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/esCO/Images/nmd-tc_tcm195-975275.jpg"
+    }
+  },
+  "image#home__slider--four2": {
+    "title": "home__slider--four2",
+    "props": {
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/esCO/Images/MicrosoftTeams_tcm195-963966.png"
+    }
+  },
+  "image#home__slider--five2": {
+    "title": "home__slider--five2",
+    "props": {
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/esCO/Images/t_carrousel_sustainability_tcm195-741847.jpg"
+    }
+  }
+}

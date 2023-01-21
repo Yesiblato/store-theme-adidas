@@ -1,0 +1,36 @@
+.label--banner__frase--hombre {
+    color: black;
+    font-weight: 700;    
+}
+
+.label--banner__frase--mujer {
+    color: black;
+    font-weight: 700;
+}
+
+.label--banner__frase--verTodo {
+    color: black;
+    font-weight: 700;
+}
+
+.link--mobile__videoBanner__button {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border: black;
+    border-radius: 0em;
+    width: 14em;
+}
+
+.label--mobile__videoBanner__button {
+    padding-right: 0em;
+    font-size: 0.9em;
+}
+
+.buttonLink--mobile__conoceMas__button {
+    background-color:white;
+    color: black;
+    position:absolute;
+    top: 70%;
+    left: 30%;
+}

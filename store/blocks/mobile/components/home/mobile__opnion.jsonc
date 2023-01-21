@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#mobile__home__opinion": {
+    "title": "mobile__home__opinion",
+    "children": [
+      "flex-layout.col#mobile__opinion--secciones"
+    ],
+    "props": {
+      "blockClass": "mobile__Container--opinion--fl"
+    }
+  },
+  "flex-layout.col#mobile__opinion--secciones": {
+    "title": "mobile__Container--opinion",
+    "children": [
+      "flex-layout.col#mobile__Container--seccion1"
+    ]
+  },
+  "flex-layout.col#mobile__Container--seccion1": {
+    "title": "mobile__Container--seccion1",
+    "children": [
+      "rich-text#opinion__title",
+      "rich-text#opinion__frase"
+    ],
+    "props": {
+        "blockClass": "seccion1--title"
+    }
+  },
+  
+  "rich-text#opinion__title": {
+    "title": "opinion__título",
+    "props": {
+        "text": "TU OPINIÓN CUENTA"
+
+    }
+  },
+  "rich-text#opinion__frase": {
+    "title": "opinion__frase",
+    "props": {
+        "text": "Nuestro objetivo es mejorar y valoramos mucho tus comentarios"
+
+    }
+  }
+}
