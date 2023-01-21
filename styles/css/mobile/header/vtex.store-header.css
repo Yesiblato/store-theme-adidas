@@ -1,0 +1,10 @@
+.headerRowContainer--header__top--one {
+    background-color: black;
+    color: white;
+    height: 3em;
+}
+
+.headerRowContainer--header__top--one {
+    display: flex;
+    justify-content: center;
+}

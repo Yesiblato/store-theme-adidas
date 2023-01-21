@@ -1,0 +1,88 @@
+.flexRow--home__popularAhora {
+    margin-top: 80px;
+    /* border: 1px solid green; */
+
+}
+
+.flexRow--equiposFutbol {
+    background-color: #ebedee;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.flexRow--novedadesSecciones {
+
+    margin: 40px 0px 100px 0px;
+}
+
+.flexRow--container__novedades--item1 {
+    /* background-color: red; */
+    padding: 0px;
+}
+
+.flexRow--contenedorConoceMas {
+    margin-top: 70px;
+}
+
+.flexRow--contenedorHistoria {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: #f5f5e5;
+    padding: 100px 0px 100px 0px;
+}
+
+.flexRow--descuentos {
+    padding: 30px;
+    background-color: #EDE734;
+}
+
+.flexCol--banner__descuentos {
+    /* background-color: red; */
+    width: 30em;
+    height: 20em;
+    position: absolute;
+    bottom: 25%;
+    left: 8%;
+}
+/* 
+.flexColChild--container__banner--items--one {
+    
+} */
+
+.flexCol--videoBanner--items {
+    /* background-color: red; */
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    bottom: -70%;
+    left: 10%;
+    color: white;
+}
+
+.flexCol--home__novedades--secciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexRowContent--novedadesSecciones {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flexCol--home__novedades--secciones {
+    width: 17em !important;
+}
+
+.flexCol--home__novedades--seccion2--rt {
+    width: 30em !important;
+}
+
+.flexRowContent--home__opciones {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}

@@ -1,0 +1,24 @@
+.imageElement--logosEquipo {
+    width: 65px;
+}
+
+.flexColChild--container__banner--items--one {
+    position: relative !important;
+} 
+
+/* .flexRow--home__banner--one {
+    position: relative !important;
+} */
+
+.imageElement--videoBanner__flecha--image {
+    width: 80px;
+    margin-left: -20px;
+}
+
+.imageElement--videoBanner__flecha--image:hover {
+    color: gray;
+}
+
+.imageElement--conoceMas--image--in {
+    position: relative;
+}

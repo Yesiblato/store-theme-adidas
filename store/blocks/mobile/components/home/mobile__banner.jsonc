@@ -1,0 +1,82 @@
+{
+  "flex-layout.row#mobile__home--container__banner": {
+    "title": "Mobile Row with text",
+    "children": [
+      "flex-layout.col#mobile__home--banner"
+    ],
+    "props": {
+
+    }
+  },
+  "flex-layout.col#mobile__home--banner": {
+    "title": "mobile__home--banner",
+    "children": [
+      "image#mobile__home--banner",
+      "flex-layout.col#mobile__banner--items"
+      //   "rich-text#hello-vtex"
+    ],
+    "props": {
+      "blockClass": "mobile__container--banner"
+    }
+  },
+  "image#mobile__home--banner": {
+    "title": "mobile__home--banner--image",
+    "props": {
+      "blockClass": "mobile__banner--image",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_960,w_960/esCO/Images/mh-hasta50-t_tcm195-978043.jpg"
+    }
+  },
+
+  "flex-layout.col#mobile__banner--items": {
+    "title": "mobile__banner--items",
+    "children": [
+      "rich-text#mobile__banner__title",
+      "rich-text#mobile__banner__frase",
+      "link.product#mobile__banner__opciones--hombre",
+      "link.product#mobile__banner__opciones--mujer",
+      "link.product#mobile__banner__opciones--verTodo"
+    ],
+    "props": {
+      "blockClass": "mobile__banner--descuentos"
+    }
+  },
+  "rich-text#mobile__banner__title": {
+    "title": "mobile__home--title",
+    "props": {
+      "blockClass": "title50descuento",
+      "text": "### HASTA 50% DE DESCUENTO"
+    }
+  },
+  "rich-text#mobile__banner__frase": {
+    "title": "mobile__home--frase",
+    "props": {
+      "blockClass": "banner__frase--rt",
+      "text": "#### Aprovecha los descuentos de fin de temporada en el catálogo seleccionado."
+    }
+  },
+
+  "link.product#mobile__banner__opciones--hombre": {
+    "title": "mobile__banner__opciones--hombre",
+    "props": {
+      "blockClass": "banner__frase--hombre",
+      "href": "/{slug}/p",
+      "label": "HOMBRE"
+    }
+  },
+  "link.product#mobile__banner__opciones--mujer": {
+    "title": "mobile__banner__opciones--mujer",
+    "props": {
+      "blockClass": "banner__frase--mujer",
+      "href": "/{slug}/p",
+      "label": "MUJER"
+    }
+  },
+  "link.product#mobile__banner__opciones--verTodo": {
+    "title": "mobile__banner__opciones--verTodo",
+    "props": {
+      "blockClass": "banner__frase--verTodo",
+      "href": "/{slug}/p",
+      "label": "VER TODO"
+    }
+  }
+}

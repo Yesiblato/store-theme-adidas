@@ -1,3 +1,129 @@
 .paragraph{
     margin: 0px;
 }
+
+.heading--titlePopularAhora {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.container--materialReciclados {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+
+}
+.container--materialReciclados:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
+}
+
+.container--forum {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+}
+.container--forum:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
+}
+
+.container--guayos {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+}
+.container--guayos:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
+}
+.container--lego {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+}
+.container--lego:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
+}
+
+.container--superstar {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+}
+.container--superstar:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
+}
+
+.container--samba {
+    /* background-color: red !important;  */
+    border-bottom: 1px black solid;
+    width: 450px;
+    color: black;
+}
+.container--samba:hover {
+    border-bottom: 10px black solid;
+    cursor: pointer;
+}
+
+.container--encuentraEquipo {
+    margin-bottom: 10px;
+}
+
+.wrapper--item2 {
+    background-color: blue;
+    width: 00px;
+}
+
+.heading--parrafo1 {
+    margin: 0px;
+}
+
+.heading--parrafo3 {
+    margin: 0px;
+}
+
+/* .heading--home__banner--frase {
+    margin-top: 0em;
+    font-size: 2em;
+    background-color: red;
+} */
+
+.container--videoBanner__title--rt {
+
+    color: white;
+}
+
+.container--videoBanner__frase--rt {
+    color: white;
+}
+
+.wrapper--conoceMas--frase {
+    width: 850px;
+    height: 200px;
+    position: absolute;
+    top: 390%;
+    color: white;
+
+}
+
+.headingLevel2--conoceMas--frase {
+    position: absolute;
+}
+
+.container--item2 {
+    width: 20em;
+    padding: 0;
+}
+
+.headingLevel3--item2 {
+    width: 20em;
+}

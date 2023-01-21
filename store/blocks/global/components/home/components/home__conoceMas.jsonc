@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#home__conoceMas--global": {
+        "title": "home__conoceMas--global",
+        "children": [
+            "flex-layout.col#home__conoceMas"
+        ],
+        "props": {
+            "blockClass": "contenedorConoceMas",
+            "fullWidth": true
+            
+        }
+    },
+    "flex-layout.col#home__conoceMas": {
+        "title": "home__conoceMas",
+        "children": [
+            "image#home__conoceMas--image",
+            "rich-text#home__conoceMas--frase",
+            "link#conoceMas__button"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "image#home__conoceMas--image": {
+        "title": "ConoceMas",
+        "props": {
+            "blockClass": "conoceMas--image--in",
+            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/statement_dt_tcm195-741849.jpg",
+            "title": "ConoceMas"
+        }
+    },
+    "rich-text#home__conoceMas--frase": {
+        "title": "home__conoceMas--frase",
+        "props": {
+            "blockClass": "conoceMas--frase",
+            "text": "## PROTEGER LOS OCÉANOS ES NUESTRA PRINCIPAL PRIORIDAD. NUESTRA MISIÓN VA MÁS ALLÁ DEL DEPORTE. ES NUESTRO FUTURO.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+
+        }
+    },
+    "link#conoceMas__button": {
+        "title": "conoceMas__button",
+        "children": [
+          "image#videoBanner__flecha"
+        ],
+        "props": {
+          "blockClass": "conoceMas__button",
+          "href": "/",
+          "label": "CONOCE MÁS",
+          "displayMode": "button"
+        }
+      }
+
+}

@@ -1,0 +1,12 @@
+.imageElement--mobile__videoBanner__flecha--image {
+    margin-left: -1em;
+}
+
+.imageElement--mobile__arrow {
+    width: 25%;
+}
+
+
+.stretchChildrenWidth {
+    width: 0em;
+}
