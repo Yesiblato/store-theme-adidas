@@ -50,7 +50,8 @@
     "title": "banner__title",
     "props": {
       "blockClass": "banner--title",
-      "text": "## HASTA 50% DE DESCUENTO"
+      "text": "## HASTA 50% DE DESCUENTO",
+      "font": "heading-4"
     }
   },
   "rich-text#banner__frase": {

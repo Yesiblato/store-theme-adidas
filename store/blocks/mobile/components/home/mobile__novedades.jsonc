@@ -61,21 +61,21 @@
         "title": "mobile__home__novedades--item1",
         "props": {
             "blockClass": "mobile__item1",
-            "text": "### NOVEDADES"
+            "text": " NOVEDADES"
         }
     },
     "rich-text#mobile__home__novedades--item2": {
         "title": "mobile__home__novedades--item2",
         "props": {
             "blockClass": "mobile__item2",
-            "text": "### EXCLUSIVO MIEMBROS ADICLUB"
+            "text": " EXCLUSIVO MIEMBROS ADICLUB"
         }
     },
     "rich-text#mobile__home__novedades--item3": {
         "title": "mobile__home__novedades--secciones--item3",
         "props": {
             "blockClass": "mobile__item3",
-            "text": "### COLECCIONES"
+            "text": " COLECCIONES"
         }
     },
     "flex-layout.row#mobile__home__novedades--image": {

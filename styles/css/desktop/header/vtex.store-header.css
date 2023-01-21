@@ -1,8 +1,17 @@
-/* .headerRowBackground--header__top2 {
-   position: relative;
+.headerRowContainer--header__top1-1 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content:flex-end;
+   justify-items: center;
+   padding-right: 1.5em;
+   
+
 }
 
-.headerRowContainer--contenedorPrincipal {
-
-
-} */
+.headerRowContainer--header__top1 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+}

@@ -1,11 +1,16 @@
 {
-  "flex-layout.row#phone__home__section-1": {
+  "flex-layout.row#phone__home__banner": {
     "title": "PHONE Row with text",
     "children": [
       "rich-text#phone__section-1"
     ]
   },
 
+  "flex-layout.col#phone__home--banner": {
+    "children": [
+      "flex-layout.col#mobile__banner--items"
+    ]
+  },
   "rich-text#phone__section-1": {
     "title": "Text Favorites",
     "props": {

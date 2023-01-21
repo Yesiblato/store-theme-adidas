@@ -69,42 +69,42 @@
     "rich-text#home__popularAhora1": {
         "title": "home__popularAhora1",
         "props": {
-            "blockClass": "materialReciclados",
+            "blockClass": "materialReciclados-global",
             "text": "## Materiales Reciclados"
         }
     },
     "rich-text#home__popularAhora2": {
         "title": "home__popularAhora2",
         "props": {
-            "blockClass": "forum",
+            "blockClass": "forum-global",
             "text": "## Forum"
         }
     },
     "rich-text#home__popularAhora3": {
         "title": "home__popularAhora3",
         "props": {
-            "blockClass": "guayos",
+            "blockClass": "guayos-global",
             "text": "## Guayos"
         }
     },
     "rich-text#home__popularAhora4": {
         "title": "home__popularAhora4",
         "props": {
-            "blockClass": "lego",
+            "blockClass": "lego-global",
             "text": "## Lego"
         }
     },
     "rich-text#home__popularAhora5": {
         "title": "home__popularAhora5",
         "props": {
-            "blockClass": "superstar",
+            "blockClass": "superstar-global",
             "text": "## Superstar"
         }
     },
     "rich-text#home__popularAhora6": {
         "title": "home__popularAhora6",
         "props": {
-            "blockClass": "samba",
+            "blockClass": "samba-global",
             "text": "## Samba"
         }
     }
