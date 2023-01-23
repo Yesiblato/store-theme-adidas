@@ -14,6 +14,7 @@
       "flex-layout.row#home__loMejor--global",
       "flex-layout.row#home__historia--global",
       "flex-layout.row#home__descuentos--global"
+      // "search-result-layout.customQuery#desktop__home"
     ]
   }
 }

@@ -87,9 +87,9 @@
       "header-spacer",
       "search-bar#header__desktop",
       "modal-trigger#header__top2--login",
-      // "flex-layout.col#header__corazon",
-      "icon#desktop__bag-shopping",
-      "minicart.v2"
+      "icon#desktop__user-icon",
+      "icon#desktop__heart",
+      "minicart.v2#desktop"
     ],
     "props": {
       "title": "header__full",
@@ -135,7 +135,7 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "hideIconLabel": true
+      "hideiconlabel": true
     }
   },
 
@@ -156,13 +156,37 @@
   "icon#desktop__bag-shopping": {
     "props": {
       "id": "surface1",
-      "size": 40,
+      "size": 60,
       "blockClass": "bagShopping",
-      "width": "15%",
+      "width": "30%",
+      "viewBox": "0 0 16 16"
+
+    }
+  },
+  "icon#desktop__heart": {
+    "props": {
+      "id": "mpa-heart",
+      "size": 40,
+      "blockClass": "desktop-heart",
+      "width": "30%",
       "viewBox": "0 0 25 25"
 
     }
+  },
+  "icon#desktop__user-icon": {
+    "props": {
+      "id": "user-icon",
+      "size": 30,
+      "blockClass": "desktop-heart",
+      "width": "30%",
+      "viewBox": "0 0 16 16"
+
+    }
   }
+
+ 
+
+  
 
   // "flex-layout.col#header__corazon": {
   //     "children": [

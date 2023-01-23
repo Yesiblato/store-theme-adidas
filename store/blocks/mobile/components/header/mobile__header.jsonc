@@ -38,13 +38,26 @@
   "header-row#header__top--two": {
     "children": [
       "drawer",
+      "icon#desktop__heart",
       "header-spacer",
       "logo#headerMobile__top--logo",
       "header-spacer",
+      "icon#desktop__user-icon",
       "modal-trigger#header__top2--login",
       "search-bar#header__mobile",
-      "minicart.v2"
-    ]
+      "minicart.v2#desktop"
+    ],
+    "props": {
+      "blockClass": "contenedorElemntosHeader"
+    }
+  },
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon#desktop__bag-shopping",
+      "variation": "popup",
+      "itemCountMode": "total",
+      "quantityDisplay": "always"
+    }
   },
   "logo#headerMobile__top--logo": {
     "title": "Logo",

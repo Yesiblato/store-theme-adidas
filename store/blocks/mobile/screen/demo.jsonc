@@ -5,7 +5,7 @@
  
             "flex-layout.row#mobile__home--container__banner",
             "flex-layout.row#mobile__home--container__videoBanner",
-            "menu#accordion_menu",
+            "disclosure-layout-group#mobile__middle--menus",
             "flex-layout.row#mobile__home--container__popular",
             "flex-layout.row#mobile__home__container--equipos",
             "flex-layout.row#mobile__home__novedades",

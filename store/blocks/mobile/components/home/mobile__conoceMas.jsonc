@@ -26,8 +26,9 @@
         "title": "ConoceMas",
         "props": {
             "blockClass": "mobile__conoceMas--image--in",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/statement_dt_tcm195-741849.jpg",
-             "title": "ConoceMas"
+            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/statement_mb_tcm195-741846.jpg",
+             "title": "ConoceMas",
+             "maxWidth": "100%"
         }
     },
     "rich-text#mobile__home__conoceMas--frase": {
