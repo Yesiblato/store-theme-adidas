@@ -9,7 +9,10 @@
     "children": [
       "flex-layout.row#footer-desktop--seccion1",
       "flex-layout.row#footer-desktop--seccion2"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktopAll"
+    }
   },
   "footer-layout.mobile": {
     "children": [
@@ -23,9 +26,6 @@
       "flex-layout.col#footer__container--col-three",
       "flex-layout.col#footer__container--col-four",
       "flex-layout.col#footer__container--col-five"
-      // "social-networks",
-      // "accepted-payment-methods",
-      // "powered-by"
     ],
     "props": {
       "blockClass": "footer__contenedor--desktop"
@@ -52,12 +52,16 @@
       "link.product#opciones--adidasEnCasa",
       "link.product#opciones--adidasApp",
       "link.product#opciones--adidasRunners"
-    ]
+    ],
+    "props": {
+      "blockClass": "columnas"
+    }
   },
   "rich-text#footer__productos": {
     "props": {
       "text": "PRODUCTOS",
-      "blockClass": "productos"
+      "blockClass": "titulo",
+      "font": "heading-5"
     }
   },
   "link.product#opciones--Calzado": {
@@ -65,7 +69,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Calzado"
+      "label": "Calzado",
+      "font": "small"
     }
   },
   "link.product#opciones--Tennis": {
@@ -73,7 +78,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Tennis"
+      "label": "Tennis",
+      "font": "small"
     }
   },
   "link.product#opciones--Ropa": {
@@ -81,7 +87,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Ropa"
+      "label": "Ropa",
+      "font": "small"
     }
   },
   "link.product#opciones--Accesorios": {
@@ -89,15 +96,17 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Accesorios"
+      "label": "Accesorios",
+      "font": "small"
     }
   },
   "link.product#opciones--Guayos": {
     "title": "opciones--Guayos",
     "props": {
-      "blockClass": "opciones--Guayos-lk",
+      "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Guayos"
+      "label": "Guayos",
+      "font": "small"
     }
   },
   "link.product#opciones--Rompevientos": {
@@ -105,7 +114,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Rompevientos"
+      "label": "Rompevientos",
+      "font": "small"
     }
   },
   "link.product#opciones--Sudaderas": {
@@ -113,7 +123,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Sudaderas"
+      "label": "Sudaderas",
+      "font": "small"
     }
   },
   "link.product#opciones--Novedades": {
@@ -121,7 +132,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Novedades"
+      "label": "Novedades",
+      "font": "small"
     }
   },
   "rich-text#footer__vacio1": {
@@ -135,7 +147,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Black Friday"
+      "label": "Black Friday",
+      "font": "small"
     }
   },
   "link.product#opciones--Outlet": {
@@ -143,7 +156,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Outlet"
+      "label": "Outlet",
+      "font": "small"
     }
   },
   "link.product#opciones--HotSale": {
@@ -151,7 +165,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Hot Sale"
+      "label": "Hot Sale",
+      "font": "small"
     }
   },
   "link.product#opciones--CyberLunes": {
@@ -159,7 +174,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Cyber Lunes"
+      "label": "Cyber Lunes",
+      "font": "small"
     }
   },
   "rich-text#footer__vacio2": {
@@ -173,7 +189,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "adiClub"
+      "label": "adiClub",
+      "font": "small"
     }
   },
   "link.product#opciones--adidasEnCasa": {
@@ -181,7 +198,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "adidas En Casa"
+      "label": "adidas En Casa",
+      "font": "small"
     }
   },
   "link.product#opciones--adidasApp": {
@@ -189,7 +207,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "adidasApp"
+      "label": "adidasApp",
+      "font": "small"
     }
   },
   "link.product#opciones--adidasRunners": {
@@ -197,7 +216,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "adidas Runners"
+      "label": "adidas Runners",
+      "font": "small"
     }
   },
   "flex-layout.col#footer__container--col-two": {
@@ -217,12 +237,17 @@
       "link.product#opciones--StanSmith",
       "link.product#opciones--adiColor",
       "link.product#opciones--Superstar"
-    ]
+    ],
+    "props": {
+      "blockClass": "columnas"
+    }
+    
   },
   "rich-text#footer__Deportes": {
     "props": {
       "text": "DEPORTE",
-      "blockClass": "deporte"
+      "blockClass": "titulo",
+      "font": "heading-5"
     }
   },
   "link.product#opciones--SeleccionColombia": {
@@ -230,7 +255,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Selección Colombia"
+      "label": "Selección Colombia",
+      "font": "small"
     }
   },
   "link.product#opciones--Millonarios": {
@@ -238,7 +264,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Millonarios"
+      "label": "Millonarios",
+      "font": "small"
     }
   },
   "link.product#opciones--Futbol": {
@@ -246,7 +273,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Fútbol"
+      "label": "Fútbol",
+      "font": "small"
     }
   },
   "link.product#opciones--Ciclismo": {
@@ -254,7 +282,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Ciclismo"
+      "label": "Ciclismo",
+      "font": "small"
     }
   },
   "link.product#opciones--Running": {
@@ -262,7 +291,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Running"
+      "label": "Running",
+      "font": "small"
     }
   },
   "link.product#opciones--Basketball": {
@@ -270,7 +300,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Basketball"
+      "label": "Basketball",
+      "font": "small"
     }
   },
   "link.product#opciones--Training": {
@@ -278,13 +309,15 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Training"
+      "label": "Training",
+      "font": "small"
     }
   },
   "rich-text#footer__Colecciones": {
     "props": {
       "text": "COLECCIONES",
-      "blockClass": "colecciones"
+      "blockClass": "titulo",
+      "font": "heading-5"
     }
   },
   "link.product#opciones--Ultraboost": {
@@ -292,7 +325,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Ultraboost"
+      "label": "Ultraboost",
+      "font": "small"
     }
   },
   "link.product#opciones--Originals": {
@@ -300,7 +334,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Originals"
+      "label": "Originals",
+      "font": "small"
     }
   },
   "link.product#opciones--Forum": {
@@ -308,7 +343,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Forum"
+      "label": "Forum",
+      "font": "small"
     }
   },
   "link.product#opciones--StanSmith": {
@@ -316,7 +352,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Stan Smith"
+      "label": "Stan Smith",
+      "font": "small"
     }
   },
   "link.product#opciones--adiColor": {
@@ -324,7 +361,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "adiColor"
+      "label": "adiColor",
+      "font": "small"
     }
   },
   "link.product#opciones--Superstar": {
@@ -332,7 +370,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Superstar"
+      "label": "Superstar",
+      "font": "small"
     }
   },
   "flex-layout.col#footer__container--col-three": {
@@ -351,12 +390,16 @@
       "link.product#opciones--ComoUsarNuestroSitio",
       "link.product#opciones--ComoSaberLaTalla",
       "link.product#opciones--MapaDelSitio"
-    ]
+    ],
+    "props": {
+      "blockClass": "columnas"
+    }
   },
   "rich-text#footer__Asistencia": {
     "props": {
       "text": "ASISTENCIA",
-      "blockClass": "asistencia"
+      "blockClass": "titulo",
+      "font": "heading-5"
     }
   },
   "link.product#opciones--DudasFrecuentes": {
@@ -364,7 +407,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "DudasFrecuentes"
+      "label": "DudasFrecuentes",
+      "font": "small"
     }
   },
   "link.product#opciones--GuiaDeTallas": {
@@ -372,7 +416,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "GuiaDeTallas"
+      "label": "GuiaDeTallas",
+      "font": "small"
     }
   },
   "link.product#opciones--RealizarPedidos": {
@@ -380,7 +425,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Realizar Pedidos"
+      "label": "Realizar Pedidos",
+      "font": "small"
     }
   },
   "link.product#opciones--ProductosAdidas": {
@@ -388,7 +434,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Productos Adidas"
+      "label": "Productos Adidas",
+      "font": "small"
     }
   },
   "link.product#opciones--VentasPorWhatsapp": {
@@ -396,7 +443,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Ventas Por Whatsapp"
+      "label": "Ventas Por Whatsapp",
+      "font": "small"
     }
   },
   "link.product#opciones--Pago": {
@@ -404,7 +452,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Pago"
+      "label": "Pago",
+      "font": "small"
     }
   },
   "link.product#opciones--Envio": {
@@ -412,7 +461,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Envio"
+      "label": "Envio",
+      "font": "small"
     }
   },
   "link.product#opciones--SolicitarMiDevolucion": {
@@ -420,7 +470,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Solicitar Mi Devolución"
+      "label": "Solicitar Mi Devolución",
+      "font": "small"
     }
   },
   "link.product#opciones--Devoluciones": {
@@ -428,7 +479,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Devoluciones"
+      "label": "Devoluciones",
+      "font": "small"
     }
   },
   "link.product#opciones--CambioEnTiendas": {
@@ -436,7 +488,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "CambioEnTiendas"
+      "label": "CambioEnTiendas",
+      "font": "small"
     }
   },
   "link.product#opciones--ComoUsarNuestroSitio": {
@@ -444,7 +497,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Como Usar Nuestro Sitio"
+      "label": "Como Usar Nuestro Sitio",
+      "font": "small"
     }
   },
   "link.product#opciones--ComoSaberLaTalla": {
@@ -452,7 +506,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Como Saber La Talla"
+      "label": "Como Saber La Talla",
+      "font": "small"
     }
   },
   "link.product#opciones--MapaDelSitio": {
@@ -460,7 +515,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Mapa Del Sitio"
+      "label": "Mapa Del Sitio",
+      "font": "small"
     }
   },
   "flex-layout.col#footer__container--col-four": {
@@ -471,12 +527,16 @@
       "link.product#opciones--Prensa",
       "rich-text#footer__Tiendas",
       "link.product#opciones--Buscador"
-    ]
+    ],
+    "props": {
+      "blockClass": "columnas"
+    }
   },
   "rich-text#footer__informacion": {
     "props": {
-      "text": "INFORMACIÓN",
-      "blockClass": "informacion"
+      "text": "**INFORMACIÓN**",
+      "blockClass": ["titulo", "informacion"],
+      "font": "heading-4"
     }
   },
   "link.product#opciones--AcercaDe": {
@@ -484,7 +544,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Acerca De adidas"
+      "label": "Acerca De adidas",
+      "font": "small"
     }
   },
   "link.product#opciones--Trabaja": {
@@ -492,7 +553,8 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Trabaja En nuestro Equipo"
+      "label": "Trabaja En nuestro Equipo",
+      "font": "small"
     }
   },
   "link.product#opciones--Prensa": {
@@ -500,13 +562,15 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Prensa"
+      "label": "Prensa",
+      "font": "small"
     }
   },
   "rich-text#footer__Tiendas": {
     "props": {
       "text": "TIENDAS",
-      "blockClass": "Tiendas"
+      "blockClass": ["titulo", "informacion"],
+      "font": "heading-5"
     }
   },
   "link.product#opciones--Buscador": {
@@ -514,19 +578,24 @@
     "props": {
       "blockClass": "opciones",
       "href": "/{slug}/p",
-      "label": "Buscador"
+      "label": "Buscador",
+      "font": "small"
     }
   },
   "flex-layout.col#footer__container--col-five": {
     "children": [
       "rich-text#footer__siguenos",
       "social-networks"
-    ]
+    ],
+    "props": {
+      "blockClass": "columnas"
+    }
   },
   "rich-text#footer__siguenos": {
     "props": {
       "text": "SÍGUENOS",
-      "blockClass": "siguenos"
+      "blockClass": "titulo",
+      "font": "heading-5"
     }
   },
 
@@ -564,7 +633,8 @@
           "url": "https://youtube.com/foo",
           "name": "youTube"
         }
-      ]
+      ],
+      "blockClass": "container__redesSociales"
     }
   },
 
@@ -579,7 +649,7 @@
   "flex-layout.col#secciones": {
     "children": [
       "flex-layout.row#footer-desktop--seccion2.1",
-      "flex-layout.col#footer-desktop--seccion2.2"
+      "flex-layout.col#footer-desktop--seccionTwo-two"
     ],
     "props": {
         "blockClass": "contenedor__secciones"
@@ -597,60 +667,78 @@
       "rich-text#item8"
     ],
     "props": {
-        "blockClass": "container__seccion2.1"
+        "blockClass": "container__seccionTwo-one"
     }
   },
-  "flex-layout.col#footer-desktop--seccion2.2": {
+  "flex-layout.col#footer-desktop--seccionTwo-two": {
     "children": [
-      "rich-text#año"
+      "rich-text#a"
     ],
     "props": {
-        "blockClass": "container__seccion2.2"
+        "blockClass": "container__seccionTwo-two"
     }
   },
   "rich-text#item1": {
     "props": {
-      "text": "Nuestros Datos"
+      "text": "Nuestros Datos",
+      "blockClass": "richFooter",
+      "font": "mini"
     }
   },
   "rich-text#item2": {
     "props": {
-      "text": "Terminos y Condicoines"
+      "text": "Terminos y Condicoines",
+      "blockClass": "richFooter",
+      "font": "mini"
     }
   },
   "rich-text#item3": {
     "props": {
-      "text": "Políticas de Privacidad"
+      "text": "Políticas de Privacidad",
+      "blockClass": "richFooter",
+      "font": "mini"
     }
   },
   "rich-text#item4": {
     "props": {
-      "text": "Términos #YESadidas"
+      "text": "Términos #YESadidas",
+      "blockClass": "richFooter",
+      "font": "mini"
     }
   },
   "rich-text#item5": {
     "props": {
-      "text": "Seleccionar Pais"
+      "text": "Seleccionar Pais",
+      "blockClass": "richFooter",
+      "font": "mini"
     }
   },
   "rich-text#item6": {
     "props": {
-      "text": "Aviso de Privacidad"
+      "text": "Aviso de Privacidad",
+      "blockClass": "richFooter",
+      "font": "mini"
     }
   },
   "rich-text#item7": {
     "props": {
-      "text": "Uso del sitio"
+      "text": "Uso del sitio",
+      "blockClass": "richFooter",
+      "font": "mini"
     }
   },
   "rich-text#item8": {
     "props": {
-      "text": "SIC"
+      "text": "SIC",
+      "blockClass": "richFooterSic",
+      "font": "mini"
     }
   },
-  "rich-text#año": {
+  "rich-text#a": {
     "props": {
-      "text": "© 2022 adidas Colombia LTDA"
+      "text": "© 2022 adidas Colombia LTDA",
+      "blockClass": "richFooterA",
+      "font": "mini"
     }
   }
 

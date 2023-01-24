@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#product-list": {
+    "children": [
+      "list-context.product-list#products"
+    ]
+  },
+  "list-context.product-list#products": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#products"
+    ]
+  },
+  "slider-layout#products": {
+    "title": "home_slider--listProduct",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "showPaginationDots": "never"
+    }
+  }
+}

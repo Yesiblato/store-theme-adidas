@@ -4,7 +4,7 @@
     "blocks": [
 
       "responsive-layout.desktop#home__section-1",
-      // "search-result-layout.customQuery#desktop__home",
+      
       "responsive-layout.mobile#phone__and__tablet",
       "responsive-layout.tablet#home__section-1",
       "responsive-layout.phone#home__section-1"

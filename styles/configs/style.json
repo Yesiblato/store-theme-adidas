@@ -345,14 +345,14 @@
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "adineuePRO, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "titulo",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "adineue PRO KZ Bold, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "adineuePROKZBold",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",

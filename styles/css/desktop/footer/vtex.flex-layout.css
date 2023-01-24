@@ -1,0 +1,71 @@
+.flexRow--footer__contenedor--desktop {
+    background-color: white;
+    height: 32em;
+}
+/* 
+.flex-layout.row#footer-desktop--seccion2 {
+    background-color:#363738 ;
+} */
+.flexRow--secciones1y2 {
+    background-color:#363738;
+    height: 8em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+
+}
+.flexRowContent--secciones1y2 {
+width: 85em;
+height: 8em;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.flexCol--contenedor__secciones {
+    height: 8em;
+}
+
+.flexColChild--contenedor__secciones {
+   
+}
+
+.flexRowContent--container__seccionTwo-one {
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0.3em;
+}
+
+
+.flexColChild--container__seccionTwo-two {
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    padding: 1em 0.3em;
+    color: white;
+}
+
+.flexRowContent--footer__contenedor--desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding-top: 2em;
+    width: 50em;
+    margin: 0em;
+}
+
+.flexCol--columnas {
+    margin: 1em 1em;
+    width: 13em !important;
+    height: 27em;
+
+}

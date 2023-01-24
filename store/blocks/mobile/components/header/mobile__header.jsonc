@@ -51,14 +51,6 @@
       "blockClass": "contenedorElemntosHeader"
     }
   },
-  "minicart.v2": {
-    "props": {
-      "MinicartIcon": "icon#desktop__bag-shopping",
-      "variation": "popup",
-      "itemCountMode": "total",
-      "quantityDisplay": "always"
-    }
-  },
   "logo#headerMobile__top--logo": {
     "title": "Logo",
     "props": {

@@ -1,4 +1,8 @@
-/* Example desktop:
-.flexCol--footer__main--column2{
-    padding-bottom: 80px;
-} */
+.socialNetworksContainer--container__redesSociales {
+
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
