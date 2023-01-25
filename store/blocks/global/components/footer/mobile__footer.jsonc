@@ -1,0 +1,252 @@
+{
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "flex-layout.col#container__footer-mobile"
+    ],
+    "props": {
+        "fullWidth": true
+    }
+  },
+  "flex-layout.col#container__footer-mobile": {
+    "children": [
+      "flex-layout.row#footer__seccionOne",
+      "flex-layout.row#footer__seccionTwo",
+      "flex-layout.row#footer__seccionThree"
+    ],
+    "props": {
+        "blockClass":"contenedorSecciones",
+        "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#footer__seccionOne": {
+    "children": [
+      "flex-layout.col#footer__seccionOne--one",
+      "flex-layout.col#footer__seccionOne--two"
+    ],
+    "props": {
+        "blockClass":"contenedorSeccionOne",
+        "preventHorizontalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "width":"100%"
+
+    }
+  },
+  "flex-layout.row#footer__seccionTwo": {
+    "children": [
+      "flex-layout.col#footer__seccionTwo--one",
+      "flex-layout.col#footer__seccionTwo--two"
+    ],
+    "props": {
+        "blockClass":"contenedorSeccionTwo",
+        "width": "100%"
+    }
+  },
+  "flex-layout.col#footer__seccionOne--one": {
+    "children": [
+      "link.product#opciones--BuscadorM",
+      "link.product#opciones--DudasFrecuentesM",
+      "link.product#opciones--SolicitarMiDevolucionM",
+      "link.product#opciones--PagoM"
+    ],
+    "props": {
+        "blockClass":"contenedores",
+        // "preventHorizontalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "width":"100%"
+    }
+  },
+  "flex-layout.col#footer__seccionOne--two": {
+    "children": [
+      "link.product#opciones--DevolucionesM",
+      "link.product#opciones--GuiaDeTallasM",
+      "link.product#opciones--MapaDelSitioM",
+      "link.product#opciones--EnvioM"
+    ],
+    "props": {
+        "blockClass":"contenedores",
+        // "preventHorizontalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "width":"100%"
+    }
+  },
+  "flex-layout.col#footer__seccionTwo--one": {
+    "children": [
+      "link.product#opciones--NuestrosDatosM",
+      "link.product#opciones--PoliticasM",
+      "link.product#opciones--SeleccionarPaisM",
+      "link.product#opciones--UsoDelSitioM"
+    ],
+    "props": {
+        "blockClass":"contenedores"
+    }
+  },
+  "flex-layout.col#footer__seccionTwo--two": {
+    "children": [
+      "link.product#opciones--TerminosM",
+      "link.product#opciones--TerminosYESM",
+      "link.product#opciones--AvisoM",
+      "link.product#opciones--SICM"
+    ],
+    "props": {
+        "blockClass":"contenedores"
+    }
+  },
+  "link.product#opciones--BuscadorM": {
+    "title": "opciones--BuscadorM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Buscador de Tiendas",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--DudasFrecuentesM": {
+    "title": "opciones--DudasFrecuentes",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Dudas Frecuentes",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--SolicitarMiDevolucionM": {
+    "title": "opciones--SolicitarMiDevolucionM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Solicitar Mi Devolucion",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--PagoM": {
+    "title": "opciones--Pago",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Pago",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--DevolucionesM": {
+    "title": "opciones--Devoluciones",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Devoluciones",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--GuiaDeTallasM": {
+    "title": "opciones--GuiaDeTallas",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Guia De Tallas",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--MapaDelSitioM": {
+    "title": "opciones--MapaDelSitio",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Mapa Del Sitio",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--EnvioM": {
+    "title": "opciones--EnvioM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Envio",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--NuestrosDatosM": {
+    "title": "opciones--NuestrosDatosM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Nuestros Datos",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--PoliticasM": {
+    "title": "opciones-PoliticasM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Políticas",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--SeleccionarPaisM": {
+    "title": "opciones--SeleccionarPaisM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Seleccionar Pais",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--UsoDelSitioM": {
+    "title": "opciones--UsoDelSitioM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Uso Del Sitio",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--TerminosM": {
+    "title": "opciones--TerminosM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Terminos y Condiciones",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--TerminosYESM": {
+    "title": "opciones--TerminosYESM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Terminos YESadidas",
+      "font": "small"
+    }
+  },  
+  "link.product#opciones--AvisoM": {
+    "title": "opciones--AvisoM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "Aviso de PrivacidadM",
+      "font": "small"
+    }
+  },  
+  "link.product#opciones--SICM": {
+    "title": "opciones--SICM",
+    "props": {
+      "blockClass": "opcionesM",
+      "href": "/{slug}/p",
+      "label": "SIC",
+      "font": "small"
+    }
+  },  
+  "flex-layout.row#footer__seccionThree": {
+    "children": [
+      "rich-text#year"
+    ],
+    "props": {
+        "blockClass":"contenedorSeccionThree"
+    }
+  },
+  "rich-text#year": {
+    "props": {
+      "text": "© 2022 adidas Colombia LTDA",
+      "blockClass": "richFooterA"
+    }
+  }
+}

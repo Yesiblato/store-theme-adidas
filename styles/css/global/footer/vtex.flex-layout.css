@@ -17,7 +17,7 @@
 
 }
 .flexRowContent--secciones1y2 {
-width: 85em;
+width: 65em;
 height: 8em;
 display: flex;
 flex-direction: row;
@@ -59,13 +59,63 @@ align-items: center;
     align-content: center;
     justify-items: center;
     padding-top: 2em;
-    width: 50em;
-    margin: 0em;
+    width: 59em;
+    margin: auto;
 }
 
 .flexCol--columnas {
     margin: 1em 1em;
-    width: 13em !important;
+    width: 22em !important;
     height: 27em;
 
 }
+
+.flexCol--informacion {
+    height: 15em;
+}
+
+.flexCol--siguenos {
+    height: 13em;
+}
+
+
+
+
+.flexRow--contenedorSeccionOne {
+    background-color: black;
+    height: 9em;
+    display: flex;
+
+    padding: 1em 0em;
+
+}
+
+.flexRowContent--contenedorSeccionOne  {
+    justify-content: space-around;
+}
+
+.flexRow--contenedorSeccionTwo {
+    background-color: #363738;
+    height: 9em;
+    display: flex;
+    flex-direction: row;
+    padding: 1em 0em;
+
+}
+
+.flexRow--contenedorSeccionThree {
+    background-color: #363738;
+    height: 2em;
+}
+
+
+.flexCol--contenedores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    /* width: 15em; */
+
+}
+
+

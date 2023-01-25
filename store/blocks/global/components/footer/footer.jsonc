@@ -529,12 +529,12 @@
       "link.product#opciones--Buscador"
     ],
     "props": {
-      "blockClass": "columnas"
+      "blockClass": ["columnas","informacion"]
     }
   },
   "rich-text#footer__informacion": {
     "props": {
-      "text": "**INFORMACIÓN**",
+      "text": "**INFORMACIÓN DE LA EMPRESA**",
       "blockClass": ["titulo", "informacion"],
       "font": "heading-4"
     }
@@ -588,7 +588,7 @@
       "social-networks"
     ],
     "props": {
-      "blockClass": "columnas"
+      "blockClass": ["columnas", "siguenos"]
     }
   },
   "rich-text#footer__siguenos": {
@@ -599,13 +599,6 @@
     }
   },
 
-  "flex-layout.row#footer-mobile": {
-    "children": [
-      // "social-networks",
-      // "accepted-payment-methods",
-      // "powered-by"
-    ]
-  },
   "social-networks": {
     "props": {
       "socialNetworks": [

@@ -1,11 +1,15 @@
 
 
 .styledLinkContent--Menu-item-mujer {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .styledLinkContent--Menu-item-hombre {
-    font-weight: 600;
+    font-weight: 700;
+}
+
+.styledLinkContent--Menu-item-niño {
+    font-weight: 700;
 }
 
 .menuItem--Menu-item-mujer--isOpen {

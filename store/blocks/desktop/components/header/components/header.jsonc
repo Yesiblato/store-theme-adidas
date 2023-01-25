@@ -87,7 +87,7 @@
       "header-spacer",
       "search-bar#header__desktop",
       "modal-trigger#header__top2--login",
-      "icon#desktop__user-icon",
+      // "icon#desktop__user-icon",
       "icon#desktop__heart",
       "minicart.v2#desktop"
     ],
@@ -113,7 +113,7 @@
   },
   "modal-trigger#header__top2--login": {
     "children": [
-      "rich-text#header__top2--login",
+      "icon#desktop__user-icon",
       "modal-layout#header__top2--login"
     ]
   },
@@ -124,18 +124,13 @@
   },
   "modal-layout#header__top2--login": {
     "children": [
-      "login-content"
+      "login-content#desktop"
     ]
   },
-  "login-content": {
+  "login-content#desktop": {
     "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "hideiconlabel": true
+      "hideIconLabel": true
     }
   },
 
@@ -156,10 +151,10 @@
   "icon#desktop__bag-shopping": {
     "props": {
       "id": "surface1",
-      "size": 60,
+      "size": 40,
       "blockClass": "bagShopping",
       "width": "30%",
-      "viewBox": "0 0 16 16"
+      "viewBox": "0 0 10 10"
 
     }
   },
