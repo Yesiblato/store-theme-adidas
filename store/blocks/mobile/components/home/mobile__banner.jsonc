@@ -4,9 +4,7 @@
     "children": [
       "flex-layout.col#mobile__home--banner"
     ],
-    "props": {
-
-    }
+    "props": {}
   },
   "flex-layout.col#mobile__home--banner": {
     "title": "mobile__home--banner",
@@ -23,7 +21,8 @@
     "title": "mobile__home--banner--image",
     "props": {
       "blockClass": "mobile__banner--image",
-      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_960,w_960/esCO/Images/mh-hasta50-t_tcm195-978043.jpg"
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_960,w_960/esCO/Images/mh-hasta50-t_tcm195-978043.jpg",
+      "maxWidth": "100%"
     }
   },
 

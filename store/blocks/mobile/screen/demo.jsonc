@@ -5,15 +5,19 @@
  
             "flex-layout.row#mobile__home--container__banner",
             "flex-layout.row#mobile__home--container__videoBanner",
+            "disclosure-layout-group#mobile__middle--menus",
             "flex-layout.row#mobile__home--container__popular",
             "flex-layout.row#mobile__home__container--equipos",
+            "flex-layout.row#product-list",
             "flex-layout.row#mobile__home__novedades",
             "flex-layout.row#mobile__home--tendencias",
             "flex-layout.row#mobile__home__conoceMas",
+            "flex-layout.row#product-list",
             "flex-layout.row#mobile__home__loMejor",
             "flex-layout.row#mobile__home__historia",
             "flex-layout.row#mobile__home__opinion",
             "flex-layout.row#mobile__Container--volverArriba",
+            "flex-layout.row#mobile__home__iniciarSesion",
             "flex-layout.row#mobile__home--descuentos"
         ]
       }

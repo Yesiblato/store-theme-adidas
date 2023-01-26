@@ -2,7 +2,9 @@
     "flex-layout.row#mobile__Container--volverArriba": {
         "title": "container__volverArriba",
         "children": [
-            "flex-layout.col#mobile__volverArriba"
+            // "flex-layout.col#mobile__volverArriba"
+            // "image#flecha--volverArriba",
+            "rich-text#opinion__volverArriba"
         ],
         "props": {
             "blockClass": "containe__volverArriba",
@@ -13,8 +15,7 @@
     "flex-layout.col#mobile__volverArriba": {
         "title": "mobile__volverArriba",
         "children": [
-            "image#flecha--volverArriba",
-            "rich-text#opinion__volverArriba"
+
             // "back-to-top-button"
         ],
         "props": {
@@ -23,11 +24,11 @@
             "horizontalAlign": "center"
         }
       },
-      "image#flecha--volverArriba": {
-        "props": {
-            "src": "assets/img/expand_less_FILL0_wght400_GRAD0_opsz48.png"
-        }
-      },
+    //   "image#flecha--volverArriba": {
+    //     "props": {
+    //         "src": "assets/img/expand_less_FILL0_wght400_GRAD0_opsz48.png"
+    //     }
+    //   },
       "rich-text#opinion__volverArriba": {
         "title": "opinion__volverArriba",
         "props": {

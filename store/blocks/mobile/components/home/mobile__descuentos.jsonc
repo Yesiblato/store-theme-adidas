@@ -11,7 +11,9 @@
     "rich-text#home__descuentos--frase": {
         "title": "home__descuentos--frase",
         "props": {
-            "text": "## UNITE AL CLUB Y CONSEGUÍ UN 15% DE DESCUENTO"
+            "text": "## UNITE AL CLUB Y CONSEGUÍ UN 15% DE DESCUENTO",
+            "blockClass": "descuentas--frases-rt"
         }
+        
     }
 }

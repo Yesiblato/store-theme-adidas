@@ -1,11 +1,11 @@
 {
-  "header": {
-    "title": "header--mobile",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
+  // "header": {
+  //   "title": "header--mobile",
+  //   "blocks": [
+  //     "header-layout.desktop",
+  //     "header-layout.mobile"
+  //   ]
+  // },
   "header.full": {
     "title": "header--mobile",
     "blocks": [
@@ -13,14 +13,15 @@
       "header-layout.mobile"
     ]
   },
-  "header-layout.desktop": {
-    "title": "Header Desktop",
-    "children": [
-        "header-row#header__top1",
-        "header-row#header__top2"
-   ]
-  },
+  // "header-layout.desktop": {
+  //   "title": "Header Desktop",
+  //   "children": [
+  //       "header-row#header__top1",
+  //       "header-row#header__top2"
+  //  ]
+  // },
   "header-layout.mobile": {
+    "title": "header-mobile",
     "children": [
       "header-row#header__top--one",
       "header-row#header__top--two"
@@ -28,82 +29,151 @@
   },
   "header-row#header__top--one": {
     "children": [
-        "rich-text#hola1"
+      "rich-text#hola1"
     ],
     "props": {
-        "blockClass": "header__top--one",
-        "fullWidth": true
+      "blockClass": "header__top--one",
+      "fullWidth": true
     }
-
   },
   "header-row#header__top--two": {
     "children": [
-
-        "drawer",
-        "header-spacer",
-        "logo#headerMobile__top--logo",
-        "header-spacer",
-        "modal-trigger#header__top2--login",
-        "minicart.v2"
+      "drawer",
+      "icon#desktop__heart",
+      "header-spacer",
+      "logo#headerMobile__top--logo",
+      "header-spacer",
+      "flex-layout.row#opcione__mobile",
+      "modal-trigger#header__top2--login-mobile",
+      "icon#mobile__search",
+      "search-bar#header__mobile",
+      "minicart.v2#desktop"
+    ],
+    "props": {
+      "blockClass": "contenedorElemntosHeader"
+    }
+  },
+  "modal-trigger#header__top2--login-mobile": {
+    "children": [
+      "icon#desktop__user-icon",
+      "modal-layout#header__top2--login-mobile"
     ]
+  },
+  "modal-layout#header__top2--login-mobile": {
+    "children": [
+      "login-content#mobile"
+    ]
+  },
+  "login-content#mobile": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
+  "flex-layout.row#opcione__mobile": {
+    "children": [
+
+    ],
+    "props": {
+      "blockClass": "opciones__mobile"
+    }
   },
   "logo#headerMobile__top--logo": {
     "title": "Logo",
     "props": {
-        "url": "assets/img/Adidas_isologo.svg",
-        "width": 60,
-        "href": "/"
+      "url": "assets/img/Adidas_isologo.svg",
+      "width": 60,
+      "href": "/"
     }
-},
-  "rich-text#hola1": {
+  },
+  "search-bar#header__mobile": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
     "props": {
-        "text": "Hasta 50% de Descuento",
-        "blockClass": "Texto__top1"
+      "openAutocompleteOnFocus": true,
+      "maxWidth": "9%"
     }
   },
 
-  
-    "drawer": {
-      "children": ["mega-menu#mobile"],
-      "blocks": ["drawer-header#my-drawer"]
-    },
-    "mega-menu#mobile": {
-      "props": {
-        "defaultDepartmentActive": "...",
-        "orientation": "vertical",
-        "openOnly": "vertical"
-      }
-    },
-    "drawer-header#my-drawer": {
-      "children": ["flex-layout.row#drawer-header"]
-    },
-    "flex-layout.row#drawer-header": {
-      "children": [
-        "flex-layout.col#mega-menu-go-back-btn",
-        // "flex-layout.col#spacer",
-        "flex-layout.col#drawer-close-button"
-      ],
-      "props": {
-        "blockClass": "drawer-header",
-        "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "fullWidth": true
-      }
-    },
-    "flex-layout.col#drawer-close-button": {
-      "children": ["drawer-close-button"],
-      "props": {
-        "verticalAlign": "middle",
-        "horizontalAlign": "right"
-      }
-    },
-    "flex-layout.col#mega-menu-go-back-btn": {
-      "children": ["mega-menu-go-back-btn"],
-      "props": {
-        "verticalAlign": "middle",
-        "horizontalAlign": "left",
-        "paddingLeft": 4
-      }
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxWidth": "6%"
+    }
+  },
+
+  "rich-text#hola1": {
+    "props": {
+      "text": "Hasta 50% de Descuento",
+      "blockClass": "Texto__top1"
+    }
+  },
+
+  "drawer": {
+    "children": [
+      "mega-menu#mobile"
+    ],
+    "blocks": [
+      "drawer-header#my-drawer"
+    ]
+  },
+  "mega-menu#mobile": {
+    "props": {
+      "defaultDepartmentActive": "...",
+      "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": [
+      "flex-layout.row#drawer-header"
+    ]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      // "flex-layout.col#spacer",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": [
+      "drawer-close-button"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": [
+      "mega-menu-go-back-btn"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  },
+
+  "icon#mobile__search": {
+    "props": {
+      "id": "hpa-search",
+      "size": 40,
+      "blockClass": "desktop-heart",
+      "width": "30%",
+      "viewBox": "0 0 25 25"
     }
   }
+}

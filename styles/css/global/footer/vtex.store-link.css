@@ -1,0 +1,30 @@
+.link--opciones {
+    text-decoration: none;
+    margin-bottom: 0.7em;   
+    width: 100%;
+    color: black;
+
+
+    font-weight: 400;
+    font-family:  Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+.label--opciones {
+    height: 3em;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+.link--opcionesM {
+    text-decoration: none;
+    margin-bottom: 0.7em;   
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    font-family:  Helvetica, sans-serif;
+    font-size: 12px;
+}

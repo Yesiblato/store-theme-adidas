@@ -8,3 +8,9 @@
     display: flex;
     justify-content: center;
 }
+
+.contenedorElemntosHeader {
+    display: flex;
+    flex-direction: row;
+    
+}
