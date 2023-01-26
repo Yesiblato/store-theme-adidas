@@ -1,34 +1,77 @@
 {
-    "store.search#department": {
-        "blocks": [
-          "search-result-layout"
-        ]
+  
+  "store.search#department": {
+      "props": {
+          "context": {
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "default"
+          }
       },
-      "search-result-layout": {
-        "blocks": [
+      "blocks": ["search-result-layout#department"]
+  },
+  "search-result-layout#department": {
+      "blocks": [
           "search-result-layout.desktop#department",
           "search-result-layout.mobile#department",
           "search-not-found-layout"
-        ]
-      },
-      "search-result-layout.desktop#department": {
-        "children": [
-          "rich-text#desktop-responsive-department"
-        ]
-      },
-      "search-result-layout.mobile#department": {
-        "children": [
-          "rich-text#mobile-responsive-department"
-        ]
-      },
-      "rich-text#desktop-responsive-department": {
-        "props": {
-            "text": "# Desktop Search Department" 
-        }
-      },
-      "rich-text#mobile-responsive-department": {
-        "props": {
-            "text": "# Mobile Search Department"
-        }
+      ]
+  },
+  "search-result-layout.desktop#department": {
+      "children": [
+         "flex-layout.row#categoryresults"
+      ]
+  },
+  "flex-layout.row#categoryresults": {
+      "children": [
+          "flex-layout.col#categoryresults--filter",
+          "flex-layout.col#categoryresults--content"
+      ]
+  },
+  "flex-layout.col#categoryresults--filter": {
+      "children": [
+          "filter-navigator.v3"
+      ]
+  },
+  "flex-layout.col#categoryresults--content":{
+      "children": [
+          "search-content#resultscontent--products"
+      ]
+  },
+  "search-content#resultscontent--products": {
+      "blocks": [
+          "gallery#department",
+          "not-found"
+      ]
+  },
+  "gallery#department": {
+      "props": {
+          "layouts": [
+              {
+                  "name": "general-grid",
+                  "component": "GeneralGrid",
+                  "itemsPerRow": {
+                      "desktop": 4,
+                      "tablet": 1,
+                      "phone": 1
+                  }
+              }
+          ],
+          "GeneralGrid": "product-summary.shelf"
       }
+  },
+  "flex-layout.row#departmentbreadcrumb": {
+      "children": [
+          "flex-layout.col#departmentbreadcrumb"
+      ]
+  },
+  "flex-layout.col#departmentbreadcrumb": {
+      "children": [
+          "breadcrumb.search"
+      ]
+  },
+  "search-result-layout.mobile#department": {
+      "children": [
+          "flex-layout.row#categoryresults"
+      ]
+  }
 }
