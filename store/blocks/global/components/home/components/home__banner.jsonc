@@ -67,21 +67,24 @@
     "title": "banner__opciones--hombre",
     "props": {
       "href": "/{slug}/p",
-      "label": "HOMBRE"
+      "label": "HOMBRE",
+      "blockClass": "links__banner--home"
     }
   },
   "link.product#banner__opciones--mujer": {
     "title": "banner__opciones--mujer",
     "props": {
       "href": "/{slug}/p",
-      "label": "MUJER"
+      "label": "MUJER",
+      "blockClass": "links__banner--home"
     }
   },
   "link.product#banner__opciones--verTodo": {
     "title": "banner__opciones--verTodo",
     "props": {
       "href": "/{slug}/p",
-      "label": "VER TODO"
+      "label": "VER TODO",
+      "blockClass": "links__banner--home"
     }
   }
 }

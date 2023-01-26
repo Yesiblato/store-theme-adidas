@@ -135,3 +135,27 @@
 
 
 } */
+.heading--banner--title {
+    font-weight: 800;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+.heading--home__banner--frase {
+    font-family: Helvetica, sans-serif;
+
+}
+
+.label--banner__frase--hombre {
+color: black;
+text-decoration: none;
+font-weight: 600;
+}
+.label--banner__frase--hombre:hover {
+    color: white;
+    font-weight: 700;    
+}
+
+.heading--videoBanner__frase--rt {
+    font-family: Helvetica, sans-serif;
+    
+}

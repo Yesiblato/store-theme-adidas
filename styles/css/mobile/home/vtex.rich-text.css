@@ -6,13 +6,16 @@
     margin-top: 0em;
     margin-bottom: 0em;
     color: black;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
 }
 
 .heading--banner__frase--rt {
     margin-top: 0em;
     margin-bottom: 0em;
     color: black;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-family: Helvetica, sans-serif;
 
 }
 

@@ -8,18 +8,19 @@
     height: 0em;
     margin-top: 1.5em;
     margin-left: 1em;
+
 }
 
 .flexColChild--mobile__banner--descuentos {
-    width: 12em;
+    /* position: absolute; */
+    width: 16em;
     height: 4em !important;
     margin-top: 1em;
-    background-color: aqua;
 }
-/* 
+
 .flexColChild--mobile__banner--descuentos {
     margin-top: 1em;
-} */
+}
 
 .flexCol--mobileConainer__videoBanner {
    position:relative;
@@ -104,7 +105,26 @@ position: relative;
 
 .flexRow--mobile__descuentos {
     background-color: #ede734;
+    justify-content: center;
     /* margin-top: 2em; */
+}
+
+.flexRowContent--iniciarSesion__opciones{
+    justify-content: center;
+}
+
+.flexRowContent--iniciarSesion__opciones {
+    display: flex;
+    flex-direction: row;
+}
+
+.container--descuentas--frases-rt {
+    justify-content: center;
+}
+
+.flexRowContent--iniciarSesion__opciones {
+    display: flex;
+    flex-direction: row;
 }
 
 .flexCol--mobile__contenedorHistoria {

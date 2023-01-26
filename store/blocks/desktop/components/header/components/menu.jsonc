@@ -2,17 +2,16 @@
   "menu#header_menu": {
     "title": "Header-desktop",
     "children": [
-        "menu-item#mujer",
-        "menu-item#hombre",
-        "menu-item#niños",
-        "menu-item#deportes",
-        "menu-item#mundoAdidas",
-        "menu-item#ofertas"
+      "menu-item#mujer",
+      "menu-item#hombre",
+      "menu-item#niños",
+      "menu-item#deportes",
+      "menu-item#mundoAdidas",
+      "menu-item#ofertas"
     ],
     "props": {
       "blockClass": "header--desktop",
       "orientation": "horizontal"
-
     }
   },
   "menu-item#mujer": {
@@ -31,7 +30,7 @@
     },
     "blocks": [
       "submenu#mujer"
-    //   "submenu#hombre"
+      //   "submenu#hombre"
     ]
   },
   "menu-item#hombre": {
@@ -69,10 +68,9 @@
       "flex-layout.col#contenedor3",
       "flex-layout.col#contenedor4",
       "flex-layout.col#contenedor5"
-
     ],
     "props": {
-        "blockClass": "Contenedorprincipalcolumnas"
+      "blockClass": "Contenedorprincipalcolumnas"
     }
   },
   "flex-layout.col#contenedor1": {
@@ -80,7 +78,7 @@
       "menu#productosDestacados"
     ],
     "props": {
-        "blockClass": "columna--one"
+      "blockClass": "columna--one"
     }
   },
   "flex-layout.col#contenedor2": {
@@ -88,15 +86,15 @@
       "menu#ropa"
     ],
     "props": {
-        "blockClass": "columna--two"
+      "blockClass": "columna--two"
     }
   },
   "flex-layout.col#contenedor3": {
     "children": [
-        "menu#calzado"
+      "menu#calzado"
     ],
     "props": {
-        "blockClass": "columna--three"
+      "blockClass": "columna--three"
     }
   },
   "flex-layout.col#contenedor4": {
@@ -104,7 +102,7 @@
       "menu#accesorios"
     ],
     "props": {
-        "blockClass": "columna--four"
+      "blockClass": "columna--four"
     }
   },
   "flex-layout.col#contenedor5": {
@@ -112,7 +110,7 @@
       "menu#deportes"
     ],
     "props": {
-        "blockClass": "columna--five"
+      "blockClass": "columna--five"
     }
   },
   "submenu#hombre": {
@@ -128,6 +126,13 @@
       "orientation": "horizontal"
     }
   },
+  "image#promocion": {
+    "props": {
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/EOSS_CO_tcm195-866687.jpg",
+      "maxWidth": "120px",
+      "blockClass": "imagen--promocion"
+    }
+  },
   "menu#productosDestacados": {
     "children": [
       "menu-item#category__productosDestacados",
@@ -135,10 +140,14 @@
       "menu-item#category__losMasVendidos",
       "menu-item#category__soloEnAdidas",
       "menu-item#category__exclusivoMiembros",
-      "menu-item#category__proximosLanzamientos"
+      "menu-item#category__proximosLanzamientos",
+      "menu-item#category__HastaCalzadoP",
+      "image#promocion",
+      "menu-item#category__TodosLosProductos"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "menu--menu"
     }
   },
   "menu#calzado": {
@@ -152,7 +161,12 @@
       "menu-item#category__outdoor",
       "menu-item#category__guayos",
       "menu-item#category__Chanclas",
-      "menu-item#category__Originals"
+      "menu-item#category__Originals",
+      "menu-item#category__outdoor",
+      "menu-item#category__guayos",
+      "menu-item#category__Chanclas",
+      "menu-item#category__Originals",
+      "menu-item#category__TodosElCalzado"
     ],
     "props": {
       "orientation": "vertical"
@@ -169,7 +183,8 @@
       "menu-item#category__outdoor",
       "menu-item#category__guayos",
       "menu-item#category__Chanclas",
-      "menu-item#category__Originals"
+      "menu-item#category__Originals",
+      "menu-item#category__TodaLaRopa"
     ],
     "props": {
       "orientation": "vertical"
@@ -186,7 +201,8 @@
       "menu-item#category__outdoor",
       "menu-item#category__guayos",
       "menu-item#category__Chanclas",
-      "menu-item#category__Originals"
+      "menu-item#category__Originals",
+      "menu-item#category__TodosLosAccesorios"
     ],
     "props": {
       "orientation": "vertical"
@@ -203,7 +219,9 @@
       "menu-item#category__outdoor",
       "menu-item#category__guayos",
       "menu-item#category__Chanclas",
-      "menu-item#category__Originals"
+      "menu-item#category__Originals",
+      "menu-item#category__TodosLosDeportes"
+      
     ],
     "props": {
       "orientation": "vertical"
@@ -212,7 +230,7 @@
   "menu-item#category__productosDestacados": {
     "title": "subcategoria--productos destacados",
     "props": {
-        "blockClass": "productosDestacados",
+      "blockClass": "productosDestacados",
       "id": "",
       "type": "custom",
       "itemProps": {
@@ -297,6 +315,7 @@
   "menu-item#category__Calzado": {
     "title": "subcategoria--Calzado",
     "props": {
+      "blockClass": "calzado",
       "id": "",
       "type": "custom",
       "itemProps": {
@@ -308,9 +327,25 @@
       }
     }
   },
+  "menu-item#category__HastaCalzadoP": {
+    "title": "subcategoria--hastaCalzado",
+    "props": {
+      "blockClass": "hastaCalzadoP",
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descuentos en calzados",
+        "text": "Hasta 50% OFF"
+      }
+    }
+  },
   "menu-item#category__HastaCalzado": {
     "title": "subcategoria--hastaCalzado",
     "props": {
+      "blockClass": "hastaCalzado",
       "id": "",
       "type": "custom",
       "itemProps": {
@@ -437,6 +472,7 @@
   "menu-item#category__ropa": {
     "title": "subcategoria-ropa",
     "props": {
+      "blockClass": "ropa",
       "id": "",
       "type": "custom",
       "itemProps": {
@@ -451,6 +487,7 @@
   "menu-item#category__accesorios": {
     "title": "subcategoria-accesorio",
     "props": {
+      "blockClass": "accesorios",
       "id": "",
       "type": "custom",
       "itemProps": {
@@ -465,34 +502,7 @@
   "menu-item#category__deportes": {
     "title": "subcategoria-deportes",
     "props": {
-      "id": "",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "deportes",
-        "text": "DEPORTES"
-      }
-    }
-  },
-  "menu-item#category__accesorios": {
-    "title": "subcategoria-accesorios",
-    "props": {
-      "id": "",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "accesorios",
-        "text": "ACCESORIOS"
-      }
-    }
-  },
-  "menu-item#category__deportes": {
-    "title": "subcategoria-deportes",
-    "props": {
+      "blockClass": "deportes",
       "id": "",
       "type": "custom",
       "itemProps": {
@@ -505,28 +515,6 @@
     }
   },
 
-
-
-
-
-
-
-
-
-//   "menu-item#hombre": {
-//     "props": {
-//       "id": "menu-item-hombre",
-//       "type": "custom",
-//       "highlight": false,
-//       "itemProps": {
-//         "type": "internal",
-//         "href": "#",
-//         "noFollow": false,
-//         "tagTitle": "Shop",
-//         "text": "HOMBRE"
-//       }
-//     }
-//   },
   "menu-item#niños": {
     "props": {
       "id": "menu-item-niños",
@@ -583,6 +571,85 @@
         "text": "OFERTAS"
       }
     }
-  }
+  },
 
+
+  
+  "menu-item#category__TodosLosProductos": {
+    "title": "subcategoria-TodosLosProductos",
+    "props": {
+      "blockClass": "todos1",
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TodosLosProductos",
+        "text": "Todos Los Productos"
+      }
+    }
+  },
+
+    
+  "menu-item#category__TodosElCalzado": {
+    "title": "subcategoria-TodosElCalzado",
+    "props": {
+      "blockClass": "todos2",
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TodosElCalzado",
+        "text": "Todo el Calzado"
+      }
+    }
+  },
+  "menu-item#category__TodaLaRopa": {
+    "title": "subcategoria-deportes",
+    "props": {
+      "blockClass": "todos3",
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TodaLaRopa",
+        "text": "Toda la Ropa"
+      }
+    }
+  },
+  "menu-item#category__TodosLosAccesorios": {
+    "title": "subcategoria-deportes",
+    "props": {
+      "blockClass": "todos4",
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TodosLosAccesorios",
+        "text": "Todos Los Accesorios"
+      }
+    }
+  },
+  "menu-item#category__TodosLosDeportes": {
+    "title": "subcategoria-TodosLosDeportes",
+    "props": {
+      "blockClass": "todos5",
+      "id": "",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TodosLosDeportes",
+        "text": "Todos Los Deportes"
+      }
+    }
+  }
 }

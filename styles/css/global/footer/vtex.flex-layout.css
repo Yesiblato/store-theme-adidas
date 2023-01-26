@@ -85,7 +85,6 @@ align-items: center;
     background-color: black;
     height: 9em;
     display: flex;
-
     padding: 1em 0em;
 
 }
@@ -94,11 +93,14 @@ align-items: center;
     justify-content: space-around;
 }
 
+.flexRowContent--contenedorSeccionTwo  {
+    justify-content: space-around;
+}
+
 .flexRow--contenedorSeccionTwo {
     background-color: #363738;
     height: 9em;
     display: flex;
-    flex-direction: row;
     padding: 1em 0em;
 
 }
@@ -117,5 +119,4 @@ align-items: center;
     /* width: 15em; */
 
 }
-
 

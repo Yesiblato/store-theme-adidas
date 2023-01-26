@@ -17,8 +17,6 @@
       "product-summary-image",
       "product-summary-price",
       "product-summary-name",
-      // "product-rating-inline",
-      // "product-summary-space",
       "add-to-cart-button"
     ]
   },
