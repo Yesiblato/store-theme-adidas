@@ -1,0 +1,24 @@
+.productNameContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: Helvetica, sans-serif;
+    width:100%;
+    padding-left: 0 !important;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    
+    
+}
+
+.brandName {
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+}
+
+.currencyContainer {
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+}

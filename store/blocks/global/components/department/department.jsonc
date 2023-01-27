@@ -1,34 +1,213 @@
 {
-    "store.search#department": {
-        "blocks": [
-          "search-result-layout"
-        ]
-      },
-      "search-result-layout": {
-        "blocks": [
-          "search-result-layout.desktop#department",
-          "search-result-layout.mobile#department",
-          "search-not-found-layout"
-        ]
-      },
-      "search-result-layout.desktop#department": {
-        "children": [
-          "rich-text#desktop-responsive-department"
-        ]
-      },
-      "search-result-layout.mobile#department": {
-        "children": [
-          "rich-text#mobile-responsive-department"
-        ]
-      },
-      "rich-text#desktop-responsive-department": {
-        "props": {
-            "text": "# Desktop Search Department" 
-        }
-      },
-      "rich-text#mobile-responsive-department": {
-        "props": {
-            "text": "# Mobile Search Department"
-        }
+  "store.search#department": {
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
       }
+    },
+    "blocks": [
+      "search-result-layout#department"
+    ]
+  },
+  "search-result-layout#department": {
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#department": {
+    "children": [
+      "flex-layout.row#departmentbreadcrumb",
+      "gallery-layout-switcher",
+      "flex-layout.row#categoryresults"
+    ],
+    "props": {
+      "showFacetQuantity": true,
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "pagination": "show-more",
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#categoryresults": {
+    "children": [
+      "flex-layout.col#contenedor--search"
+    ]
+  },
+  "flex-layout.col#contenedor--search": {
+    "children": [
+      "flex-layout.row#categoryresults--filter",
+      "flex-layout.col#categoryresults--content"
+    ]
+  },
+  "flex-layout.row#categoryresults--filter": {
+    "children": [
+      "search-title.v2",
+      //   "order-by.v2",
+      //   "total-products.v2",
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "seccion--one"
+    }
+  },
+  "filter-navigator.v3": {
+    "blocks": [
+      "sidebar-close-button"
+    ],
+    "props": {
+      "navigationTypeOnMobile": "collapsible",
+      "layout": "phone",
+      "blockClass": "contenedorFilter"
+    }
+  },
+  "flex-layout.col#categoryresults--content": {
+    "children": [
+      "search-content#resultscontent--products"
+    ]
+  },
+  "search-content#resultscontent--products": {
+    "blocks": [
+      "gallery#department",
+      "not-found"
+    ]
+  },
+  "gallery#department": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 2,
+            "phone": 2
+          }
+
+        },
+        {
+            "name": "list",
+            "component": "GeneralList",
+            "itemsPerRow": 1
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#grid",
+      "GeneralList": "product-summary.shelf#list"
+    }
+  },
+  "flex-layout.row#departmentbreadcrumb": {
+    "children": [
+      "flex-layout.col#departmentbreadcrumb"
+    ]
+  },
+  "flex-layout.col#departmentbreadcrumb": {
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "search-result-layout.mobile#department": {
+    "children": [
+      "flex-layout.row#departmentbreadcrumb",
+      "gallery-layout-switcher",
+      "flex-layout.row#categoryresults"
+    ]
+  },
+  "product-summary.shelf#grid": {
+    "children": [
+      //   "add-to-list-btn",
+      //   "product-rating-inline",
+      "product-summary-image",
+      "product-summary-name",
+      "product-price",
+      "add-to-cart-button",
+      "modal-trigger#global__quick--view"
+    ]
+  },
+  "product-summary.shelf#list": {
+    "children": [
+      //   "add-to-list-btn",
+      //   "product-rating-inline",
+      "product-summary-image",
+      "product-summary-name",
+      "product-price",
+      "add-to-cart-button",
+      "modal-trigger#global__quick--view"
+    ]
+  },
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": true,
+      "height": 120,
+      "width": 100
+    }
+  },
+  "product-summary-price": {
+    "props": {
+      "showListPrice": false
+    }
+  },
+  "modal-trigger#global__quick--view": {
+    "children": [
+      "rich-text#global__quick--view--trigger",
+      "modal-layout#global__quick--view--modal"
+    ]
+  },
+  "rich-text#global__quick--view--trigger": {
+    "props": {
+      "text": "Ver el producto",
+      "blockClass": "quick--view--trigger"
+    }
+  },
+  "modal-layout#global__quick--view--modal": {
+    "children": [
+      "flex-layout.row#quick--view__modal"
+    ],
+    "props": {
+      "blockClass": "contenedor__modal--product"
+    }
+  },
+  "flex-layout.row#quick--view__modal": {
+    "children": [
+      "flex-layout.col#view__modal--image",
+      "flex-layout.col#view__modal--info"
+    ],
+    "props": {
+      "blockClass": "Contenedor__secciones--modal",
+      "colGap": 5
+    }
+  },
+  "flex-layout.col#view__modal--image": {
+    "children": [
+      "logo#header__top--logo",
+      "search-title.v2",
+      "product-summary-image"
+    ]
+  },
+  "flex-layout.col#view__modal--info": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "logo#header__top--logo": {
+    "title": "Logo",
+    "props": {
+      "blockClass": "logo--modal--search",
+      "url": "assets/img/Adidas_isologo.svg",
+      "width": 60,
+      "href": "/"
+    }
+  }
+  
 }
