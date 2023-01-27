@@ -1,0 +1,85 @@
+.galleryTitle--layout{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.accordionFilter {
+
+}
+
+.sidebar {
+    width: 25em;
+}
+
+.filterBreadcrumbsText {
+    visibility: hidden;
+}
+
+.filterBreadcrumbsText::after {
+    content: "Filtrar y Ordenar";
+    visibility: visible;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    float: left;
+
+}
+
+.accordionFilterItemTitle {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.filterClearButtonWrapper {
+    visibility: hidden;
+}
+
+.filterClearButtonWrapper::after {
+    visibility: hidden;
+}
+
+.filterButtonsBox {
+    justify-content: center;
+}
+
+.filterApplyButtonWrapper {
+   /* margin-left: -260px; */
+   width: 90%;
+   margin-top: -90px;
+
+}
+
+.container :global(.vtex-button) {
+    color: white;
+    background-color: black;
+    justify-content: flex-start;
+}
+
+.filterPopupButton {
+    border: 1px solid black;
+    padding: 5px 10px;
+    height: 2.4rem;
+    
+}
+
+.filterPopupTitle {
+    visibility: hidden;
+}
+
+.filterPopupTitle::after {
+    content: "Filtrar y ordenar";
+    visibility: visible;
+    float: left;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+.filterApplyButtonWrapper--contenedorFilter :global(.vtex-button) {
+    background-color: black;
+    color: white;
+}
