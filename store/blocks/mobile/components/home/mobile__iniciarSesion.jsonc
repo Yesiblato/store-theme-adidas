@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#mobile__home__iniciarSesion": {
+        "title": "iniciar Sesion",
+        "children": [
+            "flex-layout.row#mobile__iniciarSesion"
+        ],
+        "props": {
+            "blockClass": "contenedorInciarSesion",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#mobile__iniciarSesion": {
+        "title": "contenedor--iniciarSesion",
+        "children": [
+            "flex-layout.row#mobile__contenedor--iniciarSesion",
+            "flex-layout.row#mobile__contenedor--tuCarrito"
+                       
+        ],
+        "props": {
+            "blockClass": "iniciarSesion__opciones"
+        }
+    },
+    "flex-layout.row#mobile__contenedor--iniciarSesion": {
+        "title": "contenedor--tuCarrito",
+        "children": [
+            "rich-text#iniciarSesion"
+        ],
+        "props": {
+            "blockClass": "contenedor--iniciarSesion"
+
+        }
+    },
+    "flex-layout.row#mobile__contenedor--tuCarrito": {
+        "children": [
+            "rich-text#tuCarrito"
+        ],
+        "props": {
+            "blockClass": "contenedor--tuCarrito"
+        }
+    },
+
+    "rich-text#iniciarSesion": {
+        "props": {
+            "blockClass": "iniciarSesion--rt",
+            "text": "Iniciar Sesión"
+
+        }
+
+    },
+    "rich-text#tuCarrito": {
+        "props": {
+            "blockClass": "tuCarrito--rt",
+            "text": "Tu Carrito"
+        }
+    }
+}

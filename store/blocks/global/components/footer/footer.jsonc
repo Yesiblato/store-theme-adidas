@@ -1,0 +1,743 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop--seccion1",
+      "flex-layout.row#footer-desktop--seccion2"
+    ],
+    "props": {
+      "blockClass": "desktopAll"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-mobile"
+    ]
+  },
+  "flex-layout.row#footer-desktop--seccion1": {
+    "children": [
+      "flex-layout.col#footer__container--col-one",
+      "flex-layout.col#footer__container--col-two",
+      "flex-layout.col#footer__container--col-three",
+      "flex-layout.col#footer__container--col-four",
+      "flex-layout.col#footer__container--col-five"
+    ],
+    "props": {
+      "blockClass": "footer__contenedor--desktop"
+    }
+  },
+  "flex-layout.col#footer__container--col-one": {
+    "children": [
+      "rich-text#footer__productos",
+      "link.product#opciones--Calzado",
+      "link.product#opciones--Tennis",
+      "link.product#opciones--Ropa",
+      "link.product#opciones--Accesorios",
+      "link.product#opciones--Guayos",
+      "link.product#opciones--Rompevientos",
+      "link.product#opciones--Sudaderas",
+      "rich-text#footer__vacio1",
+      "link.product#opciones--Novedades",
+      "link.product#opciones--BlackFriday",
+      "link.product#opciones--Outlet",
+      "link.product#opciones--HotSale",
+      "link.product#opciones--CyberLunes",
+      "rich-text#footer__vacio2",
+      "link.product#opciones--adiClub",
+      "link.product#opciones--adidasEnCasa",
+      "link.product#opciones--adidasApp",
+      "link.product#opciones--adidasRunners"
+    ],
+    "props": {
+      "blockClass": "columnas"
+    }
+  },
+  "rich-text#footer__productos": {
+    "props": {
+      "text": "PRODUCTOS",
+      "blockClass": "titulo",
+      "font": "heading-5"
+    }
+  },
+  "link.product#opciones--Calzado": {
+    "title": "opciones--Calzado",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Calzado",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Tennis": {
+    "title": "opciones--Tennis",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Tennis",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Ropa": {
+    "title": "opciones--Ropa",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Ropa",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Accesorios": {
+    "title": "opciones--Accesorios",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Accesorios",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Guayos": {
+    "title": "opciones--Guayos",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Guayos",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Rompevientos": {
+    "title": "opciones--Rompevientos",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Rompevientos",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Sudaderas": {
+    "title": "opciones--Sudaderas",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Sudaderas",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Novedades": {
+    "title": "opciones--Novedades",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Novedades",
+      "font": "small"
+    }
+  },
+  "rich-text#footer__vacio1": {
+    "props": {
+      "text": " ",
+      "blockClass": "vacio1"
+    }
+  },
+  "link.product#opciones--BlackFriday": {
+    "title": "opciones--BlackFriday",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Black Friday",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Outlet": {
+    "title": "opciones--Outlet",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Outlet",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--HotSale": {
+    "title": "opciones--HotSale",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Hot Sale",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--CyberLunes": {
+    "title": "opciones--CyberLunes",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Cyber Lunes",
+      "font": "small"
+    }
+  },
+  "rich-text#footer__vacio2": {
+    "props": {
+      "text": " ",
+      "blockClass": "vacio2"
+    }
+  },
+  "link.product#opciones--adiClub": {
+    "title": "opciones--adiClub",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "adiClub",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--adidasEnCasa": {
+    "title": "opciones--adidasEnCasa",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "adidas En Casa",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--adidasApp": {
+    "title": "opciones--adidasApp",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "adidasApp",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--adidasRunners": {
+    "title": "opciones--adidasRunners",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "adidas Runners",
+      "font": "small"
+    }
+  },
+  "flex-layout.col#footer__container--col-two": {
+    "children": [
+      "rich-text#footer__Deportes",
+      "link.product#opciones--SeleccionColombia",
+      "link.product#opciones--Millonarios",
+      "link.product#opciones--Futbol",
+      "link.product#opciones--Ciclismo",
+      "link.product#opciones--Running",
+      "link.product#opciones--Basketball",
+      "link.product#opciones--Training",
+      "rich-text#footer__Colecciones",
+      "link.product#opciones--Ultraboost",
+      "link.product#opciones--Originals",
+      "link.product#opciones--Forum",
+      "link.product#opciones--StanSmith",
+      "link.product#opciones--adiColor",
+      "link.product#opciones--Superstar"
+    ],
+    "props": {
+      "blockClass": "columnas"
+    }
+    
+  },
+  "rich-text#footer__Deportes": {
+    "props": {
+      "text": "DEPORTE",
+      "blockClass": "titulo",
+      "font": "heading-5"
+    }
+  },
+  "link.product#opciones--SeleccionColombia": {
+    "title": "opciones--SeleccionColombia",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Selección Colombia",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Millonarios": {
+    "title": "opciones--Millonarios",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Millonarios",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Futbol": {
+    "title": "opciones--Futbol",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Fútbol",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Ciclismo": {
+    "title": "opciones--Ciclismo",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Ciclismo",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Running": {
+    "title": "opciones--Running",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Running",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Basketball": {
+    "title": "opciones-Basketball",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Basketball",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Training": {
+    "title": "opciones--Training",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Training",
+      "font": "small"
+    }
+  },
+  "rich-text#footer__Colecciones": {
+    "props": {
+      "text": "COLECCIONES",
+      "blockClass": "titulo",
+      "font": "heading-5"
+    }
+  },
+  "link.product#opciones--Ultraboost": {
+    "title": "opciones--Ultraboost",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Ultraboost",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Originals": {
+    "title": "opciones--Originals",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Originals",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Forum": {
+    "title": "opciones--Forum",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Forum",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--StanSmith": {
+    "title": "opciones--StanSmith",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Stan Smith",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--adiColor": {
+    "title": "opciones--adiColor",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "adiColor",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Superstar": {
+    "title": "opciones--Superstar",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Superstar",
+      "font": "small"
+    }
+  },
+  "flex-layout.col#footer__container--col-three": {
+    "children": [
+      "rich-text#footer__Asistencia",
+      "link.product#opciones--DudasFrecuentes",
+      "link.product#opciones--GuiaDeTallas",
+      "link.product#opciones--RealizarPedidos",
+      "link.product#opciones--ProductosAdidas",
+      "link.product#opciones--VentasPorWhatsapp",
+      "link.product#opciones--Pago",
+      "link.product#opciones--Envio",
+      "link.product#opciones--SolicitarMiDevolucion",
+      "link.product#opciones--Devoluciones",
+      "link.product#opciones--CambioEnTiendas",
+      "link.product#opciones--ComoUsarNuestroSitio",
+      "link.product#opciones--ComoSaberLaTalla",
+      "link.product#opciones--MapaDelSitio"
+    ],
+    "props": {
+      "blockClass": "columnas"
+    }
+  },
+  "rich-text#footer__Asistencia": {
+    "props": {
+      "text": "ASISTENCIA",
+      "blockClass": "titulo",
+      "font": "heading-5"
+    }
+  },
+  "link.product#opciones--DudasFrecuentes": {
+    "title": "opciones--DudasFrecuentes",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "DudasFrecuentes",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--GuiaDeTallas": {
+    "title": "opciones--GuiaDeTallas",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "GuiaDeTallas",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--RealizarPedidos": {
+    "title": "opciones--RealizarPedidos",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Realizar Pedidos",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--ProductosAdidas": {
+    "title": "opciones--ProductosAdidas",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Productos Adidas",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--VentasPorWhatsapp": {
+    "title": "opciones--VentasPorWhatsapp",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Ventas Por Whatsapp",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Pago": {
+    "title": "opciones--Pago",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Pago",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Envio": {
+    "title": "opciones--Envio",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Envio",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--SolicitarMiDevolucion": {
+    "title": "opciones--SolicitarMiDevolucion",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Solicitar Mi Devolución",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Devoluciones": {
+    "title": "opciones--Devoluciones",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Devoluciones",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--CambioEnTiendas": {
+    "title": "opciones--CambioEnTiendas",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "CambioEnTiendas",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--ComoUsarNuestroSitio": {
+    "title": "opciones--ComoUsarNuestroSitio",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Como Usar Nuestro Sitio",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--ComoSaberLaTalla": {
+    "title": "opciones--ComoSaberLaTalla",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Como Saber La Talla",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--MapaDelSitio": {
+    "title": "opciones--MapaDelSitio",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Mapa Del Sitio",
+      "font": "small"
+    }
+  },
+  "flex-layout.col#footer__container--col-four": {
+    "children": [
+      "rich-text#footer__informacion",
+      "link.product#opciones--AcercaDe",
+      "link.product#opciones--Trabaja",
+      "link.product#opciones--Prensa",
+      "rich-text#footer__Tiendas",
+      "link.product#opciones--Buscador"
+    ],
+    "props": {
+      "blockClass": ["columnas","informacion"]
+    }
+  },
+  "rich-text#footer__informacion": {
+    "props": {
+      "text": "**INFORMACIÓN DE LA EMPRESA**",
+      "blockClass": ["titulo", "informacion"],
+      "font": "heading-4"
+    }
+  },
+  "link.product#opciones--AcercaDe": {
+    "title": "opciones--AcercaDe",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Acerca De adidas",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Trabaja": {
+    "title": "opciones--Trabaja",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Trabaja En nuestro Equipo",
+      "font": "small"
+    }
+  },
+  "link.product#opciones--Prensa": {
+    "title": "opciones--Prensa",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Prensa",
+      "font": "small"
+    }
+  },
+  "rich-text#footer__Tiendas": {
+    "props": {
+      "text": "TIENDAS",
+      "blockClass": ["titulo", "informacion"],
+      "font": "heading-5"
+    }
+  },
+  "link.product#opciones--Buscador": {
+    "title": "opciones--Buscador",
+    "props": {
+      "blockClass": "opciones",
+      "href": "/{slug}/p",
+      "label": "Buscador",
+      "font": "small"
+    }
+  },
+  "flex-layout.col#footer__container--col-five": {
+    "children": [
+      "rich-text#footer__siguenos",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": ["columnas", "siguenos"]
+    }
+  },
+  "rich-text#footer__siguenos": {
+    "props": {
+      "text": "SÍGUENOS",
+      "blockClass": "titulo",
+      "font": "heading-5"
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://facebook.com/foo",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://instragram.com/foo",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://twitter.com/foo",
+          "name": "Twitter"
+        },
+        {
+          "url": "https://pinterest.com/foo",
+          "name": "Pinterest"
+        },
+        {
+          "url": "https://tiktok.com/foo",
+          "name": "TikTok"
+        },
+        {
+          "url": "https://youtube.com/foo",
+          "name": "youTube"
+        }
+      ],
+      "blockClass": "container__redesSociales"
+    }
+  },
+
+  "flex-layout.row#footer-desktop--seccion2": {
+    "children": [
+      "flex-layout.col#secciones"
+    ],
+    "props": {
+        "blockClass": "secciones1y2"
+    }
+  },
+  "flex-layout.col#secciones": {
+    "children": [
+      "flex-layout.row#footer-desktop--seccion2.1",
+      "flex-layout.col#footer-desktop--seccionTwo-two"
+    ],
+    "props": {
+        "blockClass": "contenedor__secciones"
+    }
+  },
+  "flex-layout.row#footer-desktop--seccion2.1": {
+    "children": [
+      "rich-text#item1",
+      "rich-text#item2",
+      "rich-text#item3",
+      "rich-text#item4",
+      "rich-text#item5",
+      "rich-text#item6",
+      "rich-text#item7",
+      "rich-text#item8"
+    ],
+    "props": {
+        "blockClass": "container__seccionTwo-one"
+    }
+  },
+  "flex-layout.col#footer-desktop--seccionTwo-two": {
+    "children": [
+      "rich-text#a"
+    ],
+    "props": {
+        "blockClass": "container__seccionTwo-two"
+    }
+  },
+  "rich-text#item1": {
+    "props": {
+      "text": "Nuestros Datos",
+      "blockClass": "richFooter",
+      "font": "mini"
+    }
+  },
+  "rich-text#item2": {
+    "props": {
+      "text": "Terminos y Condicoines",
+      "blockClass": "richFooter",
+      "font": "mini"
+    }
+  },
+  "rich-text#item3": {
+    "props": {
+      "text": "Políticas de Privacidad",
+      "blockClass": "richFooter",
+      "font": "mini"
+    }
+  },
+  "rich-text#item4": {
+    "props": {
+      "text": "Términos #YESadidas",
+      "blockClass": "richFooter",
+      "font": "mini"
+    }
+  },
+  "rich-text#item5": {
+    "props": {
+      "text": "Seleccionar Pais",
+      "blockClass": "richFooter",
+      "font": "mini"
+    }
+  },
+  "rich-text#item6": {
+    "props": {
+      "text": "Aviso de Privacidad",
+      "blockClass": "richFooter",
+      "font": "mini"
+    }
+  },
+  "rich-text#item7": {
+    "props": {
+      "text": "Uso del sitio",
+      "blockClass": "richFooter",
+      "font": "mini"
+    }
+  },
+  "rich-text#item8": {
+    "props": {
+      "text": "SIC",
+      "blockClass": "richFooterSic",
+      "font": "mini"
+    }
+  },
+  "rich-text#a": {
+    "props": {
+      "text": "© 2022 adidas Colombia LTDA",
+      "blockClass": "richFooterA",
+      "font": "mini"
+    }
+  }
+
+  // "accepted-payment-methods": {
+  //   "props": {
+  //     "paymentMethods": ["mastercard", "visa", "diners club"]
+  //   }
+  // }
+}

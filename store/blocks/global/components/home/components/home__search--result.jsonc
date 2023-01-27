@@ -1,0 +1,54 @@
+{
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": [
+      "rich-text#test",
+      "flex-layout.row#home__result--desktop"
+    ]
+  },
+  "search-result-layout.mobile#home__search--mobile": {
+    "children": [
+      "rich-text#test"
+    //   "flex-layout.row#home__result--mobile"
+    ]
+  },
+  "flex-layout.row#home__result--desktop": {
+    "children": [
+      "flex-layout.col#home__result--search--desktop"
+    ]
+  },
+  "flex-layout.col#home__result--search--desktop": {
+    "children": [
+        "search-content#home__result--search"
+    ]
+  },
+  "search-content#home__result--search": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+
+  "rich-text#test": {
+    "props": {
+      "text": "HOla search"
+    }
+  }
+}

@@ -1,37 +1,138 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
- 
-.styledLinkContent--Menu-item-mujer {
-   /* background-color: red; */
 
-}
 
 .styledLinkContent--Menu-item-mujer {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .styledLinkContent--Menu-item-hombre {
-    font-weight: 600;
+    font-weight: 700;
+}
+
+.styledLinkContent--Menu-item-niño {
+    font-weight: 700;
 }
 
 .menuItem--Menu-item-mujer--isOpen {
-
     border-bottom: 2px solid black;
 }
 
 .submenuWrapper {
     background-color:white;
     width: 100%;
-    height: 75%;
+    height: 48%;
     position: fixed;
-    /* display: grid;
-    padding-left: 10%;
-    grid-template-columns: repeat(5, 1fr); */
-
+    border-top: 1px solid #ebeff1;
 }
 
 .menuItem--Menu-item-mujer--isOpen {
     border-bottom: 1px solid black !important;
+}
+
+.styledLinkContent--productosDestacados {
+    margin-top: 1em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+.styledLinkContent--ropa {
+    margin-top: 1em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.styledLinkContent--calzado {
+    margin-top: 1em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.styledLinkContent--accesorios {
+    margin-top: 1em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.styledLinkContent--deportes {
+    margin-top: 1em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.styledLinkContent--hastaCalzado {
+    color: red;
+    font-weight: 700;
+}
+
+.styledLinkContent--hastaCalzadoP {
+    color: red;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.styledLinkContent--todos {
+    margin-top: 5em;
+    color: black;
+    font-weight: 700;
+    margin-top: 3em;
+    width: 100%;
+    /* border-top: 1.5px solid #ebeff1; */
+}
+
+.styledLinkContent--todos1 {
+    margin-top: 40px;
+    color: black;
+    font-weight: 700;
+    margin-top: 3em;
+}
+.styledLinkContainer--todos1 {
+    margin-top: 6em;
+}
+
+.styledLinkContent--todos2 {
+    margin-top: 5em;
+    color: black;
+    font-weight: 700;
+    margin-top: 3em;
+    width: 100%;
+    /* border-top: 1.5px solid #ebeff1; */
+}
+.styledLinkContainer--todos2 {
+    margin-top: 0.5em;
+    
+}
+
+.styledLinkContent--todos3 {
+    margin-top: 5em;
+    color:black;
+    font-weight: 700;
+    margin-top: 3em;
+    width: 100%;
+    /* border-top: 1.5px solid #ebeff1; */
+}
+.styledLinkContainer--todos3 {
+    margin-top: 6.5em;
+}
+
+.styledLinkContent--todos4 {
+    margin-top: 5em;
+    color: black;
+    font-weight: 700;
+    margin-top: 3em;
+    width: 100%;
+    /* border-top: 1.5px solid #ebeff1; */
+}
+.styledLinkContainer--todos4 {
+    margin-top: 6.5em;
+}
+
+.styledLinkContent--todos5 {
+    margin-top: 5em;
+    color: black;
+    font-weight: 700;
+    margin-top: 3em;
+    width: 100%;
+    /* border-top: 1.5px solid #ebeff1; */
+}
+.styledLinkContainer--todos5 {
+    margin-top: 6.5em;
 }

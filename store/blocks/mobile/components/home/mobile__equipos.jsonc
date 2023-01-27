@@ -43,14 +43,14 @@
             "image#mobile__home__container--equipo10"
         ],
         "props": {
-            "blockClass": "seccionImagenEquipos"
+            "blockClass": "mobile__seccionImagenEquipos"
             
         }
     },
     "rich-text#mobile__home__titleEquipos": {
         "title": "mobile__home__titleEquipos",
         "props": {
-            "blockClass": "encuentraEquipo",
+            "blockClass": "mobile__encuentraEquipo",
             "text": "Encuentra a tu equipo",
             "textAlignment": "CENTER",
             "textPosition": "LEFT"

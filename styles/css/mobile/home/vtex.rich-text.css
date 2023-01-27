@@ -6,13 +6,16 @@
     margin-top: 0em;
     margin-bottom: 0em;
     color: black;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
 }
 
 .heading--banner__frase--rt {
     margin-top: 0em;
     margin-bottom: 0em;
     color: black;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-family: Helvetica, sans-serif;
 
 }
 
@@ -132,3 +135,34 @@ margin-bottom: 1.5em;
     left: 30%;
 }
 
+.headingLevel2--parrafo1 {
+    margin-top: 2em;
+    width: auto;
+    
+}
+
+
+.headingLevel2--mobile__parrafo3 {
+    width: auto;
+    margin: 0;
+    margin-bottom: 0em;
+    height: 2em;
+}
+
+/* .paragraph--mobile__parrafo4 {
+    margin-bottom: 1em;
+} */
+
+.container--iniciarSesion--rt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.container--tuCarrito--rt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}

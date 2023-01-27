@@ -25,6 +25,7 @@
 
 .flexRow--contenedorConoceMas {
     margin-top: 70px;
+    position: relative;
 }
 
 .flexRow--contenedorHistoria {
@@ -47,6 +48,7 @@
     bottom: 25%;
     left: 8%;
 }
+
 /* 
 .flexColChild--container__banner--items--one {
     
@@ -86,3 +88,11 @@
     justify-content: space-between;
     align-content: center;
 }
+
+.flexRowContent--seccionImagenEquipos {
+    display: flex;
+    flex-direction: row;
+    /* width: 80%; */
+
+}
+

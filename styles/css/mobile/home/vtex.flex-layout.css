@@ -4,31 +4,33 @@
 
 .flexCol--mobile__banner--descuentos {
     position: absolute;
-    top: 60%;
+    top: 57%;
     height: 0em;
     margin-top: 1.5em;
     margin-left: 1em;
+
 }
 
 .flexColChild--mobile__banner--descuentos {
-    width: 30em;
+    /* position: absolute; */
+    width: 16em;
     height: 4em !important;
     margin-top: 1em;
 }
-/* 
+
 .flexColChild--mobile__banner--descuentos {
     margin-top: 1em;
-} */
+}
 
 .flexCol--mobileConainer__videoBanner {
    position:relative;
 }
 
 .flexCol--mobile__videoBanner--items {
-    width: 20em;
+    width: 12em;
     margin-left: 2em;
     position: absolute;
-    top: 40%;
+    top: 30%;
     height: auto;
 }
 
@@ -41,11 +43,17 @@
     background-color: #ebedee;
 }
 
-.flexRowContent--seccionImagenEquipos {
+.flexRowContent--mobileseccionImagenEquipos {
     margin-left: 1em;
     width: 75%;
 
 }
+
+/* .flexRowContent--seccionImagenEquipos {
+    margin-left: 1em;
+    width: 75%;
+
+} */
 
 .flexRowContent--mobile__novedadesSecciones {
     margin-top: 4em;
@@ -53,7 +61,7 @@
 }
 
 .flexRowContent--mobile__novedadesItems {
-    width: 100%;
+    width: 12em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -97,12 +105,36 @@ position: relative;
 
 .flexRow--mobile__descuentos {
     background-color: #ede734;
-    margin-top: 2em;
+    justify-content: center;
+    /* margin-top: 2em; */
+}
+
+.flexRowContent--iniciarSesion__opciones{
+    justify-content: center;
+}
+
+.flexRowContent--iniciarSesion__opciones {
+    display: flex;
+    flex-direction: row;
+}
+
+.container--descuentas--frases-rt {
+    justify-content: center;
+}
+
+.flexRowContent--iniciarSesion__opciones {
+    display: flex;
+    flex-direction: row;
 }
 
 .flexCol--mobile__contenedorHistoria {
     margin-top: 3em;
     background-color: #f5f5e5;
+}
+
+.flexColChild--mobile__contenedorHistoria {
+    width: 90%;
+    padding-left: 2em;
 }
 
 .flexRowContent--mobile__Container--opinion--fl {
@@ -119,3 +151,21 @@ position: relative;
 background-color: white;
 margin-top: 1em;
 }
+
+.flexRow--containe__volverArriba {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2.5em;
+
+}
+
+.flexRowContent--contenedorInciarSesion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3em;
+    background-color: black;
+}
+
+

@@ -1,0 +1,8 @@
+.socialNetworksContainer--container__redesSociales {
+
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+

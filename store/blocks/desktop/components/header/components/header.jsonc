@@ -1,226 +1,197 @@
 {
-    "header": {
-        "title": "Header",
-        "blocks": [
-            "header-layout.desktop",
-            "header-layout.mobile"
-        ]
-    },
-    // "header.full": {
-    //     "title": "Header",
-    //     "blocks": [
-    //         "header-layout.desktop",
-    //         "header-layout.mobile"
-    //     ]
-    // },
-    "header-layout.desktop": {
-        "title": "Header Desktop",
-        "children": [
-            "header-row#header__top1",
-            "header-row#header__top2"
-       ]
-    },
-    "header-layout.mobile": {
-        "title": "Header Mobile",
-        "children": [
-            "header-row#header__top1",
-            "header-row#header__top2"
-        ]
-    },
-    "header-row#header__top1": {
-        "children": [
-            "header-force-center#header--top1"
-        ],
-        "props": {
-            "blockClass": "header__top1",
-            "fullWidth": true
+  "header": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "title": "Header.full",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": [
+      "header-row#header__top1",
+      "header-row#header__top1-1",
+      "header-row#header__top2"
+    ]
+  },
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "children": [
+      "header-row#header__top1",
+      "header-row#header__top2"
+    ]
+  },
+  "header-row#header__top1": {
+    "title": "header__top1",
+    "children": [
+      "rich-text#envíos"
+    ],
+    "props": {
+      "blockClass": "header__top1",
+      "fullWidth": true
+    }
+  },
+  "header-row#header__top1-1": {
+    "title": "header__top1-1",
+    "children": [
+      "rich-text#header__top1-1--opcion1",
+      "rich-text#header__top1-1--opcion2",
+      "rich-text#header__top1-1--opcion3",
+      "rich-text#header__top1-1--opcion4"
+    ],
+    "props": {
+      "title": "header__top1-1",
+      "blockClass": "header__top1-1",
+      "fullWidth": true
+    }
+  },
+  "rich-text#header__top1-1--opcion1": {
+    "title": "top1-1--opcion",
+    "props": {
+      "text": "ayuda",
+      "blockClass": "top1-1__opcion",
+      "href": "/"
+    }
+  },
+  "rich-text#header__top1-1--opcion2": {
+    "props": {
+      "text": "cambios y devoluciones",
+      "blockClass": "top1-1__opcion"
+    }
+  },
+  "rich-text#header__top1-1--opcion3": {
+    "props": {
+      "text": "seguimientos de pedidos",
+      "blockClass": "top1-1__opcion"
+    }
+  },
+  "rich-text#header__top1-1--opcion4": {
+    "props": {
+      "text": "únete al club",
+      "blockClass": "top1-1__opcion"
+    }
+  },
 
-        }
-    },
+  "header-row#header__top2": {
+    "children": [
+      "logo#header__top--logo",
+      "header-spacer",
+      "menu#header_menu",
+      "header-spacer",
+      "search-bar#header__desktop",
+      "modal-trigger#header__top2--login",
+      // "icon#desktop__user-icon",
+      "icon#desktop__heart",
+      "minicart.v2#desktop"
+    ],
+    "props": {
+      "title": "header__full",
+      "blockClass": "header__top2",
+      "fullWidth": true
+    }
+  },
+  "rich-text#envíos": {
+    "props": {
+      "blockClass": "header__enviosGratis--rt",
+      "text": "Hasta 50% de Descuentos"
+    }
+  },
+  "logo#header__top--logo": {
+    "title": "Logo",
+    "props": {
+      "url": "assets/img/Adidas_isologo.svg",
+      "width": 70,
+      "href": "/"
+    }
+  },
+  "modal-trigger#header__top2--login": {
+    "children": [
+      "icon#desktop__user-icon",
+      "modal-layout#header__top2--login"
+    ]
+  },
+  "rich-text#header__top2--login": {
+    "props": {
+      "text": "Login"
+    }
+  },
+  "modal-layout#header__top2--login": {
+    "children": [
+      "login-content#desktop"
+    ]
+  },
+  "login-content#desktop": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
 
-    "header-row#header__top2": {
-        "children": [
-            "logo#header__top--logo",
-            "header-spacer",
-            "menu#header_menu",
-            // "drawer#header__mobile--menu",
-            "header-spacer",
-            "search-bar",
-            // "login-content",
-            "modal-trigger#header__top2--login",
-            "minicart.v2"
-
-        ],
-        "props": {
-            "title": "header__full",
-            "blockClass": "header__top2",
-            "fullWidth": true
-        }
-    },
-    "rich-text#envíos": {
-        "props": {
-            "blockClass": "header__enviosGratis--rt",
-            "text": "Hasta 50% de Descuentos"
-        }
-    },
-    "logo#header__top--logo": {
-        "title": "Logo",
-        "props": {
-            "url": "assets/img/Adidas_isologo.svg",
-            "width": 70,
-            "href": "/"
-        }
-    },
-    "modal-trigger#header__top2--login": {
-        "children": [
-            "rich-text#header__top2--login",
-            "modal-layout#header__top2--login"
-        ]
-    },
-    "rich-text#header__top2--login": {
-        "props": {
-            "text": "Login"
-        }
-    },
-    "modal-layout#header__top2--login": {
-        "children": [
-            "login-content"
-        ]
-    },
-    "login-content": {
-        "props": {
-          "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Acess Code LOG-IN",
-          "emailPlaceholder": "e-mail",
-          "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true,
-          "hideIconLabel": true
-        }
-      },
-      
-        "search-bar": {
-          "blocks": ["autocomplete-result-list.v2"],
-          "props": {
-            "openAutocompleteOnFocus": true,
-            "maxWidth": "10%"
-          }
-        }
-      ,
-    "header-force-center#header--top1": {
-        "children": [
-            "rich-text#envíos"
-        ],
-        "props": {
-            "blockClass": "rich-text-center"
-        }
+  "search-bar#header__desktop": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxWidth": "15%"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary"
+    ]
+  },
+  "icon#desktop__bag-shopping": {
+    "props": {
+      "id": "surface1",
+      "size": 40,
+      "blockClass": "bagShopping",
+      "width": "30%",
+      "viewBox": "0 0 10 10"
 
     }
-    // "drawer#header__mobile--menu": {
-    //     "children": [
-    //         // "menu#header__menu"
-    //     ],
-    //         "blocks": [
-    //             // "drawer-trigger"
-    //         ]
-        
-    // }
-    // "drawer-trigger": {
-    //     "children": [
-    //         "rich-text#mujer"
-    //     ]
-    // },
-    // "rich-text#mujer": {
-    //     "props": {
-    //         "blockClass": "opcion__mujer",
-    //         "text": "MUJER"
-    //     }
-    // },
-    // "menu#header__menu": {
-    //     "children": [
-    //         "menu-item#department__one",
-    //         "menu-item#department__two"
-    //     ],
-    //     "props": {
-    //         "orientation": "vertical"
-    //     }
-    // },
-    // "menu-item#department__one": {
-    //     "props": {
-    //         "id": "department__one",
-    //         "type": "custom",
-    //         "itemProps": {
-    //             "type": "external",
-    //             "href": "https://www.google.com/",
-    //             "noFollow": true,
-    //             "tagTitle": "Google Title",
-    //             "text": "Google"
-    //         }
+  },
+  "icon#desktop__heart": {
+    "props": {
+      "id": "mpa-heart",
+      "size": 40,
+      "blockClass": "desktop-heart",
+      "width": "30%",
+      "viewBox": "0 0 25 25"
 
-    //     },
-    //     "blocks": ["submenu.accordion#department__one"]
-    // },
-    // "submenu.accordion#department__one": {
-    //     "children": [
-    //         "menu#department__one"
-    //     ]
-    // },
-    // "menu#department__one": {
-    //     "children": [
-    //         "menu-item#category__one",
-    //         "menu-item#category__two"
-    //     ],
-    //     "props": {
-    //         "orientation": "vertical"
-    //     }
-    // },
+    }
+  },
+  "icon#desktop__user-icon": {
+    "props": {
+      "id": "user-icon",
+      "size": 30,
+      "blockClass": "desktop-heart",
+      "width": "30%",
+      "viewBox": "0 0 16 16"
 
-    // "menu-item#category__one": {
-    //     "props": {
-    //         "id": "category-one",
-    //         "type": "custom",
-    //         "itemProps": {
-    //             "type": "external",
-    //             "href": "/",
-    //             "noFollow": true,
-    //             "tagTitle": "Google Meet",
-    //             "text": "Google Meet"
-    //         }
+    }
+  }
 
-    //     }
-    // },
-    // "menu-item#category__two": {
-    //     "props": {
-    //         "id": "category-two",
-    //         "type": "custom",
-    //         "itemProps": {
-    //             "type": "external",
-    //             "href": "/",
-    //             "noFollow": true,
-    //             "tagTitle": "Google Drive",
-    //             "text": "Google Drive"
-    //         }
+ 
 
-    //     }
-    // },
+  
 
-    // "menu-item#department__two": {
-    //     "props": {
-    //         "id": "department__one",
-    //         "type": "custom",
-    //         "itemProps": {
-    //             "type": "external",
-    //             "href": "https://www.bing.com/?setlang=es",
-    //             "noFollow": true,
-    //             "tagTitle": "Bing Title",
-    //             "text": "Bing"
-    //         }
+  // "flex-layout.col#header__corazon": {
+  //     "children": [
+  //       "image#header__corazon"
+  //     ]
+  // },
+  // "image#header__corazon": {
+  //   "props": {
+  //     "src": "assets/img/favorite_FILL0_wght400_GRAD0_opsz48.png"
 
-    //     }
-    // }
-
-
-
-
-
+  //   }
+  // }
 }
