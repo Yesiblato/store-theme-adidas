@@ -33,10 +33,11 @@
   "flex-layout.col#mobile__container__historia--parrafo1": {
     "title": "mobile__Container--historia--parrafo1",
     "children": [
-      "rich-text#historia__parrafo1"
+      "rich-text#mobile__historia__parrafo1"
     ],
     "props": {
-      "blockClass": "historia__parrafo1"
+      "blockClass": "mobile__historia__parrafo1",
+      "preventVerticalStretch": true
     }
   },
 
@@ -46,13 +47,20 @@
       "rich-text#mobile__historia__parrafo2.1",
       "rich-text#mobile__historia__parrafo2.2"
     ],
-    "props": {}
+    "props": {
+      "preventVerticalStretch": true
+
+    }
   },
   "flex-layout.col#mobile__container__historia--parrafo3": {
     "title": "mobile__container__historia--parrafo3",
     "children": [
       "rich-text#mobile__historia__parrafo3"
-    ]
+    ],
+    "props": {
+      "blockClass": "mobile__parrafo3--contendor",
+      "preventVerticalStretch": true
+    }
   },
   "flex-layout.col#mobile__container__historia--parrafo4": {
     "title": "mobile__container__historia--parrafo4",
@@ -60,13 +68,15 @@
       "rich-text#mobile__historia__parrafo4.1",
       "rich-text#mobile__historia__parrafo4.2"
     ],
-    "props": {}
+    "props": {
+      "preventVerticalStretch": true
+    }
   },
   "rich-text#mobile__historia__parrafo1": {
     "title": "mobile__historia--parrafo1",
     "props": {
-      "blockClass": "mobile__parrafo1--mb",
-      "text": "HISTORIA, MODA Y ROPA DEPORTIVA ADIDAS DESDE 1924"
+      "blockClass": "mobile__parrafo1",
+      "text": "## HISTORIA, MODA Y ROPA DEPORTIVA ADIDAS DESDE 1924"
     }
   },
   "rich-text#mobile__historia__parrafo2.1": {

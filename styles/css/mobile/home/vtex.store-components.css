@@ -10,3 +10,9 @@
 .stretchChildrenWidth {
     width: 0em;
 }
+
+
+.imageElement--mobile__videoBanner__flecha--image {
+    filter: invert(1);
+    padding-right: 1em; 
+}

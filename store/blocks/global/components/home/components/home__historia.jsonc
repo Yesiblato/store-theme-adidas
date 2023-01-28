@@ -70,7 +70,7 @@
         "title": "historia__parrafo1",
         "props": {
  
-            "blockClass": "parrafo1",
+            "blockClass": "parrafo1-desktop",
             "text": "## HISTORIA, MODA Y ROPA DEPORTIVA ADIDAS DESDE 1924"
             
         }
@@ -93,7 +93,7 @@
         "title": "historia__parrafo3.1",
         "props": {
         
-            "blockClass": "parrafo3",
+            "blockClass": "parrafo3-desktop",
             "text": "## TU TIENDA DEPORTIVA PARA CUALQUIER DEPORTE"
         }
     },

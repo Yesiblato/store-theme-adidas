@@ -5,7 +5,7 @@
             "disclosure-layout#mujer",
             "disclosure-layout#hombre",
             "disclosure-layout#niños",
-            "disclosure-layout#deportes",
+            "disclosure-layout#deportesCate",
             "disclosure-layout#mundoAdidas",
             "disclosure-layout#ofertas"
         ]
@@ -30,7 +30,8 @@
     "rich-text#mujer": {
         "props": {
             "text": "MUJER",
-            "font": "heading-2"
+            "font": "heading-2",
+            "blockClass": "title-disclosure"
         }
     },
     "disclosure-state-indicator": {
@@ -42,15 +43,15 @@
     "image#up": {
         "props": {
             "src": "assets/img/icons/menos.png",
-            "maxWidth": 18,
-            "maxHeight": 18
+            "maxWidth": 30,
+            "maxHeight": 30
         }
     },
     "image#down": {
         "props": {
             "src": "assets/img/icons/mas.png",
-            "maxWidth": 18,
-            "maxHeight": 18
+            "maxWidth": 30,
+            "maxHeight": 30
         }
     },
 

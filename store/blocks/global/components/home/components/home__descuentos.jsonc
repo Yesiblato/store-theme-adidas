@@ -2,7 +2,8 @@
     "flex-layout.row#home__descuentos--global": {
         "title": "home__descuentos--global",
         "children": [
-            "rich-text#home__descuentos--fraseGlobal"
+            "rich-text#home__descuentos--fraseGlobal",
+            "link#descuento__button"
         ],
         "props": {
             "blockClass": "descuentos"
@@ -11,7 +12,28 @@
     "rich-text#home__descuentos--fraseGlobal": {
         "title": "home__descuentos--frase",
         "props": {
-            "text": "## UNITE AL CLUB Y CONSEGUÍ UN 15% DE DESCUENTO"
+            "text": "### UNITE AL CLUB Y CONSEGUÍ UN 15% DE DESCUENTO",
+            "blockClass": "Container__descuentos"
+            
         }
-    }
+    },
+    "link#descuento__button": {
+        "title": "descuento__button",
+        "children": [
+          "image#descuento__flecha"
+        ],
+        "props": {
+          "blockClass": "descuento__button",
+          "href": "/",
+          "label": "REGRISTRATE GRATIS",
+          "displayMode": "button"
+        }
+      },
+      "image#descuento__flecha": {
+        "title": "descuento__flecha",
+        "props": {
+          "blockClass": "descuento__flecha--image",
+          "src": "assets/img/arrow.svg"
+        }
+      }
 }

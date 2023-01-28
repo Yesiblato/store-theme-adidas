@@ -88,8 +88,27 @@
     margin: 0px;
 }
 
+.heading--parrafo1-desktop {
+    margin: 0;
+    font-weight: 700;
+}
+
+.container--parrafo1-desktop {
+    width: 60%;
+}
+
 .heading--parrafo3 {
     margin: 0px;
+}
+
+.heading--parrafo3-desktop {
+    margin: 0;
+    padding-bottom: 0 !important;
+    font-weight: 700;
+}
+
+.container--parrafo3-desktop {
+    width: 60%;
 }
 
 /* .heading--home__banner--frase {
