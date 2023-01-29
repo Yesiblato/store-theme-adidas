@@ -1,3 +1,23 @@
 .content--emailVerification {
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    max-width: 28em;
+    max-height: 28em;
+    align-items: center;
 }
+
+.formTitle {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.termsAndConditions {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+}
+
+/* .button__label :global(.vtex-button) {
+    color: black;
+} */
