@@ -1,15 +1,79 @@
+.menuContainer--header--desktop {
+    margin-left: 10em;
+    /* width: 45em;
+    background-color: aqua; */
+}
 
+.menuItem--Menu-item-mujer {
+    margin: 0;
+    touch-action: manipulation;
+    text-decoration-thickness: auto;
+    text-rendering: optimizeLegibility;
+}
+
+.menuItem--Menu-item-hombre {
+    margin: 0;
+    touch-action: manipulation;
+    text-decoration-thickness: auto;
+    text-rendering: optimizeLegibility;
+}
+
+/* .menuItem--Menu-item-mujer:hover {
+    margin: 0;
+    border-bottom: solid 2px black;
+} */
 
 .styledLinkContent--Menu-item-mujer {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
     font-weight: 700;
+    margin: 0;
+
+    touch-action: manipulation;
+    text-decoration-thickness: auto;
+
 }
 
 .styledLinkContent--Menu-item-hombre {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
     font-weight: 700;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.styledLinkContent--Menu-item-niño {
+.styledLinkContent--Menu-item-niños {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
     font-weight: 700;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.styledLinkContent--Menu-item-deportes {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.styledLinkContent--Menu-item-mundoAdidas {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.styledLinkContent--Menu-item-ofertas {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .menuItem--Menu-item-mujer--isOpen {
