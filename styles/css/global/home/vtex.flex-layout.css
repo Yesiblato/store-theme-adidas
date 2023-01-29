@@ -38,6 +38,8 @@
 .flexRow--descuentos {
     padding: 30px;
     background-color: #EDE734;
+    height: 10em;
+    align-items: center;
 }
 
 .flexCol--banner__descuentos {
@@ -49,6 +51,27 @@
     left: 8%;
 }
 
+.flexRowContent--descuentos {
+    align-items: center;
+    height: 7em;
+    padding: 1em 2em;
+}
+
+.flexRowContent--descuentos .stretchChildrenWidth:first-child {
+    width: 70% !important;
+    justify-content: flex-end;
+}
+
+.container--Container__descuentos {
+    justify-content: flex-end;
+    width: 100%;
+}
+/* 
+
+.flexRowContent--descuentos .stretchChildrenWidth:second-child {
+    width: 70% !important;
+    justify-content: flex-end;
+} */
 /* 
 .flexColChild--container__banner--items--one {
     

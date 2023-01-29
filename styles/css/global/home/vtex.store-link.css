@@ -35,3 +35,23 @@
     background-color: black;
     color: white
 }
+
+.buttonLink--descuento__button {
+    width: 17em !important;
+    height: 3em;
+    border-color: black;
+    background-color: black;
+    border-radius: 0;
+    font-weight: 600;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.buttonLink--descuento__button:hover {
+    border-color: black;
+    background-color: black;
+}
+
+.label--descuento__button:hover {
+    color: gray;
+}
