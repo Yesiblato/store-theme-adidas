@@ -2,7 +2,7 @@
   "store.product": {
     "children": [
       "flex-layout.row#product__breadcrumb",
-      "flex-layout.row#product__info",
+      "flex-layout.row#product__info", 
       "flex-layout.row#product__tags"
     ]
   },
@@ -11,7 +11,10 @@
     "title": "Información adicional",
     "children": [
       "tab-layout#product_tabs"
-    ]
+    ],
+    "props": {
+      "marginTop": 7
+    }
   },
   "tab-layout#product_tabs": {
     "children": [

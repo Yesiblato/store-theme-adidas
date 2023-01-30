@@ -8,3 +8,70 @@
     height: 400px;
     padding: 2em;
 }
+
+
+
+.flexRowContent--contenedor__secciones--PDP {
+    padding: 1em;
+}
+
+.flexRowContent--contenedor__secciones--PDP .stretchChildrenWidth:first-child {
+    background-color: #eeeff1;
+    padding-top: 2em;
+}
+
+.flexCol--ContenedorImages {
+
+}
+
+.flexCol--Contenedor__info--PDP {
+    padding-left: 4em;
+}
+
+
+.flexRowContent--ContenedorBoton--corazon {
+
+}
+
+.flexRowContent--ContenedorBoton--corazon .stretchChildrenWidth:first-child {
+ background-color: white;   
+ width: 90% !important;
+ padding: 0 !important;
+ justify-content: flex-start;
+
+}
+
+.flexRowContent--ContenedorBoton--corazon :global(.vtex-button) {
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    border-color: black;
+    justify-content: flex-start;
+    font-family: Helvetica, sans-serif;
+
+    width: 70%;
+}
+
+.flexRowContent--ContenedorBoton--corazon .stretchChildrenWidth:first-child(.vtex-button) {
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    border-color: black;
+    justify-content: flex-start;
+    font-family: Helvetica, sans-serif;
+
+    width: 70%;
+}
+
+/* .flexColChild--Contenedor__info--PDP :global(.vtex-button) {
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    border-color: black;
+    justify-content: flex-start;
+    font-family: Helvetica, sans-serif;
+/* 
+    width: 60%; 
+}
+    */
+ 

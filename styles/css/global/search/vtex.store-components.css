@@ -5,3 +5,18 @@
 .logoLink--logo--modal--search {
     margin-bottom: 2em;
 }
+
+.productNameContainer {
+    font-size: 2.25em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.productDescriptionTitle {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.content {
+    font-family: Helvetica, sans-serif;
+}
