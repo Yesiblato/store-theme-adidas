@@ -456,19 +456,19 @@
     "disclosure-content#accesorios": {
         "title": "Productos destacados",
         "children": [
-            "flex-layout.row#accesorios"
+            "flex-layout.row#accesorios__mundoAdidas"
         ]
     },
-    "flex-layout.row#accesorios": {
+    "flex-layout.row#accesorios__mundoAdidas": {
         "title": "Contenedor accesorios",
         "children": [
-            "flex-layout.col#accesorios"
+            "flex-layout.col#accesorios__mundoAdidas"
         ],
         "props": {
             "blockClass": "ContenedorProductosDestacados"
         }
     },
-    "flex-layout.col#accesorios": {
+    "flex-layout.col#accesorios__mundoAdidas": {
         "title": "opcionesaccesorios",
         "children": [
             "link.product#opciones--productosDestacado",
