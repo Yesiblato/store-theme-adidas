@@ -1,0 +1,51 @@
+{
+  "flex-layout.row#container__slider--opciones": {
+    "title": "container__slider--opciones",
+    "children": [
+      "slider-layout#home_slider--opciones--phone"
+    ]
+  },
+  "slider-layout#home_slider--opciones--phone": {
+    "title": "home_slider--opciones--phone",
+    "props": {
+      "itemsPerPage": {
+        "mobile": 2
+      },
+      "infinite": false,
+      "blockClass": "home__slider-opciones--mobile",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never"
+    },
+    "children": [
+
+        "image#mobile__home__novedades--arrow",
+        "rich-text#mobile__home__novedades--item1S",
+        "rich-text#mobile__home__novedades--item2S",
+        "rich-text#mobile__home__novedades--item3S"
+    ]
+  },
+
+   "rich-text#mobile__home__novedades--item1S": {
+    "title": "mobile__home__novedades--item1S",
+    "props": {
+        "blockClass": "mobile__item1S",
+        "text": " NOVEDADES"
+    }
+},
+"rich-text#mobile__home__novedades--item2S": {
+    "title": "mobile__home__novedades--item2S",
+    "props": {
+        "blockClass": "mobile__item2",
+        "text": " EXCLUSIVO MIEMBROS ADICLUB"
+    }
+},
+"rich-text#mobile__home__novedades--item3S": {
+    "title": "mobile__home__novedades--secciones--item3S",
+    "props": {
+        "blockClass": "mobile__item3S",
+        "text": " COLECCIONES"
+    }
+}
+
+
+}

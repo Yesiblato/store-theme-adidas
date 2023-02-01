@@ -434,41 +434,41 @@
     },
     "disclosure-layout#accesorios": {
         "children": [
-            "disclosure-trigger#accesorios",
-            "disclosure-content#accesorios"
+            "disclosure-trigger#accesorios__niños",
+            "disclosure-content#accesorios__niños"
         ]
     },
-    "disclosure-trigger#accesorios": {
-        "title": "contenedor accesorios",
+    "disclosure-trigger#accesorios__niños": {
+        "title": "contenedor accesorios__niños",
         "children": [
-            "rich-text#accesorios",
+            "rich-text#accesorios__niños",
             "disclosure-state-indicator"
         ],
         "props": {
             "blockClass": "contenedorProductosDestacados"
         }
     },
-    "rich-text#accesorios": {
+    "rich-text#accesorios__niños": {
         "props": {
             "text": "ACCESORIOS"
         }
     },
-    "disclosure-content#accesorios": {
+    "disclosure-content#accesorios__niños": {
         "title": "Productos destacados",
         "children": [
-            "flex-layout.row#accesorios"
+            "flex-layout.row#accesorios__niños"
         ]
     },
-    "flex-layout.row#accesorios": {
+    "flex-layout.row#accesorios__niños": {
         "title": "Contenedor accesorios",
         "children": [
-            "flex-layout.col#accesorios"
+            "flex-layout.col#accesorios__niños"
         ],
         "props": {
             "blockClass": "ContenedorProductosDestacados"
         }
     },
-    "flex-layout.col#accesorios": {
+    "flex-layout.col#accesorios__niños": {
         "title": "opcionesaccesorios",
         "children": [
             "link.product#opciones--productosDestacado",
