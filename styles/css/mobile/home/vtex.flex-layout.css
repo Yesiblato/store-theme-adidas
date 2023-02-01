@@ -212,6 +212,19 @@ margin-top: 1em;
     background-color: black;
 }
 
+/* .flexRow--contenedor__opciones--row {
+    padding: 0 !important;
+} */
+
+.loadingOverlay--Contenedor__Search {
+    padding: 0;
+}
+
+
+.flexRow--containe__volverArriba {
+    justify-content: center;
+}
+
 @media (max-width: 1020px) {
 
     .flexRow--contenedor__product--list {
@@ -234,6 +247,10 @@ margin-top: 1em;
 
         height: 17em !important;
         width: 16em !important;
+    }
+
+    .flexCol--contenedor__columna--opinion {
+        width: 100% !important;
     }
 
 }
@@ -395,6 +412,8 @@ margin-top: 1em;
     .flexCol--mobile__parrafo3--contendor {
         margin-bottom: 10em;
     }
+
+
 
 
 }

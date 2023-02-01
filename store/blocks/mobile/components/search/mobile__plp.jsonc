@@ -1,0 +1,57 @@
+{
+  "search-result-layout.mobile#department": {
+    "title": "contenedor__search--mobile",
+    "children": [
+      "flex-layout.row#contenedor__resultados", ///padding
+      "flex-layout.row#contenedor__opciones--mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "Contenedor__Search"
+    }
+  },
+  "flex-layout.row#contenedor__opciones--mobile": {
+    "children": [
+      "flex-layout.col#contenedor__opciones--mobile"
+    ],
+    "props": {
+        "blockClass": "contenedor__opciones--row"
+    }
+  },
+  "flex-layout.col#contenedor__opciones--mobile": {
+    "children": [
+      "flex-layout.row#mobile__home__opinion",
+      "flex-layout.row#mobile__Container--volverArriba",
+      "flex-layout.row#mobile__home__iniciarSesion",
+      "flex-layout.row#mobile__home--descuentos"
+    ],
+    "props": {
+        "blockClass": "contenedor__opciones--mobile",
+        "fullWidth": true,
+        "paddingLeft": 0,
+        "paddingRight": 0
+    }
+  },
+  "flex-layout.row#contenedor__resultados": {
+    "children": [
+      "flex-layout.col#contenedor__resultado--mobileColumn"
+    ]
+  },
+  "flex-layout.col#contenedor__resultado--mobileColumn": {
+    "children": [
+      "flex-layout.row#departmentbreadcrumb",
+      "gallery-layout-switcher",
+      "flex-layout.row#categoryresults--filter",
+      "flex-layout.row#categoryresults--content--mobile",
+      "flex-layout.row#info__promo",
+      "flex-layout.row#vistos__recientemente",
+      "flex-layout.row#product-list"
+    ]
+  },
+
+  "flex-layout.row#categoryresults--content--mobile": {
+    "children": [
+      "flex-layout.col#categoryresults--content"
+    ]
+  }
+}

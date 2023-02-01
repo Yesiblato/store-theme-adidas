@@ -5,3 +5,40 @@
 .logoLink--logo--modal--search {
     margin-bottom: 2em;
 }
+
+.productNameContainer {
+    font-size: 2.25em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.productDescriptionTitle {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.content {
+    font-family: Helvetica, sans-serif;
+}
+
+
+.carouselContainer {
+    height: 750px;
+}
+
+.sellingPriceContainer {
+    margin-bottom: 0.3em;
+}
+
+.flexRow--contenedor__opciones--row .container {
+    padding: 0;
+    background-color: red;
+
+}
+
+
+@media (max-width:800px) {
+    .sellingPriceValue {
+        font-size: 1em;
+    }
+}
