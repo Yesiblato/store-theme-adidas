@@ -1,0 +1,178 @@
+{
+    "store.custom#minicart": {
+        "blocks": [
+            "flex-layout.row#contenedor__minicart"
+        ]
+    },
+    "flex-layout.row#contenedor__minicart": {
+        "children": [
+            "flex-layout.col#seccion__productos",
+            "flex-layout.col#seccion__pago"
+        ]
+    },
+    "flex-layout.col#seccion__productos": {
+        "children": [
+            "rich-text#titulo--carrito",
+            "rich-text#frase--total",
+            "rich-text#frase--articulos",
+            "flex-layout.row#banner__descuento",
+            "flex-layout.row#contenedor__productos",
+            "flex-layout.row#nuestras__recomendaciones",
+            "flex-layout.row#opciones__compra"
+        ]
+    },
+    "rich-text#titulo--carrito": {
+        "props": {
+            "text": "TU CARRITO",
+            "blockClass": "rt__titulo--carrito"
+        }
+    },
+    "rich-text#frase--total": {
+        "props": {
+            "text": "TOTAL (4 productos) $1.459.960",
+            "blockClass": "rt__frase--total"
+        }
+    },
+    "rich-text#frase--articulos": {
+        "props": {
+            "text": "Los artículos en tu carrito no están reservados. Termina el proceso de compra ahora para hacerte con ellos.",
+            "blockClass":"rt__frase--articulos"
+        }
+    },
+    "flex-layout.row#banner__descuento": {
+        "children": [
+            "rich-text#descuento",
+            "rich-text#frase__descuento"
+        ]
+    },
+    "rich-text#descuento": {
+        "props": {
+            "text": "¡HASTA 50% DE DESCUENTO!",
+            "blockClass": "rt-descuentos"
+        }
+    },
+    "rich-text#frase__descuento": {
+        "props": {
+            "text": "Aprovecha los descuentos de fin de temporada en el catálogo seleccionado."
+        }
+    },
+    "flex-layout.row#contenedor__productos": {
+        "children": [
+
+        ]
+    },
+    "flex-layout.row#nuestras__recomendaciones": {
+        "children": [
+            "rich-text#titulo__nuestrasRecomendaciones"
+        ]
+    },
+    "rich-text#titulo__nuestrasRecomendaciones": {
+        "props": {
+            "text": "NUESTRAS RECOMENDACIONES",
+            "blockClass": "rt__nuestrasRecomendaciones"
+        }
+    },
+    "flex-layout.row#opciones__compra": {
+        "children": [
+            "flex-layout.col#opciones__compra"
+        ],
+        "props": {
+            "blockClass": "contenedor__opciones--compra"
+        }
+    },
+    "flex-layout.col#opciones__compra": {
+        "children": [
+            "flex-layout.row#seccion__envios1",
+            "flex-layout.row#seccion__envios2",
+            "flex-layout.row#seccion__envios3"
+          ],
+          "props": {
+            "blockClass": "contenedor__opciones--envios--col",
+            "preventHorizontalStretch": true
+          }
+    },
+    "flex-layout.row#seccion__envios1": {
+        "children": [
+          "image#icono1",
+          "rich-text#opcion1"
+        ],
+        "props": {
+          "blockClass": "Contenedor--seccion__envios1",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.row#seccion__envios2": {
+        "children": [
+          "image#icono2",
+          "rich-text#opcion2"
+        ],
+        "props": {
+          "blockClass": "Contenedor--seccion__envios2",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.row#seccion__envios3": {
+        "children": [
+          "image#icono3",
+          "rich-text#opcion3"
+        ],
+        "props": {
+          "blockClass": "Contenedor--seccion__envios3",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true
+        }
+      },
+      "image#icono1": {
+        "props": {
+          "src": "assets/img/icons/entrega.png",
+          "blockClass": "icon__entrega",
+          "maxWidth": 25,
+          "maxHeight": 25
+         
+        }
+      },
+      "rich-text#opcion1": {
+        "props": {
+          "text": "ENVÍO GRATIS APARTIR DE $249.900"
+        }
+      },
+      "image#icono2": {
+        "props": {
+          "src": "assets/img/icons/candado.png",
+          "blockClass": "icon__entrega",
+          "maxWidth": 25,
+          "maxHeight": 25
+          
+          
+        }
+      },
+      "rich-text#opcion2": {
+        "props": {
+          "text": "PAGA SEGURO PUEDES PAGAR EN LINEA"
+        }
+      },
+      "image#icono3": {
+        "props": {
+          "src": "assets/img/icons/carta.png",
+          "blockClass": "icon__entrega",
+          "maxWidth": 25,
+          "maxHeight": 25
+          
+        }
+      },
+      "rich-text#opcion3": {
+        "props": {
+          "text": "DEVOLUCIONES GRATIS ¿NO ES TU TALLA? DEVUELVE EN UN PLAZO DE 60 DÍAS"
+        }
+      },
+    "flex-layout.col#seccion__pago": {
+        "children": [
+            "add-to-cart-button"
+            // "flex-layout.row#resumen__pedido",
+            // "rich-text#codigo__postal",
+            // "image#formas__dePago"
+        ]
+    }
+}
