@@ -22,3 +22,15 @@
 .imageElement--conoceMas--image--in {
     position: relative;
 }
+
+.imageElement--descuento__flecha--image {
+    filter: invert(1);
+    padding-right: 1em; 
+}
+
+.imageElement--descuento__flecha--image:hover {
+    filter: invert(0.5);
+    padding-right: 1em; 
+}
+
+

@@ -4,8 +4,6 @@
 
 .logoLink--logo--modal--search {
     margin-bottom: 2em;
-<<<<<<< Updated upstream
-=======
 }
 
 .productNameContainer {
@@ -37,6 +35,7 @@
     background-color: red;
 
 }
+
 
 .specificationsTitle {
     font-family: Helvetica, sans-serif;
@@ -108,5 +107,11 @@
     .productNameContainer {
         font-size: 1.5em;
     }
->>>>>>> Stashed changes
 }
+
+@media (max-width:800px) {
+    .sellingPriceValue {
+        font-size: 1em;
+    }
+}
+

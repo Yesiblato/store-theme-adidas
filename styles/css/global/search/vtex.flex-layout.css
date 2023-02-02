@@ -1,4 +1,5 @@
 .flexRowContent--seccion--one {
+    margin-top: 1em;
     margin-bottom: 2em;
 }
 
@@ -6,20 +7,36 @@
     width: 650px;
     height: 400px;
     padding: 2em;
-<<<<<<< Updated upstream
-=======
+
 }
+
 
 .flexRowContent--contenedor__secciones--PDP {
     padding: 1em;
 }
 
+
+.flexRowContent--contenedor__secciones--PDP .stretchChildrenWidth:first-child {
+    background-color: #eeeff1;
+    padding-top: 2em;
+}
+
+.flexCol--ContenedorImages {
+
+}
+
+
 .flexCol--Contenedor__info--PDP {
     padding-left: 4em;
 }
 
+
 .flexRowContent--ContenedorBoton--corazon {
     padding: 2em 0;
+}
+
+.flexRowContent--ContenedorBoton--corazon {
+
 }
 
 .flexRowContent--ContenedorBoton--corazon .stretchChildrenWidth:first-child {
@@ -29,6 +46,17 @@
  justify-content: flex-start;
 
 }
+
+/* .flexRowContent--ContenedorBoton--corazon :global(.vtex-button) {
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    border-color: black;
+    justify-content: flex-start;
+    font-family: Helvetica, sans-serif;
+
+    width: 70%;
+} */
 
 .flexRowContent--ContenedorBoton--corazon .stretchChildrenWidth:first-child :global(.vtex-button) {
     color: white;
@@ -45,6 +73,7 @@
 border: 1px solid black;
 background-color:aqua ;
 }
+
  
 .flexRowContent--Contenedor__informacion--mobile {
     visibility: hidden;
@@ -181,5 +210,20 @@ justify-content: end;
         height: 23em;
         font-family: Arial, Helvetica, sans-serif;
     }
->>>>>>> Stashed changes
+
+@media (max-width:500px) {
+    .flexRowContent--container__info--promo {
+        height: 12em;
+        background-color:#cccccc;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+    
+}
+
+@media (max-width:360px) {
+    .flexRowContent--container__info--promo {
+        height: 8em;
+    }
+
 }
