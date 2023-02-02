@@ -36,9 +36,32 @@
 
 }
 
+.specificationsTitle {
+    font-family: Helvetica, sans-serif;
+}
 
 @media (max-width:800px) {
     .sellingPriceValue {
-        font-size: 1em;
+        font-size: 1.3em;
+    }
+
+    .productNameContainer {
+        font-size: 2.1em;
+    }
+}
+
+
+@media (max-width:500px) {
+
+    .productNameContainer {
+        font-size: 1.8em;
+    }
+}
+
+
+@media (max-width:400px) {
+
+    .productNameContainer {
+        font-size: 1.5em;
     }
 }

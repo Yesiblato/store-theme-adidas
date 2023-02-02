@@ -152,24 +152,18 @@
   "product-summary.shelf#grid": {
     "title": "Contenedor en grilla",
     "children": [
-      //   "add-to-list-btn",
-      //   "product-rating-inline",
       "product-summary-image",
       "product-summary-name",
       "product-price",
-      // "add-to-cart-button",
       "modal-trigger#global__quick--view"
     ]
   },
   "product-summary.shelf#list": {
     "title": "contenedor en lista",
     "children": [
-      //   "add-to-list-btn",
-      //   "product-rating-inline",
       "product-summary-image",
       "product-summary-name",
       "product-price",
-      // "add-to-cart-button",
       "modal-trigger#global__quick--view"
     ]
   },

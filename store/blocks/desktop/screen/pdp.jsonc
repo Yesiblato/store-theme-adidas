@@ -1,0 +1,13 @@
+{
+    "responsive-layout.desktop#pdp": {
+        "children": [
+          "flex-layout.row#product__breadcrumb",
+          "flex-layout.row#product__info", 
+          "flex-layout.row#product__disclosure",
+          "flex-layout.row#product__tags",
+          "flex-layout.row#completaTuLook",
+          "flex-layout.row#product-list",
+          "flex-layout.row#home__descuentos--global"
+        ]
+      }
+}

@@ -1,10 +1,20 @@
 {
-  "store.product": {
+  "flex-layout.row#product__disclosure": {
     "children": [
-      "flex-layout.row#product__breadcrumb",
-      "flex-layout.row#product__info", 
-      "flex-layout.row#product__tags"
-    ]
+      "flex-layout.col#product__disclosure"
+    ],
+    "props": {
+      "blockClass": "contenedor__disclosure--secciones--row"
+    }
+
+  },
+  "flex-layout.col#product__disclosure": {
+    "children": [
+      "disclosure-layout-group#pdp__secciones"
+    ],
+    "props": {
+      "blockClass": "contenedor__disclosure--secciones--col"
+    }
   },
 
   "flex-layout.row#product__tags": {
@@ -87,5 +97,25 @@
 "children": [
     "questions-and-answers"
 ]
+  },
+
+  "flex-layout.row#completaTuLook": {
+    "title": "Contenedor completa tu look",
+    "children": [
+      "rich-text#completaTuLook"
+    ],
+    "props": {
+      "blockClass": "container__completaTuLook"
+    }
+  },
+  "rich-text#completaTuLook": {
+    "title": "tittulo completa tu look",
+    "props": {
+      "text": "COMPLETA TU LOOK",
+      "blockClass": "completaTuLook"
+    }
   }
+
+
+
 }

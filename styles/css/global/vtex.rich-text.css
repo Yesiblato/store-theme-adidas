@@ -216,6 +216,37 @@ font-weight: 600;
     margin: 0;
 }
 
+.wrapper--titulo__disclosure--pdp {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: black;
+    line-height: 48px;
+    margin-bottom: 0.5em;
+}
+
+.wrapper--titulo2__disclosure--pdp {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: black;
+    line-height: 48px;
+    /* margin-bottom: 0.5em; */
+}
+
+.wrapper--title-disclosure {
+color: black;
+}
+
+.wrapper--completaTuLook {
+    font-size: 1.7em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 
 @media (max-width:500px) {
     .wrapper--text__info--promo {
@@ -245,5 +276,4 @@ font-weight: 600;
         font-size: 1.3em;
 
     }
-}
 }
