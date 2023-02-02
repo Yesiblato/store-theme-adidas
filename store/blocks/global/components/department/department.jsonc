@@ -109,6 +109,7 @@
       "breadcrumb.search"
     ]
   },
+<<<<<<< Updated upstream
   "search-result-layout.mobile#department": {
     "children": [
       "flex-layout.row#departmentbreadcrumb",
@@ -116,25 +117,35 @@
       "flex-layout.row#categoryresults"
     ]
   },
+=======
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  
+>>>>>>> Stashed changes
   "product-summary.shelf#grid": {
     "children": [
-      //   "add-to-list-btn",
-      //   "product-rating-inline",
       "product-summary-image",
       "product-summary-name",
       "product-price",
+<<<<<<< Updated upstream
       "add-to-cart-button",
+=======
+>>>>>>> Stashed changes
       "modal-trigger#global__quick--view"
     ]
   },
   "product-summary.shelf#list": {
     "children": [
-      //   "add-to-list-btn",
-      //   "product-rating-inline",
       "product-summary-image",
       "product-summary-name",
       "product-price",
+<<<<<<< Updated upstream
       "add-to-cart-button",
+=======
+>>>>>>> Stashed changes
       "modal-trigger#global__quick--view"
     ]
   },

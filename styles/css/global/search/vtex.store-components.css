@@ -4,4 +4,109 @@
 
 .logoLink--logo--modal--search {
     margin-bottom: 2em;
+<<<<<<< Updated upstream
+=======
+}
+
+.productNameContainer {
+    font-size: 2.25em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.productDescriptionTitle {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.content {
+    font-family: Helvetica, sans-serif;
+}
+
+
+.carouselContainer {
+    height: 750px;
+}
+
+.sellingPriceContainer {
+    margin-bottom: 0.3em;
+}
+
+.flexRow--contenedor__opciones--row .container {
+    padding: 0;
+    background-color: red;
+
+}
+
+.specificationsTitle {
+    font-family: Helvetica, sans-serif;
+}
+
+
+.searchBarInnerContainer--barraBusqueda__notFound {
+    width: 71em;
+
+}
+
+.autoCompleteOuterContainer--barraBusqueda__notFound :global(.vtex-input-prefix__group) {
+    height: 3.5em;
+    border: 1px solid black;
+    border-radius: 0;
+    color: black;
+}
+
+
+.searchBarContainer--barraBusqueda__notFound :global(.vtex-input-prefix__group) {
+    height: 3.5em;
+    border-color: black;
+}
+
+
+@media (max-width:1300px) {
+
+    .searchBarInnerContainer--barraBusqueda__notFound {
+        width: 60em;
+    
+    }
+}
+
+
+@media (max-width:1024px) {
+
+    .searchBarInnerContainer--barraBusqueda__notFound {
+        width: 45em;
+    
+    }
+}
+
+@media (max-width:800px) {
+    .sellingPriceValue {
+        font-size: 1.3em;
+    }
+
+    .productNameContainer {
+        font-size: 2.1em;
+    }
+
+    .searchBarInnerContainer--barraBusqueda__notFound {
+        width: 30em;
+    
+    }
+}
+
+
+@media (max-width:500px) {
+
+    .productNameContainer {
+        font-size: 1.8em;
+    }
+}
+
+
+@media (max-width:400px) {
+
+    .productNameContainer {
+        font-size: 1.5em;
+    }
+>>>>>>> Stashed changes
 }

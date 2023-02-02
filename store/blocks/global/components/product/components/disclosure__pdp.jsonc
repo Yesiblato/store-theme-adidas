@@ -1,0 +1,429 @@
+{
+    "disclosure-layout-group#pdp__secciones": {
+        "title": "disclosure Menú ",
+        "children": [
+            "disclosure-layout#descripcion",
+            "disclosure-layout#cuidados",
+            "disclosure-layout#detalles"
+        ]
+    },
+    "disclosure-layout#descripcion": {
+        "title": "Disclosure descripción",
+        "children": [
+            "disclosure-trigger#descripcion",
+            "disclosure-content#descripcion"
+        ]
+    },
+    "disclosure-trigger#descripcion": {
+        "title": "Menú descripción",
+        "children": [
+            "rich-text#descripcion",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "contenedorMenuMujer"
+        }
+    },
+    "rich-text#descripcion": {
+        "title": "Descripción",
+        "props": {
+            "text": "Descripción",
+            "font": "heading-2",
+            "blockClass": "title-disclosure"
+        }
+    },
+    "disclosure-state-indicator": {
+        "title": "Iconos__mas--menos",
+        "props": {
+            "Show": "image#down",
+            "Hide": "image#up"
+        }
+    },
+    "image#up": {
+        "title": "Icono mas",
+        "props": {
+            "src": "assets/img/icons/menos.png",
+            "maxWidth": 30,
+            "maxHeight": 30
+        }
+    },
+    "image#down": {
+        "title": "icono menos",
+        "props": {
+            "src": "assets/img/icons/mas.png",
+            "maxWidth": 30,
+            "maxHeight": 30
+        }
+    },
+    "disclosure-content#descripcion": {
+        "title": "Contenido Descripción",
+        "children": [
+            "disclosure-layout-group#descripcion"
+        ]
+    },
+    "disclosure-layout-group#descripcion": {
+        "title": "Información de descripción",
+        "children": [
+            "product-description"
+        ]
+    },
+
+
+
+    "disclosure-layout#cuidados": {
+        
+        "children": [
+            "disclosure-trigger#cuidados",
+            "disclosure-content#cuidados"
+        ]
+    },
+    "disclosure-trigger#cuidados": {
+        "title": "Menú cuidados",
+        "children": [
+            "rich-text#cuidados",
+            "disclosure-state-indicator#__cuidados"
+        ],
+        "props": {
+            "blockClass": "contenedorMenuMujer"
+        }
+    },
+    "rich-text#cuidados": {
+        "props": {
+            "text": "Cuidados",
+            "font": "heading-2",
+            "blockClass": "title-disclosure"
+        }
+    },
+    "disclosure-state-indicator#__cuidados": {
+        "props": {
+            "Show": "image#down__cuidados",
+            "Hide": "image#up__cuidados"
+        }
+    },
+    "image#up__cuidados": {
+        "props": {
+            "src": "assets/img/icons/menos.png",
+            "maxWidth": 30,
+            "maxHeight": 30
+        }
+    },
+    "image#down__cuidados": {
+        "props": {
+            "src": "assets/img/icons/mas.png",
+            "maxWidth": 30,
+            "maxHeight": 30
+        }
+    },
+    "disclosure-content#cuidados": {
+        "children": [
+            "disclosure-layout-group#cuidados"
+        ]
+    },
+    "disclosure-layout-group#cuidados": {
+        "children": [
+            "flex-layout.row#contenedor__cuidados"
+        ],
+        "props": {
+            "blockClass": "productCuidadosContainer"
+        }
+    },
+    "flex-layout.row#contenedor__cuidados": {
+        "title": "Contenedor__ cuidados",
+        "children": [
+            "flex-layout.col#contenedor__cuidados1",
+            "flex-layout.col#contenedor__cuidados2"
+        ],
+        "props": {
+            "blockClass": "productCuidadosContainer"
+        }
+    },
+    "flex-layout.col#contenedor__cuidados1": {
+        "title": "Contenedor cuidados 1",
+        "children": [
+            "flex-layout.row#contenedor__cuidados1"
+        ]
+    },
+    "flex-layout.row#contenedor__cuidados1": {
+        "title": "Contenedor cuidados 1 row",
+        "children": [
+           "flex-layout.col#contenedor__cuidados1--secciones"
+
+        ]
+    },
+    "flex-layout.col#contenedor__cuidados1--secciones": {
+        "title": "Contenedor cuidados secciones",
+        "children": [
+            "rich-text#titulo1",
+            "flex-layout.row#contenedor__cuidados1--secciones"
+        ]
+    },
+    "rich-text#titulo1": {
+        "title": "Título 1",
+        "props": {
+            "text": "INSTRUCCIONES DE LAVADO",
+            "blockClass": "titulo__disclosure--pdp"
+        }
+    },
+    "flex-layout.row#contenedor__cuidados1--secciones": {
+        "title": "Contenedor cuidados secciones row",
+        "children": [
+            "flex-layout.col#contenedor__cuidados1--seccion1",
+            "flex-layout.col#contenedor__cuidados1--seccion2"
+        ]
+    },
+    "flex-layout.col#contenedor__cuidados1--seccion1": {
+        "title": "Contenedor cuidados secciones col",
+        "children": [
+            "flex-layout.row#contenedor__parte1",
+            "flex-layout.row#contenedor__parte2",
+            "flex-layout.row#contenedor__parte3"
+
+        ]
+    },
+    "flex-layout.row#contenedor__parte1": {
+        "title": "Contenedor parte 1",
+        "children": [
+            "image#icono__parte1",
+            "rich-text#consejo1"
+        ],
+        "props": {
+            "blockClass": "contenedor__parte1",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "colGap": 5,
+            "paddingBottom": 5
+        }
+    },
+    "image#icono__parte1": {
+        "title": "Imagen parte 1",
+        "props": {
+            "src": "assets/img/icons/blanqueador.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#consejo1": {
+        "title": "Consejo 1",
+        "props": {
+            "text": "No usar blanqueador"
+        }
+    },
+    "flex-layout.row#contenedor__parte2": {
+        "title": "Contenedor Parte 2",
+        "children": [
+            "image#icono__parte2",
+            "rich-text#consejo2"
+        ],
+        "props": {
+            "blockClass": "contenedor__parte2",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "colGap": 5,
+            "paddingBottom": 5
+        }
+    },
+    "image#icono__parte2": {
+        "title": "Imagen parte 2",
+        "props": {
+            "src": "assets/img/icons/noLavarEnSeco.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#consejo2": {
+        "title": "Consejo 2",
+        "props": {
+            "text": "No lavar en seco."
+        }
+    },
+    "flex-layout.row#contenedor__parte3": {
+        "title": "Contenedor Parte 3",
+        "children": [
+            "image#icono__parte3",
+            "rich-text#consejo3"
+        ],
+        "props": {
+            "blockClass": "contenedor__parte3",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "colGap": 5
+        }
+    },
+    "image#icono__parte3": {
+        "title": "Imagen parte 3",
+        "props": {
+            "src": "assets/img/icons/lavar.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#consejo3": {
+        "title": "Consejo 3",
+        "props": {
+            "text": "Lavar a máquina en temperatura fría."
+        }
+    },
+    "flex-layout.col#contenedor__cuidados1--seccion2": {
+        "title": "Contenedor cuidados1--seccion2",
+        "children": [
+            "flex-layout.row#contenedor__parte4",
+            "flex-layout.row#contenedor__parte5"
+        ]
+    },
+    "flex-layout.row#contenedor__parte4": {
+        "title": "Contenedor Parte 4",
+        "children": [
+            "image#icono__parte4",
+            "rich-text#consejo4"
+        ],
+        "props": {
+            "blockClass": "contenedor__parte4",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "colGap": 5,
+            "paddingBottom": 4
+        }
+    },
+    "image#icono__parte4": {
+        "title": "Imagen parte 4",
+        "props": {
+            "src": "assets/img/icons/secar-en-secadora.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#consejo4": {
+        "title": "Consejo 4",
+        "props": {
+            "text": "No utilizar secadora."
+        }
+    },
+    "flex-layout.row#contenedor__parte5": {
+        "title": "Contenedor Parte 5",
+        "children": [
+            "image#icono__parte5",
+            "rich-text#consejo5"
+        ],
+        "props": {
+            "blockClass": "contenedor__parte5",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "colGap": 5
+        }
+    },
+    "image#icono__parte5": {
+        "title": "Imagen parte 5",
+        "props": {
+            "src": "assets/img/icons/plancha.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#consejo5": {
+        "title": "Consejo 5",
+        "props": {
+            "text": "Planchar a temperatura baja."
+        }
+    },
+    "flex-layout.col#contenedor__cuidados2": {
+        "title": "Contenedor cuidados2",
+        "children": [
+            "rich-text#titulo2",
+            "rich-text#frase1",
+            "rich-text#frase2",
+            "rich-text#frase3",
+            "rich-text#frase4"
+
+        ]
+    },
+    "rich-text#titulo2": {
+        "title": "Título 1",
+        "props": {
+            "text": "INFORMACIÓN ADICIONAL SOBRE EL CUIDADO",
+            "blockClass": "titulo2__disclosure--pdp"
+        }
+    },
+    "rich-text#frase1": {
+        "title": "Frase 1",
+        "props": {
+            "text": "- No usar suavizante"
+        }
+    },
+    "rich-text#frase2": {
+        "title": "Frase 2",
+        "props": {
+            "text": "- Lavar y planchar al revés"
+        }
+    },
+    "rich-text#frase3": {
+        "title": "Frase 3",
+        "props": {
+            "text": "- Retirar inmediatamente"
+        }
+    },
+    "rich-text#frase4": {
+        "title": "Frase 4",
+        "props": {
+            "text": "- SECAR EN TENDEDERO"
+        }
+    },
+
+    "disclosure-layout#detalles": {
+        
+        "children": [
+            "disclosure-trigger#detalles",
+            "disclosure-content#detalles"
+        ]
+    },
+    "disclosure-trigger#detalles": {
+        "title": "Menú detalles",
+        "children": [
+            "rich-text#detalles",
+            "disclosure-state-indicator#__detalles"
+        ],
+        "props": {
+            "blockClass": "contenedorMenuMujer"
+        }
+    },
+    "rich-text#detalles": {
+        "props": {
+            "text": "Detalles",
+            "font": "heading-2",
+            "blockClass": "title-disclosure"
+        }
+    },
+    "disclosure-state-indicator#__detalles": {
+        "props": {
+            "Show": "image#down__detalles",
+            "Hide": "image#up__detalles"
+        }
+    },
+    "image#up__detalles": {
+        "props": {
+            "src": "assets/img/icons/menos.png",
+            "maxWidth": 30,
+            "maxHeight": 30
+        }
+    },
+    "image#down__detalles": {
+        "props": {
+            "src": "assets/img/icons/mas.png",
+            "maxWidth": 30,
+            "maxHeight": 30
+        }
+    },
+    "disclosure-content#detalles": {
+        "children": [
+            "disclosure-layout-group#detalles"
+        ]
+    },
+    "disclosure-layout-group#detalles": {
+        "children": [
+            "product-description"
+        ]
+    }
+
+
+}

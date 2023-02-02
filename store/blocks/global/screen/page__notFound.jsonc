@@ -1,0 +1,9 @@
+{
+    "store.not-found#search": {
+        "children": [
+            "responsive-layout.desktop#page__notFound",
+            "responsive-layout.mobile#page__notFound"
+        ]
+    }
+}
+

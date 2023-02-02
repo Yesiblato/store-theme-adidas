@@ -2,7 +2,8 @@
   "minicart.v2#desktop": {
     "props": {
       //   "MinicartIcon": "icon#desktop__bag-shopping",
-      "variation": "drawer",
+      "variation": "link",
+      "linkVariationUrl": "/cart",
       "itemCountMode": "total",
       "quantityDisplay": "always"
     },
