@@ -1,24 +1,35 @@
 {
-    "disclosure-layout#ofertas": {
-        
+    "disclosure-layout-group#mobile__middle--menus": {
+        "title": "disclosure Menú ",
         "children": [
-            "disclosure-trigger#ofertas",
-            "disclosure-content#ofertas"
+            "disclosure-layout#mujer",
+            "disclosure-layout#hombre",
+            "disclosure-layout#niños",
+            "disclosure-layout#deportesCate",
+            "disclosure-layout#mundoAdidas",
+            "disclosure-layout#ofertas"
         ]
     },
-    "disclosure-trigger#ofertas": {
-        "title": "Menú ofertas",
+    "disclosure-layout#mujer": {
+        
         "children": [
-            "rich-text#ofertas",
+            "disclosure-trigger#mujer",
+            "disclosure-content#mujer"
+        ]
+    },
+    "disclosure-trigger#mujer": {
+        "title": "Menú mujer",
+        "children": [
+            "rich-text#mujer",
             "disclosure-state-indicator"
         ],
         "props": {
             "blockClass": "contenedorMenuMujer"
         }
     },
-    "rich-text#ofertas": {
+    "rich-text#mujer": {
         "props": {
-            "text": "OFERTAS",
+            "text": "MUJER",
             "font": "heading-2",
             "blockClass": "title-disclosure"
         }
@@ -32,19 +43,19 @@
     "image#up": {
         "props": {
             "src": "assets/img/icons/menos.png",
-            "maxWidth": 18,
-            "maxHeight": 18
+            "maxWidth": 30,
+            "maxHeight": 30
         }
     },
     "image#down": {
         "props": {
             "src": "assets/img/icons/mas.png",
-            "maxWidth": 18,
-            "maxHeight": 18
+            "maxWidth": 30,
+            "maxHeight": 30
         }
     },
 
-    "disclosure-content#ofertas": {
+    "disclosure-content#mujer": {
         "children": [
             "disclosure-layout-group#productoDestacado",
             "disclosure-layout-group#calzado",
@@ -97,17 +108,17 @@
     "flex-layout.col#productosDestacados": {
         "title": "opcionesProductosDestacados",
         "children": [
-            "link.product#opciones--productosDestacadoO",
-            "link.product#opciones--losmasvendidosO",
-            "link.product#opciones--soloenAdidasO",
-            "link.product#opciones--exclusivosMiembrosO",
-            "link.product#opciones--proximosLanzamientosO"
+            "link.product#opciones--productosDestacado__mujer",
+            "link.product#opciones--losmasvendidos__mujer",
+            "link.product#opciones--soloenAdidas__mujer",
+            "link.product#opciones--exclusivosMiembros__mujer",
+            "link.product#opciones--proximosLanzamientos__mujer"
         ],
         "props": {
             "blockClass": "opcionesProductosDestacados"
         }
     },
-    "link.product#opciones--productosDestacadoO": {
+    "link.product#opciones--productosDestacado__mujer": {
         "title": "disclosure__frase--novedades",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -115,7 +126,7 @@
           "label": "NOVEDADES"
         }
     },
-    "link.product#opciones--losmasvendidosO": {
+    "link.product#opciones--losmasvendidos__mujer": {
         "title": "disclosure__frase--losMasVendidos",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -123,7 +134,7 @@
           "label": "LOS MÁS VENDIDOS"
         }
       },
-    "link.product#opciones--soloenAdidasO": {
+    "link.product#opciones--soloenAdidas__mujer": {
         "title": "disclosure__frase--soloenAdidas",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -131,7 +142,7 @@
           "label": "SOLO EN ADIDAS"
         }
     },
-    "link.product#opciones--exclusivosMiembrosO": {
+    "link.product#opciones--exclusivosMiembros__mujer": {
         "title": "disclosure__frase--exclusivosMiembros",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -139,7 +150,7 @@
           "label": "SOLO EN ADIDAS"
         }
     },
-    "link.product#opciones--proximosLanzamientosO": {
+    "link.product#opciones--proximosLanzamientos__mujer": {
         "title": "disclosure__frase--proximosLanzamientos",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -299,17 +310,17 @@
     "flex-layout.col#ropa": {
         "title": "opcionesRopa",
         "children": [
-            "link.product#opciones--productosDestacadoOF",
-            "link.product#opciones--losmasvendidosOF",
-            "link.product#opciones--soloenAdidasOF",
-            "link.product#opciones--exclusivosMiembrosOF",
-            "link.product#opciones--proximosLanzamientosOF"
+            "link.product#opciones--productosDestacado--mujer",
+            "link.product#opciones--losmasvendidos--mujer",
+            "link.product#opciones--soloenAdidas--mujer",
+            "link.product#opciones--exclusivosMiembros--mujer",
+            "link.product#opciones--proximosLanzamientos--mujer"
         ],
         "props": {
             "blockClass": "opcionesProductosDestacados"
         }
     },
-    "link.product#opciones--productosDestacadoOF": {
+    "link.product#opciones--productosDestacado--mujer": {
         "title": "disclosure__frase--novedades",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -317,7 +328,7 @@
           "label": "NOVEDADES"
         }
     },
-    "link.product#opciones--losmasvendidosOF": {
+    "link.product#opciones--losmasvendidos--mujer": {
         "title": "disclosure__frase--losMasVendidos",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -325,7 +336,7 @@
           "label": "LOS MÁS VENDIDOS"
         }
       },
-    "link.product#opciones--soloenAdidasOF": {
+    "link.product#opciones--soloenAdidas--mujer": {
         "title": "disclosure__frase--soloenAdidas",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -333,7 +344,7 @@
           "label": "SOLO EN ADIDAS"
         }
     },
-    "link.product#opciones--exclusivosMiembrosOF": {
+    "link.product#opciones--exclusivosMiembros--mujer": {
         "title": "disclosure__frase--exclusivosMiembros",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -341,7 +352,7 @@
           "label": "SOLO EN ADIDAS"
         }
     },
-    "link.product#opciones--proximosLanzamientosOF": {
+    "link.product#opciones--proximosLanzamientos--mujer": {
         "title": "disclosure__frase--proximosLanzamientos",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -402,17 +413,17 @@
     "flex-layout.col#deportes": {
         "title": "opcionesaccesorios",
         "children": [
-            "link.product#opciones--productosDestacadoOFE",
-            "link.product#opciones--losmasvendidosOFE",
-            "link.product#opciones--soloenAdidasOFE",
-            "link.product#opciones--exclusivosMiembrosOFE",
-            "link.product#opciones--proximosLanzamientosOFE"
+            "link.product#opciones--productosDestacado--mujer--depo",
+            "link.product#opciones--losmasvendidos--mujer--depo",
+            "link.product#opciones--soloenAdidas--mujer--depo",
+            "link.product#opciones--exclusivosMiembros--mujer--depo",
+            "link.product#opciones--proximosLanzamientos--mujer--depo"
         ],
         "props": {
             "blockClass": "opcionesProductosDestacados"
         }
     },
-    "link.product#opciones--productosDestacadoOFE": {
+    "link.product#opciones--productosDestacado--mujer--depo": {
         "title": "disclosure__frase--novedades",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -420,7 +431,7 @@
           "label": "NOVEDADES"
         }
     },
-    "link.product#opciones--losmasvendidosOFE": {
+    "link.product#opciones--losmasvendidos--mujer--depo": {
         "title": "disclosure__frase--losMasVendidos",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -428,7 +439,7 @@
           "label": "LOS MÁS VENDIDOS"
         }
       },
-    "link.product#opciones--soloenAdidasOFE": {
+    "link.product#opciones--soloenAdidas--mujer--depo": {
         "title": "disclosure__frase--soloenAdidas",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -436,7 +447,7 @@
           "label": "SOLO EN ADIDAS"
         }
     },
-    "link.product#opciones--exclusivosMiembrosOFE": {
+    "link.product#opciones--exclusivosMiembros--mujer--depo": {
         "title": "disclosure__frase--exclusivosMiembros",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -444,7 +455,7 @@
           "label": "SOLO EN ADIDAS"
         }
     },
-    "link.product#opciones--proximosLanzamientosOFE": {
+    "link.product#opciones--proximosLanzamientos--mujer--depo": {
         "title": "disclosure__frase--proximosLanzamientos",
         "props": {
           "blockClass": "disclosure__frase--novedades",
@@ -460,26 +471,26 @@
     },
     "disclosure-layout#accesorios": {
         "children": [
-            "disclosure-trigger#accesorios__ofertas",
-            "disclosure-content#accesorios__ofertas"
+            "disclosure-trigger#accesorios",
+            "disclosure-content#accesorios"
         ]
     },
-    "disclosure-trigger#accesorios__ofertas": {
-        "title": "contenedor accesorios__ofertas",
+    "disclosure-trigger#accesorios": {
+        "title": "contenedor accesorios",
         "children": [
-            "rich-text#accesorios__ofertas",
+            "rich-text#accesorios",
             "disclosure-state-indicator"
         ],
         "props": {
             "blockClass":"contenedorProductosDestacados"
         }
     },
-    "rich-text#accesorios__ofertas": {
+    "rich-text#accesorios": {
         "props": {
             "text": "ACCESORIOS"
         }
     },
-    "disclosure-content#accesorios__ofertas": {
+    "disclosure-content#accesorios": {
         "title": "Productos destacados",
         "children": [
             "flex-layout.row#accesorios"
@@ -488,13 +499,13 @@
     "flex-layout.row#accesorios": {
         "title": "Contenedor accesorios",
         "children": [
-            "flex-layout.col#accesorios__ofertas"
+            "flex-layout.col#accesorios"
         ],
         "props": {
             "blockClass": "ContenedorProductosDestacados"
         }
     },
-    "flex-layout.col#accesorios__ofertas": {
+    "flex-layout.col#accesorios": {
         "title": "opcionesaccesorios",
         "children": [
             "link.product#opciones--productosDestacado",
