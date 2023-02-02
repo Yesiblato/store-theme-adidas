@@ -1,28 +1,23 @@
 {
-  "store.search#department": {
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    },
-    "blocks": [
-      "search-result-layout#department"
-    ]
-  },
   "search-result-layout#department": {
+    "title": "contenedor__busquedaGeneral",
     "blocks": [
       "search-result-layout.desktop#department",
       "search-result-layout.mobile#department",
-
       "search-not-found-layout"
-    ]
+    ],
+    "props": {
+      "fullWidth": true
+    }
   },
   "search-result-layout.desktop#department": {
+    "title": "Contenedor__PLP--desktop",
     "children": [
       "flex-layout.row#departmentbreadcrumb",
       "gallery-layout-switcher",
-      "flex-layout.row#categoryresults"
+      "flex-layout.row#categoryresults",
+      "flex-layout.row#product-list",
+      "flex-layout.row#home__descuentos--global"
     ],
     "props": {
       "showFacetQuantity": true,
@@ -30,21 +25,29 @@
       "thresholdForFacetSearch": 10,
       "showProductsCount": true,
       "pagination": "show-more",
-      "defaultGalleryLayout": "grid"
+      "defaultGalleryLayout": "grid",
+      "fullWidth": true,
+      "width": "100%"
     }
   },
   "flex-layout.row#categoryresults": {
+    "title": "contenedor categoria y resultados",
     "children": [
       "flex-layout.col#contenedor--search"
     ]
   },
   "flex-layout.col#contenedor--search": {
+    "title": "contenedor de la busqueda",
     "children": [
       "flex-layout.row#categoryresults--filter",
-      "flex-layout.col#categoryresults--content"
+      "flex-layout.row#info__promo",
+      "flex-layout.col#categoryresults--content",
+      "flex-layout.row#vistos__recientemente"
     ]
   },
+
   "flex-layout.row#categoryresults--filter": {
+    "title": "categoria y resultados",
     "children": [
       "search-title.v2",
       //   "order-by.v2",
@@ -56,6 +59,7 @@
     }
   },
   "filter-navigator.v3": {
+    "title": "Contenedor del filtro",
     "blocks": [
       "sidebar-close-button"
     ],
@@ -65,18 +69,53 @@
       "blockClass": "contenedorFilter"
     }
   },
+  "flex-layout.row#info__promo": {
+    "title": "Contenedor Info Promo",
+    "children": [
+      "rich-text#informacion"
+    ],
+    "props": {
+      "blockClass": "container__info--promo"
+    }
+  },
+  "rich-text#informacion": {
+    "title": "texto de la información",
+    "props": {
+      "text": "Te recomendamos seleccionar tu talla de **ropa y calzado** para facilitar tu búsqueda.",
+      "blockClass": "text__info--promo"
+    }
+  },
   "flex-layout.col#categoryresults--content": {
+    "title": "contenedor de los resultados",
     "children": [
       "search-content#resultscontent--products"
     ]
   },
+  "flex-layout.row#vistos__recientemente": {
+    "title": "contenedor titulo vistos recientemente",
+    "children": [
+      "rich-text#titulo__vistos--recientemente"
+    ],
+    "props": {
+      "blockClass": "titulo__productos--vistos"
+    }
+  },
+  "rich-text#titulo__vistos--recientemente": {
+    "title": "text vistos recientemente",
+    "props": {
+      "text": "PRODUCTOS VISTOS RECIENTEMENTE",
+      "blockClass": "text__productos--vistos"
+    }
+  },
   "search-content#resultscontent--products": {
+    "title": "contenedor del gallery",
     "blocks": [
       "gallery#department",
       "not-found"
     ]
   },
   "gallery#department": {
+    "title": "gallery",
     "props": {
       "layouts": [
         {
@@ -87,12 +126,11 @@
             "tablet": 2,
             "phone": 2
           }
-
         },
         {
-            "name": "list",
-            "component": "GeneralList",
-            "itemsPerRow": 1
+          "name": "list",
+          "component": "GeneralList",
+          "itemsPerRow": 1
         }
       ],
       "GeneralGrid": "product-summary.shelf#grid",
@@ -100,6 +138,7 @@
     }
   },
   "flex-layout.row#departmentbreadcrumb": {
+    "title": "contenedor__migadePan",
     "children": [
       "flex-layout.col#departmentbreadcrumb"
     ]
@@ -116,27 +155,33 @@
   },
   
   "product-summary.shelf#grid": {
+    "title": "Contenedor en grilla",
     "children": [
       "product-summary-image",
       "product-summary-name",
       "product-price",
+      // "add-to-cart-button",
       "modal-trigger#global__quick--view"
     ]
   },
   "product-summary.shelf#list": {
+    "title": "contenedor en lista",
     "children": [
       "product-summary-image",
       "product-summary-name",
       "product-price",
+      // "add-to-cart-button",
       "modal-trigger#global__quick--view"
     ]
   },
   "product-summary-name": {
+    "title": "Nombre del producto",
     "props": {
       "tag": "h3"
     }
   },
   "product-summary-image": {
+    "title": "imgane del producto",
     "props": {
       "showBadge": true,
       "height": 120,
@@ -144,19 +189,25 @@
     }
   },
   "product-summary-price": {
+    "title": "precio del product",
     "props": {
       "showListPrice": false
     }
   },
   "modal-trigger#global__quick--view": {
+    "title": "ventana modal de ver el produto",
     "children": [
       "rich-text#global__quick--view--trigger",
       "modal-layout#global__quick--view--modal"
-    ]
+    ],
+    "props": {
+      "blockClass": "container__trigger--modal"
+    }
   },
   "rich-text#global__quick--view--trigger": {
+    "title": "text del modal",
     "props": {
-      "text": "Ver el producto",
+      "text": "Ver el Producto",
       "blockClass": "quick--view--trigger"
     }
   },
@@ -169,6 +220,7 @@
     }
   },
   "flex-layout.row#quick--view__modal": {
+    "title": "contenedor modal",
     "children": [
       "flex-layout.col#view__modal--image",
       "flex-layout.col#view__modal--info"
@@ -179,6 +231,7 @@
     }
   },
   "flex-layout.col#view__modal--image": {
+    "title": "contenedor imagen modal",
     "children": [
       "logo#header__top--logo",
       "search-title.v2",
@@ -186,6 +239,7 @@
     ]
   },
   "flex-layout.col#view__modal--info": {
+    "title": "Contenedor información modal",
     "children": [
       "product-summary-name",
       "product-rating-inline",
@@ -194,7 +248,7 @@
     ]
   },
   "logo#header__top--logo": {
-    "title": "Logo",
+    "title": "Logo del modal",
     "props": {
       "blockClass": "logo--modal--search",
       "url": "assets/img/Adidas_isologo.svg",
@@ -202,5 +256,4 @@
       "href": "/"
     }
   }
-  
 }

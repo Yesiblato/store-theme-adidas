@@ -86,10 +86,7 @@
       "menu#header_menu",
       "header-spacer",
       "search-bar#header__desktop",
-      "modal-trigger#header__top2--login",
-      // "icon#desktop__user-icon",
-      "icon#desktop__heart",
-      "minicart.v2#desktop"
+      "flex-layout.row#container__icons"
     ],
     "props": {
       "title": "header__full",
@@ -103,12 +100,25 @@
       "text": "Hasta 50% de Descuentos"
     }
   },
+  "flex-layout.row#container__icons": {
+    "children": [
+      "modal-trigger#header__top2--login",
+      "icon#desktop__heart",
+      "minicart.v2#desktop"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "contenedor__icons--headerDesktop"
+    }
+  },
   "logo#header__top--logo": {
     "title": "Logo",
     "props": {
       "url": "assets/img/Adidas_isologo.svg",
       "width": 70,
-      "href": "/"
+      "href": "/",
+      "blockClass": "logoAdidasHeader"
+      
     }
   },
   "modal-trigger#header__top2--login": {
@@ -116,11 +126,6 @@
       "icon#desktop__user-icon",
       "modal-layout#header__top2--login"
     ]
-  },
-  "rich-text#header__top2--login": {
-    "props": {
-      "text": "Login"
-    }
   },
   "modal-layout#header__top2--login": {
     "children": [
@@ -130,7 +135,11 @@
   "login-content#desktop": {
     "props": {
       "showIconProfile": true,
-      "hideIconLabel": true
+      "hideIconLabel": true,
+      "optionsTitle": "DISFRUTA DE LOS BENEFICIOS DEL ADICLUB AL INICIAR SESIÓN",
+      "termsAndConditions": "Conseguí cupones de descuento, productos exclusivos y cuando eres parte adiClub",
+      "emailAndPasswordTitle": "Iniciar Sesión"
+
     }
   },
 
@@ -140,7 +149,8 @@
     ],
     "props": {
       "openAutocompleteOnFocus": true,
-      "maxWidth": "15%"
+      "maxWidth": "15%",
+      "blockClass": "barraBusqueda"
     }
   },
   "autocomplete-result-list.v2": {
@@ -154,7 +164,7 @@
       "size": 40,
       "blockClass": "bagShopping",
       "width": "30%",
-      "viewBox": "0 0 10 10"
+      "viewBox": "0 0 16 26"
 
     }
   },
@@ -179,19 +189,4 @@
     }
   }
 
- 
-
-  
-
-  // "flex-layout.col#header__corazon": {
-  //     "children": [
-  //       "image#header__corazon"
-  //     ]
-  // },
-  // "image#header__corazon": {
-  //   "props": {
-  //     "src": "assets/img/favorite_FILL0_wght400_GRAD0_opsz48.png"
-
-  //   }
-  // }
 }
