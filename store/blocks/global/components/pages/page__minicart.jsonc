@@ -258,7 +258,8 @@
     },
     "image#formas__dePago": {
         "props": {
-            "src": "assests/img/mediosdepago-co-may-2022_tcm195-892310.png",
+            "src": "assets/img/mediosdepagos.png",
+            "maxHeight": 24,
             "blockClass": "imagen__medios--pago"
         }
     }

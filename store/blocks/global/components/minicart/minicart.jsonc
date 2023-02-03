@@ -3,7 +3,7 @@
     "props": {
       //   "MinicartIcon": "icon#desktop__bag-shopping",
       "variation": "link",
-      // "linkVariationUrl": "/cart",
+      "linkVariationUrl": "/minicart",
       "itemCountMode": "total",
       "quantityDisplay": "always"
     },
