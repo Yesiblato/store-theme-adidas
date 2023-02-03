@@ -39,3 +39,46 @@
     color: black;
     margin-bottom: 1em;
 }
+
+.wrapper--rt__nuestrasRecomendaciones {
+    font-size: 2em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.wrapper--rt__opciones--compras {
+    font-size: 0.9em;
+    text-decoration: underline;
+}
+
+.wrapper--rt__opciones--compras:hover {
+    font-size: 0.9em;
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    text-decoration-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.wrapper--text__codigo--postal {
+    border: 1px solid black;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    padding: 1em;
+    padding-right: 11.5em;
+    color: gray;
+    font-family: Helvetica, sans-serif;
+} 
+
+.wrapper--rt__formasPago {
+    margin-top: 1em;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.9em;
+
+}

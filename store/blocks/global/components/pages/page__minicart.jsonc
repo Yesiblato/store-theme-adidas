@@ -14,8 +14,9 @@
         "props": {
             "blockClass": "contenedor__minicart--row",
             "horizontalAlign": "center",
+            "colGap": 7,
+            "paddingTop": 10 
             // "preventHorizontalStretch": true,
-            "width": "70%"
 
         }
     },
@@ -26,8 +27,14 @@
             "flex-layout.row#banner__descuento--row",
             "flex-layout.row#contenedor__productos",
             "flex-layout.row#nuestras__recomendaciones",
+            "flex-layout.row#product-list--minicart",
             "flex-layout.row#opciones__compra"
-        ]
+        ],
+        "props": {
+            "blockClass": "seccion__productos--col",
+            "width": "60%"
+            
+        }
     },
     "flex-layout.row#titulos--row": {
         "title": "Contenedor Títulos",
@@ -130,99 +137,130 @@
     },
     "flex-layout.col#opciones__compra": {
         "children": [
-            "flex-layout.row#seccion__envios1",
-            "flex-layout.row#seccion__envios2",
-            "flex-layout.row#seccion__envios3"
+            "flex-layout.row#seccion__envios1--minicart",
+            "flex-layout.row#seccion__envios2--minicart",
+            "flex-layout.row#seccion__envios3--minicart"
           ],
           "props": {
             "blockClass": "contenedor__opciones--envios--col",
-            "preventHorizontalStretch": true
+            "preventHorizontalStretch": true,
+            "marginRight": 4
           }
     },
-    "flex-layout.row#seccion__envios1": {
+    "flex-layout.row#seccion__envios1--minicart": {
         "children": [
-          "image#icono1",
-          "rich-text#opcion1"
+          "image#icono1--minicart",
+          "rich-text#opcion1--minicart"
         ],
         "props": {
           "blockClass": "Contenedor--seccion__envios1",
           "preventHorizontalStretch": true,
-          "preventVerticalStretch": true
+          "preventVerticalStretch": true,
+          "colGap": 3
         }
       },
-      "flex-layout.row#seccion__envios2": {
+      "flex-layout.row#seccion__envios2--minicart": {
         "children": [
-          "image#icono2",
-          "rich-text#opcion2"
+          "image#icono2--minicart",
+          "rich-text#opcion2--minicart"
         ],
         "props": {
           "blockClass": "Contenedor--seccion__envios2",
           "preventHorizontalStretch": true,
-          "preventVerticalStretch": true
+          "preventVerticalStretch": true,
+          "colGap": 3
         }
       },
-      "flex-layout.row#seccion__envios3": {
+      "flex-layout.row#seccion__envios3--minicart": {
         "children": [
-          "image#icono3",
-          "rich-text#opcion3"
+          "image#icono3--minicart",
+          "rich-text#opcion3--minicart"
         ],
         "props": {
           "blockClass": "Contenedor--seccion__envios3",
           "preventHorizontalStretch": true,
-          "preventVerticalStretch": true
+          "preventVerticalStretch": true,
+          "colGap": 3
         }
       },
-      "image#icono1": {
+      "image#icono1--minicart": {
         "props": {
-          "src": "assets/img/icons/entrega.png",
+          "src": "assets/img/icons/peligro.png",
           "blockClass": "icon__entrega",
-          "maxWidth": 25,
-          "maxHeight": 25
+          "maxWidth": 19,
+          "maxHeight": 19
          
         }
       },
-      "rich-text#opcion1": {
+      "rich-text#opcion1--minicart": {
         "props": {
-          "text": "ENVÍO GRATIS APARTIR DE $249.900"
+          "text": "COMPRA AHORA! NUESTRO CARRITO NO RESERVA INVENTARIO",
+          "blockClass":"rt__opciones--compras"
         }
       },
-      "image#icono2": {
-        "props": {
-          "src": "assets/img/icons/candado.png",
-          "blockClass": "icon__entrega",
-          "maxWidth": 25,
-          "maxHeight": 25
-          
-          
-        }
-      },
-      "rich-text#opcion2": {
-        "props": {
-          "text": "PAGA SEGURO PUEDES PAGAR EN LINEA"
-        }
-      },
-      "image#icono3": {
+      "image#icono2--minicart": {
         "props": {
           "src": "assets/img/icons/carta.png",
           "blockClass": "icon__entrega",
-          "maxWidth": 25,
-          "maxHeight": 25
+          "maxWidth": 19,
+          "maxHeight": 19
+          
           
         }
       },
-      "rich-text#opcion3": {
+      "rich-text#opcion2--minicart": {
         "props": {
-          "text": "DEVOLUCIONES GRATIS ¿NO ES TU TALLA? DEVUELVE EN UN PLAZO DE 60 DÍAS"
+          "text": "CAMBIOS GRATIS",
+          "blockClass":"rt__opciones--compras"
+        }
+      },
+      "image#icono3--minicart": {
+        "props": {
+          "src": "assets/img/icons/peligro.png",
+          "blockClass": "icon__entrega",
+          "maxWidth": 19,
+          "maxHeight": 19
+          
+        }
+      },
+      "rich-text#opcion3--minicart": {
+        "props": {
+          "text": "COMPRA AHORA CON TU TARJETA DÉBITO",
+          "blockClass":"rt__opciones--compras"
         }
       },
     "flex-layout.col#seccion__pago": {
         "children": [
             "minicart-checkout-button",
-            "minicart-summary"
+            "minicart-summary",
             
             // "flex-layout.row#resumen__pedido",
-            // "rich-text#codigo__postal",
-            // "image#formas__dePago"
-        ]
+            "rich-text#codigo__postal",
+            "rich-text#tituloFormasPago",
+            "image#formas__dePago"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "40%"
+        }
+    },
+    "rich-text#codigo__postal": {
+        "props": {
+            "text": "Introduce tu código promocional",
+            "blockClass": "text__codigo--postal"
+        }
+    },
+    "rich-text#tituloFormasPago": {
+        "props": {
+            "text": "FORMAS DE PAGO ACEPTADAS",
+            "blockClass": "rt__formasPago"
+        }
+    },
+    "image#formas__dePago": {
+        "props": {
+            "src": "assests/img/mediosdepago-co-may-2022_tcm195-892310.png",
+            "blockClass": "imagen__medios--pago"
+        }
     }
+
 }

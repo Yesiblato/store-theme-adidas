@@ -1,3 +1,15 @@
+.flexRowContent--contenedor__minicart--row {
+    width: 100%;
+
+}
+
+.flexRow--contenedor__minicart--row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
 .flexCol--Contenedor__banner--descuentos--col {
     background-color: #f5f5e5;
     padding: 1.8em;
@@ -23,3 +35,4 @@
 .flexCol--seccion2 {
     width: 100% ;
 }
+
