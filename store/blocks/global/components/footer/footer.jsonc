@@ -543,7 +543,7 @@
     "title": "opciones--AcercaDe",
     "props": {
       "blockClass": "opciones",
-      "href": "/{slug}/p",
+      "href": "/acerca-de-adidas",
       "label": "Acerca De adidas",
       "font": "small"
     }
