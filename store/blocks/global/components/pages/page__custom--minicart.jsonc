@@ -1,78 +1,126 @@
 {
     "store.custom#minicart": {
+        "title": "pagina minicart",
         "blocks": [
             "flex-layout.row#contenedor__minicart"
         ]
     },
     "flex-layout.row#contenedor__minicart": {
+        "title": "contenedor__mincart--row",
         "children": [
             "flex-layout.col#seccion__productos",
             "flex-layout.col#seccion__pago"
-        ]
+        ],
+        "props": {
+            "blockClass": "contenedor__minicart--row",
+            "horizontalAlign": "center",
+            // "preventHorizontalStretch": true,
+            "width": "70%"
+
+        }
     },
     "flex-layout.col#seccion__productos": {
+        "title": "Seccion Productos",
         "children": [
-            "rich-text#titulo--carrito",
-            "rich-text#frase--total",
-            "rich-text#frase--articulos",
-            "flex-layout.row#banner__descuento",
+            "flex-layout.row#titulos--row",
+            "flex-layout.row#banner__descuento--row",
             "flex-layout.row#contenedor__productos",
             "flex-layout.row#nuestras__recomendaciones",
             "flex-layout.row#opciones__compra"
         ]
     },
+    "flex-layout.row#titulos--row": {
+        "title": "Contenedor Títulos",
+        "children": [
+            "flex-layout.col#titulos--col"
+        ],
+        "props": {
+            "blockClass": "contenedorTitulos--row"
+        }
+    },
+    "flex-layout.col#titulos--col": {
+        "children": [
+            "rich-text#titulo--carrito",
+            "rich-text#frase--total",
+            "rich-text#frase--articulos"
+        ],
+        "props": {
+            "blockClass": "contenedorTitulos--col"
+        }
+    },
     "rich-text#titulo--carrito": {
+        "title": "Titulo Carrito",
         "props": {
             "text": "TU CARRITO",
             "blockClass": "rt__titulo--carrito"
         }
     },
     "rich-text#frase--total": {
+        "title": "Frase del total de productos",
         "props": {
             "text": "TOTAL (4 productos) $1.459.960",
             "blockClass": "rt__frase--total"
         }
     },
     "rich-text#frase--articulos": {
+        "title": "Frase articulos",
         "props": {
             "text": "Los artículos en tu carrito no están reservados. Termina el proceso de compra ahora para hacerte con ellos.",
             "blockClass":"rt__frase--articulos"
         }
     },
-    "flex-layout.row#banner__descuento": {
+    "flex-layout.row#banner__descuento--row": {
+        "title": "Contenedor banner descuento",
+        "children": [
+            "flex-layout.col#banner__descuento--col"
+        ],
+        "props": {
+            "blockClass": "Contenedor__banner--descuentos--row"
+        }
+    },
+    "flex-layout.col#banner__descuento--col": {
+        "title": "Banner de descuento",
         "children": [
             "rich-text#descuento",
             "rich-text#frase__descuento"
-        ]
+        ],
+        "props": {
+            "blockClass": "Contenedor__banner--descuentos--col"
+        }
     },
     "rich-text#descuento": {
+        "title": "Titulo de descuentos",
         "props": {
             "text": "¡HASTA 50% DE DESCUENTO!",
             "blockClass": "rt-descuentos"
         }
     },
     "rich-text#frase__descuento": {
+        "title": "Frase de descuento",
         "props": {
-            "text": "Aprovecha los descuentos de fin de temporada en el catálogo seleccionado."
+            "text": "Aprovecha los descuentos de fin de temporada en el catálogo seleccionado.",
+            "blockClass": "frase__descuento--rt"
         }
     },
-    "flex-layout.row#contenedor__productos": {
-        "children": [
-
-        ]
-    },
+   
     "flex-layout.row#nuestras__recomendaciones": {
+        "title": "Nuestras recomendaciones",
         "children": [
             "rich-text#titulo__nuestrasRecomendaciones"
-        ]
+        ],
+        "props": {
+            "blockClass": "contenedor__nuestrasRecomendaciones"
+        }
     },
     "rich-text#titulo__nuestrasRecomendaciones": {
+        "title": "Título nuestras recomendaciones",
         "props": {
             "text": "NUESTRAS RECOMENDACIONES",
             "blockClass": "rt__nuestrasRecomendaciones"
         }
     },
     "flex-layout.row#opciones__compra": {
+        "title": "Opciones de compra",
         "children": [
             "flex-layout.col#opciones__compra"
         ],
@@ -169,7 +217,9 @@
       },
     "flex-layout.col#seccion__pago": {
         "children": [
-            "add-to-cart-button"
+            "minicart-checkout-button",
+            "minicart-summary"
+            
             // "flex-layout.row#resumen__pedido",
             // "rich-text#codigo__postal",
             // "image#formas__dePago"
