@@ -1,0 +1,12 @@
+{
+  "store.custom#acercaDeAdidas": {
+    "children": [
+      "rich-text#hola"
+    ]
+  },
+  "rich-text#hola": {
+    "props": {
+      "text": "holiiiiiiiiiiiiiiii"
+    }
+  }
+}
