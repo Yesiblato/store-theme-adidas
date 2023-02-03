@@ -16,6 +16,11 @@
     font-weight: 400;
     font-family: Helvetica, sans-serif;
     font-size: 13px;
+
+}
+
+.label--opciones:hover {
+    text-decoration: underline;
 }
 
 
