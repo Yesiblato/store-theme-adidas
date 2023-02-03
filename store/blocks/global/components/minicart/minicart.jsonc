@@ -16,7 +16,7 @@
       "minicart-empty-state"
     ],
     "children": [
-      "minicart-product-list#adidas",
+      "minicart-product-list#adidasV2",
       "flex-layout.row#minicart-desktop"
     ]
   },
@@ -60,7 +60,7 @@
   "summary-totalizers#minicart": {
     "props": {
       "showTotal": true,
-      "showDeliveryTotal": false
+      "showDeliveryTotal": true
     }
   },
   "minicart-empty-state": {
@@ -95,32 +95,6 @@
       "text": "Your cart is empty."
     }
   },
-
-  // "minicart-product-list": {
-  //   "blocks": [
-  //       "product-list#minicart"
-  //   ]
-  // },
-  // "product-list#minicart": {
-  //   "blocks": [
-  //       "product-list-content-mobile"
-  //   ]
-  // }
-
-  "minicart-product-list#adidas": {
-    "blocks": [
-      "product-list#adidas"
-    ]
-  },
-  "product-list#adidas": {
-    "blocks": [
-      "product-list-content-desktop",
-      "product-list-content-mobile"
-    ]
-  },
-  
-
-
 
   
   "product-list-content-mobile": {

@@ -12,7 +12,7 @@
         "product-summary.shelf"
       ],
       "children": [
-        "slider-layout#products"
+        "slider-layout#products-minicart"
       ],
       "props": {
         
@@ -37,11 +37,11 @@
       }
     },
   
-    "slider-layout#products": {
+    "slider-layout#products-minicart": {
       "title": "home_slider--listProduct",
       "props": {
         "itemsPerPage": {
-          "desktop": 3,
+          "desktop": 2,
           "tablet": 2,
           "mobile": 1
         },
