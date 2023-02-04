@@ -1,12 +1,197 @@
 {
   "store.custom#acercaDeAdidas": {
+    "title": "Pagina de acerca de Adidas",
     "children": [
-      "rich-text#hola"
+      "flex-layout.row#contenedor__principal--acercaDe"
     ]
   },
-  "rich-text#hola": {
+  "flex-layout.row#contenedor__principal--acercaDe": {
+    "title": "Contenedor principal de Acerca de--row",
+    "children": [
+      "flex-layout.col#contenedor__principal--acercaDe"
+    ],
     "props": {
-      "text": "holiiiiiiiiiiiiiiii"
+      "blockClass": "contenedor__principal--acercaDe--row"
+    }
+  },
+  "flex-layout.col#contenedor__principal--acercaDe": {
+    "title": "Contenedor principal de Acerca de--col",
+    "children": [
+      "rich-text#title__one",
+      "rich-text#frase__one",
+      "rich-text#frase__two",
+      "flex-layout.row#images__faces",
+      "rich-text#title__two",
+      "link#question__one",
+      "link#question__two",
+      "link#question__three",
+      "link#question__four",
+      "link#question__five",
+      "flex-layout.row#articles"
+    ],
+    "props": {
+      "blockClass": "contenedor__principal--acercaDe--col"
+    }
+  },
+  "rich-text#title__one": {
+    "title": "Título de la página",
+    "props": {
+      "text": "SOBRE ADIDAS COLOMBIA",
+      "blockClass": "titles"
+    }
+  },
+  "rich-text#frase__one": {
+    "title": "Frase de visitaa sitio",
+    "props": {
+      "text": "Visita el sitio web del Grupo adidas: http://www.adidas-group.com",
+      "blockClass": "frases"
+
+    }
+  },
+  "rich-text#frase__two": {
+    "title": "Frase de resultado del articulo",
+    "props": {
+      "text": "¿LE HA RESULTADO ÚTIL ESTE ARTÍCULO?",
+      "blockClass": "frase__two"
+
+    }
+  },
+  "flex-layout.row#images__faces": {
+    "children": [
+      "image#happy__face",
+      "image#sad__face"
+    ]
+  },
+  "image#happy__face": {
+    "title": "Happy face",
+    "props": {
+      "src": "assets/img/icons/icon-smile-happy.svg",
+      "blockClass": "faces"
+
+    }
+  },
+  "image#sad__face": {
+    "title": "Sad face",
+    "props": {
+      "src": "assets/img/icons/icon-smile-sad.svg",
+      "blockClass": "faces"
+
+    }
+  },
+  "rich-text#title__two": {
+    "title": "Title two",
+    "props": {
+      "text": "PREGUNTAS FRECUENTES",
+      "blockClass": "titles"
+    }
+  },
+  "link#question__one": {
+    "title": "Question one",
+    "props": {
+      "label": "¿CUÁNTO TARDARÁ EN LLEGAR MI PEDIDO?",
+      "href": "/",
+      "blockClass": "questons"
+     }
+  },
+  "link#question__two": {
+    "title": "Question two",
+    "props": {
+      "label": "¿QUÉ PASA SI MI PRODUCTO TIENE UN DEFECTO O NO CUMPLE CON LOS ESTÁNDARES DE CALIDAD?",
+      "href": "/",
+      "blockClass": "questons"
+     }
+  },
+  "link#question__three": {
+    "title": "Question three",
+    "props": {
+      "label": "¿CÓMO ES EL PROCESO DE DEVOLUCIÓN DE UN PEDIDO EN ADIDAS?",
+      "href": "/",
+      "blockClass": "questons"
+     }
+  },
+  "link#question__four": {
+    "title": "Question four",
+    "props": {
+      "label": "¿CÓMO PUEDO DAR SEGUIMIENTO A LA ENTREGA DE MI PEDIDO?",
+      "href": "/",
+      "blockClass": "questons"
+     }
+  },
+  "link#question__five": {
+    "title": "Question five",
+    "props": {
+      "label": "¿PUEDO REALIZAR CAMBIOS EN TIENDA?",
+      "href": "/",
+      "blockClass": "questons"
+     }
+  },
+  "flex-layout.row#articles": {
+    "title": "Articles",
+    "children": [
+      "flex-layout.col#article__one",
+      "flex-layout.col#article__two"
+    ]
+  },
+  "flex-layout.col#article__one": {
+    "title": "Container articles",
+    "children": [
+      "rich-text#question--article--one",
+      "rich-text#article--one",
+      "link#inicia__sesion"
+
+    ]
+  },
+  "flex-layout.col#article__two": {
+    "title": "Containes articles col",
+    "children": [
+      "rich-text#question--article--two ",
+      "rich-text#article--two",
+      "link#contactanos"
+
+    ]
+  },
+  "rich-text#question--article--one": {
+    "title": "Article Title one",
+    "props": {
+      "text": "¿DÓNDE ESTÁ MI ORDEN?",
+      "blockClass": "questonsT"
+    }
+  },
+  "rich-text#article--one": {
+    "title": "Frase article one",
+    "props": {
+      "text": "Inicie sesión o ingrese los detalles de su pedido en el rastreador de pedidos para ver el resumen de su pedido. Desde allí, puede cancelar artículos, realizar un seguimiento del estado de la entrega u organizar un cambio o una devolución.",
+      "blockClass": "frases"
+    }
+  },
+  "link#inicia__sesion": {
+    "title": "Access link",
+    "props": {
+      "label": "INICIA SESIÓN",
+      "blockClass": "questons"
+    }
+  },
+  "rich-text#question--article--two ": {
+    "title": "Article title two",
+    "props": {
+      "text": "¿AÚN NO ENCUENTRAS TU RESPUESTA?",
+      "blockClass": "questonsT"
+    }
+  },
+  "rich-text#article--two": {
+    "title": "frase article two",
+    "props": {
+      "text": "PREGUNTALE A NUESTRO SERVICIO AL CLIENTE: Lun - Vie : 9:00 AM to 9:00 M | Sab - Dom : 10:00 AM to 6:00 PM | Teléfono: (601) 3557233",
+      "blockClass": "frases"
+    }
+  },
+  "link#contactanos": {
+    "title": "Contact link",
+    "props": {
+      "label": "CONTÁCTANOS",
+      "href": "/",
+      "blockClass": "questons"
     }
   }
+
 }
