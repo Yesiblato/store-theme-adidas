@@ -1,7 +1,7 @@
 {
-    "store.custom#minicart": {
+    "responsive-layout.desktop#minicart": {
         "title": "pagina minicart",
-        "blocks": [
+        "children": [
             "flex-layout.row#contenedor__minicart"
         ]
     },

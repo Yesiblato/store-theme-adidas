@@ -9,7 +9,7 @@
     },
     "list-context.product-list#products": {
       "blocks": [
-        "product-summary.shelf"
+        "product-summary.shelf#product--minicart"
       ],
       "children": [
         "slider-layout#products-minicart"
@@ -18,7 +18,7 @@
         
       }
     },
-    "product-summary.shelf": {
+    "product-summary.shelf#product--minicart": {
       "children": [
         "product-summary-image",
         "product-summary-price",
