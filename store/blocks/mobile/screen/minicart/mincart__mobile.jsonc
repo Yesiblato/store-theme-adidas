@@ -8,31 +8,45 @@
   "flex-layout.row#contenedor__minicart--mobile": {
     "title": "contenedor__mincart--row",
     "children": [
-      "flex-layout.col#seccion__productos--mobile",
-      "flex-layout.col#seccion__pago--mobile"
+      "flex-layout.col#contenedor__minicart--mobile"
     ],
     "props": {
       "blockClass": "contenedor__minicart--row",
       "horizontalAlign": "center",
       "colGap": 7,
-      "paddingTop": 10
+      "paddingTop": 10,
+      "preserveLayoutOnMobile": true,
+      "marginBottom": 10
       // "preventHorizontalStretch": true,
     }
   },
-  "flex-layout.col#seccion__productos--mobile": {
+  "flex-layout.col#contenedor__minicart--mobile": {
+    "children": [
+      "flex-layout.row#seccion__productos--mobile"
+    ]
+  },
+  "flex-layout.row#seccion__productos--mobile": {
     "title": "Seccion Productos",
     "children": [
-      "flex-layout.row#titulos--row--mobile",
-      "flex-layout.row#banner__descuento--row--mobile",
-      "flex-layout.row#contenedor__productos--mobile",
-      "flex-layout.row#nuestras__recomendaciones--mobile",
-      "flex-layout.row#product-list--minicart",
-      "flex-layout.row#opciones__compra--mobile"
+      "flex-layout.col#seccion__productos--mobile"
     ],
     "props": {
       "blockClass": "seccion__productos--col",
       "width": "60%"
     }
+  },
+  "flex-layout.col#seccion__productos--mobile": {
+    "children": [
+      "flex-layout.row#titulos--row--mobile",
+      "flex-layout.row#banner__descuento--row--mobile",
+      "flex-layout.row#contenedor__productos--mobile",
+      "flex-layout.row#seccion__pago--mobile",
+      "flex-layout.row#nuestras__recomendaciones--mobile",
+      "flex-layout.row#product-list--minicart",
+      "flex-layout.row#opciones__compra--mobile",
+      "rich-text#tituloFormasPago--mobile",
+      "image#formas__dePago--mobile"
+    ]
   },
   "flex-layout.row#titulos--row--mobile": {
     "title": "Contenedor Títulos",
@@ -130,7 +144,10 @@
       "flex-layout.col#opciones__compra--mobile"
     ],
     "props": {
-      "blockClass": "contenedor__opciones--compra"
+      "blockClass": "contenedor__opciones--compra",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "colGap": 4
     }
   },
   "flex-layout.col#opciones__compra--mobile": {
@@ -152,6 +169,7 @@
     ],
     "props": {
       "blockClass": "Contenedor--seccion__envios1",
+      "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "colGap": 3
@@ -164,6 +182,7 @@
     ],
     "props": {
       "blockClass": "Contenedor--seccion__envios2",
+      "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "colGap": 3
@@ -176,6 +195,7 @@
     ],
     "props": {
       "blockClass": "Contenedor--seccion__envios3",
+      "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "colGap": 3
@@ -223,21 +243,34 @@
       "blockClass": "rt__opciones--compras"
     }
   },
-  "flex-layout.col#seccion__pago--mobile": {
+  "flex-layout.row#seccion__pago--mobile": {
     "children": [
-      "minicart-checkout-button",
-      "minicart-summary",
-
-      // "flex-layout.row#resumen__pedido",
-      "rich-text#codigo__postal--mobile",
-      "rich-text#tituloFormasPago--mobile",
-      "image#formas__dePago--mobile"
+      "flex-layout.col#seccion__pago--mobile"
     ],
     "props": {
       "preventVerticalStretch": true,
       "width": "40%"
     }
   },
+  "flex-layout.col#seccion__pago--mobile": {
+    "children": [
+      "rich-text#codigo__postal--mobile",
+      "rich-text#resumen--mobile",
+      "minicart-summary",
+      "minicart-checkout-button"
+    ],
+    "props": {
+      "blockClass": "contenedor__seccion--pago--col"
+    }
+  },
+  "rich-text#resumen--mobile": {
+    "title": "Titulo de descuentos",
+    "props": {
+      "text": "RESUMEN DEL PEDIDO",
+      "blockClass": "rt-descuentos"
+    }
+  },
+
   "rich-text#codigo__postal--mobile": {
     "props": {
       "text": "Introduce tu código promocional",

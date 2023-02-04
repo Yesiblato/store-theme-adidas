@@ -2,7 +2,7 @@
 {
     "flex-layout.row#contenedor__productos--mobile": {
       "children": [
-        "minicart-product-list#adidasV2" 
+        "minicart-product-list#adidasV2"  
       ]
     },
     "minicart-product-list#adidasV2": {

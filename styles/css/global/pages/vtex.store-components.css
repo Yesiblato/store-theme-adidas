@@ -4,11 +4,31 @@
 }
 
 .imageElement--faces {
-    width: 2.5em;
-    height: 2.5em;
-    margin-top: 1em;
+    width        : 2.5em;
+    height       : 2.5em;
+    margin-top   : 1em;
     margin-bottom: 5em;
 }
+
+
+@media (max-width:800px) {
+    .imageElement--imagen__medios--pago {
+        max-height: 8em !important;
+
+    }
+
+}
+
+@media (max-width:650px) {
+    .imageElement--imagen__medios--pago {
+        max-height: 5em !important;
+        margin-left: 0;
+
+
+    }
+
+}
+
 
 @media (max-width:400px) {
     .imageElement--faces {
