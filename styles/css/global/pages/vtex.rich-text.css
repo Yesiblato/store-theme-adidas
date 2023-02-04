@@ -82,3 +82,46 @@
     font-size: 0.9em;
 
 }
+
+/*CUSTOM PAGES*/
+
+.wrapper--titles {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.wrapper--frases {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: black;
+
+}
+
+.wrapper--frase__two {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: black;
+    margin-top: 8em;
+}
+
+.wrapper--questonsT {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    margin-top: 8em;
+    color: black;
+}
+
+.wrapper--questonsDown {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: black;
+    margin-bottom: 10em;
+}

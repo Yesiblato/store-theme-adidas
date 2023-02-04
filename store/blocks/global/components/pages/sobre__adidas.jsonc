@@ -2,7 +2,8 @@
   "store.custom#acercaDeAdidas": {
     "title": "Pagina de acerca de Adidas",
     "children": [
-      "flex-layout.row#contenedor__principal--acercaDe"
+      "flex-layout.row#contenedor__principal--acercaDe",
+      "flex-layout.row#home__descuentos--global"
     ]
   },
   "flex-layout.row#contenedor__principal--acercaDe": {
@@ -30,7 +31,11 @@
       "flex-layout.row#articles"
     ],
     "props": {
-      "blockClass": "contenedor__principal--acercaDe--col"
+      "blockClass": "contenedor__principal--acercaDe--col",
+      "rowGap": "4",
+      "preventVerticalStretch": true
+
+
     }
   },
   "rich-text#title__one": {
@@ -43,7 +48,7 @@
   "rich-text#frase__one": {
     "title": "Frase de visitaa sitio",
     "props": {
-      "text": "Visita el sitio web del Grupo adidas: http://www.adidas-group.com",
+      "text": "Visita el sitio web del Grupo adidas",
       "blockClass": "frases"
 
     }
@@ -60,21 +65,32 @@
     "children": [
       "image#happy__face",
       "image#sad__face"
-    ]
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "colGap": 4
+
+    }
   },
   "image#happy__face": {
     "title": "Happy face",
     "props": {
-      "src": "assets/img/icons/icon-smile-happy.svg",
-      "blockClass": "faces"
+      "src": "assets/img/icons/smile.png",
+      "blockClass": "faces",
+      "maxWidth": "20",
+      "maxHeight": "20"
+
 
     }
-  },
+  },  
   "image#sad__face": {
     "title": "Sad face",
     "props": {
-      "src": "assets/img/icons/icon-smile-sad.svg",
-      "blockClass": "faces"
+      "src": "assets/img/icons/sad.png",
+      "blockClass": "faces",
+      "maxWidth": "20",
+      "maxHeight": "20"
+
 
     }
   },
@@ -168,7 +184,7 @@
     "title": "Access link",
     "props": {
       "label": "INICIA SESIÓN",
-      "blockClass": "questons"
+      "blockClass": "questonsDown"
     }
   },
   "rich-text#question--article--two ": {
@@ -190,7 +206,7 @@
     "props": {
       "label": "CONTÁCTANOS",
       "href": "/",
-      "blockClass": "questons"
+      "blockClass": "questonsDown"
     }
   }
 
