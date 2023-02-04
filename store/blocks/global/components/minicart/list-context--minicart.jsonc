@@ -41,7 +41,7 @@
       "title": "home_slider--listProduct",
       "props": {
         "itemsPerPage": {
-          "desktop": 2,
+          "desktop": 4,
           "tablet": 2,
           "mobile": 1
         },
