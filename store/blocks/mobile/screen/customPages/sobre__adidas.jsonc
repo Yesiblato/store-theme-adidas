@@ -7,7 +7,10 @@
       "flex-layout.row#mobile__Container--volverArriba",
       "flex-layout.row#mobile__home__iniciarSesion",
       "flex-layout.row#mobile__home--descuentos"
-    ]
+    ],
+    "props": {
+        "preserveLayoutOnMobile": true
+    }
   },
   "flex-layout.row#contenedor__principal--acercaDe--mobile": {
     "title": "Contenedor principal de Acerca de--row",
@@ -32,8 +35,7 @@
       "link#question__three--mobile",
       "link#question__four--mobile",
       "link#question__five--mobile",
-      "flex-layout.row#articles--mobile",
-      "flex-layout.col#links--mobile"
+      "flex-layout.row#articles--mobile"
     ],
     "props": {
       "blockClass": "contenedor__principal--acercaDe--col",
@@ -69,6 +71,7 @@
     ],
     "props": {
       "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
       "colGap": 4
     }
   },
@@ -144,35 +147,24 @@
       "flex-layout.col#article__two--mobile"
     ],
     "props": {
-      "preserveLayoutOnMobile": true
-    }
-  },
-  "flex-layout.col#links--mobile": {
-    "children": [
-      "flex-layout.row#links--mobile"
-    ]
-  },
-  "flex-layout.row#links--mobile": {
-    "children": [
-      "link#inicia__sesion--mobile",
-      "link#contactanos--mobile"
-    ],
-    "props": {
-      "preserveLayoutOnMobile": true
+      "blockClass": "contenedor__articulos"
     }
   },
   "flex-layout.col#article__one--mobile": {
     "title": "Container articles",
     "children": [
       "rich-text#question--article--one--mobile",
-      "rich-text#article--one--mobile"
+      "rich-text#article--one--mobile",
+      "link#inicia__sesion--mobile"
+
     ]
   },
   "flex-layout.col#article__two--mobile": {
     "title": "Containes articles col",
     "children": [
       "rich-text#question--article--two--mobile",
-      "rich-text#article--two--mobile"
+      "rich-text#article--two--mobile",
+      "link#contactanos--mobile"
     ]
   },
   "rich-text#question--article--one--mobile": {
