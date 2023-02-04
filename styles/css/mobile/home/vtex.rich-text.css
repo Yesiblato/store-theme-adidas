@@ -10,9 +10,6 @@
     font-family: Helvetica, sans-serif;
 }
 
-/* .headingLevel3--title50descuento {
-font-size: ;
-}  */
 
 .heading--banner__frase--rt {
     margin-top: 0em;
@@ -143,6 +140,32 @@ margin-bottom: 1.5em;
 
 .headingLevel3--mobile__item3{
     font-size: 1.1em;
+}
+
+.wrapper--mobile__item1S {
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4em;
+    width: max-content;
+    color: black;
+}
+
+.wrapper--mobile__item1S__2 {
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4em;
+    width: max-content;
+    margin-left: 1em;
+    color: black;
+}
+
+.wrapper--mobile__item1S__3 {
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4em;
+    width: fit-content;
+    margin-left: 1em;
+    color: black;
 }
 
 .headingLevel3--mobile__conoceMas--frase {
@@ -385,4 +408,37 @@ margin-bottom: 1.5em;
         left: 30%;
         padding: 0.5em;
     }
+
+    .wrapper--mobile__item1S {
+        font-weight: 700;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.4em;
+        width:fit-content;
+        margin-right: 1em;
+        color: black;
+    }
+    
+    .wrapper--mobile__item1S__2 {
+        font-weight: 700;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.4em;
+        width: fit-content;
+        color: black;
+        margin-left: 1em;
+        margin-right: 1em;
+        visibility: hidden;
+    }
+    
+    .wrapper--mobile__item1S__3 {
+        font-weight: 700;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.4em;
+        width: fit-content;
+         color: black;
+         margin-left: 1em;
+         visibility: hidden;
+    }
+    
+
+
 }

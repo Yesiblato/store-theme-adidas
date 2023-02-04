@@ -16,3 +16,7 @@
     filter: invert(1);
     padding-right: 1em; 
 }
+
+.imageElement--mobile__arrow {
+    width: fit-content;
+}
