@@ -46,7 +46,7 @@
       "flex-layout.row#opcione__mobile",
       "modal-trigger#header__top2--login-mobile",
       "icon#mobile__search",
-      "search-bar#header__mobile",
+      // "search-bar#header__mobile",
       "minicart.v2#desktop"
     ],
     "props": {

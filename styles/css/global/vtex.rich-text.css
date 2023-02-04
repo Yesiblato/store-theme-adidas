@@ -88,8 +88,27 @@
     margin: 0px;
 }
 
+.heading--parrafo1-desktop {
+    margin: 0;
+    font-weight: 700;
+}
+
+.container--parrafo1-desktop {
+    width: 60%;
+}
+
 .heading--parrafo3 {
     margin: 0px;
+}
+
+.heading--parrafo3-desktop {
+    margin: 0;
+    padding-bottom: 0 !important;
+    font-weight: 700;
+}
+
+.container--parrafo3-desktop {
+    width: 60%;
 }
 
 /* .heading--home__banner--frase {
@@ -157,5 +176,123 @@ font-weight: 600;
 
 .heading--videoBanner__frase--rt {
     font-family: Helvetica, sans-serif;
-    
 }
+
+
+.container--quick--view--trigger {
+    margin-top: 0.5rem;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.wrapper--text__info--promo {
+    margin-left: 5em;
+    font-weight: 500;
+    font-size: 1.1em;
+    font-family: Helvetica, sans-serif;
+}
+
+.wrapper--text__productos--vistos {
+    margin-bottom: 2em;
+    color: black;
+    font-weight: 700;
+    font-size: 1.7em;
+    font-family: Helvetica, sans-serif;
+}
+
+.wrapper--contenedor--titulo {
+    padding-left: 1em;
+}
+
+.wrapper--contenedor--frase {
+    padding-left: 1em;
+}
+
+.wrapper--text__info--promo {
+    padding: 5em;
+    font-weight: 500;
+    font-size: 1.1em;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+.wrapper--titulo__disclosure--pdp {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: black;
+    line-height: 48px;
+    margin-bottom: 0.5em;
+}
+
+.wrapper--titulo2__disclosure--pdp {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: black;
+    line-height: 48px;
+    /* margin-bottom: 0.5em; */
+}
+
+.wrapper--title-disclosure {
+color: black;
+}
+
+.wrapper--completaTuLook {
+    font-size: 1.7em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+/*CONFIGURACION PAGE NOT FOUND*/
+
+.wrapper--titulo__notFound {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 1em;
+}
+
+
+
+/*CONFIGURACION PAGE NOT FOUND*/
+
+
+@media (max-width:500px) {
+    .wrapper--text__info--promo {
+        padding-top: 3em;
+        padding: 3em;
+        font-size: 1em;
+    }
+
+    .wrapper--text__productos--vistos {
+        margin-bottom: 0.5em;
+        font-size: 1.5em;
+
+    }
+}
+
+
+@media (max-width:360px) {
+    .wrapper--text__info--promo {
+        padding-top: 2.5em;
+        padding: 2.5em;
+        font-size: 0.9em;
+    }
+
+    
+    .wrapper--text__productos--vistos {
+        margin-bottom: 0.5em;
+        font-size: 1.3em;
+
+    }
+}
+
+
+

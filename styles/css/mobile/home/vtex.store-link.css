@@ -35,3 +35,39 @@
     top: 70%;
     left: 30%;
 }
+
+.label--mobile__videoBanner__button {
+    padding-left: 0px;
+}
+
+.buttonLink--mobile__conoceMas__button {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    border: black;
+
+}
+
+@media (max-width:400px) {
+
+    .buttonLink--mobile__videoBanner__button {
+        width: 11em;
+        /* background-color: aqua; */
+    }
+
+    .label--mobile__videoBanner__button {
+        padding-left: 0px;
+    }
+
+    .buttonLink--mobile__conoceMas__button {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    border: black;
+    width: 12em;
+    height: 2em;
+
+    
+}
+
+}

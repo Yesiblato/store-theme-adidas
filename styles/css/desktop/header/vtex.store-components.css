@@ -2,3 +2,14 @@
     margin-left: 30px;
     margin-top: 5px;
 }
+
+.logoLink--logoAdidasHeader {
+    margin-left: 2em;
+}
+
+.searchBarInnerContainer--barraBusqueda {
+    /* background-color: gray; */
+}
+.autoCompleteOuterContainer--barraBusqueda {
+    /* background-color: gray; */
+}

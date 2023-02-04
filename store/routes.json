@@ -1,0 +1,8 @@
+{
+    "store.custom#minicart": {
+        "path": "/minicart" 
+    },
+    "store.custom#acercaDeAdidas": {
+        "path": "/acerca-de-adidas"
+    }
+}

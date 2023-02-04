@@ -12,7 +12,10 @@
     "title": "mobile__Container--opinion",
     "children": [
       "flex-layout.col#mobile__Container--seccion1"
-    ]
+    ],
+    "props": {
+      "blockClass": "contenedor__columna--opinion"
+    }
   },
   "flex-layout.col#mobile__Container--seccion1": {
     "title": "mobile__Container--seccion1",
@@ -28,14 +31,16 @@
   "rich-text#opinion__title": {
     "title": "opinion__título",
     "props": {
-        "text": "TU OPINIÓN CUENTA"
+        "text": "TU OPINIÓN CUENTA",
+        "blockClass":"contenedor--titulo"
 
     }
   },
   "rich-text#opinion__frase": {
     "title": "opinion__frase",
     "props": {
-        "text": "Nuestro objetivo es mejorar y valoramos mucho tus comentarios"
+        "text": "Nuestro objetivo es mejorar y valoramos mucho tus comentarios",
+        "blockClass":"contenedor--frase"
 
     }
   }

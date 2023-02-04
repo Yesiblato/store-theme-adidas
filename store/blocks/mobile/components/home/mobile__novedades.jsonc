@@ -12,7 +12,8 @@
     "flex-layout.col#mobile__home__novedades--secciones": {
         "title": "mobile__home__novedades--secciones",
         "children": [
-            "flex-layout.row#mobile__home__novedades--items",
+            "flex-layout.row#container__slider--opciones", 
+          /*  "flex-layout.row#mobile__home__novedades--items",*/
             "flex-layout.row#mobile__home__novedades--image",
             "flex-layout.row#mobile__home__novedades--link"
         ]
@@ -54,7 +55,9 @@
         "title": "Imagen Arrow",
         "props": {
             "src": "assets/img/arrow.svg",
-            "blockClass": "mobile__arrow"
+            "blockClass": "mobile__arrow",
+            "width": "auto"
+
         }
     },
     "rich-text#mobile__home__novedades--item1": {

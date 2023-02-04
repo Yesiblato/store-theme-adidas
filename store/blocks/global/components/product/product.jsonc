@@ -1,17 +1,31 @@
 {
-  "store.product": {
+  "flex-layout.row#product__disclosure": {
     "children": [
-      "flex-layout.row#product__breadcrumb",
-      "flex-layout.row#product__info",
-      "flex-layout.row#product__tags"
-    ]
+      "flex-layout.col#product__disclosure"
+    ],
+    "props": {
+      "blockClass": "contenedor__disclosure--secciones--row"
+    }
+
+  },
+  "flex-layout.col#product__disclosure": {
+    "children": [
+      "disclosure-layout-group#pdp__secciones"
+    ],
+    "props": {
+      "blockClass": "contenedor__disclosure--secciones--col"
+    }
   },
 
   "flex-layout.row#product__tags": {
     "title": "Información adicional",
     "children": [
       "tab-layout#product_tabs"
-    ]
+    ],
+    "props": {
+      "marginTop": 7,
+      "blockClass": "ccontenedor__secciones--tags"
+    }
   },
   "tab-layout#product_tabs": {
     "children": [
@@ -24,27 +38,33 @@
       "tab-list.item#tabs__list--reviews-and-rating",
       "tab-list.item#tabs__list--product--specification",
       "tab-list.item#tabs__list--question"
-    ]
+    ],
+    "props": {
+      "blockClass": "contenedor__botones--tags"
+    }
   },
   "tab-list.item#tabs__list--reviews-and-rating": {
     "props": {
       "tabId": "reviews-and-rating",
       "label": "Revisiones y Calificaiones",
-      "defaultActiveTab": true
+      "defaultActiveTab": true,
+      "blockClass": "container__boton--reviews-and-rating"
     }
   },
   "tab-list.item#tabs__list--product--specification": {
     "props": {
       "tabId": "product--specification",
       "label": "Especificaciones del Producto",
-      "defaultActiveTab": false
+      "defaultActiveTab": false,
+      "blockClass": "container__boton--specification"
     }
   },
   "tab-list.item#tabs__list--question": {
     "props": {
       "tabId": "question",
       "label": "Preguntas y Respuestas",
-      "defaultActiveTab": false
+      "defaultActiveTab": false,
+      "blockClass": "container__boton--questions"
     }
   },
   "tab-content#product__tab--content": {
@@ -77,5 +97,25 @@
 "children": [
     "questions-and-answers"
 ]
+  },
+
+  "flex-layout.row#completaTuLook": {
+    "title": "Contenedor completa tu look",
+    "children": [
+      "rich-text#completaTuLook"
+    ],
+    "props": {
+      "blockClass": "container__completaTuLook"
+    }
+  },
+  "rich-text#completaTuLook": {
+    "title": "tittulo completa tu look",
+    "props": {
+      "text": "COMPLETA TU LOOK",
+      "blockClass": "completaTuLook"
+    }
   }
+
+
+
 }

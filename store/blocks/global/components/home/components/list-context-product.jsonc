@@ -2,7 +2,10 @@
   "flex-layout.row#product-list": {
     "children": [
       "list-context.product-list#products"
-    ]
+    ],
+    "props": {
+      "blockClass": "contenedor__product--list"
+    }
   },
   "list-context.product-list#products": {
     "blocks": [
@@ -10,7 +13,10 @@
     ],
     "children": [
       "slider-layout#products"
-    ]
+    ],
+    "props": {
+      
+    }
   },
   "product-summary.shelf": {
     "children": [

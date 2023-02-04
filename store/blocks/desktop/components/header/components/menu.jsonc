@@ -48,10 +48,9 @@
       "blockClass": "Menu-item-hombre"
     },
     "blocks": [
-      "submenu#hombre"
+      "submenu#mujer"
     ]
   },
-
   "submenu#mujer": {
     "children": [
       "flex-layout.row#contenedorPrincipal"
@@ -516,7 +515,9 @@
   },
 
   "menu-item#niños": {
+   
     "props": {
+      "blockClass": "Menu-item-mujer",
       "id": "menu-item-niños",
       "type": "custom",
       "highlight": false,
@@ -526,8 +527,11 @@
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "NIÑOS"
-      }
-    }
+      } 
+    },
+    "blocks": [
+      "submenu#mujer"
+    ]
   },
   "menu-item#deportes": {
     "props": {
@@ -540,8 +544,12 @@
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "DEPORTES"
-      }
-    }
+      },
+      "blockClass": "Menu-item-deportes"
+    },
+    "blocks": [
+      "submenu#mujer"
+    ]
   },
 
   "menu-item#mundoAdidas": {
@@ -555,8 +563,12 @@
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "MUNDO ADIDAS"
-      }
-    }
+      },
+      "blockClass": "Menu-item-mundoAdidas"
+    },
+    "blocks": [
+      "submenu#mujer"
+    ]
   },
   "menu-item#ofertas": {
     "props": {
@@ -569,8 +581,12 @@
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "OFERTAS"
-      }
-    }
+      },
+      "blockClass": "Menu-item-ofertas"
+    },
+    "blocks": [
+      "submenu#mujer"
+    ]
   },
 
 

@@ -2,7 +2,8 @@
     "flex-layout.row#mobile__home--descuentos": {
         "title": "mobile__home--descuentos",
         "children": [
-            "rich-text#home__descuentos--frase"
+            "rich-text#home__descuentos--frase",
+            "link#descuento__button"
         ],
         "props": {
             "blockClass": "mobile__descuentos"
@@ -15,5 +16,6 @@
             "blockClass": "descuentas--frases-rt"
         }
         
+
     }
 }

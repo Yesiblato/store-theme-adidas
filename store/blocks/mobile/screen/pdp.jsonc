@@ -1,0 +1,207 @@
+{
+    "responsive-layout.mobile#pdp": {
+        "children": [
+          "flex-layout.row#product__breadcrumb--mobile",
+          "flex-layout.row#datos--mobile",
+          "flex-layout.row#product__image--mobile", 
+          "flex-layout.row#product__info--mobile", 
+          "flex-layout.row#product__disclosure--mobile",
+          "flex-layout.row#product__tags",
+          "flex-layout.row#completaTuLook",
+          "flex-layout.row#product-list",
+          "flex-layout.row#mobile__home__opinion",
+          "flex-layout.row#mobile__Container--volverArriba",
+          "flex-layout.row#mobile__home__iniciarSesion",
+          "flex-layout.row#mobile__home--descuentos"
+
+        ]
+      },
+      "flex-layout.row#product__breadcrumb--mobile": {
+        "children": [
+          // "breadcrumb.search",
+          "product-rating-inline"
+            ],
+            "props": {
+              "marginTop": 2,
+              "marginBottom": 4
+            }
+      },
+      "flex-layout.row#datos--mobile": {
+        "children": [
+            "flex-layout.col#datos--mobile"
+        ]
+      },
+      "flex-layout.col#datos--mobile": {
+        "children": [
+           
+            "vtex.store-components:product-name",
+            "product-price",
+            "link#verMas"
+        ]
+      },
+      "link#verMas": {
+        "props": {
+            "href": "/",
+            "label": "Ver Más"
+        }
+      },
+      "flex-layout.row#product__image--mobile": {
+        "title": "Imagenes de Producto",
+        "children": [
+          "product-images"
+        ],
+        "props": {
+          "blockClass": "ContenedorImages-mobile",
+          "width": "70%",
+          "paddingLeft": 7,
+          "displayThumbnailsArrows": true,
+          "fullWidth": true
+        }
+      },
+      "flex-layout.row#product__info--mobile": {
+        "children": [
+            "flex-layout.col#product__info--mobile"
+        ]
+      },
+      "flex-layout.col#product__info--mobile": {
+        "children": [
+            "product-quantity",
+            "product-description",
+            "flex-layout.row#contenedor__boton--corazon--mobile",
+            "flex-layout.row#contenedor__opciones--envios--mobile",
+            "share"
+        ]
+      },
+      "flex-layout.row#contenedor__boton--corazon--mobile": {
+        "title": "contenedor__boton--corazon--mobile",
+        "children": [
+          "add-to-cart-button",
+          "add-to-list-btn"
+        ],
+        "props": {
+          "blockClass": "ContenedorBoton--corazon--mobile",
+          "width": "100%",
+          "paddingTop": 6,
+          "preserveLayoutOnMobile": true
+          // "preventHorizontalStretch": true
+        }
+      },
+      "flex-layout.row#contenedor__opciones--envios--mobile": {
+        "children": [
+          "flex-layout.col#contenedor__opciones--envios--mobile"
+        ],
+        "props": {
+          "blockClass": "contenedor__opciones--envios--row"
+        }
+      },
+      "flex-layout.col#contenedor__opciones--envios--mobile": {
+        "children": [
+          "flex-layout.row#seccion__envios1--mobile",
+          "flex-layout.row#seccion__envios2--mobile",
+          "flex-layout.row#seccion__envios3--mobile"
+        ],
+        "props": {
+          "blockClass": "contenedor__opciones--envios--col",
+          "preventHorizontalStretch": true,
+          "rowGap": 4,
+        "colGap": 3
+
+
+        }
+      },
+      "flex-layout.row#seccion__envios1--mobile": {
+        "children": [
+          "image#icono1--mobile",
+          "rich-text#opcion1--mobile"
+        ],
+        "props": {
+          "blockClass": "Contenedor--seccion__envios1",
+          "preserveLayoutOnMobile": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.row#seccion__envios2--mobile": {
+        "children": [
+          "image#icono2--mobile",
+          "rich-text#opcion2--mobile"
+        ],
+        "props": {
+          "blockClass": "Contenedor--seccion__envios2",
+          "preserveLayoutOnMobile": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true
+        }
+      },
+      "flex-layout.row#seccion__envios3--mobile": {
+        "children": [
+          "image#icono3--mobile",
+          "rich-text#opcion3--mobile"
+        ],
+        "props": {
+          "blockClass": "Contenedor--seccion__envios3",
+          "preserveLayoutOnMobile": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true
+        }
+      },
+      "image#icono1--mobile": {
+        "props": {
+          "src": "assets/img/icons/entrega.png",
+          "blockClass": "icon__entrega",
+          "maxWidth": 25,
+          "maxHeight": 25
+         
+        }
+      },
+      "rich-text#opcion1--mobile": {
+        "props": {
+          "text": "ENVÍO GRATIS APARTIR DE $249.900"
+        }
+      },
+      "image#icono2--mobile": {
+        "props": {
+          "src": "assets/img/icons/candado.png",
+          "blockClass": "icon__entrega",
+          "maxWidth": 25,
+          "maxHeight": 25
+          
+          
+        }
+      },
+      "rich-text#opcion2--mobile": {
+        "props": {
+          "text": "PAGA SEGURO PUEDES PAGAR EN LINEA"
+        }
+      },
+      "image#icono3--mobile": {
+        "props": {
+          "src": "assets/img/icons/carta.png",
+          "blockClass": "icon__entrega",
+          "maxWidth": 25,
+          "maxHeight": 25
+          
+        }
+      },
+      "rich-text#opcion3--mobile": {
+        "props": {
+          "text": "DEVOLUCIONES GRATIS ¿NO ES TU TALLA? DEVUELVE EN UN PLAZO DE 60 DÍAS"
+        }
+      },
+      "flex-layout.row#product__disclosure--mobile": {
+        "children": [
+          "flex-layout.col#product__disclosure--mobile"
+
+        ],
+        "props": {
+          "marginTop": 4,
+          "fullWidth": true
+        }
+      },
+      "flex-layout.col#product__disclosure--mobile": {
+        "children": [
+          "disclosure-layout-group#pdp__secciones"
+        ]
+      }
+
+}
