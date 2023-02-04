@@ -1,5 +1,5 @@
 {
-  "store.custom#acercaDeAdidas": {
+  "responsive-layout.desktop#acercaDeAdidas": {
     "title": "Pagina de acerca de Adidas",
     "children": [
       "flex-layout.row#contenedor__principal--acercaDe",
@@ -12,7 +12,9 @@
       "flex-layout.col#contenedor__principal--acercaDe"
     ],
     "props": {
-      "blockClass": "contenedor__principal--acercaDe--row"
+      "blockClass": "contenedor__principal--acercaDe--row",
+      "preserveLayoutOnMobile": true
+
     }
   },
   "flex-layout.col#contenedor__principal--acercaDe": {
@@ -28,14 +30,13 @@
       "link#question__three",
       "link#question__four",
       "link#question__five",
-      "flex-layout.row#articles"
+      "flex-layout.row#articles",
+      "flex-layout.col#links"
     ],
     "props": {
       "blockClass": "contenedor__principal--acercaDe--col",
       "rowGap": "4",
       "preventVerticalStretch": true
-
-
     }
   },
   "rich-text#title__one": {
@@ -146,25 +147,47 @@
     "children": [
       "flex-layout.col#article__one",
       "flex-layout.col#article__two"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colGap": 7
+    }
   },
   "flex-layout.col#article__one": {
     "title": "Container articles",
     "children": [
       "rich-text#question--article--one",
-      "rich-text#article--one",
-      "link#inicia__sesion"
+      "rich-text#article--one"
+      
 
-    ]
+    ],
+    "props": {
+      "paddingRight": 2
+    }
   },
   "flex-layout.col#article__two": {
     "title": "Containes articles col",
     "children": [
       "rich-text#question--article--two ",
-      "rich-text#article--two",
-      "link#contactanos"
-
+      "rich-text#article--two"
+    ],
+    "props": {
+      "paddingLeft": 2
+    }
+  },
+  "flex-layout.col#links": {
+    "children": [
+      "flex-layout.row#links"
     ]
+  },
+  "flex-layout.row#links": {
+    "children": [
+      "link#inicia__sesion",
+      "link#contactanos"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
   },
   "rich-text#question--article--one": {
     "title": "Article Title one",
