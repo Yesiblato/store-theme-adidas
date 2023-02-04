@@ -2,83 +2,8 @@
     "store.not-found#search": {
         "title": "Pagina Not Found",
         "blocks": [
-            "flex-layout.row#page__notFound",
-            "flex-layout.row#home__descuentos--global"
+            "responsive-layout.desktop#page__notFound",
+            "responsive-layout.mobile#page__notFound"
         ]
-    },
-    "flex-layout.row#page__notFound": {
-        "title": "Contenedor de la pagina not found row",
-        "children": [
-            "flex-layout.col#page__notFound"
-        ],
-        "props": {
-            "blockClass": "Contenedor__page--notFound--row",
-            "horizontalAlign": "center",
-            "marginTop": 9,
-            "marginBottom": 10
-
-        }
-    },
-    "flex-layout.col#page__notFound":  {
-        "title": "Contenedor de la pagina not found col",
-        "children": [
-            "rich-text#Not__found",
-            "search-bar#not__found",
-            "flex-layout.row#frase__tiendaOnline"
-        ],
-        "props": {
-            "blockClass": "contenedor__items--notFound",
-            "preventVerticalStretch": true
-
-        }
-    },
-    "rich-text#Not__found": {
-        "title": "Título de la página",
-        "props": {
-            "text": "NO SE ENCUENTRA LA PÁGINA",
-            "blockClass": "titulo__notFound"
-            
-        }
-    },
-    "search-bar#not__found": {
-        "blocks": [
-          "autocomplete-result-list.v2"
-        ],
-        "props": {
-          "openAutocompleteOnFocus": true,
-          "maxWidth": "15%",
-          "blockClass": "barraBusqueda__notFound"
-        }
-      },
-    "flex-layout.row#frase__tiendaOnline": {
-        "title": "Contenedor frase tienda online",
-        "children": [
-            "rich-text#frase__notFound",
-            "link#tienda__online"
-        ],
-        "props": {
-            "blockClass": "Contenedor__tiendaOnline",
-            "preventHorizontalStretch": true,
-            "preserveLayoutOnMobile": true,
-            "colGap": 3,
-            "marginTop": 3
-
-        }
-    },
-    "rich-text#frase__notFound": {
-        "title": "Frase de la página not found",
-        "props": {
-            "text": "Vuelve a nuestra ",
-            "blockClass": "frase__pageNotFound"
-        }
-    },
-    "link#tienda__online": {
-        "title": "Enlace tienda online",
-        "props": {
-            "label": "tienda online",
-            "href": "/",
-            "blockClass": "link__tiendaOnline"
-        }
     }
-
 }

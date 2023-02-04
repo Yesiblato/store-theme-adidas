@@ -1,0 +1,213 @@
+{
+  "responsive-layout.mobile#acercaDeAdidas": {
+    "title": "Pagina de acerca de Adidas",
+    "children": [
+      "flex-layout.row#contenedor__principal--acercaDe--mobile",
+      "flex-layout.row#mobile__home__opinion",
+      "flex-layout.row#mobile__Container--volverArriba",
+      "flex-layout.row#mobile__home__iniciarSesion",
+      "flex-layout.row#mobile__home--descuentos"
+    ],
+    "props": {
+        "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#contenedor__principal--acercaDe--mobile": {
+    "title": "Contenedor principal de Acerca de--row",
+    "children": [
+      "flex-layout.col#contenedor__principal--acercaDe--mobile"
+    ],
+    "props": {
+      "blockClass": "contenedor__principal--acercaDe--row",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#contenedor__principal--acercaDe--mobile": {
+    "title": "Contenedor principal de Acerca de--col",
+    "children": [
+      "rich-text#title__one--mobile",
+      "rich-text#frase__one--mobile",
+      "rich-text#frase__two--mobile",
+      "flex-layout.row#images__faces--mobile",
+      "rich-text#title__two--mobile",
+      "link#question__one--mobile",
+      "link#question__two--mobile",
+      "link#question__three--mobile",
+      "link#question__four--mobile",
+      "link#question__five--mobile",
+      "flex-layout.row#articles--mobile"
+    ],
+    "props": {
+      "blockClass": "contenedor__principal--acercaDe--col",
+      "rowGap": "4",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title__one--mobile": {
+    "title": "Título de la página",
+    "props": {
+      "text": "SOBRE ADIDAS COLOMBIA",
+      "blockClass": "titles"
+    }
+  },
+  "rich-text#frase__one--mobile": {
+    "title": "Frase de visitaa sitio",
+    "props": {
+      "text": "Visita el sitio web del Grupo adidas",
+      "blockClass": "frases"
+    }
+  },
+  "rich-text#frase__two--mobile": {
+    "title": "Frase de resultado del articulo",
+    "props": {
+      "text": "¿LE HA RESULTADO ÚTIL ESTE ARTÍCULO?",
+      "blockClass": "frase__two"
+    }
+  },
+  "flex-layout.row#images__faces--mobile": {
+    "children": [
+      "image#happy__face--mobile",
+      "image#sad__face--mobile"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "colGap": 4
+    }
+  },
+  "image#happy__face--mobile": {
+    "title": "Happy face",
+    "props": {
+      "src": "assets/img/icons/smile.png",
+      "blockClass": "faces",
+      "maxWidth": "20",
+      "maxHeight": "20"
+    }
+  },
+  "image#sad__face--mobile": {
+    "title": "Sad face",
+    "props": {
+      "src": "assets/img/icons/sad.png",
+      "blockClass": "faces",
+      "maxWidth": "20",
+      "maxHeight": "20"
+    }
+  },
+  "rich-text#title__two--mobile": {
+    "title": "Title two",
+    "props": {
+      "text": "PREGUNTAS FRECUENTES",
+      "blockClass": "titles"
+    }
+  },
+  "link#question__one--mobile": {
+    "title": "Question one",
+    "props": {
+      "label": "¿CUÁNTO TARDARÁ EN LLEGAR MI PEDIDO?",
+      "href": "/",
+      "blockClass": "questons"
+    }
+  },
+  "link#question__two--mobile": {
+    "title": "Question two",
+    "props": {
+      "label": "¿QUÉ PASA SI MI PRODUCTO TIENE UN DEFECTO O NO CUMPLE CON LOS ESTÁNDARES DE CALIDAD?",
+      "href": "/",
+      "blockClass": "questons"
+    }
+  },
+  "link#question__three--mobile": {
+    "title": "Question three",
+    "props": {
+      "label": "¿CÓMO ES EL PROCESO DE DEVOLUCIÓN DE UN PEDIDO EN ADIDAS?",
+      "href": "/",
+      "blockClass": "questons"
+    }
+  },
+  "link#question__four--mobile": {
+    "title": "Question four",
+    "props": {
+      "label": "¿CÓMO PUEDO DAR SEGUIMIENTO A LA ENTREGA DE MI PEDIDO?",
+      "href": "/",
+      "blockClass": "questons"
+    }
+  },
+  "link#question__five--mobile": {
+    "title": "Question five",
+    "props": {
+      "label": "¿PUEDO REALIZAR CAMBIOS EN TIENDA?",
+      "href": "/",
+      "blockClass": "questons"
+    }
+  },
+  "flex-layout.row#articles--mobile": {
+    "title": "Articles",
+    "children": [
+      "flex-layout.col#article__one--mobile",
+      "flex-layout.col#article__two--mobile"
+    ],
+    "props": {
+      "blockClass": "contenedor__articulos"
+    }
+  },
+  "flex-layout.col#article__one--mobile": {
+    "title": "Container articles",
+    "children": [
+      "rich-text#question--article--one--mobile",
+      "rich-text#article--one--mobile",
+      "link#inicia__sesion--mobile"
+
+    ]
+  },
+  "flex-layout.col#article__two--mobile": {
+    "title": "Containes articles col",
+    "children": [
+      "rich-text#question--article--two--mobile",
+      "rich-text#article--two--mobile",
+      "link#contactanos--mobile"
+    ]
+  },
+  "rich-text#question--article--one--mobile": {
+    "title": "Article Title one",
+    "props": {
+      "text": "¿DÓNDE ESTÁ MI ORDEN?",
+      "blockClass": "questonsT"
+    }
+  },
+  "rich-text#article--one--mobile": {
+    "title": "Frase article one",
+    "props": {
+      "text": "Inicie sesión o ingrese los detalles de su pedido en el rastreador de pedidos para ver el resumen de su pedido. Desde allí, puede cancelar artículos, realizar un seguimiento del estado de la entrega u organizar un cambio o una devolución.",
+      "blockClass": "frases"
+    }
+  },
+  "link#inicia__sesion--mobile": {
+    "title": "Access link",
+    "props": {
+      "label": "INICIA SESIÓN",
+      "blockClass": "questonsDown"
+    }
+  },
+  "rich-text#question--article--two--mobile": {
+    "title": "Article title two",
+    "props": {
+      "text": "¿AÚN NO ENCUENTRAS TU RESPUESTA?",
+      "blockClass": "questonsT"
+    }
+  },
+  "rich-text#article--two--mobile": {
+    "title": "frase article two",
+    "props": {
+      "text": "PREGUNTALE A NUESTRO SERVICIO AL CLIENTE: Lun - Vie : 9:00 AM to 9:00 M | Sab - Dom : 10:00 AM to 6:00 PM | Teléfono: (601) 3557233",
+      "blockClass": "frases"
+    }
+  },
+  "link#contactanos--mobile": {
+    "title": "Contact link",
+    "props": {
+      "label": "CONTÁCTANOS",
+      "href": "/",
+      "blockClass": "questonsDown"
+    }
+  }
+}

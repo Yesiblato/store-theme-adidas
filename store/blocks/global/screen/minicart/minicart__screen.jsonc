@@ -1,0 +1,11 @@
+{
+    "store.custom#minicart": {
+        "title": "pagina minicart",
+        "blocks": [
+            "responsive-layout.desktop#minicart",
+            "responsive-layout.mobile#minicart"
+        ]
+    }
+}
+
+

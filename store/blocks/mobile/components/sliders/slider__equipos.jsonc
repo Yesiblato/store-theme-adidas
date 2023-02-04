@@ -9,6 +9,7 @@
       "title": "home_slider--equipos--phone",
       "props": {
         "itemsPerPage": {
+          "tablet": 10,
           "mobile": 4.5
         },
         "infinite": false,
