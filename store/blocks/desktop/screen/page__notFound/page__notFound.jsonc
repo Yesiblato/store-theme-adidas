@@ -41,6 +41,7 @@
         }
     },
     "search-bar#not__found": {
+        "title": "Barra de busqueda not found",
         "blocks": [
           "autocomplete-result-list.v2"
         ],

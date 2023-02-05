@@ -63,6 +63,7 @@
     }
   },
   "flex-layout.row#images__faces": {
+    "title": "Contenedor images faces",
     "children": [
       "image#happy__face",
       "image#sad__face"
@@ -176,11 +177,13 @@
     }
   },
   "flex-layout.col#links": {
+    "title": "Contenedor links",
     "children": [
       "flex-layout.row#links"
     ]
   },
   "flex-layout.row#links": {
+    "title": "Contenedor links",
     "children": [
       "link#inicia__sesion",
       "link#contactanos"

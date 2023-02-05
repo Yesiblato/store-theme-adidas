@@ -1,5 +1,6 @@
 {
     "store.search#department": {
+      "title": "Contenedor department",
         "props": {
           "context": {
             "skusFilter": "FIRST_AVAILABLE",
