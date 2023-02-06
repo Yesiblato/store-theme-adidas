@@ -1,11 +1,13 @@
 
 {
   "flex-layout.row#contenedor__productos": {
+    "title": "Contenedor productos",
     "children": [
       "minicart-product-list#adidasV2" 
     ]
   },
   "minicart-product-list#adidasV2": {
+    "title": "Product list addias V2",
     "blocks": [
       "product-list"
     ]

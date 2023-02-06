@@ -144,11 +144,13 @@
     ]
   },
   "flex-layout.col#departmentbreadcrumb": {
+    "title": "Contenedor columna breadcrumb",
     "children": [
       "breadcrumb.search"
     ]
   },
   "breadcrumb.search": {
+    "title": "Breadcrumb search",
     "props": {
       "showOnMobile": true
     }
@@ -160,7 +162,6 @@
       "product-summary-image",
       "product-summary-name",
       "product-price",
-      // "add-to-cart-button",
       "modal-trigger#global__quick--view"
     ]
   },
@@ -170,7 +171,6 @@
       "product-summary-image",
       "product-summary-name",
       "product-price",
-      // "add-to-cart-button",
       "modal-trigger#global__quick--view"
     ]
   },
@@ -212,6 +212,7 @@
     }
   },
   "modal-layout#global__quick--view--modal": {
+    "title": "Modal de vista rápida del producto",
     "children": [
       "flex-layout.row#quick--view__modal"
     ],

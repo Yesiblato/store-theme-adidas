@@ -26,11 +26,6 @@
 
       "title": "Descuentos",
       "blockClass": "home__image"
-      // "link": {
-      //   "url": "https://www.google.com/",
-      //   "newTab": true,
-      //   "atrributeNoFollow": true
-      // }
     }
   },
   "flex-layout.col#banner__items": {
