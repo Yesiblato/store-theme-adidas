@@ -18,8 +18,8 @@
       "minicart-empty-state"
     ],
     "children": [
-      "minicart-product-list#adidasV2",
-      "flex-layout.row#minicart-desktop"
+      "minicart-product-list#adidasV2--d",
+      "flex-layout.row#minicart-desktop" 
     ]
   },
   "flex-layout.row#minicart-desktop": {

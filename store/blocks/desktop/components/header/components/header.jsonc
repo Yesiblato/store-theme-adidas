@@ -85,7 +85,7 @@
   "header-row#header__top2": {
     "title": "segunda linea del header",
     "children": [
-      "logo#header__top--logo",
+      "logo#header__top--logo1",
       "header-spacer",
       "menu#header_menu",
       "header-spacer",
@@ -117,14 +117,14 @@
       "blockClass": "contenedor__icons--headerDesktop"
     }
   },
-  "logo#header__top--logo": {
+  "logo#header__top--logo1": {
     "title": "Logo",
     "props": {
       "url": "assets/img/Adidas_isologo.svg",
       "width": 70,
       "href": "/",
       "blockClass": "logoAdidasHeader"
-      
+
     }
   },
   "modal-trigger#header__top2--login": {

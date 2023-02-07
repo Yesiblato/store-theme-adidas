@@ -18,7 +18,7 @@
         "title": "Menú descripción",
         "children": [
             "rich-text#descripcion",
-            "disclosure-state-indicator"
+            "disclosure-state-indicator#descripcion"
         ],
         "props": {
             "blockClass": "contenedorMenuMujer"
@@ -32,14 +32,14 @@
             "blockClass": "title-disclosure"
         }
     },
-    "disclosure-state-indicator": {
+    "disclosure-state-indicator#descripcion": {
         "title": "Iconos__mas--menos",
         "props": {
-            "Show": "image#down",
-            "Hide": "image#up"
+            "Show": "image#down__descrip",
+            "Hide": "image#up__descrip"
         }
     },
-    "image#up": {
+    "image#up__descrip": {
         "title": "Icono mas",
         "props": {
             "src": "assets/img/icons/menos.png",
@@ -47,7 +47,7 @@
             "maxHeight": 30
         }
     },
-    "image#down": {
+    "image#down__descrip": {
         "title": "icono menos",
         "props": {
             "src": "assets/img/icons/mas.png",
@@ -71,7 +71,7 @@
 
 
     "disclosure-layout#cuidados": {
-        
+
         "children": [
             "disclosure-trigger#cuidados",
             "disclosure-content#cuidados"
@@ -371,7 +371,7 @@
     },
 
     "disclosure-layout#detalles": {
-        
+
         "children": [
             "disclosure-trigger#detalles",
             "disclosure-content#detalles"

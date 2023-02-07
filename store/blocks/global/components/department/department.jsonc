@@ -155,7 +155,7 @@
       "showOnMobile": true
     }
   },
-  
+
   "product-summary.shelf#grid": {
     "title": "Contenedor en grilla",
     "children": [
@@ -234,7 +234,7 @@
   "flex-layout.col#view__modal--image": {
     "title": "contenedor imagen modal",
     "children": [
-      "logo#header__top--logo",
+      "logo#header__top--logo2",
       "search-title.v2",
       "product-summary-image"
     ]
@@ -248,7 +248,7 @@
       "add-to-cart-button"
     ]
   },
-  "logo#header__top--logo": {
+  "logo#header__top--logo2": {
     "title": "Logo del modal",
     "props": {
       "blockClass": "logo--modal--search",

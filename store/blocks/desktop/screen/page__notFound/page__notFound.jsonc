@@ -37,7 +37,7 @@
         "props": {
             "text": "NO SE ENCUENTRA LA PÁGINA",
             "blockClass": "titulo__notFound"
-            
+
         }
     },
     "search-bar#not__found": {
