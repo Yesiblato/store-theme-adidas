@@ -1,29 +1,31 @@
 
 {
   "flex-layout.row#contenedor__productos": {
+    "title": "Contenedor productos",
     "children": [
-      "minicart-product-list#adidasV2" 
+      "minicart-product-list#adidasV2--d"
     ]
   },
-  "minicart-product-list#adidasV2": {
+  "minicart-product-list#adidasV2--d": {
+    "title": "Product list addias V2",
     "blocks": [
       "product-list"
     ]
   },
   "product-list": {
       "blocks": [
-        "product-list-content-desktop",
+        "product-list-content-desktop#desk",
         "product-list-content-mobile"
       ]
     },
-    "product-list-content-desktop": {
-      "children": ["flex-layout.row#list-row.desktop"]
+    "product-list-content-desktop#desk": {
+      "children": ["flex-layout.row#list--row.desktop"]
     },
-    "flex-layout.row#list-row.desktop": {
+    "flex-layout.row#list--row.desktop": {
       "children": [
-        "flex-layout.col#image.desktop",
-        "flex-layout.col#main-container.desktop",
-        "flex-layout.col#price-remove"
+        "flex-layout.col#imaged.desktop",
+        "flex-layout.col#main--container.desktop",
+        "flex-layout.col#price-remove--d"
       ],
       "props": {
         "fullWidth": true,
@@ -34,26 +36,26 @@
         "blockClass": "Contenedor__principal--targeta"
       }
     },
-    "flex-layout.col#image.desktop": {
+    "flex-layout.col#imaged.desktop": {
       "children": ["product-list-image"],
       "props": {
         "marginRight": 6
       }
     },
-    "flex-layout.col#main-container.desktop": {
+    "flex-layout.col#main--container.desktop": {
       "children": [
-        "flex-layout.row#sub-container.desktop",
-        "flex-layout.row#message.desktop"
+        "flex-layout.row#su-container.desktop",
+        "flex-layout.row#message.desktop--ta"
       ],
       "props": {
         // "width": "grow"
         "preventVerticalStretch": true
       }
     },
-    "flex-layout.row#sub-container.desktop": {
+    "flex-layout.row#su-container.desktop": {
       "children": [
         "flex-layout.col#product-description",
-        "flex-layout.col#quantity.desktop"
+        "flex-layout.col#quantity.desktop--d"
 
       ],
       "props": {
@@ -61,31 +63,31 @@
         "colSizing": "auto"
       }
     },
-    "flex-layout.col#quantity.desktop": {
+    "flex-layout.col#quantity.desktop--d": {
       "children": [
-        "flex-layout.row#quantity-selector.desktop",
-        "flex-layout.row#unit-price.desktop"
+        "flex-layout.row#quantity-selector.desktop--d",
+        "flex-layout.row#unit-price.desktop--d"
       ],
       "props": {
         "marginLeft": 8
       }
     },
-    "flex-layout.col#price-remove": {
+    "flex-layout.col#price-remove--d": {
       "children": [
         "flex-layout.col#price.desktop",
-        "flex-layout.col#remove-button.desktop"
+        "flex-layout.col#remove-button.desktop--ta"
       ],
       "props": {
         "colSizing": "auto"
       }
     },
-    "flex-layout.row#quantity-selector.desktop": {
+    "flex-layout.row#quantity-selector.desktop--d": {
       "children": ["quantity-selector"],
       "props": {
         "preventHorizontalStretch": true
       }
     },
-    "flex-layout.row#unit-price.desktop": {
+    "flex-layout.row#unit-price.desktop--d": {
       "children": ["unit-price#desktop"],
       "props": {
         "marginTop": 3,
@@ -111,20 +113,20 @@
         "textAlign": "right"
       }
     },
-    "flex-layout.col#remove-button.desktop": {
+    "flex-layout.col#remove-button.desktop--ta": {
       "children": ["remove-button"],
       "props": {
         "marginLeft": 6,
         "verticalAlign": "middle"
       }
     },
-    "flex-layout.row#message.desktop": {
-      "children": ["message#desktop"],
+    "flex-layout.row#message.desktop--ta": {
+      "children": ["message#desktop--ta"],
       "props": {
         "marginTop": 4
       }
     },
-    "message#desktop": {
+    "message#desktop--ta": {
       "props": {
         "layout": "cols"
       }

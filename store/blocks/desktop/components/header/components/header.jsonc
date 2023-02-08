@@ -61,18 +61,21 @@
     }
   },
   "rich-text#header__top1-1--opcion2": {
+    "title": "Texto de cambios y devoluciones",
     "props": {
       "text": "cambios y devoluciones",
       "blockClass": "top1-1__opcion"
     }
   },
   "rich-text#header__top1-1--opcion3": {
+    "title": "Texto de seguimiento de pedidos",
     "props": {
       "text": "seguimientos de pedidos",
       "blockClass": "top1-1__opcion"
     }
   },
   "rich-text#header__top1-1--opcion4": {
+    "title": "Texto unete al club",
     "props": {
       "text": "únete al club",
       "blockClass": "top1-1__opcion"
@@ -80,8 +83,9 @@
   },
 
   "header-row#header__top2": {
+    "title": "segunda linea del header",
     "children": [
-      "logo#header__top--logo",
+      "logo#header__top--logo1",
       "header-spacer",
       "menu#header_menu",
       "header-spacer",
@@ -95,12 +99,14 @@
     }
   },
   "rich-text#envíos": {
+    "title": "Texto de descuentos",
     "props": {
       "blockClass": "header__enviosGratis--rt",
       "text": "Hasta 50% de Descuentos"
     }
   },
   "flex-layout.row#container__icons": {
+    "title": "Container de los iconos del header",
     "children": [
       "modal-trigger#header__top2--login",
       "icon#desktop__heart",
@@ -111,28 +117,31 @@
       "blockClass": "contenedor__icons--headerDesktop"
     }
   },
-  "logo#header__top--logo": {
+  "logo#header__top--logo1": {
     "title": "Logo",
     "props": {
       "url": "assets/img/Adidas_isologo.svg",
       "width": 70,
       "href": "/",
       "blockClass": "logoAdidasHeader"
-      
+
     }
   },
   "modal-trigger#header__top2--login": {
+    "title": "Modal para login",
     "children": [
       "icon#desktop__user-icon",
       "modal-layout#header__top2--login"
     ]
   },
   "modal-layout#header__top2--login": {
+    "title": "Modal ",
     "children": [
       "login-content#desktop"
     ]
   },
   "login-content#desktop": {
+    "title": "Modal del login",
     "props": {
       "showIconProfile": true,
       "hideIconLabel": true,
@@ -144,6 +153,7 @@
   },
 
   "search-bar#header__desktop": {
+    "title": "Barra de busqueda",
     "blocks": [
       "autocomplete-result-list.v2"
     ],
@@ -159,6 +169,7 @@
     ]
   },
   "icon#desktop__bag-shopping": {
+    "title": "Icono del carrito",
     "props": {
       "id": "surface1",
       "size": 40,
@@ -169,6 +180,7 @@
     }
   },
   "icon#desktop__heart": {
+    "title": "Icono del corazon",
     "props": {
       "id": "mpa-heart",
       "size": 40,
@@ -179,6 +191,7 @@
     }
   },
   "icon#desktop__user-icon": {
+    "title": "Icono de login",
     "props": {
       "id": "user-icon",
       "size": 30,

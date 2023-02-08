@@ -1,0 +1,29 @@
+{
+    "drawer#search__mobile": {
+        "children": [
+          "menu#drawer"
+        ],
+        "blocks": [
+            "drawer-trigger"
+        ],
+        "props": {
+            "slideDirection": "rightToLeft",
+            "backdropMode": "none"
+        }
+      },
+      
+      "drawer-trigger": {
+        "children": [
+            "icon#mobile__search"
+        ]
+      },
+     
+      "menu#drawer": {
+        "children": [
+            "search-bar#header__mobile"
+        ],
+        "props": {
+          "orientation": "vertical" 
+        }
+      }
+}

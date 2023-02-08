@@ -1,11 +1,13 @@
 {
   "footer": {
+    "title": "footer",
     "blocks": [
       "footer-layout.desktop",
       "footer-layout.mobile"
     ]
   },
   "footer-layout.desktop": {
+    "title": "Contenedor footer general",
     "children": [
       "flex-layout.row#footer-desktop--seccion1",
       "flex-layout.row#footer-desktop--seccion2"
@@ -15,11 +17,13 @@
     }
   },
   "footer-layout.mobile": {
+    "title": "Footer mobile container",
     "children": [
       "flex-layout.row#footer-mobile"
     ]
   },
   "flex-layout.row#footer-desktop--seccion1": {
+    "title": "Footer section one desktop",
     "children": [
       "flex-layout.col#footer__container--col-one",
       "flex-layout.col#footer__container--col-two",
@@ -32,6 +36,7 @@
     }
   },
   "flex-layout.col#footer__container--col-one": {
+    "title": "Footer columna una",
     "children": [
       "rich-text#footer__productos",
       "link.product#opciones--Calzado",
@@ -58,6 +63,7 @@
     }
   },
   "rich-text#footer__productos": {
+    "title": "Product text",
     "props": {
       "text": "PRODUCTOS",
       "blockClass": "titulo",
@@ -137,6 +143,7 @@
     }
   },
   "rich-text#footer__vacio1": {
+    "title": "Espacio vacio 1",
     "props": {
       "text": " ",
       "blockClass": "vacio1"
@@ -179,6 +186,7 @@
     }
   },
   "rich-text#footer__vacio2": {
+    "title": "Espacio vacio 2",
     "props": {
       "text": " ",
       "blockClass": "vacio2"
@@ -221,6 +229,7 @@
     }
   },
   "flex-layout.col#footer__container--col-two": {
+    "title": "Footer container column two",
     "children": [
       "rich-text#footer__Deportes",
       "link.product#opciones--SeleccionColombia",
@@ -244,6 +253,7 @@
     
   },
   "rich-text#footer__Deportes": {
+    "title": "Footer deportes text",
     "props": {
       "text": "DEPORTE",
       "blockClass": "titulo",
@@ -314,6 +324,7 @@
     }
   },
   "rich-text#footer__Colecciones": {
+    "title": "Footer collection text",
     "props": {
       "text": "COLECCIONES",
       "blockClass": "titulo",
@@ -375,6 +386,7 @@
     }
   },
   "flex-layout.col#footer__container--col-three": {
+    "title": "Footer container column three",
     "children": [
       "rich-text#footer__Asistencia",
       "link.product#opciones--DudasFrecuentes",
@@ -396,6 +408,7 @@
     }
   },
   "rich-text#footer__Asistencia": {
+    "title": "Footer asistencia text",
     "props": {
       "text": "ASISTENCIA",
       "blockClass": "titulo",
@@ -520,6 +533,7 @@
     }
   },
   "flex-layout.col#footer__container--col-four": {
+    "title": "Footer container column four",
     "children": [
       "rich-text#footer__informacion",
       "link.product#opciones--AcercaDe",
@@ -533,6 +547,7 @@
     }
   },
   "rich-text#footer__informacion": {
+    "title": "footer information text",
     "props": {
       "text": "**INFORMACIÓN DE LA EMPRESA**",
       "blockClass": ["titulo", "informacion"],
@@ -567,6 +582,7 @@
     }
   },
   "rich-text#footer__Tiendas": {
+    "title": "Footer store text",
     "props": {
       "text": "TIENDAS",
       "blockClass": ["titulo", "informacion"],
@@ -583,6 +599,7 @@
     }
   },
   "flex-layout.col#footer__container--col-five": {
+    "title": "Footer container column five",
     "children": [
       "rich-text#footer__siguenos",
       "social-networks"
@@ -592,6 +609,7 @@
     }
   },
   "rich-text#footer__siguenos": {
+    "title": "Footer follow us text",
     "props": {
       "text": "SÍGUENOS",
       "blockClass": "titulo",
@@ -600,6 +618,7 @@
   },
 
   "social-networks": {
+    "title": "Container social networks",
     "props": {
       "socialNetworks": [
         {
@@ -632,6 +651,7 @@
   },
 
   "flex-layout.row#footer-desktop--seccion2": {
+    "title": "Footer desktop section 2",
     "children": [
       "flex-layout.col#secciones"
     ],
@@ -640,6 +660,7 @@
     }
   },
   "flex-layout.col#secciones": {
+    "title": "Column sections footer",
     "children": [
       "flex-layout.row#footer-desktop--seccion2.1",
       "flex-layout.col#footer-desktop--seccionTwo-two"
@@ -649,6 +670,7 @@
     }
   },
   "flex-layout.row#footer-desktop--seccion2.1": {
+    "title": "Footer section 2.1",
     "children": [
       "rich-text#item1",
       "rich-text#item2",
@@ -664,6 +686,7 @@
     }
   },
   "flex-layout.col#footer-desktop--seccionTwo-two": {
+    "title": "Footer section 2.2",
     "children": [
       "rich-text#a"
     ],
@@ -672,6 +695,7 @@
     }
   },
   "rich-text#item1": {
+    "title": "Item 1 text",
     "props": {
       "text": "Nuestros Datos",
       "blockClass": "richFooter",
@@ -679,6 +703,7 @@
     }
   },
   "rich-text#item2": {
+    "title": "Item 2 text",
     "props": {
       "text": "Terminos y Condicoines",
       "blockClass": "richFooter",
@@ -686,6 +711,7 @@
     }
   },
   "rich-text#item3": {
+    "title": "Item 3 text",
     "props": {
       "text": "Políticas de Privacidad",
       "blockClass": "richFooter",
@@ -693,6 +719,7 @@
     }
   },
   "rich-text#item4": {
+    "title": "Item 4 text",
     "props": {
       "text": "Términos #YESadidas",
       "blockClass": "richFooter",
@@ -700,6 +727,7 @@
     }
   },
   "rich-text#item5": {
+    "title": "Item 5 text",
     "props": {
       "text": "Seleccionar Pais",
       "blockClass": "richFooter",
@@ -707,6 +735,7 @@
     }
   },
   "rich-text#item6": {
+    "title": "Item 6 text",
     "props": {
       "text": "Aviso de Privacidad",
       "blockClass": "richFooter",
@@ -714,6 +743,7 @@
     }
   },
   "rich-text#item7": {
+    "title": "Item 8 text",
     "props": {
       "text": "Uso del sitio",
       "blockClass": "richFooter",
@@ -721,6 +751,7 @@
     }
   },
   "rich-text#item8": {
+    "title": "Item 8 text",
     "props": {
       "text": "SIC",
       "blockClass": "richFooterSic",
@@ -728,6 +759,7 @@
     }
   },
   "rich-text#a": {
+    "title": "Item adidas text",
     "props": {
       "text": "© 2022 adidas Colombia LTDA",
       "blockClass": "richFooterA",
@@ -735,9 +767,4 @@
     }
   }
 
-  // "accepted-payment-methods": {
-  //   "props": {
-  //     "paymentMethods": ["mastercard", "visa", "diners club"]
-  //   }
-  // }
 }
