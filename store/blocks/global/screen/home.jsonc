@@ -3,7 +3,9 @@
     "title": "Store home",
     "blocks": [
       "whatsapp-button",
+      // "bullets-diagramation",
       "responsive-layout.desktop#home__section-1",
+      "list-context.bullet-group",
       "responsive-layout.mobile#phone__and__tablet",
       "responsive-layout.tablet#home__section-1",
       "responsive-layout.phone#home__section-1"
@@ -16,5 +18,74 @@
       "phone": "777777777",
       "message": "VTEX U RLZ"
     }
+  },
+  "list-context.bullet-group": {
+    "title": "Mi contexto de lista bullet",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/FW5717_01_standard.jpg",
+          "titleBullet": "FW5717",
+          "link": {
+          "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/GX4776_01_standard.jpg",
+          "titleBullet": "GX4776",
+          "link": {
+          "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/FZ0394_01_standard.jpg",
+          "titleBullet": "FZ0394",
+          "link": {
+          "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/GZ3425_01_standard.jpg",
+          "titleBullet": "GZ3425",
+          "link": {
+          "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/F35543_01_standard.jpg",
+          "titleBullet": "F35543",
+          "link": {
+          "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/FY7821_01_standard.jpg",
+          "titleBullet": "FY7821",
+          "link": {
+          "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group" : {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true
+    }
   }
+
+
+
+
+
+
+
 }
