@@ -1,5 +1,5 @@
 .bullet__item--title {
-  color:black;
+  color:var(--main--text--color);
   font-weight: 700;
 }
 
