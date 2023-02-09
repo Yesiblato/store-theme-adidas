@@ -67,8 +67,22 @@
           "link": {
           "url": "/"
           }
+        },
+        {
+          "image": "assets/img/F35543_01_standard.jpg",
+          "titleBullet": "F35543",
+          "link": {
+          "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/FY7821_01_standard.jpg",
+          "titleBullet": "FY7821",
+          "link": {
+          "url": "/"
+          }
         }
-      ]
+      ] 
     }
   },
   "slider-layout#bullet-group" : {
