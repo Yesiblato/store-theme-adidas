@@ -4,7 +4,8 @@
       "list-context.bullet-group"
     ],
     "props": {
-      "blockClass": "Container-bullets"
+      "blockClass": "Container-bullets",
+      "marginTop": 7
     }
   },
   "list-context.bullet-group": {
