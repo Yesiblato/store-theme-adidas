@@ -3,8 +3,8 @@
         "children": [
           "flex-layout.row#product__breadcrumb--mobile",
           "flex-layout.row#datos--mobile",
-          "flex-layout.row#product__image--mobile", 
-          "flex-layout.row#product__info--mobile", 
+          "flex-layout.row#product__image--mobile",
+          "flex-layout.row#product__info--mobile",
           "flex-layout.row#product__disclosure--mobile",
           "flex-layout.row#product__tags",
           "flex-layout.row#completaTuLook",
@@ -33,7 +33,7 @@
       },
       "flex-layout.col#datos--mobile": {
         "children": [
-           
+
             "vtex.store-components:product-name",
             "product-price",
             "link#verMas"
@@ -67,6 +67,7 @@
         "children": [
             "product-quantity",
             "product-description",
+            "modal-trigger#add-to-cart-info",
             "flex-layout.row#contenedor__boton--corazon--mobile",
             "flex-layout.row#contenedor__opciones--envios--mobile",
             "share"
@@ -151,7 +152,7 @@
           "blockClass": "icon__entrega",
           "maxWidth": 25,
           "maxHeight": 25
-         
+
         }
       },
       "rich-text#opcion1--mobile": {
@@ -165,8 +166,8 @@
           "blockClass": "icon__entrega",
           "maxWidth": 25,
           "maxHeight": 25
-          
-          
+
+
         }
       },
       "rich-text#opcion2--mobile": {
@@ -180,7 +181,7 @@
           "blockClass": "icon__entrega",
           "maxWidth": 25,
           "maxHeight": 25
-          
+
         }
       },
       "rich-text#opcion3--mobile": {

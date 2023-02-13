@@ -4,7 +4,6 @@
     "blocks": [
       "whatsapp-button",
       "responsive-layout.desktop#home__section-1",
-      // "list-context.bullet-group",
       "responsive-layout.mobile#phone__and__tablet",
       "responsive-layout.tablet#home__section-1",
       "responsive-layout.phone#home__section-1"
@@ -12,3 +11,5 @@
 
   }
 }
+
+
