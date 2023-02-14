@@ -1,0 +1,26 @@
+{
+  "responsive-layout.desktop#encuentra": {
+    "title": "Pagina de encuentra",
+    "children": [
+      "flex-layout.row#container__encuentra"
+    ]
+  },
+  "flex-layout.row#container__encuentra": {
+    "children": [
+      "flex-layout.col#container__encuentra"
+    ]
+  },
+  "flex-layout.col#container__encuentra": {
+    "children": [
+      "rich-text#holiiii",
+      "departmentSearch"
+
+    ]
+  },
+  "rich-text#holiiii": {
+    "props": {
+      "text": "hola"
+
+    }
+  }
+}
