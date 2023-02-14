@@ -193,13 +193,28 @@
   "icon#desktop__user-icon": {
     "title": "Icono de login",
     "props": {
-      "id": "user-icon",
-      "size": 30,
+      "id": "profile",
+      "size": 25,
       "blockClass": "desktop-heart",
       "width": "30%",
-      "viewBox": "0 0 16 16"
+      "viewBox": "0 0 20 20"
+
+    }
+  },
+  "icon#desktop__bag-icon2": {
+    "title": "Icono de login",
+    "props": {
+      "id": "userAdidas",
+      "size": 25,
+      "blockClass": "desktop-login2",
+      // "width": "30%",
+      "viewBox": "0 0 20 20"
+      // "width":"16",
+      // "height":"24"
 
     }
   }
+
+
 
 }
