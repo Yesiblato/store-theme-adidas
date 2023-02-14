@@ -6,21 +6,59 @@
     ]
   },
   "flex-layout.row#container__encuentra": {
+    "title": "Container encuentra row",
     "children": [
       "flex-layout.col#container__encuentra"
     ]
   },
   "flex-layout.col#container__encuentra": {
+    "title": "Container encuentra col",
     "children": [
-      "rich-text#holiiii",
-      "departmentSearch"
-
+      "flex-layout.row#componente__departmentSearch",
+      "flex-layout.row#bullets",
+      "flex-layout.row#componente__pdfReader"
     ]
   },
-  "rich-text#holiiii": {
+  "flex-layout.row#componente__departmentSearch": {
+    "children": [
+      "flex-layout.col#componente__departmentSearch"
+    ]
+  },
+  "flex-layout.col#componente__departmentSearch": {
+    "children": [
+      "rich-text#componenteDepartmentSearch",
+      "departmentSearch"
+    ]
+  },
+  "rich-text#componenteDepartmentSearch": {
+    "title": "Título Department Search",
     "props": {
-      "text": "hola"
-
+      "text": "Tu busqueda rápida"
+    }
+  },
+  "flex-layout.row#componente__pdfReader": {
+    "children": [
+      "flex-layout.col#componente__pdfReader"
+    ]
+  },
+  "flex-layout.col#componente__pdfReader": {
+    "children": [
+      "rich-text#componente__pdfReader",
+      "pdf-reader"
+    ]
+  },
+  "pdf-reader": {
+    "title": "Pdf reader",
+    "props": {
+      "pdfUrl": "assets/documents/pdf-sample.pdf",
+      "width": 500,
+      "height": 800
+    }
+  },
+  "rich-text#componente__pdfReader": {
+    "title": "Título catálogo 2023 rt",
+    "props": {
+      "text": "Catálogo 2023"
     }
   }
 }
