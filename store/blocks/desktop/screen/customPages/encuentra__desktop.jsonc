@@ -2,23 +2,37 @@
   "responsive-layout.desktop#encuentra": {
     "title": "Pagina de encuentra",
     "children": [
-      "flex-layout.row#container__encuentra"
+      "flex-layout.row#container__encuentra",
+      "flex-layout.row#home__descuentos--global"
     ]
   },
   "flex-layout.row#container__encuentra": {
     "title": "Container encuentra row",
     "children": [
       "flex-layout.col#container__encuentra"
-    ]
+    ],
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 8
+
+    }
   },
   "flex-layout.col#container__encuentra": {
     "title": "Container encuentra col",
     "children": [
       "flex-layout.row#componente__departmentSearch",
       "flex-layout.row#bullets",
-      "flex-layout.row#componente__pdfReader"
-    ]
+      "flex-layout.row#componente__pdfReader",
+      "quick-order",
+      "custom-grid"
+    ],
+    "props": {
+      "blockClass": "encuentra__column",
+      "rowGap": 4
+
+    }
   },
+  
   "flex-layout.row#componente__departmentSearch": {
     "children": [
       "flex-layout.col#componente__departmentSearch"
@@ -27,13 +41,26 @@
   "flex-layout.col#componente__departmentSearch": {
     "children": [
       "rich-text#componenteDepartmentSearch",
-      "departmentSearch"
+      "flex-layout.row#busqueda__opciones"
     ]
+  },
+  "flex-layout.row#busqueda__opciones": {
+    "children": [
+      "departmentSearch"
+    ],
+    "props": {
+      "blockClass": "busqueda__opciones--row",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "width": "50%"
+    }
+
   },
   "rich-text#componenteDepartmentSearch": {
     "title": "Título Department Search",
     "props": {
-      "text": "Tu busqueda rápida"
+      "text": "Tu busqueda rápida",
+      "blockClass": "busquedaRapida"
     }
   },
   "flex-layout.row#componente__pdfReader": {
@@ -50,15 +77,16 @@
   "pdf-reader": {
     "title": "Pdf reader",
     "props": {
-      "pdfUrl": "assets/documents/pdf-sample.pdf",
-      "width": 500,
+      "pdfUrl": "https://report.adidas-group.com/2021/en/servicepages/downloads/files/annual-report-adidas-ar21.pdf",
+      "width": "100%",
       "height": 800
     }
   },
   "rich-text#componente__pdfReader": {
     "title": "Título catálogo 2023 rt",
     "props": {
-      "text": "Catálogo 2023"
+      "text": "Catálogo 2023",
+      "blockClass": "catalogo"
     }
   }
 }

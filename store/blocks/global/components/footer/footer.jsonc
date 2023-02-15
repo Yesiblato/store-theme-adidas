@@ -250,7 +250,7 @@
     "props": {
       "blockClass": "columnas"
     }
-    
+
   },
   "rich-text#footer__Deportes": {
     "title": "Footer deportes text",
@@ -567,7 +567,7 @@
     "title": "opciones--Trabaja",
     "props": {
       "blockClass": "opciones",
-      "href": "/{slug}/p",
+      "href": "/encuentra",
       "label": "Trabaja En nuestro Equipo",
       "font": "small"
     }

@@ -19,7 +19,8 @@
   "rich-text#referencias": {
     "title": "Título bullest",
     "props": {
-      "text": "Las mejores referencias"
+      "text": "Las mejores referencias",
+      "blockClass": "referencias"
     }
   },
   "list-context.bullet-group": {
