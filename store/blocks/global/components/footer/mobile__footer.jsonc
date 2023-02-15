@@ -179,7 +179,7 @@
     "title": "opciones--NuestrosDatosM",
     "props": {
       "blockClass": "opcionesM",
-      "href": "/{slug}/p",
+      "href": "/acerca-de-adidas",
       "label": "Nuestros Datos",
       "font": "small"
     }
@@ -188,7 +188,7 @@
     "title": "opciones-PoliticasM",
     "props": {
       "blockClass": "opcionesM",
-      "href": "/{slug}/p",
+      "href": "/encuentra",
       "label": "Políticas",
       "font": "small"
     }
@@ -228,7 +228,7 @@
       "label": "Terminos YESadidas",
       "font": "small"
     }
-  },  
+  },
   "link.product#opciones--AvisoM": {
     "title": "opciones--AvisoM",
     "props": {
@@ -237,7 +237,7 @@
       "label": "Aviso de PrivacidadM",
       "font": "small"
     }
-  },  
+  },
   "link.product#opciones--SICM": {
     "title": "opciones--SICM",
     "props": {
@@ -246,7 +246,7 @@
       "label": "SIC",
       "font": "small"
     }
-  },  
+  },
   "flex-layout.row#footer__seccionThree": {
     "title": "Footer section three",
     "children": [

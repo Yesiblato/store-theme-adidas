@@ -2,7 +2,7 @@
   "minicart.v2#desktop": {
     "title": "minicart V2",
     "props": {
-      //   "MinicartIcon": "icon#desktop__bag-shopping",
+      "MinicartIcon": "icon#desktop__bag-icon2",
       "variation": "link",
       "linkVariationUrl": "/minicart",
       "itemCountMode": "total",
@@ -19,7 +19,7 @@
     ],
     "children": [
       "minicart-product-list#adidasV2--d",
-      "flex-layout.row#minicart-desktop" 
+      "flex-layout.row#minicart-desktop"
     ]
   },
   "flex-layout.row#minicart-desktop": {

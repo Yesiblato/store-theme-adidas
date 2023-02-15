@@ -1,0 +1,8 @@
+{
+  "store.custom#encuentra": {
+      "blocks": [
+          "responsive-layout.desktop#encuentra"
+          // "responsive-layout.mobile#encuentra"
+      ]
+  }
+}

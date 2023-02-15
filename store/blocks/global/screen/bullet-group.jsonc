@@ -1,11 +1,26 @@
 {
   "flex-layout.row#bullets": {
+    "title": "Contenedor Bullest Diagramation",
     "children": [
-      "list-context.bullet-group"
+      "flex-layout.col#bullets"
     ],
     "props": {
       "blockClass": "Container-bullets",
       "marginTop": 7
+    }
+  },
+  "flex-layout.col#bullets": {
+    "title": "Contenedor Bullest Diagramation col",
+    "children": [
+      "rich-text#referencias",
+      "list-context.bullet-group"
+    ]
+  },
+  "rich-text#referencias": {
+    "title": "Título bullest",
+    "props": {
+      "text": "Las mejores referencias",
+      "blockClass": "referencias"
     }
   },
   "list-context.bullet-group": {
@@ -75,6 +90,7 @@
     }
   },
   "slider-layout#bullet-group" : {
+    "title": "Slider bullets diagramation",
     "props": {
       "itemsPerPage": {
         "desktop": 5,
