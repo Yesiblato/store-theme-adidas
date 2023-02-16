@@ -38,15 +38,16 @@
     "props": {
       "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/ss23-originals-stan-smith-w-blueversion-launch-dotcom-plp-image-collection-4-d_tcm143-974634.jpg",
       "width": "100%",
-      "height": "104%"
+      "height": "104%",
+      "blockClass": "imagen__1"
     }
   },
   "image#grid__2": {
     "props": {
       "src": "https://brand.assets.adidas.com/image/upload/w_400,f_auto,q_auto,fl_lossy,c_fill,g_auto/esCO/Images/ingrid-sb-d_tcm195-989511.jpg",
       "width": "100%",
-      "height": "92%"
-
+      "height": "92%",
+      "blockClass": "imagen__1"
     }
   },
   "video#grid__1": {

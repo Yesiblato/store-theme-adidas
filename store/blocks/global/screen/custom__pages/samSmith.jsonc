@@ -1,8 +1,8 @@
 {
   "store.custom#samSmith": {
       "blocks": [
-          "responsive-layout.desktop#samSmith"
-          // "responsive-layout.mobile#samSmith"
+          "responsive-layout.desktop#samSmith",
+          "responsive-layout.mobile#samSmith"
       ]
   }
 }

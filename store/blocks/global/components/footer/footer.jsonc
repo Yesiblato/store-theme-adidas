@@ -590,11 +590,11 @@
     }
   },
   "link.product#opciones--Buscador": {
-    "title": "opciones--Buscador",
+    "title": "opciones--catalogo",
     "props": {
       "blockClass": "opciones",
-      "href": "/{slug}/p",
-      "label": "Buscador",
+      "href": "/catalogo",
+      "label": "Catálogo",
       "font": "small"
     }
   },

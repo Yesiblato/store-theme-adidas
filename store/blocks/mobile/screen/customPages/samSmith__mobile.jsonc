@@ -1,45 +1,41 @@
 {
-  "responsive-layout.desktop#samSmith": {
+  "responsive-layout.mobile#samSmith": {
     "title": "Página Sam Smith",
     "children": [
-      "flex-layout.row#container__samSmith",
-      "flex-layout.row#home__descuentos--global"
+      "flex-layout.row#container__samSmith--mobile",
+      "flex-layout.row#mobile__home__opinion",
+      "flex-layout.row#mobile__Container--volverArriba",
+      "flex-layout.row#mobile__home__iniciarSesion",
+      "flex-layout.row#mobile__home--descuentos"
     ]
-
   },
-  "flex-layout.row#container__samSmith": {
+  "flex-layout.row#container__samSmith--mobile": {
     "title": "container__samSmith--row",
     "children": [
-      "flex-layout.col#container__samSmith"
+      "flex-layout.col#container__samSmith--mobile"
     ],
     "props": {
       "marginTop": 8,
       "marginBottom": 8,
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
+      "width": "90%"
     }
   },
-  "flex-layout.col#container__samSmith": {
+  "flex-layout.col#container__samSmith--mobile": {
     "title": "container__samSmith--col",
     "children": [
-      "flex-layout.col#title",
+      "flex-layout.col#title--mobile",
       "custom-grid",
       "quick-order"
-
-    ],
-    "props": {
-      "paddingLeft": 2,
-      "paddingRight": 2
-    }
-  },
-  "flex-layout.col#title": {
-    "title": "container__title",
-    "children": [
-      "rich-text#title__SamSmith",
-      "rich-text#frase__SamSmith"
     ]
   },
-  "rich-text#title__SamSmith": {
+  "flex-layout.col#title--mobile": {
+    "title": "container__title",
+    "children": [
+      "rich-text#title__SamSmith--mobile",
+      "rich-text#frase__SamSmith--mobile"
+    ]
+  },
+  "rich-text#title__SamSmith--mobile": {
     "title": "title__samSmith",
     "props": {
       "text": "ADIDAS STAN SMITH",
@@ -47,7 +43,7 @@
     }
 
   },
-  "rich-text#frase__SamSmith": {
+  "rich-text#frase__SamSmith--mobile": {
     "title": "frase__samSmith",
     "props": {
       "text": "adidas Stan Smith shoes are an out and out tennis icon in their own right, named for the Grand Slam winner who rose to prominence wearing them. Snap up a pair of adidas Stan Smith for women or men today and make your own impact on the court.",

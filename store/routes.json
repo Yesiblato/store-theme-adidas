@@ -10,6 +10,9 @@
     },
     "store.custom#samSmith": {
       "path": "/samsmith"
+    },
+    "store.custom#catalogo": {
+      "path": "/catalogo"
     }
 
 }
