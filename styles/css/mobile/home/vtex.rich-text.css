@@ -41,7 +41,7 @@ margin-bottom: 1.5em;
 }
 
 .heading--titlePopularAhora {
-    margin: 2em 0em 1em 0em;
+    margin: 1em 0em;
     font-family: Helvetica, sans-serif;
     font-size: 1.4em;
 
@@ -122,10 +122,11 @@ margin-bottom: 1.5em;
 }
 
 .paragraph--encuentraEquipo {
-    margin-left: 1em;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
+    padding-top: 0.5em;
     height: auto;
+    font-size: 1.2em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .headingLevel3--mobile__item1{

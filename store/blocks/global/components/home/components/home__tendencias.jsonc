@@ -5,7 +5,8 @@
       "flex-layout.col#home__tendencias--container"
     ],
     "props": {
-      "blockClass": "home__tendecias--container"
+      "blockClass": "home__tendecias--container",
+      "marginTop": 8
     }
   },
   "flex-layout.col#home__tendencias--container": {
@@ -13,7 +14,11 @@
     "children": [
       "flex-layout.col#home__tendencias--title",
       "flex-layout.col#home__tendencias--slider"
-    ]
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 5
+    }
   },
   "flex-layout.col#home__tendencias--title": {
     "title": "home__tendencias--title",
@@ -36,7 +41,8 @@
   "rich-text#home__tendencias--title": {
     "title": "home__tendencias--title",
     "props": {
-      "text": "## TENDENCIAS"
+      "text": "TENDENCIAS",
+      "blockClass": "titleTendencias"
     }
   }
 }

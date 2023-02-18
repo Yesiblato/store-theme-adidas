@@ -15,17 +15,31 @@
     color: gray;
 }
 
-.buttonLink--conoceMas__button {
-    width: 15em;
+.buttonLink--conoceMas__button--desktop {
+    width: 14vw;
     background-color: white;
     color: black;
     border: black solid 2px;
     border-radius: 0px;
     font-weight: 700;
-    position: relative;
-    margin-top: -25em;
+    position: absolute;
+    top: 60%;
+    left: 44%;
+    box-shadow: 5px 5px 10px;
+
 }
 
+.buttonLink--conoceMas__button--desktop:hover {
+  width: 14vw;
+  background-color: #000;
+  color: #fff;
+  border: #000 solid 2px;
+  box-shadow: 5px 5px 10px #fff;
+}
+
+.label--conoceMas__button--desktop {
+  font-size: 1vw;
+}
 
 .link--links__banner--home {
     text-decoration: none;
@@ -59,4 +73,10 @@
 
 .label--descuento__button:hover {
     color: gray;
+}
+
+@media (max-width:1170px) {
+  .label--conoceMas__button--desktop {
+    font-size: 0.9vw;
+  }
 }

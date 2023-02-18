@@ -6,7 +6,9 @@
         ],
         "props": {
             "blockClass": "contenedorConoceMas",
-            "fullWidth": true
+            "fullWidth": true,
+            "marginTop": 2,
+            "marginBottom": 8
         }
     },
     "flex-layout.col#home__conoceMas": {
@@ -17,7 +19,8 @@
             "link#conoceMas__button"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
         }
     },
     "image#home__conoceMas--image": {
@@ -44,7 +47,7 @@
           "image#videoBanner__flecha"
         ],
         "props": {
-          "blockClass": "conoceMas__button",
+          "blockClass": "conoceMas__button--desktop",
           "href": "/",
           "label": "CONOCE MÁS",
           "displayMode": "button"

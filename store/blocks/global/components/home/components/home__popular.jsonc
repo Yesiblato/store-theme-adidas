@@ -18,7 +18,8 @@
         ],
         "props": {
           "paddingLeft": 2,
-          "paddingRight": 8
+          "paddingRight": 8,
+          "preventVerticalStretch": true
         }
     },
     "flex-layout.row#home__popular--title": {
