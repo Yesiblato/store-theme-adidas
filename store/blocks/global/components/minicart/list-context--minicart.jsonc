@@ -1,5 +1,6 @@
 {
     "flex-layout.row#product-list--minicart": {
+      "title": "Product list minicart",
       "children": [
         "list-context.product-list#products"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "list-context.product-list#products": {
+      "title": "Product list product",
       "blocks": [
         "product-summary.shelf#product--minicart"
       ],
@@ -19,6 +21,7 @@
       }
     },
     "product-summary.shelf#product--minicart": {
+      "title": "Product minicart",
       "children": [
         "product-summary-image",
         "product-summary-price",
@@ -26,12 +29,14 @@
       ]
     },
     "product-summary-image": {
+      "title": "product summary image",
       "props": {
         "showBadge": true,
         "height": 200
       }
     },
     "product-summary-price": {
+      "title": "Product summary price",
       "props": {
         "showListPrice": false
       }

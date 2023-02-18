@@ -1,0 +1,58 @@
+{
+  "responsive-layout.desktop#samSmith": {
+    "title": "Página Sam Smith",
+    "children": [
+      "flex-layout.row#container__samSmith",
+      "flex-layout.row#home__descuentos--global"
+    ]
+
+  },
+  "flex-layout.row#container__samSmith": {
+    "title": "container__samSmith--row",
+    "children": [
+      "flex-layout.col#container__samSmith"
+    ],
+    "props": {
+      "marginTop": 8, 
+      "marginBottom": 8,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#container__samSmith": {
+    "title": "container__samSmith--col",
+    "children": [
+      "flex-layout.col#title",
+      "custom-grid",
+      "quick-order"
+
+    ],
+    "props": {
+      "paddingLeft": 2,
+      "paddingRight": 2,
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#title": {
+    "title": "container__title",
+    "children": [
+      "rich-text#title__SamSmith",
+      "rich-text#frase__SamSmith"
+    ]
+  },
+  "rich-text#title__SamSmith": {
+    "title": "title__samSmith",
+    "props": {
+      "text": "ADIDAS STAN SMITH",
+      "blockClass": "title__samSmith"
+    }
+
+  },
+  "rich-text#frase__SamSmith": {
+    "title": "frase__samSmith",
+    "props": {
+      "text": "adidas Stan Smith shoes are an out and out tennis icon in their own right, named for the Grand Slam winner who rose to prominence wearing them. Snap up a pair of adidas Stan Smith for women or men today and make your own impact on the court.",
+      "blockClass": "frase__samSmith"
+    }
+  }
+}

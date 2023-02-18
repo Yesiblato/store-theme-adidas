@@ -8,14 +8,20 @@
     color: black;
 }
 
-.container--materialReciclados-global {
-    /* background-color: red !important;  */
+.container--rc__popular--global {
     border-bottom: 1px black solid;
-    width: 28em;
+    width: 24vw;
     color: black;
-
+    margin: 0.5em;
 }
-.container--materialReciclados-global:hover {
+
+.headingLevel2--rc__popular--global {
+  font-weight: 700;
+  font-size: 2.2vw;
+  font-family: Helvetica, sans-serif;
+}
+
+.container--rc__popular--global:hover {
     border-bottom: 0.4em black solid;
     cursor: pointer;
 }
@@ -23,7 +29,7 @@
 .container--forum-global {
     /* background-color: red !important;  */
     border-bottom: 1px black solid;
-    width: 28em;
+    width: 24vw;
     color: black;
 }
 .container--forum-global:hover {
@@ -35,7 +41,7 @@
 .container--guayos-global {
     /* background-color: red !important;  */
     border-bottom: 1px black solid;
-    width: 28em;
+    width: 24vw;
     color: black;
 }
 .container--guayos-global:hover {
@@ -45,7 +51,7 @@
 .container--lego-global {
     /* background-color: red !important;  */
     border-bottom: 1px black solid;
-    width: 28em;
+    width: 24vw;
     color: black;
 }
 .container--lego-global:hover {
@@ -54,9 +60,8 @@
 }
 
 .container--superstar-global {
-    /* background-color: red !important;  */
     border-bottom: 1px black solid;
-    width: 28em;
+    width: 24vw;
     color: black;
 }
 .container--superstar-global:hover {
@@ -67,7 +72,7 @@
 .container--samba-global {
     /* background-color: red !important;  */
     border-bottom: 1px black solid;
-    width: 28em;
+    width: 24vw;
     color: black;
 }
 .container--samba-global:hover {
@@ -111,19 +116,39 @@
     width: 60%;
 }
 
-/* .heading--home__banner--frase {
-    margin-top: 0em;
-    font-size: 2em;
-    background-color: red;
-} */
-
-.container--videoBanner__title--rt {
-
-    color: white;
+.headingLevel2--banner--title {
+  font-size: 2.3vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  color: #000;
 }
 
-.container--videoBanner__frase--rt {
-    color: white;
+.headingLevel4--home__banner--frase {
+  font-size: 1.3vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.headingLevel2--videoBanner__title--rt {
+  font-size: 2.3vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.headingLevel1--videoBanner__title--rt {
+  font-size: 2.3vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.headingLevel4--videoBanner__frase--rt {
+  font-size: 1.3vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  color: #fff;
 }
 
 .wrapper--conoceMas--frase {
@@ -171,7 +196,7 @@ font-weight: 600;
 }
 .label--banner__frase--hombre:hover {
     color: white;
-    font-weight: 700;    
+    font-weight: 700;
 }
 
 .heading--videoBanner__frase--rt {
@@ -286,7 +311,7 @@ color: black;
         font-size: 0.9em;
     }
 
-    
+
     .wrapper--text__productos--vistos {
         margin-bottom: 0.5em;
         font-size: 1.3em;

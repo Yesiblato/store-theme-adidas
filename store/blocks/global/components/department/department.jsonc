@@ -144,23 +144,24 @@
     ]
   },
   "flex-layout.col#departmentbreadcrumb": {
+    "title": "Contenedor columna breadcrumb",
     "children": [
       "breadcrumb.search"
     ]
   },
   "breadcrumb.search": {
+    "title": "Breadcrumb search",
     "props": {
       "showOnMobile": true
     }
   },
-  
+
   "product-summary.shelf#grid": {
     "title": "Contenedor en grilla",
     "children": [
       "product-summary-image",
       "product-summary-name",
       "product-price",
-      // "add-to-cart-button",
       "modal-trigger#global__quick--view"
     ]
   },
@@ -170,7 +171,6 @@
       "product-summary-image",
       "product-summary-name",
       "product-price",
-      // "add-to-cart-button",
       "modal-trigger#global__quick--view"
     ]
   },
@@ -212,6 +212,7 @@
     }
   },
   "modal-layout#global__quick--view--modal": {
+    "title": "Modal de vista rápida del producto",
     "children": [
       "flex-layout.row#quick--view__modal"
     ],
@@ -233,7 +234,7 @@
   "flex-layout.col#view__modal--image": {
     "title": "contenedor imagen modal",
     "children": [
-      "logo#header__top--logo",
+      "logo#header__top--logo2",
       "search-title.v2",
       "product-summary-image"
     ]
@@ -247,7 +248,7 @@
       "add-to-cart-button"
     ]
   },
-  "logo#header__top--logo": {
+  "logo#header__top--logo2": {
     "title": "Logo del modal",
     "props": {
       "blockClass": "logo--modal--search",

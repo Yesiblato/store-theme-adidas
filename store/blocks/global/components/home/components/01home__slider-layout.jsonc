@@ -1,5 +1,6 @@
 {
   "flex-layout.row#container__slider--uno": {
+    "title": "Slider container one",
     "children": [
       "slider-layout#home_slider--children"
     ]
@@ -16,14 +17,8 @@
       "infinite": true,
       "blockClass": "home__slider",
       "showPaginationDots":"never"
-    //   "autoplay": {
-    //     "timeout": 3000,
-    //     "stopOnHover": true
-
-    //   }
     },
     "children": [
-      
       "image#home__slider--one",
       "image#home__slider--two",
       "image#home__slider--three",

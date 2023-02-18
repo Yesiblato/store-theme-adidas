@@ -1,0 +1,64 @@
+{
+  "responsive-layout.desktop#encuentra": {
+    "title": "Pagina de encuentra",
+    "children": [
+      "flex-layout.row#container__encuentra",
+      "flex-layout.row#home__descuentos--global"
+    ]
+  },
+  "flex-layout.row#container__encuentra": {
+    "title": "Container encuentra row",
+    "children": [
+      "flex-layout.col#container__encuentra"
+    ],
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 8
+
+    }
+  },
+  "flex-layout.col#container__encuentra": {
+    "title": "Container encuentra col",
+    "children": [
+      "flex-layout.row#componente__departmentSearch",
+      "flex-layout.row#bullets"
+    ],
+    "props": {
+      "blockClass": "encuentra__column",
+      "rowGap": 4
+
+    }
+  },
+
+  "flex-layout.row#componente__departmentSearch": {
+    "children": [
+      "flex-layout.col#componente__departmentSearch"
+    ]
+  },
+  "flex-layout.col#componente__departmentSearch": {
+    "children": [
+      "rich-text#componenteDepartmentSearch",
+      "flex-layout.row#busqueda__opciones"
+    ]
+  },
+  "flex-layout.row#busqueda__opciones": {
+    "children": [
+      "departmentSearch"
+    ],
+    "props": {
+      "blockClass": "busqueda__opciones--row",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "width": "50%"
+    }
+
+  },
+  "rich-text#componenteDepartmentSearch": {
+    "title": "Título Department Search",
+    "props": {
+      "text": "Tu busqueda rápida",
+      "blockClass": "busquedaRapida"
+    }
+  }
+
+}

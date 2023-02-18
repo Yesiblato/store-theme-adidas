@@ -1,5 +1,6 @@
 {
   "flex-layout.row#product-list": {
+    "title": "Product list container",
     "children": [
       "list-context.product-list#products"
     ],
@@ -8,17 +9,16 @@
     }
   },
   "list-context.product-list#products": {
+    "title": "Product list",
     "blocks": [
       "product-summary.shelf"
     ],
     "children": [
       "slider-layout#products"
-    ],
-    "props": {
-      
-    }
+    ]
   },
   "product-summary.shelf": {
+    "title": "Product summary shelf",
     "children": [
       "product-summary-image",
       "product-summary-price",
@@ -27,6 +27,7 @@
     ]
   },
   "product-summary-image": {
+    "title": "Product summary image",
     "props": {
       "showBadge": true,
       "height": 220

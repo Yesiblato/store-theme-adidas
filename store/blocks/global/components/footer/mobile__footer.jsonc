@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer-mobile": {
+    "title": "Footer mobile",
     "children": [
       "flex-layout.col#container__footer-mobile"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "flex-layout.col#container__footer-mobile": {
+    "title": "footer container mobile",
     "children": [
       "flex-layout.row#footer__seccionOne",
       "flex-layout.row#footer__seccionTwo",
@@ -19,6 +21,7 @@
     }
   },
   "flex-layout.row#footer__seccionOne": {
+    "title": "Footer section one",
     "children": [
       "flex-layout.col#footer__seccionOne--one",
       "flex-layout.col#footer__seccionOne--two"
@@ -32,6 +35,7 @@
     }
   },
   "flex-layout.row#footer__seccionTwo": {
+    "title": "Footer section two",
     "children": [
       "flex-layout.col#footer__seccionTwo--one",
       "flex-layout.col#footer__seccionTwo--two"
@@ -44,6 +48,7 @@
     }
   },
   "flex-layout.col#footer__seccionOne--one": {
+    "title": "Footer section one-one",
     "children": [
       "link.product#opciones--BuscadorM",
       "link.product#opciones--DudasFrecuentesM",
@@ -57,6 +62,7 @@
     }
   },
   "flex-layout.col#footer__seccionOne--two": {
+    "title": "Footer section one-two",
     "children": [
       "link.product#opciones--DevolucionesM",
       "link.product#opciones--GuiaDeTallasM",
@@ -70,6 +76,7 @@
     }
   },
   "flex-layout.col#footer__seccionTwo--one": {
+    "title": "Footer section two-one",
     "children": [
       "link.product#opciones--NuestrosDatosM",
       "link.product#opciones--PoliticasM",
@@ -83,6 +90,7 @@
     }
   },
   "flex-layout.col#footer__seccionTwo--two": {
+    "title": "Footer section two-two",
     "children": [
       "link.product#opciones--TerminosM",
       "link.product#opciones--TerminosYESM",
@@ -171,7 +179,7 @@
     "title": "opciones--NuestrosDatosM",
     "props": {
       "blockClass": "opcionesM",
-      "href": "/{slug}/p",
+      "href": "/acerca-de-adidas",
       "label": "Nuestros Datos",
       "font": "small"
     }
@@ -180,7 +188,7 @@
     "title": "opciones-PoliticasM",
     "props": {
       "blockClass": "opcionesM",
-      "href": "/{slug}/p",
+      "href": "/encuentra",
       "label": "Políticas",
       "font": "small"
     }
@@ -220,7 +228,7 @@
       "label": "Terminos YESadidas",
       "font": "small"
     }
-  },  
+  },
   "link.product#opciones--AvisoM": {
     "title": "opciones--AvisoM",
     "props": {
@@ -229,7 +237,7 @@
       "label": "Aviso de PrivacidadM",
       "font": "small"
     }
-  },  
+  },
   "link.product#opciones--SICM": {
     "title": "opciones--SICM",
     "props": {
@@ -238,8 +246,9 @@
       "label": "SIC",
       "font": "small"
     }
-  },  
+  },
   "flex-layout.row#footer__seccionThree": {
+    "title": "Footer section three",
     "children": [
       "rich-text#year"
     ],
@@ -248,6 +257,7 @@
     }
   },
   "rich-text#year": {
+    "title": "Year text",
     "props": {
       "text": "© 2022 adidas Colombia LTDA",
       "blockClass": "richFooterA"

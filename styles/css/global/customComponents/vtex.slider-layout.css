@@ -1,0 +1,9 @@
+.bullet__item--title {
+  color: black;
+}
+
+.bullet__item--link {
+  font-family    : Helvetica, sans-serif;
+  font-weight    : 700;
+  text-decoration: none;
+}

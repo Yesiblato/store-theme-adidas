@@ -7,7 +7,6 @@
         "props": {
             "blockClass": "contenedorConoceMas",
             "fullWidth": true
-            
         }
     },
     "flex-layout.col#home__conoceMas": {

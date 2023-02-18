@@ -1,11 +1,10 @@
-
 {
     "flex-layout.row#contenedor__productos--mobile": {
       "children": [
-        "minicart-product-list#adidasV2"  
+        "minicart-product-list#adidasV2--m"
       ]
     },
-    "minicart-product-list#adidasV2": {
+    "minicart-product-list#adidasV2--m": {
       "blocks": [
         "product-list"
       ]
@@ -54,7 +53,7 @@
         "children": [
           "flex-layout.col#product-description",
           "flex-layout.col#quantity.desktop"
-  
+
         ],
         "props": {
           "preserveLayoutOnMobile": true,
@@ -64,7 +63,7 @@
       "flex-layout.col#quantity.desktop": {
         "children": [
           "flex-layout.row#quantity-selector.desktop",
-          "flex-layout.row#unit-price.desktop"
+          "flex-layout.row#unit-price.desktop--m"
         ],
         "props": {
           "marginLeft": 8
@@ -72,8 +71,8 @@
       },
       "flex-layout.col#price-remove": {
         "children": [
-          "flex-layout.col#price.desktop",
-          "flex-layout.col#remove-button.desktop"
+          "flex-layout.col#price.desktop--m",
+          "flex-layout.col#remove-button.desktop--m"
         ],
         "props": {
           "colSizing": "auto"
@@ -85,20 +84,20 @@
           "preventHorizontalStretch": true
         }
       },
-      "flex-layout.row#unit-price.desktop": {
-        "children": ["unit-price#desktop"],
+      "flex-layout.row#unit-price.desktop--m": {
+        "children": ["unit-price#desktop--m"],
         "props": {
           "marginTop": 3,
           "preventHorizontalStretch": true
         }
       },
-      "unit-price#desktop": {
+      "unit-price#desktop--m": {
         "props": {
           "textAlign": "center"
         }
       },
-      "flex-layout.col#price.desktop": {
-        "children": ["price#desktop"],
+      "flex-layout.col#price.desktop--m": {
+        "children": ["price#desktop-m"],
         "props": {
           "blockClass": "priceWrapper",
           "marginLeft": 6,
@@ -106,12 +105,12 @@
           "verticalAlign": "middle"
         }
       },
-      "price#desktop": {
+      "price#desktop-m": {
         "props": {
           "textAlign": "right"
         }
       },
-      "flex-layout.col#remove-button.desktop": {
+      "flex-layout.col#remove-button.desktop--m": {
         "children": ["remove-button"],
         "props": {
           "marginLeft": 6,

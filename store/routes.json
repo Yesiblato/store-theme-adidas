@@ -1,8 +1,18 @@
 {
     "store.custom#minicart": {
-        "path": "/minicart" 
+        "path": "/minicart"
     },
     "store.custom#acercaDeAdidas": {
         "path": "/acerca-de-adidas"
+    },
+    "store.custom#encuentra": {
+      "path": "/encuentra"
+    },
+    "store.custom#samSmith": {
+      "path": "/samsmith"
+    },
+    "store.custom#catalogo": {
+      "path": "/catalogo"
     }
+
 }
