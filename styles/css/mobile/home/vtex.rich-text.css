@@ -130,12 +130,12 @@ margin-bottom: 1.5em;
 
 .headingLevel3--mobile__item1{
     font-size: 1.1em;
-    
+
 }
 
 .headingLevel3--mobile__item2{
     font-size: 1.1em;
-    
+
 }
 
 .headingLevel3--mobile__item3{
@@ -184,7 +184,7 @@ margin-bottom: 1.5em;
     width: auto;
     font-weight: 700;
     font-family: Helvetica, sans-serif;
-    
+
 }
 .headingLevel12--mobile__historia__parrafo1 {
     font-weight: 700;
@@ -251,7 +251,8 @@ margin-bottom: 1.5em;
     color: black;
     font-family: Helvetica, sans-serif;
     margin: 0.5em 0em;
-    font-size: 2.25em;
+    font-size: 2em;
+    text-align: center;
 }
 
 
@@ -314,7 +315,7 @@ margin-bottom: 1.5em;
     .headingLevel4--banner__frase--rt {
         font-size: 1.05em;
     }
-    
+
     .headingLevel3--mobile__conoceMas--frase {
         margin: 0em;
         font-size: 1em;
@@ -341,7 +342,7 @@ margin-bottom: 1.5em;
     .label--banner__frase--hombre {
         font-size: 14px;
     }
-    
+
     .headingLevel3--mobile__conoceMas--frase {
         margin: 0em;
         font-size: 1em;
@@ -375,7 +376,7 @@ margin-bottom: 1.5em;
         font-weight: 400;
         font-family: Helvetica, sans-serif;
     }
-    
+
     .headingLevel3--mobile__conoceMas--frase {
         margin: 0em;
         font-size: 0.9em;
@@ -397,7 +398,7 @@ margin-bottom: 1.5em;
         .headingLevel4--banner__frase--rt {
         visibility: hidden;
         }
-    
+
     .headingLevel3--mobile__conoceMas--frase {
         margin: 0em;
         font-size: 0.7em;
@@ -417,7 +418,7 @@ margin-bottom: 1.5em;
         margin-right: 1em;
         color: black;
     }
-    
+
     .wrapper--mobile__item1S__2 {
         font-weight: 700;
         font-family: Helvetica, sans-serif;
@@ -428,7 +429,7 @@ margin-bottom: 1.5em;
         margin-right: 1em;
         visibility: hidden;
     }
-    
+
     .wrapper--mobile__item1S__3 {
         font-weight: 700;
         font-family: Helvetica, sans-serif;
@@ -438,7 +439,7 @@ margin-bottom: 1.5em;
          margin-left: 1em;
          visibility: hidden;
     }
-    
+
 
 
 }

@@ -1,5 +1,5 @@
 .wrapper--referencias {
-  color: black;
+  color: #000000;
   font-weight: 700;
   font-size: 2.2em;
   font-family: Helvetica, sans-serif;
@@ -7,7 +7,7 @@
 
 
 .wrapper--busquedaRapida {
-  color: black;
+  color: #000000;
   font-weight: 700;
   font-size: 2.2em;
   font-family: Helvetica, sans-serif;
@@ -15,8 +15,47 @@
 
 
 .wrapper--catalogo{
-  color: black;
+  color: #000000;
   font-weight: 700;
   font-size: 2.2em;
   font-family: Helvetica, sans-serif;
+  margin-bottom: 2em;
+}
+
+.wrapper--title__samSmith {
+  margin: 0.5em 0;
+  color: #000000;
+  font-weight: 700;
+  font-size: 2.2em;
+  font-family: Helvetica, sans-serif;
+  padding-left: 0.6em;
+}
+
+.wrapper--frase__samSmith {
+  width: 60%;
+  margin-bottom: 1em;
+  color: #000000;
+  font-size: 1.2em;
+  font-family: Helvetica, sans-serif;
+  padding-left: 1em;
+}
+
+
+
+@media (max-width:1024px) {
+  .wrapper--frase__samSmith {
+    width: 90%;
+  }
+}
+
+
+@media (max-width:425px) {
+  .wrapper--busquedaRapida {
+    font-size: 2em;
+  }
+
+  .wrapper--referencias {
+    font-size: 2.03em;
+  }
+
 }

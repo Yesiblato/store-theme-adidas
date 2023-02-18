@@ -1,0 +1,54 @@
+{
+  "responsive-layout.desktop#catalogo": {
+    "title": "Página Sam Smith",
+    "children": [
+      "flex-layout.row#container__catalogo",
+      "flex-layout.row#home__descuentos--global"
+    ]
+  },
+  "flex-layout.row#container__catalogo": {
+    "children": [
+      "flex-layout.col#container__catalogo"
+    ],
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 8
+    }
+  },
+  "flex-layout.col#container__catalogo": {
+    "children": [
+      "flex-layout.row#componente__pdfReader",
+      "flex-layout.row#bullets"
+    ]
+  },
+  "flex-layout.row#componente__pdfReader": {
+    "children": [
+      "flex-layout.col#componente__pdfReader"
+    ],
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#componente__pdfReader": {
+    "children": [
+      "rich-text#componente__pdfReader",
+      "pdf-reader#desktop"
+    ]
+  },
+  "pdf-reader#desktop": {
+    "title": "Pdf reader",
+    "props": {
+      "pdfUrl": "https://report.adidas-group.com/2021/en/servicepages/downloads/files/annual-report-adidas-ar21.pdf",
+      "width": "100%",
+      "height": 800
+    }
+  },
+  "rich-text#componente__pdfReader": {
+    "title": "Título catálogo 2023 rt",
+    "props": {
+      "text": "Catálogo 2023",
+      "blockClass": "catalogo"
+    }
+  }
+}

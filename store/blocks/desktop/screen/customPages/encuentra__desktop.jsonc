@@ -21,10 +21,7 @@
     "title": "Container encuentra col",
     "children": [
       "flex-layout.row#componente__departmentSearch",
-      "flex-layout.row#bullets",
-      "flex-layout.row#componente__pdfReader",
-      "quick-order",
-      "custom-grid"
+      "flex-layout.row#bullets"
     ],
     "props": {
       "blockClass": "encuentra__column",
@@ -32,7 +29,7 @@
 
     }
   },
-  
+
   "flex-layout.row#componente__departmentSearch": {
     "children": [
       "flex-layout.col#componente__departmentSearch"
@@ -62,31 +59,6 @@
       "text": "Tu busqueda rápida",
       "blockClass": "busquedaRapida"
     }
-  },
-  "flex-layout.row#componente__pdfReader": {
-    "children": [
-      "flex-layout.col#componente__pdfReader"
-    ]
-  },
-  "flex-layout.col#componente__pdfReader": {
-    "children": [
-      "rich-text#componente__pdfReader",
-      "pdf-reader"
-    ]
-  },
-  "pdf-reader": {
-    "title": "Pdf reader",
-    "props": {
-      "pdfUrl": "https://report.adidas-group.com/2021/en/servicepages/downloads/files/annual-report-adidas-ar21.pdf",
-      "width": "100%",
-      "height": 800
-    }
-  },
-  "rich-text#componente__pdfReader": {
-    "title": "Título catálogo 2023 rt",
-    "props": {
-      "text": "Catálogo 2023",
-      "blockClass": "catalogo"
-    }
   }
+
 }
