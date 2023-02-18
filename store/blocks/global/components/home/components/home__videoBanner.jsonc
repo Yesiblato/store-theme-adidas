@@ -3,22 +3,22 @@
         "title": "home__videoBanner--global",
         "children": [
           "flex-layout.col#container__videoBanner--items"
-          
         ],
         "props": {
-          "fullWidth": true
+          "fullWidth": true,
+          "blockClass": "videoBanner__row"
       }
     },
-
     "flex-layout.col#container__videoBanner--items": {
       "title": "container__videoBanner--items",
       "children": [
         "video#home__container--video",
         "flex-layout.col#videoBanner__items"
-        
-      ]
+      ],
+      "props": {
+        "blockClass": "videoBanner__col--items"
+      }
     },
-
     "video#home__container--video": {
       "title": "home__container--video",
         "props": {
@@ -29,7 +29,7 @@
           "muted": false,
           "src": "assets/img/trainingVideo.mp4",
           "blockClass": "videoBanner"
-          
+
         }
       },
       "flex-layout.col#videoBanner__items":{

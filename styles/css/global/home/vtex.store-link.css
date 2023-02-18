@@ -1,10 +1,13 @@
 .buttonLink--videoBanner__button {
-    width: 15em;
+    width: 13vw;
     background-color: white;
     color: black;
     border: white solid 2px;
     border-radius: 0px;
     font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    box-shadow: 5px 5px 4px;
+    font-size: 1em;
 }
 .buttonLink--videoBanner__button:hover {
     background-color: white;
@@ -27,13 +30,15 @@
 .link--links__banner--home {
     text-decoration: none;
     color: black;
-    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.9vw;
 }
 
 .link--links__banner--home:hover {
     text-decoration: underline;
     background-color: black;
-    color: white
+    color: white;
+    height: 1em;
 }
 
 .buttonLink--descuento__button {

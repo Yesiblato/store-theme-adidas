@@ -28,6 +28,7 @@
       "defaultGalleryLayout": "grid",
       "fullWidth": true,
       "width": "100%"
+
     }
   },
   "flex-layout.row#categoryresults": {
@@ -55,7 +56,10 @@
       "filter-navigator.v3"
     ],
     "props": {
-      "blockClass": "seccion--one"
+      "blockClass": "seccion--one",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+
     }
   },
   "filter-navigator.v3": {
