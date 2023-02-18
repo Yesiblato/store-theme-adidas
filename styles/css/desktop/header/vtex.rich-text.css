@@ -2,3 +2,8 @@
     margin-left: 1em;
     font-size: 0.8em;
 }
+
+.paragraph--header__enviosGratis--rt {
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+}
