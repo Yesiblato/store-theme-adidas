@@ -13,7 +13,11 @@
         "children": [
             "flex-layout.row#container__loMejor--title",
             "flex-layout.row#container__loMejor--slider"
-        ]
+        ],
+        "props": {
+          "blockClass": "container__loMejor",
+          "rowGap": 4
+        }
     },
     "flex-layout.row#container__loMejor--title": {
         "title": "container__loMejor--title",
@@ -36,8 +40,9 @@
     "rich-text#loMejor_title": {
         "title": "loMejor__title",
         "props": {
-            "text": "## Lo mejor de Adidas"
+            "text": "Lo mejor de Adidas",
+            "blockClass": "loMejorAdidas__rt"
         }
     }
-    
+
 }
