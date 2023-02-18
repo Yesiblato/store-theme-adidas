@@ -6,7 +6,10 @@
         ],
         "props": {
             "blockClass": "mobile__equiposFutbol",
-            "fullWidth": true
+            "fullWidth": true,
+            "preventVerticalStretch": true,
+            "marginBottom": 9
+
         }
     },
     "flex-layout.col#mobile__home__seccionEquipos": {
@@ -16,7 +19,11 @@
             "flex-layout.row#container__slider--equipos"
         ],
         "props": {
-            "blockClass": "mobile__seccionesEquipos"
+            "blockClass": "mobile__seccionesEquipos",
+            "preventVerticalStretch": true,
+            "rowGap": 5,
+            "paddingLeft": 5,
+            "paddingRight": 5
         }
     },
     "flex-layout.row#mobile__home__seccionEquipos--title": {
@@ -25,7 +32,8 @@
             "rich-text#mobile__home__titleEquipos"
         ],
         "props": {
-            "blockClass": "mobile__seccionTitleEquipos"
+            "blockClass": "mobile__seccionTitleEquipos",
+            "paddingTop": 5
         }
     },
     "rich-text#mobile__home__titleEquipos": {
@@ -37,5 +45,5 @@
             "textPosition": "LEFT"
         }
     }
-   
+
 }

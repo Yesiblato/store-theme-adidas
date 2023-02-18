@@ -71,6 +71,10 @@
   height: 2em;
 }
 
+.flexRow--mobile__equiposFutbol {
+  
+}
+
 .flexRow--mobile__container__novedades--arrow {
   display        : flex;
   flex-direction : row;

@@ -278,6 +278,13 @@ margin-bottom: 1.5em;
 }
 
 
+.paragraph--mobile__encuentraEquipo {
+  font-weight: 700;
+  font-size: 1.2em;
+  font-family: Helvetica, sans-serif;
+}
+
+
 @media (max-width:1024px) {
   .container--descuentas--frases-rt {
     justify-content: center;
