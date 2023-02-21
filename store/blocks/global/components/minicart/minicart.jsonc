@@ -6,7 +6,7 @@
       "variation": "link",
       "linkVariationUrl": "/minicart",
       "itemCountMode": "total",
-      "quantityDisplay": "always"
+      "quantityDisplay": "always" 
     },
     "children": [
       "minicart-base-content"

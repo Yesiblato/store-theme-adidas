@@ -3,15 +3,13 @@
     "title": "Mobile Row with text",
     "children": [
       "flex-layout.col#mobile__home--banner"
-    ],
-    "props": {}
+    ]
   },
   "flex-layout.col#mobile__home--banner": {
     "title": "mobile__home--banner",
     "children": [
       "image#mobile__home--banner",
       "flex-layout.col#mobile__banner--items"
-      //   "rich-text#hello-vtex"
     ],
     "props": {
       "blockClass": "mobile__container--banner"
@@ -53,7 +51,6 @@
       "text": "#### Aprovecha los descuentos de fin de temporada en el catálogo seleccionado."
     }
   },
-
   "link.product#mobile__banner__opciones--hombre": {
     "title": "mobile__banner__opciones--hombre",
     "props": {

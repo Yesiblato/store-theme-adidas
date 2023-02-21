@@ -28,10 +28,7 @@
       "header-spacer",
       "logo#headerMobile__top--logo",
       "header-spacer",
-      "flex-layout.row#opcione__mobile",
-      "modal-trigger#header__top2--login-mobile",
-      "drawer#search__mobile",
-      "minicart.v2#desktop"
+      "flex-layout.row#opciones__mobile"
     ],
     "props": {
       "blockClass": "contenedorElemntosHeader",
@@ -55,12 +52,17 @@
       "hideIconLabel": true
     }
   },
-  "flex-layout.row#opcione__mobile": {
+  "flex-layout.row#opciones__mobile": {
     "children": [
-
+      "modal-trigger#header__top2--login-mobile",
+      "drawer#search__mobile",
+      "minicart.v2#desktop"
     ],
     "props": {
-      "blockClass": "opciones__mobile"
+      "blockClass": "opciones__mobile",
+      "preventHorizontalStretch": true,
+      "verticalAlign": "middle",
+      "preserveLayoutOnMobile": true
     }
   },
   "logo#headerMobile__top--logo": {
@@ -126,8 +128,8 @@
   },
   "icon#mobile__search": {
     "props": {
-      "id": "hpa-search",
-      "size": 35,
+      "id":"search-adidas",
+      "size": 30,
       "blockClass": "desktop-heart",
       "viewBox": "0 0 25 25"
     }
