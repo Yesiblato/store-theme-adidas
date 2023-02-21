@@ -259,13 +259,6 @@
           "label": "PROXIMOS LANZAMIENTOS"
         }
     },
-
-
-
-
-
-
-
     "disclosure-layout-group#ropa--M": {
         "children": [
             "disclosure-layout#ropa--mujer"
@@ -360,15 +353,6 @@
           "label": "PROXIMOS LANZAMIENTOS"
         }
     },
-
-
-
-
-
-
-
-
-
     "disclosure-layout-group#deportes--M": {
         "children": [
             "disclosure-layout#deportes--mujer--depo"
