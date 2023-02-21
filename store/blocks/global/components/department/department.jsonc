@@ -10,6 +10,11 @@
       "fullWidth": true
     }
   },
+  "search-not-found-layout": {
+    "blocks": [
+      "flex-layout.row#page__notFound"
+    ]
+  },
   "search-result-layout.desktop#department": {
     "title": "Contenedor__PLP--desktop",
     "children": [
@@ -51,8 +56,6 @@
     "title": "categoria y resultados",
     "children": [
       "search-title.v2",
-      //   "order-by.v2",
-      //   "total-products.v2",
       "filter-navigator.v3"
     ],
     "props": {

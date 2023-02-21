@@ -121,20 +121,6 @@
       "blockClass": "columna--five"
     }
   },
-  "submenu#hombre": {
-    "title": "Submenu hombre",
-    "children": [
-      "menu#productosDestacados",
-      "menu#calzado",
-      "menu#ropa",
-      "menu#accesorios",
-      "menu#deportes"
-    ],
-    "props": {
-      "blockClass": "submenu-hombre",
-      "orientation": "horizontal"
-    }
-  },
   "image#promocion": {
     "title": "Imagen promocion",
     "props": {
@@ -264,10 +250,11 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTitle": "Novedades",
-        "text": "Novedades"
+        "text": "Novedades",
+        "blockClass": "options__header"
       }
     }
   },
@@ -278,7 +265,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/queso",
         "noFollow": false,
         "tagTitle": "Los Más Vendidos",
         "text": "Los Más Vendidos"
@@ -292,7 +279,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/mujer",
         "noFollow": false,
         "tagTitle": "Solo En Adidas",
         "text": "Solo En Adidas"
@@ -306,7 +293,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/queso",
         "noFollow": false,
         "tagTitle": "Exclusivo Miembros",
         "text": "Exclusivo Miembros"
@@ -320,7 +307,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/mujer/zapatos",
         "noFollow": false,
         "tagTitle": "Proximos Lanzamientos",
         "text": "Proximos Lanzamientos"
@@ -335,7 +322,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTitle": "calzados",
         "text": "CALZADO"
@@ -350,7 +337,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTitle": "Descuentos en calzados",
         "text": "Hasta 50% OFF"
@@ -365,7 +352,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/mujer/zapatos",
         "noFollow": false,
         "tagTitle": "Descuentos en calzados",
         "text": "Hasta 50% OFF Calzado"

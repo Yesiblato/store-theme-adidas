@@ -55,7 +55,7 @@
     "title": "mobile__banner__opciones--hombre",
     "props": {
       "blockClass": "banner__frase--hombre",
-      "href": "/{slug}/p",
+      "href": "/electrodomesticos",
       "label": "HOMBRE"
     }
   },

@@ -1,5 +1,5 @@
 {
-    "store.search#department": {
+    "store.search#department--": {
       "title": "Contenedor department",
         "props": {
           "context": {
@@ -10,7 +10,7 @@
         "blocks": [
           "search-result-layout#department"
         ]
-      } 
+      }
 
 }
 

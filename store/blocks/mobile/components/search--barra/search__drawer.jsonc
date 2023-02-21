@@ -41,13 +41,13 @@
       },
       "search-bar#header__mobile": {
         "blocks": [
-          "autocomplete-result-list.v2"
+          "autocomplete-result-list.v2#mobile"
         ],
         "props": {
           "openAutocompleteOnFocus": true
         }
       },
-      "autocomplete-result-list.v2": {
+      "autocomplete-result-list.v2#mobile": {
         "blocks": [
           "product-summary"
         ],

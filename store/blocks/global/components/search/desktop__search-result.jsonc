@@ -34,34 +34,5 @@
               "simulationBehavior": "default"
           }
       }
-  },
-  
-  "search-result-layout": {
-      "blocks": [
-          "search-result-layout.desktop",
-          "search-result-layout.mobile",
-          "search-not-found-layout"
-      ]
-  },
-  "search-result-layout.desktop": {
-      "children": [
-          "rich-text#desktop-response"
-          
-      ]
-  },
-  "search-result-layout.mobile": {
-      "children": [
-          "rich-text#mobile-response"
-      ]
-  },
-  "rich-text#desktop-response": {
-      "props": {
-          "text": "Desktop response"
-      }
-  },
-  "rich-text#mobile-response": {
-      "props": {
-          "text": "Mobile response"
-      }
   }
 }

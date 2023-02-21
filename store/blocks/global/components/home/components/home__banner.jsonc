@@ -80,7 +80,7 @@
   "link.product#banner__opciones--hombre": {
     "title": "banner__opciones--hombre",
     "props": {
-      "href": "/{slug}/p",
+      "href": "/electrodomesticos",
       "label": "HOMBRE",
       "blockClass": "links__banner--home"
     }
