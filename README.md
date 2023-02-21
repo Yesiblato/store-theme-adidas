@@ -165,11 +165,6 @@ This will enable you to see the applied changes in real time, through the accoun
 - Product Details
 - Store Components
 
-### Documentation to be considered
-- Gitflow
-- Code Standard
-- Semantic Commit
-
 ### Contributors
 
 Yesica Johana Blanco Torregrosa.
