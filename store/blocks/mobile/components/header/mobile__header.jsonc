@@ -1,25 +1,4 @@
 {
-  // "header": {
-  //   "title": "header--mobile",
-  //   "blocks": [
-  //     "header-layout.desktop",
-  //     "header-layout.mobile"
-  //   ]
-  // },
-  "header.full": {
-    "title": "header--mobile",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
-  // "header-layout.desktop": {
-  //   "title": "Header Desktop",
-  //   "children": [
-  //       "header-row#header__top1",
-  //       "header-row#header__top2"
-  //  ]
-  // },
   "header-layout.mobile": {
     "title": "header-mobile",
     "children": [
@@ -29,16 +8,22 @@
   },
   "header-row#header__top--one": {
     "children": [
-      "rich-text#hola1"
+      "rich-text#texto__oferta"
     ],
     "props": {
       "blockClass": "header__top--one",
       "fullWidth": true
     }
   },
+  "rich-text#texto__oferta": {
+    "props": {
+      "text": "Hasta 50% de Descuento",
+      "blockClass": "Texto__top1"
+    }
+  },
   "header-row#header__top--two": {
     "children": [
-      "drawer",
+      "drawer#megamenu__mobile",
       "icon#desktop__heart",
       "header-spacer",
       "logo#headerMobile__top--logo",
@@ -49,7 +34,8 @@
       "minicart.v2#desktop"
     ],
     "props": {
-      "blockClass": "contenedorElemntosHeader"
+      "blockClass": "contenedorElemntosHeader",
+      "verticalAlign": "CENTER"
     }
   },
   "modal-trigger#header__top2--login-mobile": {
@@ -85,39 +71,13 @@
       "href": "/"
     }
   },
-  "search-bar#header__mobile": {
-    "blocks": [
-      "autocomplete-result-list.v2"
-    ],
-    "props": {
-      "openAutocompleteOnFocus": true,
-      "maxWidth": "9%"
-    }
-  },
 
-  "autocomplete-result-list.v2": {
-    "blocks": [
-      "product-summary"
-    ],
-    "props": {
-      "openAutocompleteOnFocus": true,
-      "maxWidth": "6%"
-    }
-  },
-
-  "rich-text#hola1": {
-    "props": {
-      "text": "Hasta 50% de Descuento",
-      "blockClass": "Texto__top1"
-    }
-  },
-
-  "drawer": {
+  "drawer#megamenu__mobile": {
     "children": [
       "mega-menu#mobile"
     ],
     "blocks": [
-      "drawer-header#my-drawer"
+      "drawer-header#my-drawer--megamenu"
     ]
   },
   "mega-menu#mobile": {
@@ -127,16 +87,15 @@
       "openOnly": "vertical"
     }
   },
-  "drawer-header#my-drawer": {
+  "drawer-header#my-drawer--megamenu": {
     "children": [
-      "flex-layout.row#drawer-header"
+      "flex-layout.row#drawer-header--megamenu"
     ]
   },
-  "flex-layout.row#drawer-header": {
+  "flex-layout.row#drawer-header--megamenu": {
     "children": [
-      "flex-layout.col#mega-menu-go-back-btn",
-      // "flex-layout.col#spacer",
-      "flex-layout.col#drawer-close-button"
+      "flex-layout.col#mega-menu-go-back-btn--megamenu",
+      "flex-layout.col#drawer-close-button--megamenu"
     ],
     "props": {
       "blockClass": "drawer-header",
@@ -146,7 +105,7 @@
       "fullWidth": true
     }
   },
-  "flex-layout.col#drawer-close-button": {
+  "flex-layout.col#drawer-close-button--megamenu": {
     "children": [
       "drawer-close-button"
     ],
@@ -155,7 +114,7 @@
       "horizontalAlign": "right"
     }
   },
-  "flex-layout.col#mega-menu-go-back-btn": {
+  "flex-layout.col#mega-menu-go-back-btn--megamenu": {
     "children": [
       "mega-menu-go-back-btn"
     ],
@@ -165,13 +124,11 @@
       "paddingLeft": 4
     }
   },
-
   "icon#mobile__search": {
     "props": {
       "id": "hpa-search",
-      "size": 40,
+      "size": 35,
       "blockClass": "desktop-heart",
-      "width": "30%",
       "viewBox": "0 0 25 25"
     }
   }

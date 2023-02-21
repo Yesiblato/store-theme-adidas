@@ -21,13 +21,6 @@
       "header-row#header__top2"
     ]
   },
-  "header-layout.mobile": {
-    "title": "Header Mobile",
-    "children": [
-      "header-row#header__top1",
-      "header-row#header__top2"
-    ]
-  },
   "header-row#header__top1": {
     "title": "header__top1",
     "children": [
@@ -91,7 +84,6 @@
       "header-spacer",
       "search-bar#header__desktop",
       "flex-layout.row#container__icons"
-
     ],
     "props": {
       "title": "header__full",
@@ -157,7 +149,6 @@
 
     }
   },
-
   "search-bar#header__desktop": {
     "title": "Barra de busqueda",
     "blocks": [
@@ -182,7 +173,6 @@
       "size": 30,
       "blockClass": "desktop-icons",
       "viewBox": "0 0 24 24"
-
     }
   },
   "icon#desktop__user-icon": {
@@ -192,7 +182,6 @@
       "size": 25,
       "blockClass": "desktop-icons",
       "viewBox": "0 0 24 24"
-
     }
   },
   "icon#desktop__bag-icon2": {
@@ -202,10 +191,6 @@
       "size": 25,
       "blockClass": "desktop-login2",
       "viewBox": "0 0 24 24"
-
     }
   }
-
-
-
 }
