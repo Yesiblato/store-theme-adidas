@@ -1,12 +1,12 @@
 .star--filled {
-    color: black;
+  color: black;
 }
 
 .reviewCommentUser {
-    background-color: aqua; 
+  background-color: aqua;
 }
 
 .inlineContainer {
-    width: 40%;
-    margin: 0;
+  width : 40%;
+  margin: 0;
 }

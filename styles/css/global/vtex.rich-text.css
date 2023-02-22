@@ -1,284 +1,292 @@
-.paragraph{
-    margin: 0px;
+.paragraph {
+  margin: 0px;
 }
 
 .heading--titlePopularAhora {
-    padding: 0px;
-    margin: 0px;
-    color: black;
+  padding: 0px;
+  margin : 0px;
+  color  : black;
 }
 
 .container--rc__popular--global {
-    border-bottom: 1px black solid;
-    width: 24vw;
-    color: black;
-    margin: 0.5em;
+  border-bottom: 1px black solid;
+  width        : 24vw;
+  color        : black;
+  margin       : 0.5em;
 }
 
 .headingLevel2--rc__popular--global {
   font-weight: 700;
-  font-size: 2.2vw;
+  font-size  : 2.2vw;
   font-family: Helvetica, sans-serif;
 }
 
 .container--rc__popular--global:hover {
-    border-bottom: 0.4em black solid;
-    cursor: pointer;
+  border-bottom: 0.4em black solid;
+  cursor       : pointer;
 }
 
 .container--forum-global {
-    /* background-color: red !important;  */
-    border-bottom: 1px black solid;
-    width: 24vw;
-    color: black;
+  /* background-color: red !important;  */
+  border-bottom: 1px black solid;
+  width        : 24vw;
+  color        : black;
 }
+
 .container--forum-global:hover {
-    border-bottom: 0.4em black solid;
-    cursor: pointer;
+  border-bottom: 0.4em black solid;
+  cursor       : pointer;
 
 }
 
 .container--guayos-global {
-    /* background-color: red !important;  */
-    border-bottom: 1px black solid;
-    width: 24vw;
-    color: black;
+  /* background-color: red !important;  */
+  border-bottom: 1px black solid;
+  width        : 24vw;
+  color        : black;
 }
+
 .container--guayos-global:hover {
-    border-bottom: 0.4em black solid;
-    cursor: pointer;
+  border-bottom: 0.4em black solid;
+  cursor       : pointer;
 }
+
 .container--lego-global {
-    /* background-color: red !important;  */
-    border-bottom: 1px black solid;
-    width: 24vw;
-    color: black;
+  /* background-color: red !important;  */
+  border-bottom: 1px black solid;
+  width        : 24vw;
+  color        : black;
 }
+
 .container--lego-global:hover {
-    border-bottom: 0.4em black solid;
-    cursor: pointer;
+  border-bottom: 0.4em black solid;
+  cursor       : pointer;
 }
 
 .container--superstar-global {
-    border-bottom: 1px black solid;
-    width: 24vw;
-    color: black;
+  border-bottom: 1px black solid;
+  width        : 24vw;
+  color        : black;
 }
+
 .container--superstar-global:hover {
-    border-bottom: 0.4em black solid;
-    cursor: pointer;
+  border-bottom: 0.4em black solid;
+  cursor       : pointer;
 }
 
 .container--samba-global {
-    /* background-color: red !important;  */
-    border-bottom: 1px black solid;
-    width: 24vw;
-    color: black;
+  /* background-color: red !important;  */
+  border-bottom: 1px black solid;
+  width        : 24vw;
+  color        : black;
 }
+
 .container--samba-global:hover {
-    border-bottom: 0.4em black solid;
-    cursor: pointer;
+  border-bottom: 0.4em black solid;
+  cursor       : pointer;
 }
 
 .container--encuentraEquipo {
-    margin-bottom: 0.4em;
+  margin-bottom: 0.4em;
 }
 
 .wrapper--item2 {
-    background-color: blue;
-    width: 00px;
+  background-color: blue;
+  width           : 00px;
 }
 
 .heading--parrafo1 {
-    margin: 0px;
+  margin: 0px;
 }
 
 .heading--parrafo1-desktop {
-    margin: 0;
-    font-weight: 700;
+  margin     : 0;
+  font-weight: 700;
 }
 
 .container--parrafo1-desktop {
-    width: 60%;
+  width: 60%;
 }
 
 .heading--parrafo3 {
-    margin: 0px;
+  margin: 0px;
 }
 
 .heading--parrafo3-desktop {
-    margin: 0;
-    padding-bottom: 0 !important;
-    font-weight: 700;
+  margin        : 0;
+  padding-bottom: 0 !important;
+  font-weight   : 700;
 }
 
 .container--parrafo3-desktop {
-    width: 60%;
+  width: 60%;
 }
 
 .headingLevel2--banner--title {
-  font-size: 2.3vw;
+  font-size  : 2.3vw;
   font-family: Helvetica, sans-serif;
   font-weight: 700;
-  color: #000;
+  color      : #000;
 }
 
 .headingLevel4--home__banner--frase {
-  font-size: 1.3vw;
+  font-size  : 1.3vw;
   font-family: Helvetica, sans-serif;
   font-weight: 400;
-  color: #000;
+  color      : #000;
 }
 
 .headingLevel2--videoBanner__title--rt {
-  font-size: 2.3vw;
+  font-size  : 2.3vw;
   font-family: Helvetica, sans-serif;
   font-weight: 700;
-  color: #fff;
+  color      : #fff;
 }
 
 .headingLevel1--videoBanner__title--rt {
-  font-size: 2.3vw;
+  font-size  : 2.3vw;
   font-family: Helvetica, sans-serif;
   font-weight: 700;
-  color: #fff;
+  color      : #fff;
 }
 
 .headingLevel4--videoBanner__frase--rt {
-  font-size: 1.3vw;
+  font-size  : 1.3vw;
   font-family: Helvetica, sans-serif;
   font-weight: 400;
-  color: #fff;
+  color      : #fff;
 }
 
 .wrapper--conoceMas--frase {
-    width: 54vw;
-    /* height: 12.5em; */
-    position: absolute;
-    top: 15%;
-    color: #fff;
+  width    : 54vw;
+  /* height: 12.5em; */
+  position : absolute;
+  top      : 15%;
+  color    : #fff;
 }
 
 
 
 .headingLevel2--conoceMas--frase {
-    position: absolute;
-    font-weight: 700;
-    font-size: 2vw;
+  position   : absolute;
+  font-weight: 700;
+  font-size  : 2vw;
 }
 
 .wrapper--loMejorAdidas__rt {
-  font-size: 2vw;
+  font-size  : 2vw;
   font-family: Helvetica, sans-serif;
   font-weight: 700;
 }
 
 .container--item2 {
-    width: 20em;
-    padding: 0;
+  width  : 20em;
+  padding: 0;
 }
 
 .headingLevel3--item2 {
-    width: 20em;
+  width: 20em;
 }
 
 .heading--banner--title {
-    font-weight: 800;
-    margin: 0;
-    font-family: Helvetica, sans-serif;
+  font-weight: 800;
+  margin     : 0;
+  font-family: Helvetica, sans-serif;
 }
+
 .heading--home__banner--frase {
-    font-family: Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 
 }
 
 .label--banner__frase--hombre {
-color: black;
-text-decoration: none;
-font-weight: 600;
+  color          : black;
+  text-decoration: none;
+  font-weight    : 600;
 }
+
 .label--banner__frase--hombre:hover {
-    color: white;
-    font-weight: 700;
+  color      : white;
+  font-weight: 700;
 }
 
 .heading--videoBanner__frase--rt {
-    font-family: Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 
 .container--quick--view--trigger {
-    margin-top: 0.5rem;
-    justify-content: center;
-    font-weight: 700;
+  margin-top     : 0.5rem;
+  justify-content: center;
+  font-weight    : 700;
 }
 
 .wrapper--text__info--promo {
-    margin-left: 5em;
-    font-weight: 500;
-    font-size: 1.1em;
-    font-family: Helvetica, sans-serif;
+  margin-left: 5em;
+  font-weight: 500;
+  font-size  : 1.1em;
+  font-family: Helvetica, sans-serif;
 }
 
 .wrapper--titleTendencias {
-  font-size: 2vw;
+  font-size  : 2vw;
   font-family: Helvetica, sans-serif;
   font-weight: 700;
 }
 
 .wrapper--text__productos--vistos {
-    margin-bottom: 2em;
-    color: black;
-    font-weight: 700;
-    font-size: 1.7em;
-    font-family: Helvetica, sans-serif;
+  margin-bottom: 2em;
+  color        : black;
+  font-weight  : 700;
+  font-size    : 1.7em;
+  font-family  : Helvetica, sans-serif;
 }
 
 .wrapper--contenedor--titulo {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
 .wrapper--contenedor--frase {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
 .wrapper--text__info--promo {
-    padding: 5em;
-    font-weight: 500;
-    font-size: 1.1em;
-    font-family: Helvetica, sans-serif;
-    margin: 0;
+  padding    : 5em;
+  font-weight: 500;
+  font-size  : 1.1em;
+  font-family: Helvetica, sans-serif;
+  margin     : 0;
 }
 
 .wrapper--titulo__disclosure--pdp {
-    font-family: Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 2em;
-    color: black;
-    line-height: 48px;
-    margin-bottom: 0.5em;
+  font-family  : Helvetica, sans-serif;
+  font-weight  : 700;
+  font-size    : 2em;
+  color        : black;
+  line-height  : 48px;
+  margin-bottom: 0.5em;
 }
 
 .wrapper--titulo2__disclosure--pdp {
-    font-family: Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 2em;
-    color: black;
-    line-height: 48px;
-    /* margin-bottom: 0.5em; */
+  font-family     : Helvetica, sans-serif;
+  font-weight     : 700;
+  font-size       : 2em;
+  color           : black;
+  line-height     : 48px;
+  /* margin-bottom: 0.5em; */
 }
 
 .wrapper--title-disclosure {
-color: black;
+  color: black;
 }
 
 .wrapper--completaTuLook {
-    font-size: 1.7em;
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
-    color: black;
-    margin-top: 2em;
-    margin-bottom: 2em;
+  font-size    : 1.7em;
+  font-weight  : 700;
+  font-family  : Helvetica, sans-serif;
+  color        : black;
+  margin-top   : 2em;
+  margin-bottom: 2em;
 }
 
 
@@ -286,11 +294,11 @@ color: black;
 /*CONFIGURACION PAGE NOT FOUND*/
 
 .wrapper--titulo__notFound {
-    font-family: Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: black;
-    margin-bottom: 1em;
+  font-family  : Helvetica, sans-serif;
+  font-weight  : 700;
+  font-size    : 1.5em;
+  color        : black;
+  margin-bottom: 1em;
 }
 
 
@@ -299,34 +307,31 @@ color: black;
 
 
 @media (max-width:500px) {
-    .wrapper--text__info--promo {
-        padding-top: 3em;
-        padding: 3em;
-        font-size: 1em;
-    }
+  .wrapper--text__info--promo {
+    padding-top: 3em;
+    padding    : 3em;
+    font-size  : 1em;
+  }
 
-    .wrapper--text__productos--vistos {
-        margin-bottom: 0.5em;
-        font-size: 1.5em;
+  .wrapper--text__productos--vistos {
+    margin-bottom: 0.5em;
+    font-size    : 1.5em;
 
-    }
+  }
 }
 
 
 @media (max-width:360px) {
-    .wrapper--text__info--promo {
-        padding-top: 2.5em;
-        padding: 2.5em;
-        font-size: 0.9em;
-    }
+  .wrapper--text__info--promo {
+    padding-top: 2.5em;
+    padding    : 2.5em;
+    font-size  : 0.9em;
+  }
 
 
-    .wrapper--text__productos--vistos {
-        margin-bottom: 0.5em;
-        font-size: 1.3em;
+  .wrapper--text__productos--vistos {
+    margin-bottom: 0.5em;
+    font-size    : 1.3em;
 
-    }
+  }
 }
-
-
-

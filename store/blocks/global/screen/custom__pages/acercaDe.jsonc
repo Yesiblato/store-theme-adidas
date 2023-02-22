@@ -1,9 +1,9 @@
 {
-    "store.custom#acercaDeAdidas": {
-        "blocks": [
-            "responsive-layout.desktop#acercaDeAdidas",
-            "responsive-layout.mobile#acercaDeAdidas"
-        ]
-    }
+  "store.custom#acercaDeAdidas": {
+    "title": "Acerca de",
+    "blocks": [
+      "responsive-layout.desktop#acercaDeAdidas",
+      "responsive-layout.mobile#acercaDeAdidas"
+    ]
+  }
 }
-

@@ -1,82 +1,78 @@
 {
-    "flex-layout.row#mobile__home--container__videoBanner":{
-      "title": "mobile__home--container__videoBanner",
-        "children": [
-            "flex-layout.col#mobileContainer__videoBanner--items"
-        ],
-        "props": {
-            "fullWidth": true
-        }
-    },
-    "flex-layout.col#mobileContainer__videoBanner--items": {
-      "title": "mobileContainer__videoBanner--items",
-        "children": [
-          "video#mobile__home__container--video",
-          "flex-layout.col#mobile__videoBanner__items"
-          
-        ],
-        "props": {
-            "blockClass": "mobileConainer__videoBanner"
-        }
-
-      },
-      "video#mobile__home__container--video": {
-        "title": "mobile__home__container--video",
-        "props": {
-          "blockClass": "mobilevideoBanner",
-          "width": "100%",
-          "height": "100%",
-          "loop": false,
-          "autoPlay": true,
-          "muted": false,
-          "src": "assets/img/training-ss23-core-backtofitness-launch-hp-mh-t_amyz7m.mp4"
-          
-        }
-      },
-      "flex-layout.col#mobile__videoBanner__items":{
-        "title": "mobile__videoBanner__items",
-        "children": [
-          "rich-text#mobile__videoBanner__title",
-          "rich-text#mobile__videoBanner__frase",
-          "link#mobile__videoBanner__button"
-        ],
-        "props": {
-          "blockClass": "mobile__videoBanner--items"
-        }
-      },
-      "rich-text#mobile__videoBanner__title": {
-        "title": "mobile__videoBanner__title",
-        "props": {
-          "blockClass": "mobile__videoBanner__title--rt",
-          "text": "## PRENDE TU CHISPA"
-        }
-      },
-      "rich-text#mobile__videoBanner__frase": {
-        "title": "mobile__videoBanner__frase",
-        "props": {
-          "blockClass": "mobile__videoBanner__frase--rt",
-          "text": "### Entrena y alégrate el día. Tenemos la equipación que buscas para empezar a entrenar.",
-          "font": " heading-1"
-        }
-      },
-      "link#mobile__videoBanner__button": {
-        "title": "mobile__videoBanner__button",
-        "children": [
-          "image#mobile__videoBanner__flecha"
-        ],
-        "props": {
-          "blockClass": "mobile__videoBanner__button",
-          "href": "/",
-          "label": "COMPRA AHORA",
-          "displayMode": "button"
-        }
-      },
-      "image#mobile__videoBanner__flecha": {
-        "title": "mobile__videoBanner__flecha",
-        "props": {
-          "blockClass": "mobile__videoBanner__flecha--image",
-          "src": "assets/img/arrow.svg"
-        }
-      }
-
+  "flex-layout.row#mobile__home--container__videoBanner": {
+    "title": "mobile__home--container__videoBanner",
+    "children": [
+      "flex-layout.col#mobileContainer__videoBanner--items"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#mobileContainer__videoBanner--items": {
+    "title": "mobileContainer__videoBanner--items",
+    "children": [
+      "video#mobile__home__container--video",
+      "flex-layout.col#mobile__videoBanner__items"
+    ],
+    "props": {
+      "blockClass": "mobileConainer__videoBanner"
+    }
+  },
+  "video#mobile__home__container--video": {
+    "title": "mobile__home__container--video",
+    "props": {
+      "blockClass": "mobilevideoBanner",
+      "width": "100%",
+      "height": "100%",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "assets/img/training-ss23-core-backtofitness-launch-hp-mh-t_amyz7m.mp4"
+    }
+  },
+  "flex-layout.col#mobile__videoBanner__items": {
+    "title": "mobile__videoBanner__items",
+    "children": [
+      "rich-text#mobile__videoBanner__title",
+      "rich-text#mobile__videoBanner__frase",
+      "link#mobile__videoBanner__button"
+    ],
+    "props": {
+      "blockClass": "mobile__videoBanner--items"
+    }
+  },
+  "rich-text#mobile__videoBanner__title": {
+    "title": "mobile__videoBanner__title",
+    "props": {
+      "blockClass": "mobile__videoBanner__title--rt",
+      "text": "## PRENDE TU CHISPA"
+    }
+  },
+  "rich-text#mobile__videoBanner__frase": {
+    "title": "mobile__videoBanner__frase",
+    "props": {
+      "blockClass": "mobile__videoBanner__frase--rt",
+      "text": "### Entrena y alégrate el día. Tenemos la equipación que buscas para empezar a entrenar.",
+      "font": " heading-1"
+    }
+  },
+  "link#mobile__videoBanner__button": {
+    "title": "mobile__videoBanner__button",
+    "children": [
+      "image#mobile__videoBanner__flecha"
+    ],
+    "props": {
+      "blockClass": "mobile__videoBanner__button",
+      "href": "/",
+      "label": "COMPRA AHORA",
+      "displayMode": "button"
+    }
+  },
+  "image#mobile__videoBanner__flecha": {
+    "title": "mobile__videoBanner__flecha",
+    "props": {
+      "blockClass": "mobile__videoBanner__flecha--image",
+      "src": "assets/img/arrow.svg"
+    }
+  }
 }

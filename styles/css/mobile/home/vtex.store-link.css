@@ -1,81 +1,81 @@
 .label--banner__frase--hombre {
-    color: black;
-    font-weight: 700;
+  color      : black;
+  font-weight: 700;
 }
 
 
 .label--banner__frase--mujer {
-    color: black;
-    font-weight: 700;
+  color      : black;
+  font-weight: 700;
 }
 
 .label--banner__frase--verTodo {
-    color: black;
-    font-weight: 700;
+  color      : black;
+  font-weight: 700;
 }
 
 .link--mobile__videoBanner__button {
-    background-color: white;
-    color: black;
-    font-weight: 700;
-    border: black;
-    border-radius: 0em;
-    width: 14em;
+  background-color: white;
+  color           : black;
+  font-weight     : 700;
+  border          : black;
+  border-radius   : 0em;
+  width           : 14em;
 }
 
 .label--mobile__videoBanner__button {
-    padding-right: 0em;
-    font-size: 0.9em;
+  padding-right: 0em;
+  font-size    : 0.9em;
 }
 
 .buttonLink--mobile__conoceMas__button {
-    background-color:white;
-    color: black;
-    position:absolute;
-    top: 70%;
-    left: 30%;
+  background-color: white;
+  color           : black;
+  position        : absolute;
+  top             : 70%;
+  left            : 30%;
 }
 
 .label--mobile__videoBanner__button {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 .buttonLink--mobile__conoceMas__button {
-    background-color: black;
-    color: white;
-    border-radius: 0;
-    border: black;
+  background-color: black;
+  color           : white;
+  border-radius   : 0;
+  border          : black;
 
 }
 
 .link--verMas__link {
-  color: #000;
-  font-family: Helvetica, sans-serif;
+  color          : #000;
+  font-family    : Helvetica, sans-serif;
   text-decoration: none;
-  font-weight: 500;
+  font-weight    : 500;
 }
 
 
 @media (max-width:400px) {
 
-    .buttonLink--mobile__videoBanner__button {
-        width: 11em;
-        /* background-color: aqua; */
-    }
+  .buttonLink--mobile__videoBanner__button {
+    width              : 11em;
+    /* background-color: aqua; */
+  }
 
-    .label--mobile__videoBanner__button {
-        padding-left: 0px;
-    }
+  .label--mobile__videoBanner__button {
+    padding-left: 0px;
+  }
 
-    .buttonLink--mobile__conoceMas__button {
+  .buttonLink--mobile__conoceMas__button {
     background-color: black;
-    color: white;
-    border-radius: 0;
-    border: black;
-    width: 12em;
-    height: 2em;
+    color           : white;
+    border-radius   : 0;
+    border          : black;
+    width           : 12em;
+    height          : 2em;
 
 
-}
+  }
 
 }

@@ -93,6 +93,7 @@
     }
   },
   "flex-layout.row#container__icons": {
+    "title": "Icon container",
     "children":[
       "modal-trigger#header__top2--login",
       "icon#desktop__heart",

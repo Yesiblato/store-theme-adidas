@@ -1,107 +1,103 @@
 {
-    "flex-layout.row#container__slider--equipos": {
-      "children": [
-        "slider-layout#home_slider--equipos--phone"
-      ]
-  
-    },
-    "slider-layout#home_slider--equipos--phone": {
-      "title": "home_slider--equipos--phone",
-      "props": {
-        "itemsPerPage": {
-          "tablet": 10,
-          "mobile": 4.5
-        },
-        "infinite": false,
-        "blockClass": "home__slider-equipos--mobile",
-        "showPaginationDots":"never",
-        "showNavigationArrows": "never"
+  "flex-layout.row#container__slider--equipos": {
+    "title": "Contenedor slider equipos",
+    "children": [
+      "slider-layout#home_slider--equipos--phone"
+    ]
+  },
+  "slider-layout#home_slider--equipos--phone": {
+    "title": "home_slider--equipos--phone",
+    "props": {
+      "itemsPerPage": {
+        "tablet": 10,
+        "mobile": 4.5
       },
-      "children": [
-        
-        "image#home__container--equipo1S",
-        "image#home__container--equipo2S",
-        "image#home__container--equipo3S",
-        "image#home__container--equipo4S",
-        "image#home__container--equipo5S",
-        "image#home__container--equipo6S",
-        "image#home__container--equipo7S",
-        "image#home__container--equipo8S",
-        "image#home__container--equipo9S",
-        "image#home__container--equipo10S"
-      ]
+      "infinite": false,
+      "blockClass": "home__slider-equipos--mobile",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never"
     },
-    "image#home__container--equipo1S":{
-        "title": "Imagen Colombia",
-        "props": {
-            "blockClass": "logosEquipo",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/PICKER-CO-mb_tcm195-653571.png"
-            
-       }
-    },
-    "image#home__container--equipo2S":{
-        "title": "Imagen Millonarios",
-        "props": {
-            "blockClass": "logosEquipo",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/Millonarios102x88_tcm195-572199.png"
-       }
-    },
-    "image#home__container--equipo3S":{
-        "title": "Imagen Medellín",
-        "props": {
-            "blockClass": "logosEquipo",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/PICKER-DIM_tcm195-868106.png"
-       }
-    },
-    "image#home__container--equipo4S":{
-        "title": "Imagen Junior",
-        "props": {
-            "blockClass": "logosEquipo",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/PICKER-JUNIOR_tcm195-868107.png"
-       }
-    },
-    "image#home__container--equipo5S":{
-        "title": "Imagen Arsenal",
-        "props": {
-            "blockClass": "logosEquipo",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/arsenal_pe_tcm195-570471.png"
-       }
-    },
-    "image#home__container--equipo6S":{
-        "title": "Imagen Real Madrid",
-        "props": {
-            "blockClass": "logosEquipo",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/realmadrid_pe_tcm195-570472.png"
-       }
-    },
-    "image#home__container--equipo7S":{
-        "title": "Imagen ManchesterUnited",
-        "props": {
-            "blockClass": "logosEquipo",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/picker_ManchesterUnited_tcm195-762991.png"
-       }
-    },
-    "image#home__container--equipo8S":{
-        "title": "Imagen juventus",
-        "props": {
-            "blockClass": "logosEquipo",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/juventus_pe_tcm195-570469.png"
-       }
-    },
-    "image#home__container--equipo9S":{
-        "title": "Imagen bayern",
-        "props": {
-            "blockClass": "logosEquipo",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/bayern_peru_tcm195-570470.png"
-       }
-    },
-    "image#home__container--equipo10S":{
-        "title": "Imagen bayern",
-        "props": {
-            "blockClass": "logosEquipo",
-            "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/boca-jr-1_tcm195-450843.png"
-       }
+    "children": [
+      "image#home__container--equipo1S",
+      "image#home__container--equipo2S",
+      "image#home__container--equipo3S",
+      "image#home__container--equipo4S",
+      "image#home__container--equipo5S",
+      "image#home__container--equipo6S",
+      "image#home__container--equipo7S",
+      "image#home__container--equipo8S",
+      "image#home__container--equipo9S",
+      "image#home__container--equipo10S"
+    ]
+  },
+  "image#home__container--equipo1S": {
+    "title": "Imagen Colombia",
+    "props": {
+      "blockClass": "logosEquipo",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/PICKER-CO-mb_tcm195-653571.png"
     }
-
-      
+  },
+  "image#home__container--equipo2S": {
+    "title": "Imagen Millonarios",
+    "props": {
+      "blockClass": "logosEquipo",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/Millonarios102x88_tcm195-572199.png"
+    }
+  },
+  "image#home__container--equipo3S": {
+    "title": "Imagen Medellín",
+    "props": {
+      "blockClass": "logosEquipo",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/PICKER-DIM_tcm195-868106.png"
+    }
+  },
+  "image#home__container--equipo4S": {
+    "title": "Imagen Junior",
+    "props": {
+      "blockClass": "logosEquipo",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/PICKER-JUNIOR_tcm195-868107.png"
+    }
+  },
+  "image#home__container--equipo5S": {
+    "title": "Imagen Arsenal",
+    "props": {
+      "blockClass": "logosEquipo",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/arsenal_pe_tcm195-570471.png"
+    }
+  },
+  "image#home__container--equipo6S": {
+    "title": "Imagen Real Madrid",
+    "props": {
+      "blockClass": "logosEquipo",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/realmadrid_pe_tcm195-570472.png"
+    }
+  },
+  "image#home__container--equipo7S": {
+    "title": "Imagen ManchesterUnited",
+    "props": {
+      "blockClass": "logosEquipo",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/picker_ManchesterUnited_tcm195-762991.png"
+    }
+  },
+  "image#home__container--equipo8S": {
+    "title": "Imagen juventus",
+    "props": {
+      "blockClass": "logosEquipo",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/juventus_pe_tcm195-570469.png"
+    }
+  },
+  "image#home__container--equipo9S": {
+    "title": "Imagen bayern",
+    "props": {
+      "blockClass": "logosEquipo",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/bayern_peru_tcm195-570470.png"
+    }
+  },
+  "image#home__container--equipo10S": {
+    "title": "Imagen bayern",
+    "props": {
+      "blockClass": "logosEquipo",
+      "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/boca-jr-1_tcm195-450843.png"
+    }
   }
+}

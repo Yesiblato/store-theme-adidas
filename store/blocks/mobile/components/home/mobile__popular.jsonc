@@ -55,43 +55,43 @@
   "rich-text#mobile__home__popularAhora1": {
     "title": "mobile__home__popularAhora1",
     "props": {
-        "blockClass": "materialReciclados",
-        "text": "## Materiales Reciclados"
+      "blockClass": "materialReciclados",
+      "text": "## Materiales Reciclados"
     }
-},
-"rich-text#mobile__home__popularAhora2": {
-  "title": "mobile__home__popularAhora2",
+  },
+  "rich-text#mobile__home__popularAhora2": {
+    "title": "mobile__home__popularAhora2",
     "props": {
-        "blockClass": "forum",
-        "text": "## Forum"
+      "blockClass": "forum",
+      "text": "## Forum"
     }
-},
-"rich-text#mobile__home__popularAhora3": {
-  "title": "mobile__home__popularAhora3",
+  },
+  "rich-text#mobile__home__popularAhora3": {
+    "title": "mobile__home__popularAhora3",
     "props": {
-        "blockClass": "guayos",
-        "text": "## Guayos"
+      "blockClass": "guayos",
+      "text": "## Guayos"
     }
-},
-"rich-text#mobile__home__popularAhora4": {
-  "title": "mobile__home__popularAhora4",
+  },
+  "rich-text#mobile__home__popularAhora4": {
+    "title": "mobile__home__popularAhora4",
     "props": {
-        "blockClass": "lego",
-        "text": "## Lego"
+      "blockClass": "lego",
+      "text": "## Lego"
     }
-},
-"rich-text#mobile__home__popularAhora5": {
-  "title": "mobile__home__popularAhora5",
+  },
+  "rich-text#mobile__home__popularAhora5": {
+    "title": "mobile__home__popularAhora5",
     "props": {
-        "blockClass": "superstar",
-        "text": "## Superstar"
+      "blockClass": "superstar",
+      "text": "## Superstar"
     }
-},
-"rich-text#mobile__home__popularAhora6": {
-  "title": "mobile__home__popularAhora6",
+  },
+  "rich-text#mobile__home__popularAhora6": {
+    "title": "mobile__home__popularAhora6",
     "props": {
-        "blockClass": "samba",
-        "text": "## Samba"
+      "blockClass": "samba",
+      "text": "## Samba"
     }
-}
+  }
 }

@@ -1,15 +1,14 @@
 {
-    "store.search#department": {
-        "props": {
-          "context": {
-            "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
-          }
-        },
-        "blocks": [
-          "search-result-layout#department"
-        ]
+  "store.search#department": {
+    "title": "Página department",
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
       }
-
-
+    },
+    "blocks": [
+      "search-result-layout#department"
+    ]
+  }
 }

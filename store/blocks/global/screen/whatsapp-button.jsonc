@@ -1,11 +1,12 @@
 {
   "whatsapp-button": {
+    "title": "Botón de whatsapp",
     "props": {
       "logo": "assets/img/whatsapp-logo.png",
       "phone": "3125661727",
       "message": "Adidas Store",
-      "width":"70px",
-      "height":"70px"
+      "width": "70px",
+      "height": "70px"
     }
   }
 }

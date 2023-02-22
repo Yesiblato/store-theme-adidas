@@ -162,7 +162,6 @@
       "showOnMobile": true
     }
   },
-
   "product-summary.shelf#grid": {
     "title": "Contenedor en grilla",
     "children": [
@@ -177,8 +176,8 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-price"
-      // "modal-trigger#global__quick--view"
+      "product-price",
+      "modal-trigger#global__quick--view"
     ]
   },
   "product-summary-name": {

@@ -1,83 +1,74 @@
 .containerNormal {
-    background-color: white;
+  background-color: white;
 }
 
 .imageWrapper {
-    background-color: #eceef0;
+  background-color: #eceef0;
 }
 
 .buyButtonContainer {
-    background-color: black;
+  background-color: black;
 }
 
 .buyButton :global(.vtex-button) {
-background-color:  black;
-}
-.container :global(.vtex-button) {
-    background-color: black;
-    width: 70%;
-    margin: auto;
-    
-}
-/* .buttonText :global(.vtex-add-to-cart-button)::after {
-    visibility: hidden;
+  background-color: black;
 }
 
-.buttonText :global(.vtex-add-to-cart-button)::before {
-    content: "COMPRAR";
-    visibility: visible;
-} */
-    
+.container :global(.vtex-button) {
+  background-color: black;
+  width           : 70%;
+  margin          : auto;
+
+}
 
 .productNameContainer {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    font-family: Helvetica, sans-serif;
-    width:100%;
-    padding-left: 3em;
-    padding-top: 0;
-    padding-bottom: 0;
+  display        : flex;
+  flex-direction : row;
+  justify-content: flex-start;
+  font-family    : Helvetica, sans-serif;
+  width          : 100%;
+  padding-left   : 3em;
+  padding-top    : 0;
+  padding-bottom : 0;
 
 }
 
 .brandName {
-    font-weight: 700;
-    font-family: Helvetica, sans-serif
+  font-weight: 700;
+  font-family: Helvetica, sans-serif
 }
 
 .column {
-    display: flex;
-    flex-direction: column;
+  display       : flex;
+  flex-direction: column;
 
 }
-.element {
 
-}
+.element {}
 
 .sellingPriceContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  display        : flex;
+  flex-direction : row;
+  justify-content: flex-start;
 }
 
 .nameContent {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
+  display        : flex;
+  flex-direction : row;
+  justify-content: flex-start;
+  width          : 100%;
+  padding-top    : 0;
+  padding-bottom : 0;
 }
 
 .nameContainer {
-    padding: 0;
-    padding-bottom: 0.5em;
+  padding       : 0;
+  padding-bottom: 0.5em;
 
 }
 
 .priceContainer {
-    padding: 0.5em 0;
-    width: 100%;
+  padding: 0.5em 0;
+  width  : 100%;
 }
