@@ -1,65 +1,64 @@
 .listItem--container__boton--reviews-and-rating :global(.vtex-button-label) {
-background-color: aqua;
+  background-color: aqua;
 }
 
 .listItem--container__boton--reviews-and-rating :global(.vtex-button-label):hover {
-    color: black;
+  color: black;
 }
 
 
 .listItem--container__boton--reviews-and-rating :global(.vtex-button) {
-    background-color: transparent;
-    border-color: transparent;
-    border-radius: 0;
-    font-size: 700 !important;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    color: black;
+  background-color: transparent;
+  border-color    : transparent;
+  border-radius   : 0;
+  font-size       : 700 !important;
+  font-family     : "Helvetica Neue", Helvetica, sans-serif;
+  color           : black;
 }
 
 .listItem--container__boton--reviews-and-rating :global(.vtex-button)::visited {
-    background-color: black;
-    border-color: black;
-    border-radius: 0;
-    color: white;
+  background-color: black;
+  border-color    : black;
+  border-radius   : 0;
+  color           : white;
 }
 
-.listItem--container__boton--reviews-and-rating :global(.vtex-button):hover{
-    color: black;
-    background-color: #eeeff1;
-    /* border-color: black; */
+.listItem--container__boton--reviews-and-rating :global(.vtex-button):hover {
+  color           : black;
+  background-color: #eeeff1;
+  /* border-color : black; */
 
 
 }
 
 .listItem--container__boton--specification :global(.vtex-button) {
-    background-color: transparent;
-    border-color: transparent;
-    border-radius: 0;
-    font-size: 700;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    color: black;
+  background-color: transparent;
+  border-color    : transparent;
+  border-radius   : 0;
+  font-size       : 700;
+  font-family     : "Helvetica Neue", Helvetica, sans-serif;
+  color           : black;
 }
 
 .listItem--container__boton--specification :global(.vtex-button):hover {
-    color: black;
-    background-color: #eeeff1;
+  color           : black;
+  background-color: #eeeff1;
 }
 
 .listItem--container__boton--questions :global(.vtex-button) {
-    background-color: transparent;
-    border-color: transparent;
-    border-radius: 0;
-    font-size: 700;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    color: black;
+  background-color: transparent;
+  border-color    : transparent;
+  border-radius   : 0;
+  font-size       : 700;
+  font-family     : "Helvetica Neue", Helvetica, sans-serif;
+  color           : black;
 }
 
 .listItem--container__boton--questions :global(.vtex-button):hover {
-    color: black;
-    background-color: #eeeff1;
+  color           : black;
+  background-color: #eeeff1;
 }
 
 /* .create-question-container :global(.vtex-button) {
     background-color: black;
 } */
-

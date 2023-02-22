@@ -1,267 +1,260 @@
 {
-    "responsive-layout.desktop#minicart": {
-        "title": "pagina minicart",
-        "children": [
-            "flex-layout.row#contenedor__minicart"
-        ]
-    },
-    "flex-layout.row#contenedor__minicart": {
-        "title": "contenedor__mincart--row",
-        "children": [
-            "flex-layout.col#seccion__productos",
-            "flex-layout.col#seccion__pago"
-        ],
-        "props": {
-            "blockClass": "contenedor__minicart--row",
-            "horizontalAlign": "center",
-            "colGap": 7,
-            "paddingTop": 10 
-            // "preventHorizontalStretch": true,
-
-        }
-    },
-    "flex-layout.col#seccion__productos": {
-        "title": "Seccion Productos",
-        "children": [
-            "flex-layout.row#titulos--row",
-            "flex-layout.row#banner__descuento--row",
-            "flex-layout.row#contenedor__productos",
-            "flex-layout.row#nuestras__recomendaciones",
-            "flex-layout.row#product-list--minicart",
-            "flex-layout.row#opciones__compra"
-        ],
-        "props": {
-            "blockClass": "seccion__productos--col",
-            "width": "60%"
-            
-        }
-    },
-    "flex-layout.row#titulos--row": {
-        "title": "Contenedor Títulos",
-        "children": [
-            "flex-layout.col#titulos--col"
-        ],
-        "props": {
-            "blockClass": "contenedorTitulos--row"
-        }
-    },
-    "flex-layout.col#titulos--col": {
-        "children": [
-            "rich-text#titulo--carrito",
-            "rich-text#frase--total",
-            "rich-text#frase--articulos"
-        ],
-        "props": {
-            "blockClass": "contenedorTitulos--col"
-        }
-    },
-    "rich-text#titulo--carrito": {
-        "title": "Titulo Carrito",
-        "props": {
-            "text": "TU CARRITO",
-            "blockClass": "rt__titulo--carrito"
-        }
-    },
-    "rich-text#frase--total": {
-        "title": "Frase del total de productos",
-        "props": {
-            "text": "TOTAL (4 productos) $1.459.960",
-            "blockClass": "rt__frase--total"
-        }
-    },
-    "rich-text#frase--articulos": {
-        "title": "Frase articulos",
-        "props": {
-            "text": "Los artículos en tu carrito no están reservados. Termina el proceso de compra ahora para hacerte con ellos.",
-            "blockClass":"rt__frase--articulos"
-        }
-    },
-    "flex-layout.row#banner__descuento--row": {
-        "title": "Contenedor banner descuento",
-        "children": [
-            "flex-layout.col#banner__descuento--col"
-        ],
-        "props": {
-            "blockClass": "Contenedor__banner--descuentos--row"
-        }
-    },
-    "flex-layout.col#banner__descuento--col": {
-        "title": "Banner de descuento",
-        "children": [
-            "rich-text#descuento",
-            "rich-text#frase__descuento"
-        ],
-        "props": {
-            "blockClass": "Contenedor__banner--descuentos--col"
-        }
-    },
-    "rich-text#descuento": {
-        "title": "Titulo de descuentos",
-        "props": {
-            "text": "¡HASTA 50% DE DESCUENTO!",
-            "blockClass": "rt-descuentos"
-        }
-    },
-    "rich-text#frase__descuento": {
-        "title": "Frase de descuento",
-        "props": {
-            "text": "Aprovecha los descuentos de fin de temporada en el catálogo seleccionado.",
-            "blockClass": "frase__descuento--rt"
-        }
-    },
-   
-    "flex-layout.row#nuestras__recomendaciones": {
-        "title": "Nuestras recomendaciones",
-        "children": [
-            "rich-text#titulo__nuestrasRecomendaciones"
-        ],
-        "props": {
-            "blockClass": "contenedor__nuestrasRecomendaciones"
-        }
-    },
-    "rich-text#titulo__nuestrasRecomendaciones": {
-        "title": "Título nuestras recomendaciones",
-        "props": {
-            "text": "NUESTRAS RECOMENDACIONES",
-            "blockClass": "rt__nuestrasRecomendaciones"
-        }
-    },
-    "flex-layout.row#opciones__compra": {
-        "title": "Opciones de compra",
-        "children": [
-            "flex-layout.col#opciones__compra"
-        ],
-        "props": {
-            "blockClass": "contenedor__opciones--compra"
-        }
-    },
-    "flex-layout.col#opciones__compra": {
-        "children": [
-            "flex-layout.row#seccion__envios1--minicart",
-            "flex-layout.row#seccion__envios2--minicart",
-            "flex-layout.row#seccion__envios3--minicart"
-          ],
-          "props": {
-            "blockClass": "contenedor__opciones--envios--col",
-            "preventHorizontalStretch": true,
-            "marginRight": 4
-          }
-    },
-    "flex-layout.row#seccion__envios1--minicart": {
-        "children": [
-          "image#icono1--minicart",
-          "rich-text#opcion1--minicart"
-        ],
-        "props": {
-          "blockClass": "Contenedor--seccion__envios1",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "colGap": 3
-        }
-      },
-      "flex-layout.row#seccion__envios2--minicart": {
-        "children": [
-          "image#icono2--minicart",
-          "rich-text#opcion2--minicart"
-        ],
-        "props": {
-          "blockClass": "Contenedor--seccion__envios2",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "colGap": 3
-        }
-      },
-      "flex-layout.row#seccion__envios3--minicart": {
-        "children": [
-          "image#icono3--minicart",
-          "rich-text#opcion3--minicart"
-        ],
-        "props": {
-          "blockClass": "Contenedor--seccion__envios3",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "colGap": 3
-        }
-      },
-      "image#icono1--minicart": {
-        "props": {
-          "src": "assets/img/icons/peligro.png",
-          "blockClass": "icon__entrega",
-          "maxWidth": 19,
-          "maxHeight": 19
-         
-        }
-      },
-      "rich-text#opcion1--minicart": {
-        "props": {
-          "text": "COMPRA AHORA! NUESTRO CARRITO NO RESERVA INVENTARIO",
-          "blockClass":"rt__opciones--compras"
-        }
-      },
-      "image#icono2--minicart": {
-        "props": {
-          "src": "assets/img/icons/carta.png",
-          "blockClass": "icon__entrega",
-          "maxWidth": 19,
-          "maxHeight": 19
-          
-          
-        }
-      },
-      "rich-text#opcion2--minicart": {
-        "props": {
-          "text": "CAMBIOS GRATIS",
-          "blockClass":"rt__opciones--compras"
-        }
-      },
-      "image#icono3--minicart": {
-        "props": {
-          "src": "assets/img/icons/peligro.png",
-          "blockClass": "icon__entrega",
-          "maxWidth": 19,
-          "maxHeight": 19
-          
-        }
-      },
-      "rich-text#opcion3--minicart": {
-        "props": {
-          "text": "COMPRA AHORA CON TU TARJETA DÉBITO",
-          "blockClass":"rt__opciones--compras"
-        }
-      },
-    "flex-layout.col#seccion__pago": {
-        "children": [
-            "minicart-checkout-button",
-            "minicart-summary",
-            
-            // "flex-layout.row#resumen__pedido",
-            "rich-text#codigo__postal",
-            "rich-text#tituloFormasPago",
-            "image#formas__dePago"
-        ],
-        "props": {
-            "preventVerticalStretch": true,
-            "width": "40%"
-        }
-    },
-    "rich-text#codigo__postal": {
-        "props": {
-            "text": "Introduce tu código promocional",
-            "blockClass": "text__codigo--postal"
-        }
-    },
-    "rich-text#tituloFormasPago": {
-        "props": {
-            "text": "FORMAS DE PAGO ACEPTADAS",
-            "blockClass": "rt__formasPago"
-        }
-    },
-    "image#formas__dePago": {
-        "props": {
-            "src": "assets/img/mediosdepagos.png",
-            "maxHeight": 24,
-            "blockClass": "imagen__medios--pago"
-        }
+  "responsive-layout.desktop#minicart": {
+    "title": "pagina minicart",
+    "children": [
+      "flex-layout.row#contenedor__minicart"
+    ]
+  },
+  "flex-layout.row#contenedor__minicart": {
+    "title": "contenedor__mincart--row",
+    "children": [
+      "flex-layout.col#seccion__productos",
+      "flex-layout.col#seccion__pago"
+    ],
+    "props": {
+      "blockClass": "contenedor__minicart--row",
+      "horizontalAlign": "center",
+      "colGap": 7,
+      "paddingTop": 10
+      // "preventHorizontalStretch": true,
     }
+  },
+  "flex-layout.col#seccion__productos": {
+    "title": "Seccion Productos",
+    "children": [
+      "flex-layout.row#titulos--row",
+      "flex-layout.row#banner__descuento--row",
+      "flex-layout.row#contenedor__productos",
+      "flex-layout.row#nuestras__recomendaciones",
+      "flex-layout.row#product-list--minicart",
+      "flex-layout.row#opciones__compra"
+    ],
+    "props": {
+      "blockClass": "seccion__productos--col",
+      "width": "60%"
+    }
+  },
+  "flex-layout.row#titulos--row": {
+    "title": "Contenedor Títulos",
+    "children": [
+      "flex-layout.col#titulos--col"
+    ],
+    "props": {
+      "blockClass": "contenedorTitulos--row"
+    }
+  },
+  "flex-layout.col#titulos--col": {
+    "children": [
+      "rich-text#titulo--carrito",
+      "rich-text#frase--total",
+      "rich-text#frase--articulos"
+    ],
+    "props": {
+      "blockClass": "contenedorTitulos--col"
+    }
+  },
+  "rich-text#titulo--carrito": {
+    "title": "Titulo Carrito",
+    "props": {
+      "text": "TU CARRITO",
+      "blockClass": "rt__titulo--carrito"
+    }
+  },
+  "rich-text#frase--total": {
+    "title": "Frase del total de productos",
+    "props": {
+      "text": "TOTAL (4 productos) $1.459.960",
+      "blockClass": "rt__frase--total"
+    }
+  },
+  "rich-text#frase--articulos": {
+    "title": "Frase articulos",
+    "props": {
+      "text": "Los artículos en tu carrito no están reservados. Termina el proceso de compra ahora para hacerte con ellos.",
+      "blockClass": "rt__frase--articulos"
+    }
+  },
+  "flex-layout.row#banner__descuento--row": {
+    "title": "Contenedor banner descuento",
+    "children": [
+      "flex-layout.col#banner__descuento--col"
+    ],
+    "props": {
+      "blockClass": "Contenedor__banner--descuentos--row"
+    }
+  },
+  "flex-layout.col#banner__descuento--col": {
+    "title": "Banner de descuento",
+    "children": [
+      "rich-text#descuento",
+      "rich-text#frase__descuento"
+    ],
+    "props": {
+      "blockClass": "Contenedor__banner--descuentos--col"
+    }
+  },
+  "rich-text#descuento": {
+    "title": "Titulo de descuentos",
+    "props": {
+      "text": "¡HASTA 50% DE DESCUENTO!",
+      "blockClass": "rt-descuentos"
+    }
+  },
+  "rich-text#frase__descuento": {
+    "title": "Frase de descuento",
+    "props": {
+      "text": "Aprovecha los descuentos de fin de temporada en el catálogo seleccionado.",
+      "blockClass": "frase__descuento--rt"
+    }
+  },
 
+  "flex-layout.row#nuestras__recomendaciones": {
+    "title": "Nuestras recomendaciones",
+    "children": [
+      "rich-text#titulo__nuestrasRecomendaciones"
+    ],
+    "props": {
+      "blockClass": "contenedor__nuestrasRecomendaciones"
+    }
+  },
+  "rich-text#titulo__nuestrasRecomendaciones": {
+    "title": "Título nuestras recomendaciones",
+    "props": {
+      "text": "NUESTRAS RECOMENDACIONES",
+      "blockClass": "rt__nuestrasRecomendaciones"
+    }
+  },
+  "flex-layout.row#opciones__compra": {
+    "title": "Opciones de compra",
+    "children": [
+      "flex-layout.col#opciones__compra"
+    ],
+    "props": {
+      "blockClass": "contenedor__opciones--compra"
+    }
+  },
+  "flex-layout.col#opciones__compra": {
+    "children": [
+      "flex-layout.row#seccion__envios1--minicart",
+      "flex-layout.row#seccion__envios2--minicart",
+      "flex-layout.row#seccion__envios3--minicart"
+    ],
+    "props": {
+      "blockClass": "contenedor__opciones--envios--col",
+      "preventHorizontalStretch": true,
+      "marginRight": 4
+    }
+  },
+  "flex-layout.row#seccion__envios1--minicart": {
+    "children": [
+      "image#icono1--minicart",
+      "rich-text#opcion1--minicart"
+    ],
+    "props": {
+      "blockClass": "Contenedor--seccion__envios1",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colGap": 3
+    }
+  },
+  "flex-layout.row#seccion__envios2--minicart": {
+    "children": [
+      "image#icono2--minicart",
+      "rich-text#opcion2--minicart"
+    ],
+    "props": {
+      "blockClass": "Contenedor--seccion__envios2",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colGap": 3
+    }
+  },
+  "flex-layout.row#seccion__envios3--minicart": {
+    "children": [
+      "image#icono3--minicart",
+      "rich-text#opcion3--minicart"
+    ],
+    "props": {
+      "blockClass": "Contenedor--seccion__envios3",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colGap": 3
+    }
+  },
+  "image#icono1--minicart": {
+    "props": {
+      "src": "assets/img/icons/peligro.png",
+      "blockClass": "icon__entrega",
+      "maxWidth": 19,
+      "maxHeight": 19
+    }
+  },
+  "rich-text#opcion1--minicart": {
+    "props": {
+      "text": "COMPRA AHORA! NUESTRO CARRITO NO RESERVA INVENTARIO",
+      "blockClass": "rt__opciones--compras"
+    }
+  },
+  "image#icono2--minicart": {
+    "props": {
+      "src": "assets/img/icons/carta.png",
+      "blockClass": "icon__entrega",
+      "maxWidth": 19,
+      "maxHeight": 19
+    }
+  },
+  "rich-text#opcion2--minicart": {
+    "props": {
+      "text": "CAMBIOS GRATIS",
+      "blockClass": "rt__opciones--compras"
+    }
+  },
+  "image#icono3--minicart": {
+    "props": {
+      "src": "assets/img/icons/peligro.png",
+      "blockClass": "icon__entrega",
+      "maxWidth": 19,
+      "maxHeight": 19
+    }
+  },
+  "rich-text#opcion3--minicart": {
+    "props": {
+      "text": "COMPRA AHORA CON TU TARJETA DÉBITO",
+      "blockClass": "rt__opciones--compras"
+    }
+  },
+  "flex-layout.col#seccion__pago": {
+    "children": [
+      "minicart-checkout-button",
+      "minicart-summary",
+
+      // "flex-layout.row#resumen__pedido",
+      "rich-text#codigo__postal",
+      "rich-text#tituloFormasPago",
+      "image#formas__dePago"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "40%"
+    }
+  },
+  "rich-text#codigo__postal": {
+    "props": {
+      "text": "Introduce tu código promocional",
+      "blockClass": "text__codigo--postal"
+    }
+  },
+  "rich-text#tituloFormasPago": {
+    "props": {
+      "text": "FORMAS DE PAGO ACEPTADAS",
+      "blockClass": "rt__formasPago"
+    }
+  },
+  "image#formas__dePago": {
+    "props": {
+      "src": "assets/img/mediosdepagos.png",
+      "maxHeight": 24,
+      "blockClass": "imagen__medios--pago"
+    }
+  }
 }

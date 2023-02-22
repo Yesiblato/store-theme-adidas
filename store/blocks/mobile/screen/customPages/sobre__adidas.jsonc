@@ -9,7 +9,7 @@
       "flex-layout.row#mobile__home--descuentos"
     ],
     "props": {
-        "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#contenedor__principal--acercaDe--mobile": {
@@ -156,7 +156,6 @@
       "rich-text#question--article--one--mobile",
       "rich-text#article--one--mobile",
       "link#inicia__sesion--mobile"
-
     ]
   },
   "flex-layout.col#article__two--mobile": {

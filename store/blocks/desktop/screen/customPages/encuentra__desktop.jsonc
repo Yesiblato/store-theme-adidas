@@ -31,17 +31,20 @@
   },
 
   "flex-layout.row#componente__departmentSearch": {
+    "title": "componente department search row",
     "children": [
       "flex-layout.col#componente__departmentSearch"
     ]
   },
   "flex-layout.col#componente__departmentSearch": {
+    "title": "componente department search row",
     "children": [
       "rich-text#componenteDepartmentSearch",
       "flex-layout.row#busqueda__opciones"
     ]
   },
   "flex-layout.row#busqueda__opciones": {
+    "title": "Opciones de busqueda",
     "children": [
       "departmentSearch"
     ],

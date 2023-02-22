@@ -24,24 +24,22 @@
       "rich-text#opinion__frase"
     ],
     "props": {
-        "blockClass": "seccion1--title"
+      "blockClass": "seccion1--title"
     }
   },
-  
+
   "rich-text#opinion__title": {
     "title": "opinion__título",
     "props": {
-        "text": "TU OPINIÓN CUENTA",
-        "blockClass":"contenedor--titulo"
-
+      "text": "TU OPINIÓN CUENTA",
+      "blockClass": "contenedor--titulo"
     }
   },
   "rich-text#opinion__frase": {
     "title": "opinion__frase",
     "props": {
-        "text": "Nuestro objetivo es mejorar y valoramos mucho tus comentarios",
-        "blockClass":"contenedor--frase"
-
+      "text": "Nuestro objetivo es mejorar y valoramos mucho tus comentarios",
+      "blockClass": "contenedor--frase"
     }
   }
 }

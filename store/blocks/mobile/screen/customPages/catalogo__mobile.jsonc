@@ -10,6 +10,7 @@
     ]
   },
   "flex-layout.row#container__catalogo--mobile": {
+    "title": "Container catalogo",
     "children": [
       "flex-layout.col#container__catalogo--mobile"
     ],
@@ -19,12 +20,14 @@
     }
   },
   "flex-layout.col#container__catalogo--mobile": {
+    "title": "Container catalogo col",
     "children": [
       "flex-layout.row#componente__pdfReader--mobile",
       "flex-layout.row#bullets"
     ]
   },
   "flex-layout.row#componente__pdfReader--mobile": {
+    "title": "Componente PDF row",
     "children": [
       "flex-layout.col#componente__pdfReader--mobile"
     ],
@@ -34,6 +37,7 @@
     }
   },
   "flex-layout.col#componente__pdfReader--mobile": {
+    "title": "Componente PDF col",
     "children": [
       "rich-text#componente__pdfReader--mobile",
       "pdf-reader#mobile"

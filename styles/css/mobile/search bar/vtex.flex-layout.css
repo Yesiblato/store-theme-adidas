@@ -3,13 +3,13 @@
 }
 
 .flexRow--contenedor__drawerSearch--row {
-  width: 100%;
+  width           : 100%;
   background-color: #ebedee;
- }
+}
 
- .flexRow--contenedor__drawerSearch--row :global(.vtex-input__suffix) {
-    display: none;
- }
+.flexRow--contenedor__drawerSearch--row :global(.vtex-input__suffix) {
+  display: none;
+}
 
 .flexRow--contenedor__drawerSearch--row :global(.vtex-input-prefix__group) {
   border: none

@@ -1,88 +1,83 @@
 {
-    "responsive-layout.mobile#page__notFound": {
-        "title": "Pagina Not Found",
-        "children": [
-            "flex-layout.row#page__notFound--mobile",
-            "flex-layout.row#mobile__home__opinion",
-            "flex-layout.row#mobile__Container--volverArriba",
-            "flex-layout.row#mobile__home__iniciarSesion",
-            "flex-layout.row#mobile__home--descuentos"
-        ]
-    },
-    "flex-layout.row#page__notFound--mobile": {
-        "title": "Contenedor de la pagina not found row",
-        "children": [
-            "flex-layout.col#page__notFound--mobile"
-        ],
-        "props": {
-            "blockClass": "Contenedor__page--notFound--row",
-            "horizontalAlign": "left",
-            "marginTop": 9,
-            "marginBottom": 10
-
-        }
-    },
-    "flex-layout.col#page__notFound--mobile":  {
-        "title": "Contenedor de la pagina not found col",
-        "children": [
-            "rich-text#Not__found--mobile",
-            "search-bar#not__found--mobile",
-            "flex-layout.row#frase__tiendaOnline--mobile"
-        ],
-        "props": {
-            "blockClass": "contenedor__items--notFound",
-            "preventVerticalStretch": true
-
-        }
-    },
-    "rich-text#Not__found--mobile": {
-        "title": "Título de la página",
-        "props": {
-            "text": "NO SE ENCUENTRA LA PÁGINA",
-            "blockClass": "titulo__notFound"
-            
-        }
-    },
-    "search-bar#not__found--mobile": {
-        "title": "Barra de busqueda page not__found",
-        "blocks": [
-          "autocomplete-result-list.v2"
-        ],
-        "props": {
-          "openAutocompleteOnFocus": true,
-          "maxWidth": "15%",
-          "blockClass": "barraBusqueda__notFound"
-        }
-      },
-    "flex-layout.row#frase__tiendaOnline--mobile": {
-        "title": "Contenedor frase tienda online",
-        "children": [
-            "rich-text#frase__notFound--mobile",
-            "link#tienda__online--mobile"
-        ],
-        "props": {
-            "blockClass": "Contenedor__tiendaOnline",
-            "preventHorizontalStretch": true,
-            "preserveLayoutOnMobile": true,
-            "colGap": 3,
-            "marginTop": 3
-
-        }
-    },
-    "rich-text#frase__notFound--mobile": {
-        "title": "Frase de la página not found",
-        "props": {
-            "text": "Vuelve a nuestra ",
-            "blockClass": "frase__pageNotFound"
-        }
-    },
-    "link#tienda__online--mobile": {
-        "title": "Enlace tienda online",
-        "props": {
-            "label": "tienda online",
-            "href": "/",
-            "blockClass": "link__tiendaOnline"
-        }
+  "responsive-layout.mobile#page__notFound": {
+    "title": "Pagina Not Found",
+    "children": [
+      "flex-layout.row#page__notFound--mobile",
+      "flex-layout.row#mobile__home__opinion",
+      "flex-layout.row#mobile__Container--volverArriba",
+      "flex-layout.row#mobile__home__iniciarSesion",
+      "flex-layout.row#mobile__home--descuentos"
+    ]
+  },
+  "flex-layout.row#page__notFound--mobile": {
+    "title": "Contenedor de la pagina not found row",
+    "children": [
+      "flex-layout.col#page__notFound--mobile"
+    ],
+    "props": {
+      "blockClass": "Contenedor__page--notFound--row",
+      "horizontalAlign": "left",
+      "marginTop": 9,
+      "marginBottom": 10
     }
-
+  },
+  "flex-layout.col#page__notFound--mobile": {
+    "title": "Contenedor de la pagina not found col",
+    "children": [
+      "rich-text#Not__found--mobile",
+      "search-bar#not__found--mobile",
+      "flex-layout.row#frase__tiendaOnline--mobile"
+    ],
+    "props": {
+      "blockClass": "contenedor__items--notFound",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#Not__found--mobile": {
+    "title": "Título de la página",
+    "props": {
+      "text": "NO SE ENCUENTRA LA PÁGINA",
+      "blockClass": "titulo__notFound"
+    }
+  },
+  "search-bar#not__found--mobile": {
+    "title": "Barra de busqueda page not__found",
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxWidth": "15%",
+      "blockClass": "barraBusqueda__notFound"
+    }
+  },
+  "flex-layout.row#frase__tiendaOnline--mobile": {
+    "title": "Contenedor frase tienda online",
+    "children": [
+      "rich-text#frase__notFound--mobile",
+      "link#tienda__online--mobile"
+    ],
+    "props": {
+      "blockClass": "Contenedor__tiendaOnline",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "colGap": 3,
+      "marginTop": 3
+    }
+  },
+  "rich-text#frase__notFound--mobile": {
+    "title": "Frase de la página not found",
+    "props": {
+      "text": "Vuelve a nuestra ",
+      "blockClass": "frase__pageNotFound"
+    }
+  },
+  "link#tienda__online--mobile": {
+    "title": "Enlace tienda online",
+    "props": {
+      "label": "tienda online",
+      "href": "/",
+      "blockClass": "link__tiendaOnline"
+    }
+  }
 }

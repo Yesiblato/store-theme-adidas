@@ -7,6 +7,7 @@
     ]
   },
   "header-row#header__top--one": {
+    "title": "Header top one",
     "children": [
       "rich-text#texto__oferta"
     ],
@@ -16,12 +17,14 @@
     }
   },
   "rich-text#texto__oferta": {
+    "title": "Texto oferta",
     "props": {
       "text": "Hasta 50% de Descuento",
       "blockClass": "Texto__top1"
     }
   },
   "header-row#header__top--two": {
+    "title": "Header top 2",
     "children": [
       "drawer#megamenu__mobile",
       "icon#desktop__heart",
@@ -36,23 +39,27 @@
     }
   },
   "modal-trigger#header__top2--login-mobile": {
+    "title": "Modal trigger login mobile",
     "children": [
       "icon#desktop__user-icon",
       "modal-layout#header__top2--login-mobile"
     ]
   },
   "modal-layout#header__top2--login-mobile": {
+    "title": "Modal layout login mobile",
     "children": [
       "login-content#mobile"
     ]
   },
   "login-content#mobile": {
+    "title": "login content",
     "props": {
       "showIconProfile": true,
       "hideIconLabel": true
     }
   },
   "flex-layout.row#opciones__mobile": {
+    "title": "Opciones mobile",
     "children": [
       "modal-trigger#header__top2--login-mobile",
       "drawer#search__mobile",
@@ -75,6 +82,7 @@
   },
 
   "drawer#megamenu__mobile": {
+    "title": "Drawer mega menú",
     "children": [
       "mega-menu#mobile"
     ],
@@ -83,6 +91,7 @@
     ]
   },
   "mega-menu#mobile": {
+    "title": "Mega menú mobile",
     "props": {
       "defaultDepartmentActive": "...",
       "orientation": "vertical",
@@ -90,11 +99,13 @@
     }
   },
   "drawer-header#my-drawer--megamenu": {
+    "title": "drawer header",
     "children": [
       "flex-layout.row#drawer-header--megamenu"
     ]
   },
   "flex-layout.row#drawer-header--megamenu": {
+    "title": "Contenedor drawer mega menú mobile",
     "children": [
       "flex-layout.col#mega-menu-go-back-btn--megamenu",
       "flex-layout.col#drawer-close-button--megamenu"
@@ -108,6 +119,7 @@
     }
   },
   "flex-layout.col#drawer-close-button--megamenu": {
+    "title": "drawer close button",
     "children": [
       "drawer-close-button"
     ],
@@ -117,6 +129,7 @@
     }
   },
   "flex-layout.col#mega-menu-go-back-btn--megamenu": {
+    "title": "Go to back btn",
     "children": [
       "mega-menu-go-back-btn"
     ],
@@ -127,8 +140,9 @@
     }
   },
   "icon#mobile__search": {
+    "title": "Search Icon mobile",
     "props": {
-      "id":"search-adidas",
+      "id": "search-adidas",
       "size": 30,
       "blockClass": "desktop-heart",
       "viewBox": "0 0 25 25"

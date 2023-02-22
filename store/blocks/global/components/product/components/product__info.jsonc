@@ -46,6 +46,7 @@
     }
   },
   "modal-trigger#add-to-cart-info": {
+    "title": "Add to cart info",
     "children": [
       "modal-layout#add-to-cart-info"
 
@@ -56,14 +57,16 @@
 
   },
   "modal-layout#add-to-cart-info": {
+    "title": "Add to cart info modal",
     "children": [
       "modal-header#add-to-cart-info",
       "add-to-cart-info"
     ]
   },
   "modal-header#add-to-cart-info": {
+    "title": "Modal header add to cart info",
     "props": {
-      "showCloseButton": true, 
+      "showCloseButton": true,
       "iconCloseSize": 24
     }
   },
@@ -81,8 +84,9 @@
     }
   },
   "rich-text#nombre": {
+    "title": "Referencia",
     "props": {
-      "text": "NOMBRE",
+      "text": "Ref",
       "blockClass": "contenedor__nombre--titulo"
     }
   },
@@ -97,6 +101,7 @@
     }
   },
   "flex-layout.row#contenedor__opciones--envios": {
+    "title": "Contenedor opciones envíos",
     "children": [
       "flex-layout.col#contenedor__opciones--envios"
     ],
@@ -105,6 +110,7 @@
     }
   },
   "flex-layout.col#contenedor__opciones--envios": {
+    "title": "contenedor opciones envíos col",
     "children": [
       "flex-layout.row#seccion__envios1",
       "flex-layout.row#seccion__envios2",
@@ -116,6 +122,7 @@
     }
   },
   "flex-layout.row#seccion__envios1": {
+    "title": "Seccion envíos 1",
     "children": [
       "image#icono1",
       "rich-text#opcion1"
@@ -127,6 +134,7 @@
     }
   },
   "flex-layout.row#seccion__envios2": {
+    "title": "Seccion envíos 2",
     "children": [
       "image#icono2",
       "rich-text#opcion2"
@@ -138,6 +146,7 @@
     }
   },
   "flex-layout.row#seccion__envios3": {
+    "title": "Seccion envíos 3",
     "children": [
       "image#icono3",
       "rich-text#opcion3"
@@ -149,6 +158,7 @@
     }
   },
   "image#icono1": {
+    "title": "Imagen icono 1",
     "props": {
       "src": "assets/img/icons/entrega.png",
       "blockClass": "icon__entrega",
@@ -158,11 +168,13 @@
     }
   },
   "rich-text#opcion1": {
+    "title": "Opcion 1",
     "props": {
       "text": "ENVÍO GRATIS APARTIR DE $249.900"
     }
   },
   "image#icono2": {
+    "title": "Imagen icono 2",
     "props": {
       "src": "assets/img/icons/candado.png",
       "blockClass": "icon__entrega",
@@ -173,11 +185,13 @@
     }
   },
   "rich-text#opcion2": {
+    "title": "Opcion 2",
     "props": {
       "text": "PAGA SEGURO PUEDES PAGAR EN LINEA"
     }
   },
   "image#icono3": {
+    "title": "Imagen icono 3",
     "props": {
       "src": "assets/img/icons/carta.png",
       "blockClass": "icon__entrega",
@@ -187,6 +201,7 @@
     }
   },
   "rich-text#opcion3": {
+    "title": "Opcion 3",
     "props": {
       "text": "DEVOLUCIONES GRATIS ¿NO ES TU TALLA? DEVUELVE EN UN PLAZO DE 60 DÍAS"
     }

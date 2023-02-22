@@ -1,16 +1,16 @@
 .headerRowContainer--header__top--one {
-    background-color: black;
-    color: white;
-    height: 3em;
+  background-color: black;
+  color           : white;
+  height          : 3em;
 }
 
 .headerRowContainer--header__top--one {
-    display: flex;
-    justify-content: center;
+  display        : flex;
+  justify-content: center;
 }
 
 .contenedorElemntosHeader {
-    display: flex;
-    flex-direction: row;
-    
+  display       : flex;
+  flex-direction: row;
+
 }

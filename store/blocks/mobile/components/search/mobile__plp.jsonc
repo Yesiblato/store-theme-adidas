@@ -11,14 +11,16 @@
     }
   },
   "flex-layout.row#contenedor__opciones--mobile": {
+    "title": "Contenedor opciones mobile",
     "children": [
       "flex-layout.col#contenedor__opciones--mobile"
     ],
     "props": {
-        "blockClass": "contenedor__opciones--row"
+      "blockClass": "contenedor__opciones--row"
     }
   },
   "flex-layout.col#contenedor__opciones--mobile": {
+    "title": "Contenedor opciones col",
     "children": [
       "flex-layout.row#mobile__home__opinion",
       "flex-layout.row#mobile__Container--volverArriba",
@@ -26,18 +28,20 @@
       "flex-layout.row#mobile__home--descuentos"
     ],
     "props": {
-        "blockClass": "contenedor__opciones--mobile",
-        "fullWidth": true,
-        "paddingLeft": 0,
-        "paddingRight": 0
+      "blockClass": "contenedor__opciones--mobile",
+      "fullWidth": true,
+      "paddingLeft": 0,
+      "paddingRight": 0
     }
   },
   "flex-layout.row#contenedor__resultados": {
+    "title": "Contenedor resultados",
     "children": [
       "flex-layout.col#contenedor__resultado--mobileColumn"
     ]
   },
   "flex-layout.col#contenedor__resultado--mobileColumn": {
+    "title": "Contenedor resultados col",
     "children": [
       "flex-layout.row#departmentbreadcrumb",
       "gallery-layout-switcher",
@@ -50,6 +54,7 @@
   },
 
   "flex-layout.row#categoryresults--content--mobile": {
+    "title": "Category Result",
     "children": [
       "flex-layout.col#categoryresults--content"
     ]
