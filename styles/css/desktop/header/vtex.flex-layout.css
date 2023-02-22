@@ -4,22 +4,15 @@
 
 }
 
-.flexRow--Contenedorprincipalcolumnas {
-    
-}
-
 .flexRowContent--Contenedorprincipalcolumnas .stretchChildrenWidth:first-child {
-    /* background-color: red; */
     margin-right: 110px;
 }
 
-/* .flexRowContent--contenedor__icons--headerDesktop .stretchChildrenWidth {
+.flexRowContent--container__icons {
     align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
 }
-
-.flexRowContent--contenedor__icons--headerDesktop {
-    margin-left: 15px;
-} */
 
 .flexRow--contenedor__icons--headerDesktop {
     align-items: center;
@@ -36,3 +29,6 @@
     align-items: center;
 }
 
+.flexRowContent--container__icons :global(.vtex-minicart-2-x-minicartQuantityBadge){
+  background-color: #1a7fb6;
+}

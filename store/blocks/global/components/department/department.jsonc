@@ -10,6 +10,11 @@
       "fullWidth": true
     }
   },
+  "search-not-found-layout": {
+    "blocks": [
+      "flex-layout.row#page__notFound"
+    ]
+  },
   "search-result-layout.desktop#department": {
     "title": "Contenedor__PLP--desktop",
     "children": [
@@ -28,6 +33,7 @@
       "defaultGalleryLayout": "grid",
       "fullWidth": true,
       "width": "100%"
+
     }
   },
   "flex-layout.row#categoryresults": {
@@ -50,12 +56,13 @@
     "title": "categoria y resultados",
     "children": [
       "search-title.v2",
-      //   "order-by.v2",
-      //   "total-products.v2",
       "filter-navigator.v3"
     ],
     "props": {
-      "blockClass": "seccion--one"
+      "blockClass": "seccion--one",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+
     }
   },
   "filter-navigator.v3": {
@@ -170,8 +177,8 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-price",
-      "modal-trigger#global__quick--view"
+      "product-price"
+      // "modal-trigger#global__quick--view"
     ]
   },
   "product-summary-name": {
@@ -223,8 +230,7 @@
   "flex-layout.row#quick--view__modal": {
     "title": "contenedor modal",
     "children": [
-      "flex-layout.col#view__modal--image",
-      "flex-layout.col#view__modal--info"
+      "flex-layout.col#view__modal--image"
     ],
     "props": {
       "blockClass": "Contenedor__secciones--modal",
@@ -236,17 +242,14 @@
     "children": [
       "logo#header__top--logo2",
       "search-title.v2",
-      "product-summary-image"
-    ]
-  },
-  "flex-layout.col#view__modal--info": {
-    "title": "Contenedor información modal",
-    "children": [
+      "product-summary-image",
       "product-summary-name",
-      "product-rating-inline",
       "product-summary-price",
       "add-to-cart-button"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
   },
   "logo#header__top--logo2": {
     "title": "Logo del modal",

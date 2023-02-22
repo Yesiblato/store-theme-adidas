@@ -8,7 +8,10 @@
         "props": {
             "blockClass": "contenedorHistoria",
             "rowGap": 7,
-            "colGap": 10
+            "colGap": 9,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
+
         }
     },
     "flex-layout.col#container__historia--seccion1": {
@@ -18,7 +21,9 @@
             "flex-layout.col#container__historia--parrafo2"
         ],
         "props": {
-
+          "blockClass": "container__historia--seccion1",
+          "preventVerticalStretch": true,
+          "paddingLeft": 2
         }
     },
     "flex-layout.col#container__historia--seccion2": {
@@ -28,18 +33,19 @@
             "flex-layout.col#container__historia--parrafo4"
         ],
         "props": {
-
+          "blockClass": "container__historia--seccion2",
+          "preventVerticalStretch": true,
+          "paddingRight": 2
         }
     },
     "flex-layout.col#container__historia--parrafo1": {
         "title": "container__historia--parrafo1",
         "children": [
             "rich-text#historia__parrafo1"
-            
         ]
 
     },
-    
+
     "flex-layout.col#container__historia--parrafo2": {
         "title": "container__historia--parrafo2",
         "children": [
@@ -54,7 +60,7 @@
         "title": "container__historia--parrafo3",
         "children": [
             "rich-text#historia__parrafo3"
-        ]      
+        ]
     },
     "flex-layout.col#container__historia--parrafo4": {
         "title": "container__historia--parrafo4",
@@ -69,10 +75,10 @@
     "rich-text#historia__parrafo1": {
         "title": "historia__parrafo1",
         "props": {
- 
+
             "blockClass": "parrafo1-desktop",
             "text": "## HISTORIA, MODA Y ROPA DEPORTIVA ADIDAS DESDE 1924"
-            
+
         }
     },
     "rich-text#historia__parrafo2.1": {
@@ -92,7 +98,7 @@
     "rich-text#historia__parrafo3": {
         "title": "historia__parrafo3.1",
         "props": {
-        
+
             "blockClass": "parrafo3-desktop",
             "text": "## TU TIENDA DEPORTIVA PARA CUALQUIER DEPORTE"
         }
@@ -113,4 +119,3 @@
     }
 
 }
-    

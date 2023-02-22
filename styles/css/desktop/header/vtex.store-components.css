@@ -7,9 +7,30 @@
     margin-left: 2em;
 }
 
-.searchBarInnerContainer--barraBusqueda {
-    /* background-color: gray; */
+.searchBarInnerContainer--barraBusqueda :global(.vtex-styleguide-9-x-input) {
+    background-color:#ebedee;
+    border-radius: 0;
+    border: none;
+    
+
 }
-.autoCompleteOuterContainer--barraBusqueda {
-    /* background-color: gray; */
+
+.searchBarInnerContainer--barraBusqueda {
+  border-radius: 0;
+  border: none;
+}
+
+.searchBarInnerContainer--barraBusqueda :global(.vtex-input__suffix) {
+  background-color:#ebedee;
+  border-radius: 0;
+  border: none;
+}
+
+.searchBarInnerContainer--barraBusqueda :global(.vtex-input) {
+  color: #000;
+}
+
+.searchBarInnerContainer--barraBusqueda :global(.vtex-input-prefix__group) {
+  border-radius: 0;
+  border: none;
 }

@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     max-width: 28em;
-    max-height: 28em;
+    max-height: 32em;
     align-items: center;
+    box-shadow: 5px 5px 10px;
 }
 
 .formTitle {
@@ -18,6 +19,3 @@
     font-family: Helvetica, sans-serif;
 }
 
-/* .button__label :global(.vtex-button) {
-    color: black;
-} */

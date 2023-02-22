@@ -1,445 +1,420 @@
 .container--title50descuento {
-    width: 15em;
+  width: 15em;
 }
 
 .headingLevel3 {
-    margin-top: 0em;
-    margin-bottom: 0em;
-    color: black;
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
+  margin-top   : 0em;
+  margin-bottom: 0em;
+  color        : black;
+  font-weight  : 700;
+  font-family  : Helvetica, sans-serif;
 }
-
 
 .heading--banner__frase--rt {
-    margin-top: 0em;
-    margin-bottom: 0em;
-    color: black;
-    font-size: 1.2em;
-    font-family: Helvetica, sans-serif;
-
+  margin-top   : 0em;
+  margin-bottom: 0em;
+  color        : black;
+  font-size    : 1.2em;
+  font-family  : Helvetica, sans-serif;
 }
 
-
 .wrapper--mobile__videoBanner__frase--rt {
-margin-top: 0.5em;
-margin-bottom: 1.5em;
-
+  margin-top   : 0.5em;
+  margin-bottom: 1.5em;
 }
 
 .headingLevel2--mobile__videoBanner__title--rt {
-    color: white;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    font-size: 2.1em;
+  color        : white;
+  margin-top   : 0em;
+  margin-bottom: 0em;
+  font-size    : 2.1em;
+  font-weight  : 700;
+  font-family  : Helvetica, sans-serif;
 }
 
 .headingLevel3--mobile__videoBanner__frase--rt {
-    color: white;
-    font-size: 1.2em;
-    font-weight: lighter;
+  color      : white;
+  font-size  : 1.2em;
+  font-weight: 400;
+  font-family: Helvetica, sans-serif;
 }
 
 .heading--titlePopularAhora {
-    margin: 2em 0em 1em 0em;
-    font-family: Helvetica, sans-serif;
-    font-size: 1.4em;
-
+  margin     : 1em 0em;
+  font-family: Helvetica, sans-serif;
+  font-size  : 1.4em;
 }
 
 .heading--materialReciclados {
-    margin: 0em;
-    padding-bottom: 0.3em;
-    font-weight: 700;
-    color: black;
-
+  margin        : 0em;
+  padding-bottom: 0.3em;
+  font-weight   : 700;
+  color         : black;
 }
 
 .container--materialReciclados {
-    width: 100%;
-    border-bottom: 1px solid black;
-
+  width        : 100%;
+  border-bottom: 1px solid black;
 }
 
 .heading--forum {
-    margin: 0.3em 0em 0em 0em;
-    padding-bottom: 0.3em;
-    font-weight: 700;
-    color: black;
+  margin        : 0.3em 0em 0em 0em;
+  padding-bottom: 0.3em;
+  font-weight   : 700;
+  color         : black;
 }
 
 .container--forum {
-    width: 100%;
-    border-bottom: 1px solid black;
+  width        : 100%;
+  border-bottom: 1px solid black;
 }
 
 .heading--guayos {
-    margin: 0.3em 0em 0em 0em;
-    padding-bottom: 0.3em;
-    font-weight: 700;
-    color: black;
+  margin        : 0.3em 0em 0em 0em;
+  padding-bottom: 0.3em;
+  font-weight   : 700;
+  color         : black;
 }
 
 .container--guayos {
-    width: 100%;
-    border-bottom: 1px solid black;
+  width        : 100%;
+  border-bottom: 1px solid black;
 }
 
 .heading--lego {
-    margin: 0.3em 0em 0em 0em;
-    padding-bottom: 0.3em;
-    font-weight: 700;
-    color: black;
+  margin        : 0.3em 0em 0em 0em;
+  padding-bottom: 0.3em;
+  font-weight   : 700;
+  color         : black;
 }
 
 .container--lego {
-    width: 100%;
-    border-bottom: 1px solid black;
+  width        : 100%;
+  border-bottom: 1px solid black;
 }
 
 .heading--superstar {
-    margin: 0.3em 0em 0em 0em;
-    padding-bottom: 0.3em;
-    font-weight: 700;
-    color: black;
+  margin        : 0.3em 0em 0em 0em;
+  padding-bottom: 0.3em;
+  font-weight   : 700;
+  color         : black;
 }
 
 .container--superstar {
-    width: 100%;
-    border-bottom: 1px solid black;
+  width        : 100%;
+  border-bottom: 1px solid black;
 }
 
 .heading--samba {
-    margin: 0.3em 0em 0em 0em;
-    padding-bottom: 0.3em;
-    font-weight: 700;
-    color: black;
+  margin        : 0.3em 0em 0em 0em;
+  padding-bottom: 0.3em;
+  font-weight   : 700;
+  color         : black;
 }
 
 .container--samba {
-    width: 100%;
-    border-bottom: 1px solid black;
+  width        : 100%;
+  border-bottom: 1px solid black;
 }
 
 .paragraph--encuentraEquipo {
-    margin-left: 1em;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
-    height: auto;
+  padding-top: 0.5em;
+  height     : auto;
+  font-size  : 1.2em;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
 }
 
-.headingLevel3--mobile__item1{
-    font-size: 1.1em;
-
+.headingLevel3--mobile__item1 {
+  font-size: 1.1em;
 }
 
-.headingLevel3--mobile__item2{
-    font-size: 1.1em;
-
+.headingLevel3--mobile__item2 {
+  font-size: 1.1em;
 }
 
-.headingLevel3--mobile__item3{
-    font-size: 1.1em;
+.headingLevel3--mobile__item3 {
+  font-size: 1.1em;
 }
 
 .wrapper--mobile__item1S {
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
-    font-size: 1.4em;
-    width: max-content;
-    color: black;
+  font-weight: 700;
+  font-family: Helvetica, sans-serif;
+  font-size  : 1.4em;
+  width      : max-content;
+  color      : black;
 }
 
 .wrapper--mobile__item1S__2 {
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
-    font-size: 1.4em;
-    width: max-content;
-    margin-left: 1em;
-    color: black;
+  font-weight: 700;
+  font-family: Helvetica, sans-serif;
+  font-size  : 1.4em;
+  width      : max-content;
+  margin-left: 1em;
+  color      : black;
 }
 
 .wrapper--mobile__item1S__3 {
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
-    font-size: 1.4em;
-    width: fit-content;
-    margin-left: 1em;
-    color: black;
+  font-weight: 700;
+  font-family: Helvetica, sans-serif;
+  font-size  : 1.4em;
+  width      : fit-content;
+  margin-left: 1em;
+  color      : black;
 }
 
 .headingLevel3--mobile__conoceMas--frase {
-    margin: 0em;
-    font-size: 1.7em;
-    width: 50%;
-    color: white;
-    position:absolute;
-    top: 10%;
-    left: 30%;
-    padding: 0em;
+  margin   : 0em;
+  font-size: 1.7em;
+  width    : 50%;
+  color    : white;
+  position : absolute;
+  top      : 10%;
+  left     : 30%;
+  padding  : 0em;
 }
 
 .headingLevel2--parrafo1 {
-    margin-top: 2em;
-    width: auto;
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
+  margin-top : 2em;
+  width      : auto;
+  font-weight: 700;
+  font-family: Helvetica, sans-serif;
 
 }
+
 .headingLevel12--mobile__historia__parrafo1 {
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
-    width: auto;
-    margin: 0;
-    margin-bottom: 0em;
-    height: 2em;
-
+  font-weight  : 700;
+  font-family  : Helvetica, sans-serif;
+  width        : auto;
+  margin       : 0;
+  margin-bottom: 0em;
+  height       : 2em;
 }
+
 .wrapper--mobile__parrafo1--mb {
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
-    width: auto;
-    margin: 0;
-    margin-bottom: 0em;
-    height: 2em;
-    font-size: 2.25em;
+  font-weight  : 700;
+  font-family  : Helvetica, sans-serif;
+  width        : auto;
+  margin       : 0;
+  margin-bottom: 0em;
+  height       : 2em;
+  font-size    : 2.25em;
 }
 
 .heading--mobile__parrafo3 {
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  font-family: Helvetica, sans-serif;
 }
 
 .headingLevel2--mobile__parrafo1 {
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
-    width: auto;
-    margin: 0;
-    margin-bottom: 0em;
-    height: 2em;
+  font-weight  : 700;
+  font-family  : Helvetica, sans-serif;
+  width        : auto;
+  margin       : 0;
+  margin-bottom: 0em;
+  height       : 2em;
 }
 
 .headingLevel2--mobile__parrafo3 {
-    width: auto;
-    margin: 0;
-    margin-bottom: 0em;
-    height: 2em;
+  width        : auto;
+  margin       : 0;
+  margin-bottom: 0em;
+  height       : 2em;
 }
 
 .paragraph--frase__volverArriba {
-    font-size: 0.8em;
-    font-weight: 500;
-    font-family: Helvetica, sans-serif;
+  font-size  : 0.8em;
+  font-weight: 500;
+  font-family: Helvetica, sans-serif;
 }
 
 .container--iniciarSesion--rt {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: white;
+  display        : flex;
+  flex-direction : row;
+  justify-content: center;
+  color          : white;
 }
 
 .container--tuCarrito--rt {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: white;
+  display        : flex;
+  flex-direction : row;
+  justify-content: center;
+  color          : white;
 }
 
 .headingLevel2--descuentas--frases-rt {
-    font-weight: 700;
-    color: black;
-    font-family: Helvetica, sans-serif;
-    margin: 0.5em 0em;
-    font-size: 2em;
-    text-align: center;
+  font-weight: 700;
+  color      : black;
+  font-family: Helvetica, sans-serif;
+  margin     : 0.5em 0em;
+  font-size  : 2em;
+  text-align : center;
 }
 
-
 .paragraph--contenedor--titulo {
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
-    padding-bottom: 0;
+  font-weight   : 700;
+  font-family   : Helvetica, sans-serif;
+  padding-bottom: 0;
 }
 
 .paragraph--contenedor--frase {
-    font-weight: 500;
-    font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  font-family: Helvetica, sans-serif;
 
 }
-
 
 .paragraph--title-disclosure {
-    font-weight: 600;
+  font-weight: 600;
+  font-size  : 1.5em;
+  font-family: Helvetica, sans-serif;
+
+}
+
+.paragraph--mobile__encuentraEquipo {
+  font-weight: 700;
+  font-size  : 1.2em;
+  font-family: Helvetica, sans-serif;
+}
+
+.headingLevel3--title50descuento {
+  font-weight: 700;
+}
+
+.wrapper--loMejorAdidas__rt {
+  font-size: 2vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.paragraph--loMejorAdidas__rt {
+  font-size: 2vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.container--referencias {
+  margin-top: 2em;
+}
+
+@media (max-width:1024px) {
+  .container--descuentas--frases-rt {
+    justify-content: center;
+  }
+
+}
+
+@media (max-width:720px) {
+
+  .headingLevel3--mobile__conoceMas--frase {
     font-size: 1.5em;
+  }
+}
+
+@media (max-width:695px) {
+
+  .headingLevel3--mobile__conoceMas--frase {
+    font-size: 1.3em;
+  }
+}
+
+
+
+@media (max-width:600px) {
+
+  .headingLevel3--title50descuento {
+    font-size: 1.6em;
+  }
+
+  .headingLevel4--banner__frase--rt {
+    font-size: 1.05em;
+  }
+
+  .headingLevel3--mobile__conoceMas--frase {
+    font-size: 1em;
+  }
+}
+
+
+@media (max-width:500px) {
+
+  .headingLevel3--title50descuento {
+    font-size  : 1.6em;
+    font-weight: 600;
+  }
+
+  .headingLevel4--banner__frase--rt {
+    font-size: 1em;
+  }
+
+  .label--banner__frase--hombre {
+    font-size: 14px;
+  }
+
+  .headingLevel3--mobile__conoceMas--frase {
+    font-size: 1em;
+  }
+
+  .label--mobile__conoceMas__button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:450px) {
+
+  .headingLevel2--mobile__videoBanner__title--rt {
+    font-size    : 1.8em;
+  }
+
+  .headingLevel3--mobile__videoBanner__frase--rt {
+    font-size  : 1em;
+  }
+
+  .headingLevel3--mobile__conoceMas--frase {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width:390px) {
+
+  .headingLevel3--title50descuento {
+    visibility: hidden;
+  }
+
+  .headingLevel4--banner__frase--rt {
+    visibility: hidden;
+  }
+
+  .headingLevel3--mobile__conoceMas--frase {
+    font-size: 0.7em;
+  }
+
+  .wrapper--mobile__item1S {
+    font-weight : 700;
+    font-family : Helvetica, sans-serif;
+    font-size   : 1.4em;
+    width       : fit-content;
+    margin-right: 1em;
+    color       : black;
+  }
+
+  .wrapper--mobile__item1S__2 {
+    font-weight : 700;
+    font-family : Helvetica, sans-serif;
+    font-size   : 1.4em;
+    width       : fit-content;
+    color       : black;
+    margin-left : 1em;
+    margin-right: 1em;
+    visibility  : hidden;
+  }
+
+  .wrapper--mobile__item1S__3 {
+    font-weight: 700;
     font-family: Helvetica, sans-serif;
-
-}
-
-
-@media (max-width:720px ) {
-
-    .headingLevel3--mobile__conoceMas--frase {
-        margin: 0em;
-        font-size: 1.5em;
-        width: 50%;
-        color: white;
-        position:absolute;
-        top: 10%;
-        left: 30%;
-        padding: 0.5em;
-    }
-}
-
-@media (max-width:695px ) {
-    .headingLevel3--mobile__conoceMas--frase {
-        margin: 0em;
-        font-size: 1.3em;
-        width: 50%;
-        color: white;
-        position:absolute;
-        top: 10%;
-        left: 30%;
-        padding: 0.5em;
-    }
-}
-
-
-
-@media (max-width:600px ) {
-
-    .headingLevel3--title50descuento {
-        font-size: 1.6em;
-        }
-
-    .headingLevel4--banner__frase--rt {
-        font-size: 1.05em;
-    }
-
-    .headingLevel3--mobile__conoceMas--frase {
-        margin: 0em;
-        font-size: 1em;
-        width: 50%;
-        color: white;
-        position:absolute;
-        top: 10%;
-        left: 30%;
-        padding: 0.5em;
-    }
-}
-
-
-@media (max-width:500px ) {
-    .headingLevel3--title50descuento {
-        font-size: 1.6em;
-        font-weight: 600;
-        }
-
-    .headingLevel4--banner__frase--rt {
-        font-size: 1em;
-    }
-
-    .label--banner__frase--hombre {
-        font-size: 14px;
-    }
-
-    .headingLevel3--mobile__conoceMas--frase {
-        margin: 0em;
-        font-size: 1em;
-        width: 50%;
-        color: white;
-        position:absolute;
-        top: 10%;
-        left: 30%;
-        padding: 0.5em;
-    }
-
-    .label--mobile__conoceMas__button {
-        font-size: 14px;
-    }
-}
-
-@media (max-width:450px ) {
-
-    .headingLevel2--mobile__videoBanner__title--rt {
-        color: white;
-        margin-top: 0em;
-        margin-bottom: 0em;
-        font-size: 1.8em;
-        font-weight: 700;
-        font-family: Helvetica, sans-serif;
-    }
-
-    .headingLevel3--mobile__videoBanner__frase--rt {
-        color: white;
-        font-size: 1em;
-        font-weight: 400;
-        font-family: Helvetica, sans-serif;
-    }
-
-    .headingLevel3--mobile__conoceMas--frase {
-        margin: 0em;
-        font-size: 0.9em;
-        width: 50%;
-        color: white;
-        position:absolute;
-        top: 10%;
-        left: 30%;
-        padding: 0.5em;
-    }
-}
-
-@media (max-width:390px ) {
-
-    .headingLevel3--title50descuento {
-        visibility: hidden;
-        }
-
-        .headingLevel4--banner__frase--rt {
-        visibility: hidden;
-        }
-
-    .headingLevel3--mobile__conoceMas--frase {
-        margin: 0em;
-        font-size: 0.7em;
-        width: 50%;
-        color: white;
-        position:absolute;
-        top: 10%;
-        left: 30%;
-        padding: 0.5em;
-    }
-
-    .wrapper--mobile__item1S {
-        font-weight: 700;
-        font-family: Helvetica, sans-serif;
-        font-size: 1.4em;
-        width:fit-content;
-        margin-right: 1em;
-        color: black;
-    }
-
-    .wrapper--mobile__item1S__2 {
-        font-weight: 700;
-        font-family: Helvetica, sans-serif;
-        font-size: 1.4em;
-        width: fit-content;
-        color: black;
-        margin-left: 1em;
-        margin-right: 1em;
-        visibility: hidden;
-    }
-
-    .wrapper--mobile__item1S__3 {
-        font-weight: 700;
-        font-family: Helvetica, sans-serif;
-        font-size: 1.4em;
-        width: fit-content;
-         color: black;
-         margin-left: 1em;
-         visibility: hidden;
-    }
-
-
-
+    font-size  : 1.4em;
+    width      : fit-content;
+    color      : black;
+    margin-left: 1em;
+    visibility : hidden;
+  }
 }

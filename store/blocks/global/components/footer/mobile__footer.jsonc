@@ -107,8 +107,8 @@
     "title": "opciones--BuscadorM",
     "props": {
       "blockClass": "opcionesM",
-      "href": "/{slug}/p",
-      "label": "Buscador de Tiendas",
+      "href": "/acerca-de-adidas",
+      "label": "Acerca de Adidas",
       "font": "small"
     }
   },
@@ -116,8 +116,8 @@
     "title": "opciones--DudasFrecuentes",
     "props": {
       "blockClass": "opcionesM",
-      "href": "/{slug}/p",
-      "label": "Dudas Frecuentes",
+      "href": "/encuentra",
+      "label": "Encuentras más",
       "font": "small"
     }
   },
@@ -125,8 +125,8 @@
     "title": "opciones--SolicitarMiDevolucionM",
     "props": {
       "blockClass": "opcionesM",
-      "href": "/{slug}/p",
-      "label": "Solicitar Mi Devolucion",
+      "href": "samsmith",
+      "label": "Sam Smith",
       "font": "small"
     }
   },
@@ -134,8 +134,8 @@
     "title": "opciones--Pago",
     "props": {
       "blockClass": "opcionesM",
-      "href": "/{slug}/p",
-      "label": "Pago",
+      "href": "catalogo",
+      "label": "Catálogo",
       "font": "small"
     }
   },

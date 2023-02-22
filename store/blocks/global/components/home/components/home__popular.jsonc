@@ -3,10 +3,11 @@
         "title": "home__popular--global",
         "children": [
             "flex-layout.col#container__opciones"
-  
+
         ],
         "props": {
-            "blockClass": "home__popularAhora"
+            "blockClass": "home__popularAhora",
+            "marginBottom": 7
         }
     },
     "flex-layout.col#container__opciones": {
@@ -14,7 +15,12 @@
         "children": [
             "flex-layout.row#home__popular--title",
             "flex-layout.row#home__popular--opciones"
-        ]
+        ],
+        "props": {
+          "paddingLeft": 2,
+          "paddingRight": 8,
+          "preventVerticalStretch": true
+        }
     },
     "flex-layout.row#home__popular--title": {
         "title": "home__popular--title",
@@ -22,7 +28,8 @@
             "rich-text#home__popularAhora"
         ],
         "props": {
-            "fullWidth": true
+            "fullWidth": true,
+            "colGap": 2
         }
     },
     "rich-text#home__popularAhora": {
@@ -41,7 +48,10 @@
             "flex-layout.col#home__popular3"
         ],
         "props": {
-            "blockClass": "home__opciones"
+            "blockClass": "home__opciones",
+            // "colGap": 5,
+            "preventHorizontalStretch": true
+
         }
     },
 
@@ -50,61 +60,70 @@
         "children": [
             "rich-text#home__popularAhora1",
             "rich-text#home__popularAhora2"
-        ]
+        ],
+        "props": {
+          "blockClass": "contenedor__popular1"
+        }
     },
     "flex-layout.col#home__popular2": {
         "title": "home__popular2",
         "children": [
             "rich-text#home__popularAhora3",
             "rich-text#home__popularAhora4"
-        ]
+        ],
+        "props": {
+          "blockClass": "contenedor__popular1"
+        }
     },
     "flex-layout.col#home__popular3": {
         "title": "home__popular3",
         "children": [
             "rich-text#home__popularAhora5",
             "rich-text#home__popularAhora6"
-    ]        
+    ],
+    "props": {
+      "blockClass": "contenedor__popular1"
+    }
     },
     "rich-text#home__popularAhora1": {
         "title": "home__popularAhora1",
         "props": {
-            "blockClass": "materialReciclados-global",
+            "blockClass": "rc__popular--global",
             "text": "## Materiales Reciclados"
         }
     },
     "rich-text#home__popularAhora2": {
         "title": "home__popularAhora2",
         "props": {
-            "blockClass": "forum-global",
+            "blockClass": "rc__popular--global",
             "text": "## Forum"
         }
     },
     "rich-text#home__popularAhora3": {
         "title": "home__popularAhora3",
         "props": {
-            "blockClass": "guayos-global",
+            "blockClass": "rc__popular--global",
             "text": "## Guayos"
         }
     },
     "rich-text#home__popularAhora4": {
         "title": "home__popularAhora4",
         "props": {
-            "blockClass": "lego-global",
+            "blockClass": "rc__popular--global",
             "text": "## Lego"
         }
     },
     "rich-text#home__popularAhora5": {
         "title": "home__popularAhora5",
         "props": {
-            "blockClass": "superstar-global",
+            "blockClass": "rc__popular--global",
             "text": "## Superstar"
         }
     },
     "rich-text#home__popularAhora6": {
         "title": "home__popularAhora6",
         "props": {
-            "blockClass": "samba-global",
+            "blockClass": "rc__popular--global",
             "text": "## Samba"
         }
     }

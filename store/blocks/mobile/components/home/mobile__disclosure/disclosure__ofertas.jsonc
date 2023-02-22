@@ -32,18 +32,17 @@
     "image#upOF": {
         "props": {
             "src": "assets/img/icons/menos.png",
-            "maxWidth": 18,
-            "maxHeight": 18
+            "maxWidth": 30,
+            "maxHeight": 30
         }
     },
     "image#downOF": {
         "props": {
             "src": "assets/img/icons/mas.png",
-            "maxWidth": 18,
-            "maxHeight": 18
+            "maxWidth": 30,
+            "maxHeight": 30
         }
     },
-
     "disclosure-content#ofertas": {
         "children": [
             "disclosure-layout-group#productoDestacado--ofertas",

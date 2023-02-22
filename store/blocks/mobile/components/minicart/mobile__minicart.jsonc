@@ -6,10 +6,10 @@
     },
     "minicart-product-list#adidasV2--m": {
       "blocks": [
-        "product-list"
+        "product-list#minicart--mobile"
       ]
     },
-    "product-list": {
+    "product-list#minicart--mobile": {
         "blocks": [
           "product-list-content-desktop",
           "product-list-content-mobile"
