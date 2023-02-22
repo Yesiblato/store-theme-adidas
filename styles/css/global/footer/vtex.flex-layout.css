@@ -1,122 +1,117 @@
 .flexRow--footer__contenedor--desktop {
-    background-color: white;
-    height: 32em;
+  background-color: white;
+  height          : 32em;
 }
-/*
-.flex-layout.row#footer-desktop--seccion2 {
-    background-color:#363738 ;
-} */
+
 .flexRow--secciones1y2 {
-    background-color:#363738;
-    height: 8em;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-items: center;
+  background-color: #363738;
+  height          : 8em;
+  width           : 100%;
+  display         : flex;
+  flex-direction  : row;
+  justify-content : center;
+  justify-items   : center;
 
 }
+
 .flexRowContent--secciones1y2 {
-width: 65em;
-height: 8em;
-display: flex;
-flex-direction: row;
-align-items: center;
+  width         : 65em;
+  height        : 8em;
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
 }
 
 .flexCol--contenedor__secciones {
-    height: 8em;
+  height: 8em;
 }
 
-.flexColChild--contenedor__secciones {
-
-}
+.flexColChild--contenedor__secciones {}
 
 .flexRowContent--container__seccionTwo-one {
-    height: 4em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1em 0.3em;
+  height         : 4em;
+  display        : flex;
+  flex-direction : row;
+  justify-content: center;
+  align-items    : center;
+  padding        : 1em 0.3em;
 }
 
 
 .flexColChild--container__seccionTwo-two {
-    height: 4em;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  height         : 4em;
+  display        : flex;
+  flex-direction : row;
+  justify-content: flex-start;
 
-    padding: 1em 0.3em;
-    color: white;
+  padding: 1em 0.3em;
+  color  : white;
 }
 
 .flexRowContent--footer__contenedor--desktop {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-    padding-top: 2em;
-    max-width: 59em;
-    margin: auto;
+  display        : flex;
+  flex-direction : row;
+  justify-content: center;
+  align-content  : center;
+  justify-items  : center;
+  padding-top    : 2em;
+  max-width      : 59em;
+  margin         : auto;
 }
 
 .flexCol--columnas {
-    margin: 1em 1em;
-    width: 22em !important;
-    height: 27em;
+  margin: 1em 1em;
+  width : 22em !important;
+  height: 27em;
 
 }
 
 .flexCol--informacion {
-    height: 15em;
+  height: 15em;
 }
 
 .flexCol--siguenos {
-    height: 13em;
+  height: 13em;
 }
 
 
 
 
 .flexRow--contenedorSeccionOne {
-    background-color: black;
-    height: 9em;
-    display: flex;
-    padding: 1em 0em;
+  background-color: black;
+  height          : 9em;
+  display         : flex;
+  padding         : 1em 0em;
 
 }
 
-.flexRowContent--contenedorSeccionOne  {
-    justify-content: space-around;
+.flexRowContent--contenedorSeccionOne {
+  justify-content: space-around;
 }
 
-.flexRowContent--contenedorSeccionTwo  {
-    justify-content: space-around;
+.flexRowContent--contenedorSeccionTwo {
+  justify-content: space-around;
 }
 
 .flexRow--contenedorSeccionTwo {
-    background-color: #363738;
-    height: 9em;
-    display: flex;
-    padding: 1em 0em;
+  background-color: #363738;
+  height          : 9em;
+  display         : flex;
+  padding         : 1em 0em;
 
 }
 
 .flexRow--contenedorSeccionThree {
-    background-color: #363738;
-    height: 2em;
+  background-color: #363738;
+  height          : 2em;
 }
 
 
 .flexCol--contenedores {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    /* width: 15em; */
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+  color         : white;
+  /* width      : 15em; */
 
 }
-

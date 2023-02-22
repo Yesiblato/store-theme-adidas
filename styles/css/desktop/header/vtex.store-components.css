@@ -1,29 +1,29 @@
 .imageElement--imagen--promocion {
-    margin-left: 30px;
-    margin-top: 5px;
+  margin-left: 30px;
+  margin-top : 5px;
 }
 
 .logoLink--logoAdidasHeader {
-    margin-left: 2em;
+  margin-left: 2em;
 }
 
 .searchBarInnerContainer--barraBusqueda :global(.vtex-styleguide-9-x-input) {
-    background-color:#ebedee;
-    border-radius: 0;
-    border: none;
-    
+  background-color: #ebedee;
+  border-radius   : 0;
+  border          : none;
+
 
 }
 
 .searchBarInnerContainer--barraBusqueda {
   border-radius: 0;
-  border: none;
+  border       : none;
 }
 
 .searchBarInnerContainer--barraBusqueda :global(.vtex-input__suffix) {
-  background-color:#ebedee;
-  border-radius: 0;
-  border: none;
+  background-color: #ebedee;
+  border-radius   : 0;
+  border          : none;
 }
 
 .searchBarInnerContainer--barraBusqueda :global(.vtex-input) {
@@ -32,5 +32,5 @@
 
 .searchBarInnerContainer--barraBusqueda :global(.vtex-input-prefix__group) {
   border-radius: 0;
-  border: none;
+  border       : none;
 }

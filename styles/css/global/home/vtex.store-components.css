@@ -1,36 +1,30 @@
 .imageElement--logosEquipo {
-    width: 65px;
+  width: 65px;
 }
 
 .flexColChild--container__banner--items--one {
-    position: relative !important;
-} 
-
-/* .flexRow--home__banner--one {
-    position: relative !important;
-} */
+  position: relative !important;
+}
 
 .imageElement--videoBanner__flecha--image {
-    width: 80px;
-    margin-left: -20px;
+  width      : 80px;
+  margin-left: -20px;
 }
 
 .imageElement--videoBanner__flecha--image:hover {
-    color: gray;
+  color: gray;
 }
 
 .imageElement--conoceMas--image--in {
-    position: relative;
+  position: relative;
 }
 
 .imageElement--descuento__flecha--image {
-    filter: invert(1);
-    padding-right: 1em; 
+  filter       : invert(1);
+  padding-right: 1em;
 }
 
 .imageElement--descuento__flecha--image:hover {
-    filter: invert(0.5);
-    padding-right: 1em; 
+  filter       : invert(0.5);
+  padding-right: 1em;
 }
-
-

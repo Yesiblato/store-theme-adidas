@@ -1,37 +1,37 @@
 .imageElement--imagen__medios--pago {
 
-    margin-left: 1.5em;
+  margin-left: 1.5em;
 }
 
 .imageElement--faces {
-    width        : 2.5em;
-    height       : 2.5em;
-    margin-top   : 1em;
-    margin-bottom: 5em;
+  width        : 2.5em;
+  height       : 2.5em;
+  margin-top   : 1em;
+  margin-bottom: 5em;
 }
 
 
 @media (max-width:800px) {
-    .imageElement--imagen__medios--pago {
-        max-height: 8em !important;
+  .imageElement--imagen__medios--pago {
+    max-height: 8em !important;
 
-    }
+  }
 
 }
 
 @media (max-width:650px) {
-    .imageElement--imagen__medios--pago {
-        max-height: 5em !important;
-        margin-left: 0;
+  .imageElement--imagen__medios--pago {
+    max-height : 5em !important;
+    margin-left: 0;
 
 
-    }
+  }
 
 }
 
 
 @media (max-width:400px) {
-    .imageElement--faces {
-        margin-bottom: 3em;
-    }
+  .imageElement--faces {
+    margin-bottom: 3em;
+  }
 }
