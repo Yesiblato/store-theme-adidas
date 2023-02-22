@@ -17,7 +17,6 @@
     "props": {
       "marginTop": 8,
       "marginBottom": 8
-
     }
   },
   "flex-layout.col#container__encuentra--mobile": {
@@ -29,22 +28,23 @@
     "props": {
       "blockClass": "encuentra__column",
       "rowGap": 4
-
     }
   },
-
   "flex-layout.row#componente__departmentSearch--mobile": {
+    "title": "Department search",
     "children": [
       "flex-layout.col#componente__departmentSearch--mobile"
     ]
   },
   "flex-layout.col#componente__departmentSearch--mobile": {
+    "title": "Department serach col",
     "children": [
       "rich-text#componenteDepartmentSearch--mobile",
       "flex-layout.row#busqueda__opciones--mobile"
     ]
   },
   "flex-layout.row#busqueda__opciones--mobile": {
+    "title": "Busqueda rápida",
     "children": [
       "departmentSearch"
     ],
@@ -55,7 +55,6 @@
       "width": "50%",
       "horizontalAlign": "center"
     }
-
   },
   "rich-text#componenteDepartmentSearch--mobile": {
     "title": "Título Department Search",
@@ -64,5 +63,4 @@
       "blockClass": "busquedaRapida"
     }
   }
-
 }

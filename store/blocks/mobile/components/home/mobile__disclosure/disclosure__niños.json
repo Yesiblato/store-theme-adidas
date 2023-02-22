@@ -1,524 +1,526 @@
 {
-    "disclosure-layout#niños": {
-        "children": [
-            "disclosure-trigger#niños",
-            "disclosure-content#niños"
-        ]
-    },
-    "disclosure-trigger#niños": {
-        "title": "Menú niños",
-        "children": [
-            "rich-text#niños",
-            "disclosure-state-indicator#NI"
-        ],
-        "props": {
-            "blockClass": "contenedorMenuMujer"
-        }
-    },
-    "rich-text#niños": {
-        "props": {
-            "text": "NIÑOS",
-            "font": "heading-2",
-            "blockClass": "title-disclosure"
-        }
-    },
-    "disclosure-state-indicator#NI": {
-        "props": {
-            "Show": "image#downNI",
-            "Hide": "image#upNI"
-        }
-    },
-    "image#upNI": {
-        "props": {
-            "src": "assets/img/icons/menos.png",
-            "maxWidth": 30,
-            "maxHeight": 30
-        }
-    },
-    "image#downNI": {
-        "props": {
-            "src": "assets/img/icons/mas.png",
-            "maxWidth": 30,
-            "maxHeight": 30
-        }
-    },
-    "disclosure-content#niños": {
-        "children": [
-            "disclosure-layout-group#productoDestacadoniños",
-            "disclosure-layout-group#calzadoniños",
-            "disclosure-layout-group#ropaniños",
-            "disclosure-layout-group#accesoriosniños",
-            "disclosure-layout-group#deportesniños"
-        ]
-    },
-    "disclosure-layout-group#productoDestacadoniños": {
-        "children": [
-            "disclosure-layout#productosDestacadosN"
-        ]
-    },
-    "disclosure-layout#productosDestacadosN": {
-        "children": [
-            "disclosure-trigger#productosDestacadosN",
-            "disclosure-content#productosDestacadosN"
-        ]
-    },
-    "disclosure-trigger#productosDestacadosN": {
-        "title": "contenedorProductosDestacados",
-        "children": [
-            "rich-text#productosDestacadosN",
-            "disclosure-state-indicator"
-        ],
-        "props": {
-            "blockClass": "contenedorProductosDestacados"
-        }
-    },
-    "rich-text#productosDestacadosN": {
-        "props": {
-            "text": "PRODUCTOS DESTACADOS"
-        }
-    },
-    "disclosure-content#productosDestacadosN": {
-        "title": "Productos destacados",
-        "children": [
-            "flex-layout.row#productosDestacadosN"
-        ]
-    },
-    "flex-layout.row#productosDestacadosN": {
-        "title": "Contenedor Productos destaccados",
-        "children": [
-            "flex-layout.col#productosDestacadosN"
-        ],
-        "props": {
-            "blockClass": "ContenedorProductosDestacados"
-        }
-    },
-    "flex-layout.col#productosDestacadosN": {
-        "title": "opcionesProductosDestacados",
-        "children": [
-            "link.product#opciones--productosDestacadoN",
-            "link.product#opciones--losmasvendidosN",
-            "link.product#opciones--soloenAdidasN",
-            "link.product#opciones--exclusivosMiembrosN",
-            "link.product#opciones--proximosLanzamientosN"
-        ],
-        "props": {
-            "blockClass": "opcionesProductosDestacados"
-        }
-    },
-    "link.product#opciones--productosDestacadoN": {
-        "title": "disclosure__frase--novedades",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "NOVEDADES"
-        }
-    },
-    "link.product#opciones--losmasvendidosN": {
-        "title": "disclosure__frase--losMasVendidos",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "LOS MÁS VENDIDOS"
-        }
-    },
-    "link.product#opciones--soloenAdidasN": {
-        "title": "disclosure__frase--soloenAdidas",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "SOLO EN ADIDAS"
-        }
-    },
-    "link.product#opciones--exclusivosMiembrosN": {
-        "title": "disclosure__frase--exclusivosMiembros",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "SOLO EN ADIDAS"
-        }
-    },
-    "link.product#opciones--proximosLanzamientosN": {
-        "title": "disclosure__frase--proximosLanzamientos",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "PROXIMOS LANZAMIENTOS"
-        }
-    },
-    "disclosure-layout-group#calzadoniños": {
-        "children": [
-            "disclosure-layout#calzadoniños"
-        ]
-    },
-    "disclosure-layout#calzadoniños": {
-        "children": [
-            "disclosure-trigger#calzadoniños",
-            "disclosure-content#calzadoniños"
-        ]
-    },
-    "disclosure-trigger#calzadoniños": {
-        "title": "contenedorcalzado",
-        "children": [
-            "rich-text#calzadoniños",
-            "disclosure-state-indicator"
-        ],
-        "props": {
-            "blockClass": "contenedorProductosDestacados"
-        }
-    },
-    "rich-text#calzadoniños": {
-        "props": {
-            "text": "CALZADO"
-        }
-    },
-    "disclosure-content#calzadoniños": {
-        "title": "Productos destacados",
-        "children": [
-            "flex-layout.row#calzado__niños"
-        ]
-    },
-    "flex-layout.row#calzado__niños": {
-        "title": "Contenedor calzado",
-        "children": [
-            "flex-layout.col#calzado__niños"
-        ],
-        "props": {
-            "blockClass": "ContenedorProductosDestacados"
-        }
-    },
-    "flex-layout.col#calzado__niños": {
-        "title": "opcionesProductosDestacados",
-        "children": [
-            "link.product#opciones--productosDestacadoc__niños",
-            "link.product#opciones--losmasvendidosc__niños",
-            "link.product#opciones--soloenAdidasc__niños",
-            "link.product#opciones--exclusivosMiembrosc__niños",
-            "link.product#opciones--proximosLanzamientosc__niños"
-        ],
-        "props": {
-            "blockClass": "opcionesProductosDestacados"
-        }
-    },
-    "link.product#opciones--productosDestacadoc__niños": {
-        "title": "disclosure__frase--novedades",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "NOVEDADES"
-        }
-    },
-    "link.product#opciones--losmasvendidosc__niños": {
-        "title": "disclosure__frase--losMasVendidos",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "LOS MÁS VENDIDOS"
-        }
-    },
-    "link.product#opciones--soloenAdidasc__niños": {
-        "title": "disclosure__frase--soloenAdidas",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "SOLO EN ADIDAS"
-        }
-    },
-    "link.product#opciones--exclusivosMiembrosc__niños": {
-        "title": "disclosure__frase--exclusivosMiembros",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "SOLO EN ADIDAS"
-        }
-    },
-    "link.product#opciones--proximosLanzamientosc__niños": {
-        "title": "disclosure__frase--proximosLanzamientos",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "PROXIMOS LANZAMIENTOS"
-        }
-    },
-    "disclosure-layout-group#ropaniños": {
-        "children": [
-            "disclosure-layout#ropaNiños"
-        ]
-    },
-    "disclosure-layout#ropaNiños": {
-        "children": [
-            "disclosure-trigger#ropaNiños",
-            "disclosure-content#ropaNiños"
-        ]
-    },
-    "disclosure-trigger#ropaNiños": {
-        "title": "contenedorropa",
-        "children": [
-            "rich-text#ropaNiños",
-            "disclosure-state-indicator"
-        ],
-        "props": {
-            "blockClass": "contenedorProductosDestacados"
-        }
-    },
-    "rich-text#ropaNiños": {
-        "props": {
-            "text": "ROPA"
-        }
-    },
-    "disclosure-content#ropaNiños": {
-        "title": "Productos destacados",
-        "children": [
-            "flex-layout.row#ropaNiños"
-        ]
-    },
-    "flex-layout.row#ropaNiños": {
-        "title": "Contenedor Ropa",
-        "children": [
-            "flex-layout.col#ropaNiños"
-        ],
-        "props": {
-            "blockClass": "ContenedorProductosDestacados"
-        }
-    },
-    "flex-layout.col#ropaNiños": {
-        "title": "opcionesRopa",
-        "children": [
-            "link.product#opciones--productosDestacadoNiños",
-            "link.product#opciones--losmasvendidosNiños",
-            "link.product#opciones--soloenAdidasNiños",
-            "link.product#opciones--exclusivosMiembrosNiños",
-            "link.product#opciones--proximosLanzamientosNiños"
-        ],
-        "props": {
-            "blockClass": "opcionesProductosDestacados"
-        }
-    },
-    "link.product#opciones--productosDestacadoNiños": {
-        "title": "disclosure__frase--novedades",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "NOVEDADES"
-        }
-    },
-    "link.product#opciones--losmasvendidosNiños": {
-        "title": "disclosure__frase--losMasVendidos",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "LOS MÁS VENDIDOS"
-        }
-    },
-    "link.product#opciones--soloenAdidasNiños": {
-        "title": "disclosure__frase--soloenAdidas",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "SOLO EN ADIDAS"
-        }
-    },
-    "link.product#opciones--exclusivosMiembrosNiños": {
-        "title": "disclosure__frase--exclusivosMiembros",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "SOLO EN ADIDAS"
-        }
-    },
-    "link.product#opciones--proximosLanzamientosNiños": {
-        "title": "disclosure__frase--proximosLanzamientos",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "PROXIMOS LANZAMIENTOS"
-        }
-    },
-    "disclosure-layout-group#deportesniños": {
-        "children": [
-            "disclosure-layout#deportesNiños1"
-        ]
-    },
-    "disclosure-layout#deportesNiños1": {
-        "children": [
-            "disclosure-trigger#deportesNiños1",
-            "disclosure-content#deportesNiños1"
-        ]
-    },
-    "disclosure-trigger#deportesNiños1": {
-        "title": "contenedor deportes",
-        "children": [
-            "rich-text#deportesNiños1",
-            "disclosure-state-indicator"
-        ],
-        "props": {
-            "blockClass": "contenedorProductosDestacados"
-        }
-    },
-    "rich-text#deportesNiños1": {
-        "props": {
-            "text": "DEPORTES"
-        }
-    },
-    "disclosure-content#deportesNiños1": {
-        "title": "Productos destacados",
-        "children": [
-            "flex-layout.row#deportesNiños1"
-        ]
-    },
-    "flex-layout.row#deportesNiños1": {
-        "title": "Contenedor deportes",
-        "children": [
-            "flex-layout.col#deportesNiños1"
-        ],
-        "props": {
-            "blockClass": "ContenedorProductosDestacados"
-        }
-    },
-    "flex-layout.col#deportesNiños1": {
-        "title": "opcionesaccesorios",
-        "children": [
-            "link.product#opciones--productosDestacadoNiños1",
-            "link.product#opciones--losmasvendidosNiños1",
-            "link.product#opciones--soloenAdidasNiños1",
-            "link.product#opciones--exclusivosMiembrosNiños1",
-            "link.product#opciones--proximosLanzamientosNiños1"
-        ],
-        "props": {
-            "blockClass": "opcionesProductosDestacados"
-        }
-    },
-    "link.product#opciones--productosDestacadoNiños1": {
-        "title": "disclosure__frase--novedades",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "NOVEDADES"
-        }
-    },
-    "link.product#opciones--losmasvendidosNiños1": {
-        "title": "disclosure__frase--losMasVendidos",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "LOS MÁS VENDIDOS"
-        }
-    },
-    "link.product#opciones--soloenAdidasNiños1": {
-        "title": "disclosure__frase--soloenAdidas",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "SOLO EN ADIDAS"
-        }
-    },
-    "link.product#opciones--exclusivosMiembrosNiños1": {
-        "title": "disclosure__frase--exclusivosMiembros",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "SOLO EN ADIDAS"
-        }
-    },
-    "link.product#opciones--proximosLanzamientosNiños1": {
-        "title": "disclosure__frase--proximosLanzamientos",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "PROXIMOS LANZAMIENTOS"
-        }
-    },
-    "disclosure-layout-group#accesoriosniños": {
-        "children": [
-            "disclosure-layout#accesoriosniños"
-        ]
-    },
-    "disclosure-layout#accesoriosniños": {
-        "children": [
-            "disclosure-trigger#accesorios__niños",
-            "disclosure-content#accesorios__niños"
-        ]
-    },
-    "disclosure-trigger#accesorios__niños": {
-        "title": "contenedor accesorios__niños",
-        "children": [
-            "rich-text#accesorios__niños",
-            "disclosure-state-indicator"
-        ],
-        "props": {
-            "blockClass": "contenedorProductosDestacados"
-        }
-    },
-    "rich-text#accesorios__niños": {
-        "props": {
-            "text": "ACCESORIOS"
-        }
-    },
-    "disclosure-content#accesorios__niños": {
-        "title": "Productos destacados",
-        "children": [
-            "flex-layout.row#accesorios__niños"
-        ]
-    },
-    "flex-layout.row#accesorios__niños": {
-        "title": "Contenedor accesorios",
-        "children": [
-            "flex-layout.col#accesorios__niños"
-        ],
-        "props": {
-            "blockClass": "ContenedorProductosDestacados"
-        }
-    },
-    "flex-layout.col#accesorios__niños": {
-        "title": "opcionesaccesorios",
-        "children": [
-            "link.product#opciones--productosDestacado--n",
-            "link.product#opciones--losmasvendidos--n",
-            "link.product#opciones--soloenAdidas--n",
-            "link.product#opciones--exclusivosMiembros--n",
-            "link.product#opciones--proximosLanzamientos--n"
-        ],
-        "props": {
-            "blockClass": "opcionesProductosDestacados"
-        }
-    },
-    "link.product#opciones--productosDestacado--n": {
-        "title": "disclosure__frase--novedades",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "NOVEDADES"
-        }
-    },
-    "link.product#opciones--losmasvendidos--n": {
-        "title": "disclosure__frase--losMasVendidos",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "LOS MÁS VENDIDOS"
-        }
-    },
-    "link.product#opciones--soloenAdidas--n": {
-        "title": "disclosure__frase--soloenAdidas",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "SOLO EN ADIDAS"
-        }
-    },
-    "link.product#opciones--exclusivosMiembros--n": {
-        "title": "disclosure__frase--exclusivosMiembros",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "SOLO EN ADIDAS"
-        }
-    },
-    "link.product#opciones--proximosLanzamientos--n": {
-        "title": "disclosure__frase--proximosLanzamientos",
-        "props": {
-            "blockClass": "disclosure__frase--novedades",
-            "href": "/{slug}/p",
-            "label": "PROXIMOS LANZAMIENTOS"
-        }
+  "disclosure-layout#niños": {
+    "title": "Disclosure Niños",
+    "children": [
+      "disclosure-trigger#niños",
+      "disclosure-content#niños"
+    ]
+  },
+  "disclosure-trigger#niños": {
+    "title": "Menú niños",
+    "children": [
+      "rich-text#niños",
+      "disclosure-state-indicator#NI"
+    ],
+    "props": {
+      "blockClass": "contenedorMenuMujer"
     }
+  },
+  "rich-text#niños": {
+    "title": "Niños",
+    "props": {
+      "text": "NIÑOS",
+      "font": "heading-2",
+      "blockClass": "title-disclosure"
+    }
+  },
+  "disclosure-state-indicator#NI": {
+    "props": {
+      "Show": "image#downNI",
+      "Hide": "image#upNI"
+    }
+  },
+  "image#upNI": {
+    "props": {
+      "src": "assets/img/icons/menos.png",
+      "maxWidth": 30,
+      "maxHeight": 30
+    }
+  },
+  "image#downNI": {
+    "props": {
+      "src": "assets/img/icons/mas.png",
+      "maxWidth": 30,
+      "maxHeight": 30
+    }
+  },
+  "disclosure-content#niños": {
+    "children": [
+      "disclosure-layout-group#productoDestacadoniños",
+      "disclosure-layout-group#calzadoniños",
+      "disclosure-layout-group#ropaniños",
+      "disclosure-layout-group#accesoriosniños",
+      "disclosure-layout-group#deportesniños"
+    ]
+  },
+  "disclosure-layout-group#productoDestacadoniños": {
+    "children": [
+      "disclosure-layout#productosDestacadosN"
+    ]
+  },
+  "disclosure-layout#productosDestacadosN": {
+    "children": [
+      "disclosure-trigger#productosDestacadosN",
+      "disclosure-content#productosDestacadosN"
+    ]
+  },
+  "disclosure-trigger#productosDestacadosN": {
+    "title": "contenedorProductosDestacados",
+    "children": [
+      "rich-text#productosDestacadosN",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "contenedorProductosDestacados"
+    }
+  },
+  "rich-text#productosDestacadosN": {
+    "props": {
+      "text": "PRODUCTOS DESTACADOS"
+    }
+  },
+  "disclosure-content#productosDestacadosN": {
+    "title": "Productos destacados",
+    "children": [
+      "flex-layout.row#productosDestacadosN"
+    ]
+  },
+  "flex-layout.row#productosDestacadosN": {
+    "title": "Contenedor Productos destaccados",
+    "children": [
+      "flex-layout.col#productosDestacadosN"
+    ],
+    "props": {
+      "blockClass": "ContenedorProductosDestacados"
+    }
+  },
+  "flex-layout.col#productosDestacadosN": {
+    "title": "opcionesProductosDestacados",
+    "children": [
+      "link.product#opciones--productosDestacadoN",
+      "link.product#opciones--losmasvendidosN",
+      "link.product#opciones--soloenAdidasN",
+      "link.product#opciones--exclusivosMiembrosN",
+      "link.product#opciones--proximosLanzamientosN"
+    ],
+    "props": {
+      "blockClass": "opcionesProductosDestacados"
+    }
+  },
+  "link.product#opciones--productosDestacadoN": {
+    "title": "disclosure__frase--novedades",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "NOVEDADES"
+    }
+  },
+  "link.product#opciones--losmasvendidosN": {
+    "title": "disclosure__frase--losMasVendidos",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "LOS MÁS VENDIDOS"
+    }
+  },
+  "link.product#opciones--soloenAdidasN": {
+    "title": "disclosure__frase--soloenAdidas",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "SOLO EN ADIDAS"
+    }
+  },
+  "link.product#opciones--exclusivosMiembrosN": {
+    "title": "disclosure__frase--exclusivosMiembros",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "SOLO EN ADIDAS"
+    }
+  },
+  "link.product#opciones--proximosLanzamientosN": {
+    "title": "disclosure__frase--proximosLanzamientos",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "PROXIMOS LANZAMIENTOS"
+    }
+  },
+  "disclosure-layout-group#calzadoniños": {
+    "children": [
+      "disclosure-layout#calzadoniños"
+    ]
+  },
+  "disclosure-layout#calzadoniños": {
+    "children": [
+      "disclosure-trigger#calzadoniños",
+      "disclosure-content#calzadoniños"
+    ]
+  },
+  "disclosure-trigger#calzadoniños": {
+    "title": "contenedorcalzado",
+    "children": [
+      "rich-text#calzadoniños",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "contenedorProductosDestacados"
+    }
+  },
+  "rich-text#calzadoniños": {
+    "props": {
+      "text": "CALZADO"
+    }
+  },
+  "disclosure-content#calzadoniños": {
+    "title": "Productos destacados",
+    "children": [
+      "flex-layout.row#calzado__niños"
+    ]
+  },
+  "flex-layout.row#calzado__niños": {
+    "title": "Contenedor calzado",
+    "children": [
+      "flex-layout.col#calzado__niños"
+    ],
+    "props": {
+      "blockClass": "ContenedorProductosDestacados"
+    }
+  },
+  "flex-layout.col#calzado__niños": {
+    "title": "opcionesProductosDestacados",
+    "children": [
+      "link.product#opciones--productosDestacadoc__niños",
+      "link.product#opciones--losmasvendidosc__niños",
+      "link.product#opciones--soloenAdidasc__niños",
+      "link.product#opciones--exclusivosMiembrosc__niños",
+      "link.product#opciones--proximosLanzamientosc__niños"
+    ],
+    "props": {
+      "blockClass": "opcionesProductosDestacados"
+    }
+  },
+  "link.product#opciones--productosDestacadoc__niños": {
+    "title": "disclosure__frase--novedades",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "NOVEDADES"
+    }
+  },
+  "link.product#opciones--losmasvendidosc__niños": {
+    "title": "disclosure__frase--losMasVendidos",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "LOS MÁS VENDIDOS"
+    }
+  },
+  "link.product#opciones--soloenAdidasc__niños": {
+    "title": "disclosure__frase--soloenAdidas",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "SOLO EN ADIDAS"
+    }
+  },
+  "link.product#opciones--exclusivosMiembrosc__niños": {
+    "title": "disclosure__frase--exclusivosMiembros",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "SOLO EN ADIDAS"
+    }
+  },
+  "link.product#opciones--proximosLanzamientosc__niños": {
+    "title": "disclosure__frase--proximosLanzamientos",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "PROXIMOS LANZAMIENTOS"
+    }
+  },
+  "disclosure-layout-group#ropaniños": {
+    "children": [
+      "disclosure-layout#ropaNiños"
+    ]
+  },
+  "disclosure-layout#ropaNiños": {
+    "children": [
+      "disclosure-trigger#ropaNiños",
+      "disclosure-content#ropaNiños"
+    ]
+  },
+  "disclosure-trigger#ropaNiños": {
+    "title": "contenedorropa",
+    "children": [
+      "rich-text#ropaNiños",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "contenedorProductosDestacados"
+    }
+  },
+  "rich-text#ropaNiños": {
+    "props": {
+      "text": "ROPA"
+    }
+  },
+  "disclosure-content#ropaNiños": {
+    "title": "Productos destacados",
+    "children": [
+      "flex-layout.row#ropaNiños"
+    ]
+  },
+  "flex-layout.row#ropaNiños": {
+    "title": "Contenedor Ropa",
+    "children": [
+      "flex-layout.col#ropaNiños"
+    ],
+    "props": {
+      "blockClass": "ContenedorProductosDestacados"
+    }
+  },
+  "flex-layout.col#ropaNiños": {
+    "title": "opcionesRopa",
+    "children": [
+      "link.product#opciones--productosDestacadoNiños",
+      "link.product#opciones--losmasvendidosNiños",
+      "link.product#opciones--soloenAdidasNiños",
+      "link.product#opciones--exclusivosMiembrosNiños",
+      "link.product#opciones--proximosLanzamientosNiños"
+    ],
+    "props": {
+      "blockClass": "opcionesProductosDestacados"
+    }
+  },
+  "link.product#opciones--productosDestacadoNiños": {
+    "title": "disclosure__frase--novedades",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "NOVEDADES"
+    }
+  },
+  "link.product#opciones--losmasvendidosNiños": {
+    "title": "disclosure__frase--losMasVendidos",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "LOS MÁS VENDIDOS"
+    }
+  },
+  "link.product#opciones--soloenAdidasNiños": {
+    "title": "disclosure__frase--soloenAdidas",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "SOLO EN ADIDAS"
+    }
+  },
+  "link.product#opciones--exclusivosMiembrosNiños": {
+    "title": "disclosure__frase--exclusivosMiembros",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "SOLO EN ADIDAS"
+    }
+  },
+  "link.product#opciones--proximosLanzamientosNiños": {
+    "title": "disclosure__frase--proximosLanzamientos",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "PROXIMOS LANZAMIENTOS"
+    }
+  },
+  "disclosure-layout-group#deportesniños": {
+    "children": [
+      "disclosure-layout#deportesNiños1"
+    ]
+  },
+  "disclosure-layout#deportesNiños1": {
+    "children": [
+      "disclosure-trigger#deportesNiños1",
+      "disclosure-content#deportesNiños1"
+    ]
+  },
+  "disclosure-trigger#deportesNiños1": {
+    "title": "contenedor deportes",
+    "children": [
+      "rich-text#deportesNiños1",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "contenedorProductosDestacados"
+    }
+  },
+  "rich-text#deportesNiños1": {
+    "props": {
+      "text": "DEPORTES"
+    }
+  },
+  "disclosure-content#deportesNiños1": {
+    "title": "Productos destacados",
+    "children": [
+      "flex-layout.row#deportesNiños1"
+    ]
+  },
+  "flex-layout.row#deportesNiños1": {
+    "title": "Contenedor deportes",
+    "children": [
+      "flex-layout.col#deportesNiños1"
+    ],
+    "props": {
+      "blockClass": "ContenedorProductosDestacados"
+    }
+  },
+  "flex-layout.col#deportesNiños1": {
+    "title": "opcionesaccesorios",
+    "children": [
+      "link.product#opciones--productosDestacadoNiños1",
+      "link.product#opciones--losmasvendidosNiños1",
+      "link.product#opciones--soloenAdidasNiños1",
+      "link.product#opciones--exclusivosMiembrosNiños1",
+      "link.product#opciones--proximosLanzamientosNiños1"
+    ],
+    "props": {
+      "blockClass": "opcionesProductosDestacados"
+    }
+  },
+  "link.product#opciones--productosDestacadoNiños1": {
+    "title": "disclosure__frase--novedades",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "NOVEDADES"
+    }
+  },
+  "link.product#opciones--losmasvendidosNiños1": {
+    "title": "disclosure__frase--losMasVendidos",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "LOS MÁS VENDIDOS"
+    }
+  },
+  "link.product#opciones--soloenAdidasNiños1": {
+    "title": "disclosure__frase--soloenAdidas",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "SOLO EN ADIDAS"
+    }
+  },
+  "link.product#opciones--exclusivosMiembrosNiños1": {
+    "title": "disclosure__frase--exclusivosMiembros",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "SOLO EN ADIDAS"
+    }
+  },
+  "link.product#opciones--proximosLanzamientosNiños1": {
+    "title": "disclosure__frase--proximosLanzamientos",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "PROXIMOS LANZAMIENTOS"
+    }
+  },
+  "disclosure-layout-group#accesoriosniños": {
+    "children": [
+      "disclosure-layout#accesoriosniños"
+    ]
+  },
+  "disclosure-layout#accesoriosniños": {
+    "children": [
+      "disclosure-trigger#accesorios__niños",
+      "disclosure-content#accesorios__niños"
+    ]
+  },
+  "disclosure-trigger#accesorios__niños": {
+    "title": "contenedor accesorios__niños",
+    "children": [
+      "rich-text#accesorios__niños",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "contenedorProductosDestacados"
+    }
+  },
+  "rich-text#accesorios__niños": {
+    "props": {
+      "text": "ACCESORIOS"
+    }
+  },
+  "disclosure-content#accesorios__niños": {
+    "title": "Productos destacados",
+    "children": [
+      "flex-layout.row#accesorios__niños"
+    ]
+  },
+  "flex-layout.row#accesorios__niños": {
+    "title": "Contenedor accesorios",
+    "children": [
+      "flex-layout.col#accesorios__niños"
+    ],
+    "props": {
+      "blockClass": "ContenedorProductosDestacados"
+    }
+  },
+  "flex-layout.col#accesorios__niños": {
+    "title": "opcionesaccesorios",
+    "children": [
+      "link.product#opciones--productosDestacado--n",
+      "link.product#opciones--losmasvendidos--n",
+      "link.product#opciones--soloenAdidas--n",
+      "link.product#opciones--exclusivosMiembros--n",
+      "link.product#opciones--proximosLanzamientos--n"
+    ],
+    "props": {
+      "blockClass": "opcionesProductosDestacados"
+    }
+  },
+  "link.product#opciones--productosDestacado--n": {
+    "title": "disclosure__frase--novedades",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "NOVEDADES"
+    }
+  },
+  "link.product#opciones--losmasvendidos--n": {
+    "title": "disclosure__frase--losMasVendidos",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "LOS MÁS VENDIDOS"
+    }
+  },
+  "link.product#opciones--soloenAdidas--n": {
+    "title": "disclosure__frase--soloenAdidas",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "SOLO EN ADIDAS"
+    }
+  },
+  "link.product#opciones--exclusivosMiembros--n": {
+    "title": "disclosure__frase--exclusivosMiembros",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "SOLO EN ADIDAS"
+    }
+  },
+  "link.product#opciones--proximosLanzamientos--n": {
+    "title": "disclosure__frase--proximosLanzamientos",
+    "props": {
+      "blockClass": "disclosure__frase--novedades",
+      "href": "/{slug}/p",
+      "label": "PROXIMOS LANZAMIENTOS"
+    }
+  }
 }

@@ -1,48 +1,44 @@
 {
-    "flex-layout.row#mobile__Container--volverArriba": {
-        "title": "container__volverArriba",
-        "children": [
-            // "flex-layout.col#mobile__volverArriba"
-            "image#flecha--volverArriba",
-            "rich-text#opinion__volverArriba"
-        ],
-        "props": {
-            "blockClass": "containe__volverArriba",
-            "horizontalAlign": "center",
-            "preserveLayoutOnMobile": true
-            
-        }
-    },
-    "flex-layout.col#mobile__volverArriba": {
-        "title": "mobile__volverArriba",
-        "children": [
-
-            // "back-to-top-button"
-        ],
-        "props": {
-            "blockClass": "seccion2--volverArriba--a",
-            "verticalAlign": "middle",
-            "horizontalAlign": "center"
-        }
-      },
-      "image#flecha--volverArriba": {
-        "props": {
-            "src": "assets/img/icons/menos.png"
-
-        }
-      },
-      "rich-text#opinion__volverArriba": {
-        "title": "opinion__volverArriba",
-        "props": {
-            "text": "VOLVER ARRIBA",
-            "blockClass": "frase__volverArriba"
-        }
-      }
-    //     "back-to-top-button": {
-    //         "props":{
-    //           "display": "button",
-    //           "displayThreshold": 500
-    //         }
-    //   }
+  "flex-layout.row#mobile__Container--volverArriba": {
+    "title": "container__volverArriba",
+    "children": [
+      // "flex-layout.col#mobile__volverArriba"
+      "image#flecha--volverArriba",
+      "rich-text#opinion__volverArriba"
+    ],
+    "props": {
+      "blockClass": "containe__volverArriba",
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#mobile__volverArriba": {
+    "title": "mobile__volverArriba",
+    "children": [
+      // "back-to-top-button"
+    ],
+    "props": {
+      "blockClass": "seccion2--volverArriba--a",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#flecha--volverArriba": {
+    "props": {
+      "src": "assets/img/icons/menos.png"
+    }
+  },
+  "rich-text#opinion__volverArriba": {
+    "title": "opinion__volverArriba",
+    "props": {
+      "text": "VOLVER ARRIBA",
+      "blockClass": "frase__volverArriba"
+    }
+  }
+  //     "back-to-top-button": {
+  //         "props":{
+  //           "display": "button",
+  //           "displayThreshold": 500
+  //         }
+  //   }
 }
-

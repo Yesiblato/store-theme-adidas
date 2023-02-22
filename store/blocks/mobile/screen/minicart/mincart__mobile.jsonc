@@ -17,7 +17,6 @@
       "paddingTop": 10,
       "preserveLayoutOnMobile": true,
       "marginBottom": 10
-      // "preventHorizontalStretch": true,
     }
   },
   "flex-layout.col#contenedor__minicart--mobile": {
