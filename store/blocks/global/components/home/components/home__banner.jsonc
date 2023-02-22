@@ -33,12 +33,12 @@
     "children": [
       "rich-text#banner__title",
       "rich-text#banner__frase",
-      "link.product#banner__opciones--hombre",
-      "link.product#banner__opciones--mujer",
-      "link.product#banner__opciones--verTodo"
+      "flex-layout.row#links__banner"
     ],
     "props": {
-      "blockClass": "banner__descuentos"
+      "blockClass": "banner__descuentos",
+      "preventVerticalStretch": true
+
     }
   },
   "rich-text#banner__title": {
@@ -57,11 +57,30 @@
     }
 
   },
-
+  "flex-layout.row#links__banner": {
+    "children": [
+      "flex-layout.col#links__banner"
+    ],
+    "props": {
+      "blockClass": "container__links--banner--row",
+      "paddingBottom": 5
+    }
+  },
+  "flex-layout.col#links__banner": {
+    "children": [
+      "link.product#banner__opciones--hombre",
+      "link.product#banner__opciones--mujer",
+      "link.product#banner__opciones--verTodo"
+    ],
+    "props": {
+      "blockClass": "container__links--banner--col",
+      "rowGap": 4
+    }
+  },
   "link.product#banner__opciones--hombre": {
     "title": "banner__opciones--hombre",
     "props": {
-      "href": "/{slug}/p",
+      "href": "/electrodomesticos",
       "label": "HOMBRE",
       "blockClass": "links__banner--home"
     }
@@ -69,7 +88,7 @@
   "link.product#banner__opciones--mujer": {
     "title": "banner__opciones--mujer",
     "props": {
-      "href": "/{slug}/p",
+      "href": "/electrodomesticos",
       "label": "MUJER",
       "blockClass": "links__banner--home"
     }
@@ -77,7 +96,7 @@
   "link.product#banner__opciones--verTodo": {
     "title": "banner__opciones--verTodo",
     "props": {
-      "href": "/{slug}/p",
+      "href": "/electrodomesticos",
       "label": "VER TODO",
       "blockClass": "links__banner--home"
     }

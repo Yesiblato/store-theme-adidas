@@ -32,15 +32,15 @@
     "image#up__cate": {
         "props": {
             "src": "assets/img/icons/menos.png",
-            "maxWidth": 18,
-            "maxHeight": 18
+            "maxWidth": 30,
+            "maxHeight": 30
         }
     },
     "image#down__cate": {
         "props": {
             "src": "assets/img/icons/mas.png",
-            "maxWidth": 18,
-            "maxHeight": 18
+            "maxWidth": 30,
+            "maxHeight": 30
         }
     },
     "disclosure-content#deportesCate": {

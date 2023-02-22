@@ -10,7 +10,7 @@
       "menu-item#ofertas"
     ],
     "props": {
-      "blockClass": "header--desktop",
+      "blockClass": "header__desktop--menu",
       "orientation": "horizontal"
     }
   },
@@ -27,7 +27,7 @@
         "tagTitle": "Mujer",
         "text": "MUJER"
       },
-      "blockClass": "Menu-item-mujer"
+      "blockClass": ["Menu-item-negrita", "menu--items"]
     },
     "blocks": [
       "submenu#mujer"
@@ -47,7 +47,7 @@
         "tagTitle": "hombre",
         "text": "HOMBRE"
       },
-      "blockClass": "Menu-item-hombre"
+      "blockClass": ["Menu-item-negrita", "menu--items"]
     },
     "blocks": [
       "submenu#mujer"
@@ -119,20 +119,6 @@
     ],
     "props": {
       "blockClass": "columna--five"
-    }
-  },
-  "submenu#hombre": {
-    "title": "Submenu hombre",
-    "children": [
-      "menu#productosDestacados",
-      "menu#calzado",
-      "menu#ropa",
-      "menu#accesorios",
-      "menu#deportes"
-    ],
-    "props": {
-      "blockClass": "submenu-hombre",
-      "orientation": "horizontal"
     }
   },
   "image#promocion": {
@@ -236,7 +222,7 @@
       "menu-item#category__Chanclas",
       "menu-item#category__Originals",
       "menu-item#category__TodosLosDeportes"
-      
+
     ],
     "props": {
       "orientation": "vertical"
@@ -264,10 +250,11 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTitle": "Novedades",
-        "text": "Novedades"
+        "text": "Novedades",
+        "blockClass": "options__header"
       }
     }
   },
@@ -278,7 +265,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/queso",
         "noFollow": false,
         "tagTitle": "Los Más Vendidos",
         "text": "Los Más Vendidos"
@@ -292,7 +279,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/mujer",
         "noFollow": false,
         "tagTitle": "Solo En Adidas",
         "text": "Solo En Adidas"
@@ -306,7 +293,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/queso",
         "noFollow": false,
         "tagTitle": "Exclusivo Miembros",
         "text": "Exclusivo Miembros"
@@ -320,7 +307,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/mujer/zapatos",
         "noFollow": false,
         "tagTitle": "Proximos Lanzamientos",
         "text": "Proximos Lanzamientos"
@@ -335,7 +322,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTitle": "calzados",
         "text": "CALZADO"
@@ -350,7 +337,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/electrodomesticos",
         "noFollow": false,
         "tagTitle": "Descuentos en calzados",
         "text": "Hasta 50% OFF"
@@ -365,7 +352,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/mujer/zapatos",
         "noFollow": false,
         "tagTitle": "Descuentos en calzados",
         "text": "Hasta 50% OFF Calzado"
@@ -533,7 +520,7 @@
   "menu-item#niños": {
    "title": "Menu item niños",
     "props": {
-      "blockClass": "Menu-item-mujer",
+      "blockClass": ["Menu-item-negrita", "menu--items"],
       "id": "menu-item-niños",
       "type": "custom",
       "highlight": false,
@@ -543,7 +530,7 @@
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "NIÑOS"
-      } 
+      }
     },
     "blocks": [
       "submenu#mujer"
@@ -562,7 +549,7 @@
         "tagTitle": "Shop",
         "text": "DEPORTES"
       },
-      "blockClass": "Menu-item-deportes"
+      "blockClass": ["Menu-item-normal", "menu--items"]
     },
     "blocks": [
       "submenu#mujer"
@@ -582,7 +569,7 @@
         "tagTitle": "Shop",
         "text": "MUNDO ADIDAS"
       },
-      "blockClass": "Menu-item-mundoAdidas"
+      "blockClass": ["Menu-item-normal", "menu--items"]
     },
     "blocks": [
       "submenu#mujer"
@@ -601,7 +588,7 @@
         "tagTitle": "Shop",
         "text": "OFERTAS"
       },
-      "blockClass": "Menu-item-ofertas"
+      "blockClass": ["Menu-item-normal", "menu--items"]
     },
     "blocks": [
       "submenu#mujer"
@@ -609,7 +596,7 @@
   },
 
 
-  
+
   "menu-item#category__TodosLosProductos": {
     "title": "subcategoria-TodosLosProductos",
     "props": {
@@ -626,7 +613,7 @@
     }
   },
 
-    
+
   "menu-item#category__TodosElCalzado": {
     "title": "subcategoria-TodosElCalzado",
     "props": {

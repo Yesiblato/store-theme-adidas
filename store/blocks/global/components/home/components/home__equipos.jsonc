@@ -2,7 +2,7 @@
     "flex-layout.row#home__container--equipos": {
         "title": "home__container--equipos",
         "children": [
-            "flex-layout.col#home__seccionEquipos"          
+            "flex-layout.col#home__seccionEquipos"
         ],
         "props": {
             "blockClass": "equiposFutbol"
@@ -15,7 +15,9 @@
             "flex-layout.row#home__seccionEquipos--equipos"
         ],
         "props": {
-            "blockClass": "seccionesEquipos"
+            "blockClass": "seccionesEquipos",
+            "rowGap": 4,
+            "preventVerticalStretch": true
         }
     },
     "flex-layout.row#home__seccionEquipos--title": {
@@ -42,7 +44,10 @@
             "image#home__container--equipo10"
         ],
         "props": {
-            "blockClass": "seccionImagenEquipos"
+            "blockClass": "seccionImagenEquipos",
+            "preventHorizontalStretch": true,
+            "colGap": 4,
+            "horizontalAlign": "center"
         }
     },
     "rich-text#home__titleEquipos": {
@@ -59,7 +64,7 @@
         "props": {
             "blockClass": "logosEquipo",
             "src": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/PICKER-CO-mb_tcm195-653571.png"
-            
+
        }
     },
     "image#home__container--equipo2":{

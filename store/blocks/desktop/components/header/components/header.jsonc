@@ -21,13 +21,6 @@
       "header-row#header__top2"
     ]
   },
-  "header-layout.mobile": {
-    "title": "Header Mobile",
-    "children": [
-      "header-row#header__top1",
-      "header-row#header__top2"
-    ]
-  },
   "header-row#header__top1": {
     "title": "header__top1",
     "children": [
@@ -95,7 +88,20 @@
     "props": {
       "title": "header__full",
       "blockClass": "header__top2",
-      "fullWidth": true
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#container__icons": {
+    "children":[
+      "modal-trigger#header__top2--login",
+      "icon#desktop__heart",
+      "minicart.v2#desktop"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "colGap": 3,
+      "blockClass": "container__icons"
     }
   },
   "rich-text#envíos": {
@@ -103,18 +109,6 @@
     "props": {
       "blockClass": "header__enviosGratis--rt",
       "text": "Hasta 50% de Descuentos"
-    }
-  },
-  "flex-layout.row#container__icons": {
-    "title": "Container de los iconos del header",
-    "children": [
-      "modal-trigger#header__top2--login",
-      "icon#desktop__heart",
-      "minicart.v2#desktop"
-    ],
-    "props": {
-      "horizontalAlign": "center",
-      "blockClass": "contenedor__icons--headerDesktop"
     }
   },
   "logo#header__top--logo1": {
@@ -138,7 +132,10 @@
     "title": "Modal ",
     "children": [
       "login-content#desktop"
-    ]
+    ],
+    "props": {
+      "blockClass": "Contenedor__modal--layoutDesktop"
+    }
   },
   "login-content#desktop": {
     "title": "Modal del login",
@@ -147,11 +144,11 @@
       "hideIconLabel": true,
       "optionsTitle": "DISFRUTA DE LOS BENEFICIOS DEL ADICLUB AL INICIAR SESIÓN",
       "termsAndConditions": "Conseguí cupones de descuento, productos exclusivos y cuando eres parte adiClub",
-      "emailAndPasswordTitle": "Iniciar Sesión"
+      "emailAndPasswordTitle": "Iniciar Sesión",
+      "blockClass": "modal__login--desktop"
 
     }
   },
-
   "search-bar#header__desktop": {
     "title": "Barra de busqueda",
     "blocks": [
@@ -159,8 +156,9 @@
     ],
     "props": {
       "openAutocompleteOnFocus": true,
-      "maxWidth": "15%",
-      "blockClass": "barraBusqueda"
+      "maxWidth": "13%",
+      "blockClass": "barraBusqueda",
+      "displayMode": "search-button"
     }
   },
   "autocomplete-result-list.v2": {
@@ -168,26 +166,13 @@
       "product-summary"
     ]
   },
-  "icon#desktop__bag-shopping": {
-    "title": "Icono del carrito",
-    "props": {
-      "id": "surface1",
-      "size": 40,
-      "blockClass": "bagShopping",
-      "width": "30%",
-      "viewBox": "0 0 16 26"
-
-    }
-  },
   "icon#desktop__heart": {
     "title": "Icono del corazon",
     "props": {
-      "id": "mpa-heart",
-      "size": 40,
-      "blockClass": "desktop-heart",
-      "width": "30%",
-      "viewBox": "0 0 25 25"
-
+      "id": "heart-adidas",
+      "size": 30,
+      "blockClass": "desktop-icons",
+      "viewBox": "0 0 24 24"
     }
   },
   "icon#desktop__user-icon": {
@@ -195,10 +180,8 @@
     "props": {
       "id": "profile",
       "size": 25,
-      "blockClass": "desktop-heart",
-      "width": "30%",
-      "viewBox": "0 0 20 20"
-
+      "blockClass": "desktop-icons",
+      "viewBox": "0 0 24 24"
     }
   },
   "icon#desktop__bag-icon2": {
@@ -207,14 +190,7 @@
       "id": "userAdidas",
       "size": 25,
       "blockClass": "desktop-login2",
-      // "width": "30%",
-      "viewBox": "0 0 20 20"
-      // "width":"16",
-      // "height":"24"
-
+      "viewBox": "0 0 24 24"
     }
   }
-
-
-
 }

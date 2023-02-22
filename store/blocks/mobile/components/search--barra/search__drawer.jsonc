@@ -1,29 +1,58 @@
 {
     "drawer#search__mobile": {
         "children": [
-          "menu#drawer"
+          "flex-layout.row#drawerSeacrh"
         ],
         "blocks": [
             "drawer-trigger"
         ],
         "props": {
             "slideDirection": "rightToLeft",
-            "backdropMode": "none"
+            "backdropMode": "none",
+            "blockClass": "drawer__search--mobile",
+            "maxWidth": "100%",
+            "isFullWidth": true
         }
       },
-      
+
       "drawer-trigger": {
         "children": [
             "icon#mobile__search"
         ]
       },
-     
-      "menu#drawer": {
+
+      "flex-layout.row#drawerSeacrh": {
         "children": [
-            "search-bar#header__mobile"
+          "flex-layout.col#drawerSeacrh"
         ],
         "props": {
-          "orientation": "vertical" 
+          "blockClass": "contenedor__drawerSearch--row",
+          "maxWidth": "100%"
+        }
+      },
+      "flex-layout.col#drawerSeacrh": {
+        "children": [
+          "search-bar#header__mobile"
+        ],
+        "props": {
+          "width": "100%",
+          "blockClass": "container__drawerSearch--col"
+        }
+      },
+      "search-bar#header__mobile": {
+        "blocks": [
+          "autocomplete-result-list.v2#mobile"
+        ],
+        "props": {
+          "openAutocompleteOnFocus": true
+        }
+      },
+      "autocomplete-result-list.v2#mobile": {
+        "blocks": [
+          "product-summary"
+        ],
+        "props": {
+          "openAutocompleteOnFocus": true
         }
       }
 }

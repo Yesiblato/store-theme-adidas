@@ -1,121 +1,120 @@
 .flexRow--home__popularAhora {
-    margin-top: 80px;
-    /* border: 1px solid green; */
-
+  margin-top: 5rem;
 }
 
 .flexRow--equiposFutbol {
-    background-color: #ebedee;
-    height: 150px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 20px;
-
+  background-color: #ebedee;
+  height          : 9.375rem;
+  margin-top      : 1.25rem;
+  margin-bottom   : 1.25rem;
+  padding-top     : 1.25rem;
 }
 
 .flexRow--novedadesSecciones {
-
-    margin: 40px 0px 100px 0px;
+  margin: 3rem 0px 2rem 0px;
 }
 
 .flexRow--container__novedades--item1 {
-    /* background-color: red; */
-    padding: 0px;
+  padding: 0px;
 }
 
 .flexRow--contenedorConoceMas {
-    margin-top: 70px;
-    position: relative;
+  margin-top: 4.375rem;
+  position  : relative;
 }
 
 .flexRow--contenedorHistoria {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    background-color: #f5f5e5;
-    padding: 100px 0px 100px 0px;
+  margin-top      : 4.375rem;
+  margin-bottom   : 4.375rem;
+  background-color: #f5f5e5;
+  padding         : 6.25rem 0px;
 }
 
 .flexRow--descuentos {
-    padding: 30px;
-    background-color: #EDE734;
-    height: 10em;
-    align-items: center;
+  padding         : 1.8rem;
+  background-color: #EDE734;
+  height          : 10em;
+  align-items     : center;
+}
+
+.flexRow--home__banner--one {
+  position: relative;
 }
 
 .flexCol--banner__descuentos {
-    /* background-color: red; */
-    width: 30em;
-    height: 20em;
-    position: absolute;
-    bottom: 25%;
-    left: 8%;
+  width   : 25%;
+  height  : 20%;
+  position: absolute;
+  top     : 30%;
+  left    : 8%;
 }
 
 .flexRowContent--descuentos {
-    align-items: center;
-    height: 7em;
-    padding: 1em 2em;
+  align-items: center;
+  height     : 7em;
+  padding    : 1em 2em;
 }
 
 .flexRowContent--descuentos .stretchChildrenWidth:first-child {
-    width: 70% !important;
-    justify-content: flex-end;
+  width          : 70% !important;
+  justify-content: flex-end;
 }
 
 .container--Container__descuentos {
-    justify-content: flex-end;
-    width: 100%;
+  justify-content: flex-end;
+  width          : 100%;
 }
-/* 
 
-.flexRowContent--descuentos .stretchChildrenWidth:second-child {
-    width: 70% !important;
-    justify-content: flex-end;
-} */
-/* 
-.flexColChild--container__banner--items--one {
-    
-} */
+.flexRow--videoBanner__row {
+  position: relative;
+}
 
 .flexCol--videoBanner--items {
-    /* background-color: red; */
-    width: 550px;
-    height: 400px;
-    position: absolute;
-    bottom: -70%;
-    left: 10%;
-    color: white;
+  /* background-color: red; */
+  width   : 25%;
+  height  : 20%;
+  position: absolute;
+  top     : 30%;
+  left    : 8%;
+  color   : white;
 }
 
 .flexCol--home__novedades--secciones {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
 }
 
 .flexRowContent--novedadesSecciones {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display        : flex;
+  justify-content: flex-start;
+  align-items    : center;
 }
+
 .flexCol--home__novedades--secciones {
-    width: 17em !important;
+  width: 17em !important;
 }
 
 .flexCol--home__novedades--seccion2--rt {
-    width: 30em !important;
+  width: 30em !important;
 }
 
 .flexRowContent--home__opciones {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+  display        : flex;
+  justify-content: space-between;
+  align-content  : center;
 }
 
 .flexRowContent--seccionImagenEquipos {
-    display: flex;
-    flex-direction: row;
-    /* width: 80%; */
+  display       : flex;
+  flex-direction: row;
+}
+
+
+.flexRowContent--home__popularAhora {
 
 }
 
+.flexCol--contenedor__popular1 {
+  /* margin: 0 1em; */
+}

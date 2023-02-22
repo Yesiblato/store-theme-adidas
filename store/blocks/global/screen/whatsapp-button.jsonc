@@ -2,8 +2,10 @@
   "whatsapp-button": {
     "props": {
       "logo": "assets/img/whatsapp-logo.png",
-      "phone": "777777777",
-      "message": "VTEX U RLZ"
+      "phone": "3125661727",
+      "message": "Adidas Store",
+      "width":"70px",
+      "height":"70px"
     }
   }
 }

@@ -2,7 +2,7 @@
     background-color: white;
     height: 32em;
 }
-/* 
+/*
 .flex-layout.row#footer-desktop--seccion2 {
     background-color:#363738 ;
 } */
@@ -29,7 +29,7 @@ align-items: center;
 }
 
 .flexColChild--contenedor__secciones {
-   
+
 }
 
 .flexRowContent--container__seccionTwo-one {
@@ -59,7 +59,7 @@ align-items: center;
     align-content: center;
     justify-items: center;
     padding-top: 2em;
-    width: 59em;
+    max-width: 59em;
     margin: auto;
 }
 

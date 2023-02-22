@@ -58,7 +58,7 @@
     border: 1px solid black;
     padding: 5px 10px;
     height: 2.4rem;
-    
+
 }
 
 .filterPopupTitle {
@@ -114,7 +114,7 @@
         content: " ";
     }
 
-    
+
 }
 
 
@@ -124,11 +124,34 @@
         font-size: 1.5em;
     }
 }
+
 @media (max-width:600px) {
 
     .galleryTitle--layout{
         font-size: 1.4em;
     }
+
+    .filterPopupTitle::after {
+      display: none;
+    }
+
+}
+
+@media (max-width:650px) {
+
+
+.filtersWrapperMobile--contenedorFilter {
+  justify-content: flex-end;
+
+}
+
+.filterPopupTitle::after {
+    display: none;
+  }
+
+.filterPopupTitle--contenedorFilter {
+  display: none;
+}
 
 }
 

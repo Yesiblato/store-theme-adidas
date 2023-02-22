@@ -1,0 +1,36 @@
+.tileListList {
+  flex-direction: column !important;
+}
+
+.itemList--suggestion {
+  display: none;
+}
+
+.searchBarInnerContainer {
+  position: relative;
+}
+
+.searchBarContainer {
+  position: relative;
+}
+
+.searchBarContainer .autoCompleteOuterContainer:global(.vtex-store-components-3-x-portalContainer) {
+  left: initial;
+
+}
+
+.biggy-autocomplete {
+  width: 100%;
+  min-width: 290px;
+}
+.itemList--history {
+  display: none;
+}
+
+.biggy-autocomplete-wrapper {
+  position: fixed;
+  left: 0;
+  top: 55px;
+  width: 100%;
+
+}
