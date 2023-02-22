@@ -1,8 +1,9 @@
 {
-    "store.product": {
-        "children": [
-            "responsive-layout.desktop#pdp",
-            "responsive-layout.mobile#pdp"
-        ]
-    }
+  "store.product": {
+    "title": "Página producto",
+    "children": [
+      "responsive-layout.desktop#pdp",
+      "responsive-layout.mobile#pdp"
+    ]
+  }
 }

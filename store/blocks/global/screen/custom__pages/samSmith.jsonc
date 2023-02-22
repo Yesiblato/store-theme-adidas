@@ -1,8 +1,9 @@
 {
   "store.custom#samSmith": {
-      "blocks": [
-          "responsive-layout.desktop#samSmith",
-          "responsive-layout.mobile#samSmith"
-      ]
+    "title": "Sam Smith",
+    "blocks": [
+      "responsive-layout.desktop#samSmith",
+      "responsive-layout.mobile#samSmith"
+    ]
   }
 }

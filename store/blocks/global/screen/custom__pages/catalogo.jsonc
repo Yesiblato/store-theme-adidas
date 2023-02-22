@@ -1,8 +1,9 @@
 {
   "store.custom#catalogo": {
-      "blocks": [
-          "responsive-layout.desktop#catalogo",
-          "responsive-layout.mobile#catalogo"
-      ]
+    "title": "Catalogo",
+    "blocks": [
+      "responsive-layout.desktop#catalogo",
+      "responsive-layout.mobile#catalogo"
+    ]
   }
 }

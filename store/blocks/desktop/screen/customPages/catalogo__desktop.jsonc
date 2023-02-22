@@ -7,6 +7,7 @@
     ]
   },
   "flex-layout.row#container__catalogo": {
+    "title": "Contenedor catálogo row",
     "children": [
       "flex-layout.col#container__catalogo"
     ],
@@ -16,12 +17,14 @@
     }
   },
   "flex-layout.col#container__catalogo": {
+    "title": "Contenedor catálogo col",
     "children": [
       "flex-layout.row#componente__pdfReader",
       "flex-layout.row#bullets"
     ]
   },
   "flex-layout.row#componente__pdfReader": {
+    "title": "Componente PDF row",
     "children": [
       "flex-layout.col#componente__pdfReader"
     ],
@@ -31,6 +34,7 @@
     }
   },
   "flex-layout.col#componente__pdfReader": {
+    "title": "Componente PDF col",
     "children": [
       "rich-text#componente__pdfReader",
       "pdf-reader#desktop"
