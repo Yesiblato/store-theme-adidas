@@ -20,17 +20,18 @@
 }
 
 .biggy-autocomplete {
-  width: 100%;
+  width    : 100%;
   min-width: 290px;
 }
+
 .itemList--history {
   display: none;
 }
 
 .biggy-autocomplete-wrapper {
   position: fixed;
-  left: 0;
-  top: 55px;
-  width: 100%;
+  left    : 0;
+  top     : 55px;
+  width   : 100%;
 
 }

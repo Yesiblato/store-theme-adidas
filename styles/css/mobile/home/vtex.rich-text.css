@@ -281,13 +281,13 @@
 }
 
 .wrapper--loMejorAdidas__rt {
-  font-size: 2vw;
+  font-size  : 2vw;
   font-family: Helvetica, sans-serif;
   font-weight: 700;
 }
 
 .paragraph--loMejorAdidas__rt {
-  font-size: 2vw;
+  font-size  : 2vw;
   font-family: Helvetica, sans-serif;
   font-weight: 700;
 }
@@ -362,11 +362,11 @@
 @media (max-width:450px) {
 
   .headingLevel2--mobile__videoBanner__title--rt {
-    font-size    : 1.8em;
+    font-size: 1.8em;
   }
 
   .headingLevel3--mobile__videoBanner__frase--rt {
-    font-size  : 1em;
+    font-size: 1em;
   }
 
   .headingLevel3--mobile__conoceMas--frase {

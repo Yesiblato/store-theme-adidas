@@ -1,22 +1,22 @@
 .imageElement--mobile__videoBanner__flecha--image {
-    margin-left: -1em;
+  margin-left: -1em;
 }
 
 .imageElement--mobile__arrow {
-    width: 25%;
+  width: 25%;
 }
 
 
 .stretchChildrenWidth {
-    width: 0em;
+  width: 0em;
 }
 
 
 .imageElement--mobile__videoBanner__flecha--image {
-    filter: invert(1);
-    padding-right: 1em; 
+  filter       : invert(1);
+  padding-right: 1em;
 }
 
 .imageElement--mobile__arrow {
-    width: fit-content;
+  width: fit-content;
 }
