@@ -1,6 +1,6 @@
 .label--banner__frase--hombre {
     color: black;
-    font-weight: 700;    
+    font-weight: 700;
 }
 
 
@@ -48,6 +48,14 @@
 
 }
 
+.link--verMas__link {
+  color: #000;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
 @media (max-width:400px) {
 
     .buttonLink--mobile__videoBanner__button {
@@ -67,7 +75,7 @@
     width: 12em;
     height: 2em;
 
-    
+
 }
 
 }

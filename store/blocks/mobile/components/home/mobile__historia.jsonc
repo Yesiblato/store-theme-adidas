@@ -6,7 +6,8 @@
     ],
     "props": {
       "fullWidth": true,
-      "blockClass": "mobile__contenedor--historia"
+      "blockClass": "mobile__contenedor--historia",
+      "marginBottom": 4
     }
   },
   "flex-layout.col#mobile__Container--historiaSecciones": {

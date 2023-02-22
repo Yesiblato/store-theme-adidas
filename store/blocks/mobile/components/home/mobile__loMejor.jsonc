@@ -2,7 +2,7 @@
     "flex-layout.row#mobile__home__loMejor": {
         "title": "mobile__home__loMejor",
         "children": [
-            "flex-layout.col#container__loMejor"
+            "flex-layout.col#container__loMejorM"
         ],
         "props": {
             "blockClass": "loMejordeAdidas"
@@ -39,5 +39,5 @@
             "text": "## Lo mejor de Adidas"
         }
     }
-    
+
 }

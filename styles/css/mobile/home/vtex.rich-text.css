@@ -280,6 +280,22 @@
   font-weight: 700;
 }
 
+.wrapper--loMejorAdidas__rt {
+  font-size: 2vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.paragraph--loMejorAdidas__rt {
+  font-size: 2vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.container--referencias {
+  margin-top: 2em;
+}
+
 @media (max-width:1024px) {
   .container--descuentas--frases-rt {
     justify-content: center;

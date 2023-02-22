@@ -177,8 +177,8 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-price",
-      "modal-trigger#global__quick--view"
+      "product-price"
+      // "modal-trigger#global__quick--view"
     ]
   },
   "product-summary-name": {
@@ -230,8 +230,7 @@
   "flex-layout.row#quick--view__modal": {
     "title": "contenedor modal",
     "children": [
-      "flex-layout.col#view__modal--image",
-      "flex-layout.col#view__modal--info"
+      "flex-layout.col#view__modal--image"
     ],
     "props": {
       "blockClass": "Contenedor__secciones--modal",
@@ -243,17 +242,14 @@
     "children": [
       "logo#header__top--logo2",
       "search-title.v2",
-      "product-summary-image"
-    ]
-  },
-  "flex-layout.col#view__modal--info": {
-    "title": "Contenedor información modal",
-    "children": [
+      "product-summary-image",
       "product-summary-name",
-      "product-rating-inline",
       "product-summary-price",
       "add-to-cart-button"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
   },
   "logo#header__top--logo2": {
     "title": "Logo del modal",

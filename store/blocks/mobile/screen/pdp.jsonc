@@ -41,8 +41,9 @@
       },
       "link#verMas": {
         "props": {
-            "href": "/",
-            "label": "Ver Más"
+            "href": "/electrodomesticos",
+            "label": "Ver Más",
+            "blockClass": "verMas__link"
         }
       },
       "flex-layout.row#product__image--mobile": {
